@@ -1,0 +1,183 @@
+.stateFilingTimesTabber .tabTitle-wrapper {
+  display: flex;
+  -webkit-box-align: center;
+  align-items: center;
+  width: 100%;
+  max-width: 770px;
+  background-color: #fff;
+  box-shadow: rgb(236 236 236 / 50%) 0px 24px 32px 0px;
+  border-radius: 24px;
+  margin: 0px auto 80px;
+  overflow: hidden;
+}
+.stateFilingTimesTabber .tabTitle {
+  display: flex;
+  -webkit-box-pack: start;
+  justify-content: flex-start;
+  -webkit-box-align: center;
+  align-items: center;
+  border-radius: 24px;
+  -ms-overflow-style: none;
+  scrollbar-width: none;
+  overflow-x: auto;
+}
+.stateFilingTimesTabber .tabTitle::-webkit-scrollbar {
+  display: none;
+}
+.stateFilingTimesTabber .accordion-tab {
+  box-sizing: inherit;
+  margin: 0px;
+  padding: 0px 20px;
+  max-width:100%;
+  display: flex;
+  -webkit-box-pack: center;
+  justify-content: center;
+  -webkit-box-align: center;
+  align-items: center;
+  height: 40px;
+  min-width: 252px;
+  background-color: rgb(255, 255, 255);
+  border-radius: 24px;
+  border: none;
+  cursor: pointer;
+  transition: background-color 0.3s ease 0s, color 0.2s ease 0s;
+  color: rgb(78, 78, 78);
+  font-family: inherit;
+  font-weight: 400;
+  font-size: 16px;
+  line-height: 24px;
+  -webkit-box-flex: 1;
+  flex-grow: 1;
+  margin-right: 4px;
+}
+.stateFilingTimesTabber .accordion-tab:first-child {
+  margin-left: 4px;
+}
+.stateFilingTimesTabber .accordion-tab:hover {
+  background-color: rgb(242, 246, 255);
+}
+.stateFilingTimesTabber .accordion-tab.active {
+  background-color: rgb(80, 137, 253) !important;
+  color: rgb(255, 255, 255) !important;
+  font-weight: 900 !important; 
+}
+.stateFilingTimesTabber .tab-pane {
+  display: none;
+}
+.stateFilingTimesTabber .tab-pane.active {
+  display: flex;
+  flex-direction: column;
+}
+.stateFilingTimesTabber .tab-row {
+  width: 100%;
+  background-color: rgb(255, 255, 255);
+  box-shadow: rgb(236 236 236 / 50%) 0px 24px 32px 0px;
+  border-radius: 5px;
+  display: grid;
+  grid-template-columns: 1fr 1fr 1fr 1fr;
+}
+.stateFilingTimesTabber .tab-row:not(:last-child) {
+  margin-bottom: 8px;
+}
+.stateFilingTimesTabber .tab-row > div {
+  display: flex;
+  -webkit-box-align: center;
+  align-items: center;
+  flex-direction: column;
+  padding: 24px;
+  min-width: 160px;
+  position: relative;
+}
+.stateFilingTimesTabber .tab-row > div:not(:last-child) {
+  border-right: 1px solid rgb(244, 244, 244);
+}
+.stateFilingTimesTabber .tab-head > span {
+  display: block;
+  margin-bottom: 0px;
+  color: rgb(29, 29, 29);
+  font-weight: bold;
+  font-size: 16px;
+  line-height: 24px;
+}
+.stateFilingTimesTabber .tabContent {
+  max-width: 1200px;
+  margin: 0 auto;
+  padding: 0 15px;
+  display: flex;
+  justify-content: flex-start;
+  overflow-x: auto;
+}
+.stateFilingTimesTabber .tab-col.state span,
+.stateFilingTimesTabber .tab-col.nrmlProTime span, 
+.stateFilingTimesTabber .tab-col.expeProTime > span, 
+.stateFilingTimesTabber .tab-col.expPrice > span {
+  font-size: 16px;
+  line-height: 24px;
+  color: rgb(29, 29, 29);
+  margin-bottom: 0px;
+  text-align: center;
+}
+.stateFilingTimesTabber .tab-col.expeProTime > span,
+.stateFilingTimesTabber .tab-col.expPrice > span {
+  background-color: rgb(242, 248, 243);
+  border-radius: 20px;
+  padding: 8px 16px;
+}
+.stateFilingTimesTabber .tab-col.nrmlProTime,
+.stateFilingTimesTabber .tab-col.state {
+  -webkit-box-pack: center;
+  justify-content: center;
+  line-height: 1;
+}
+
+
+@media (min-width: 768px) {
+  .stateFilingTimesTabber .tab-row {
+    flex-direction: row;
+  }
+  .stateFilingTimesTabber .tab-row > div {
+    min-width: auto;
+    justify-content: center;
+  }
+}
+
+
+@media (max-width: 991px) {
+  .stateFilingTimesTabber .page-center {
+    padding: 0;
+  }
+  .stateFilingTimesTabber .expPrice,
+  .stateFilingTimesTabber .tab-head:last-child{
+    justify-content: center;
+  }
+}
+
+@media (max-width: 767px) {
+  .stateFilingTimesTabber .tab-row {
+    text-align: center;
+  }
+  
+  .stateFilingTimesTabber .tabTitle-wrapper {
+    height: auto;
+  }
+  .stateFilingTimesTabber .accordion-tab {
+    width: 100%;
+  }
+  .stateFilingTimesTabber .tab-pane {
+    padding: 0 15px 0 0;
+  }
+}
+
+@media (max-width: 500px) {
+  .stateFilingTimesTabber .tab-row>div {
+    padding: 10px;
+  }
+  .stateFilingTimesTabber .tab-head>span
+  .stateFilingTimesTabber .tab-col.state span,
+  .stateFilingTimesTabber .tab-col.nrmlProTime span, 
+  .stateFilingTimesTabber .tab-col.expeProTime>span,
+  .stateFilingTimesTabber .tab-col.expPrice>span {
+    font-size: 14px;
+    line-height: 1.6;
+  }
+}

@@ -1,0 +1,172 @@
+.boxed-content-container {
+  position: relative;
+  z-index: 1;
+}
+
+.boxed-content-container .curve__Wrapper {
+  display: none;
+  width: 100%;
+  max-height: 25px;
+  max-width: 29px;
+  opacity: 1;
+  position: absolute;
+  top: -15px;
+  right: -15px;
+  transform: translate(0px, 0px);
+}
+.boxed-content-container .boxed-color-box {
+  width: 100%;
+}
+.boxed-content-container .boxed-color-box svg {
+  display: none;
+  position: absolute;
+  top: 40px;
+  left: 40px;
+}
+.boxed-content-container .boxed-color-box p {
+  font-family: Avenir, sans-serif;
+  font-size: 16px;
+  line-height: 24px;
+  margin-bottom: 32px;
+  color: rgb(78, 78, 78);
+}
+.boxed-content-container .boxed-color-box .boxed-content-buttons a {
+  display: flex;
+  -webkit-box-pack: center;
+  justify-content: center;
+  -webkit-box-align: center;
+  align-items: center;
+  height: auto;
+  width: 100%;
+  background-color: rgb(253, 133, 80);
+  border: 2px solid rgb(253, 133, 80);
+  border-radius: 50px;
+  color: rgb(255, 255, 255);
+  font-family: MarkPro;
+  font-size: 16px;
+  line-height: 24px;
+  text-align: center;
+  text-decoration: none;
+  position: relative;
+  padding: 14px 42px;
+  margin: 0px 16px 0px 0px;
+  transition: background-color 0.3s ease 0s, color 0.3s ease 0s;
+}
+.boxed-content-container .boxed-color-box .boxed-content-buttons {
+  display: flex;
+  flex-direction: column;
+  width: 100%;
+}
+.boxed-content-container .boxed-color-box .boxed-content-buttons a:hover {
+  background-color: rgb(255, 255, 255);
+  color: rgb(253, 133, 80);
+}
+.boxed-content-container .boxed-color-box .boxed-content-buttons a .button__Arrow {
+  display: none;
+  -webkit-box-align: center;
+  align-items: center;
+  -webkit-box-pack: center;
+  justify-content: center;
+  height: 12px;
+  width: 12px;
+  position: absolute;
+  top: 50%;
+  right: 16px;
+  transform: translate(0px, -50%);
+  transition: transform 0.3s ease 0s;
+}
+.boxed-content-container .boxed-color-box .boxed-content-buttons a .button__Arrow svg {
+  position: static;
+}
+
+.boxed-content-container .boxed-color-box .boxed-content-buttons a .button__Arrow svg path {
+  fill: rgb(255, 255, 255);
+}
+
+.boxed-content-container .boxed-color-box .boxed-content-buttons a:hover .button__Arrow svg path {
+  fill: rgb(253, 133, 80);
+}
+.boxed-content-container .boxed-color-box ul {
+  margin: 0px;
+  padding: 0px;
+  list-style: none;
+}
+
+.boxed-content-container .boxed-color-box ul li {
+  font-family: Avenir, sans-serif;
+  font-size: 16px;
+  line-height: 24px;
+  color: rgb(78, 78, 78);
+  padding-left: 26px;
+  position: relative;
+}
+
+.boxed-content-container .boxed-color-box ul li:not(:last-child) {
+  margin-bottom: 16px;
+}
+
+.boxed-content-container .boxed-color-box ul li:before {
+  border-radius: 50%;
+  position: absolute;
+  top: 9px;
+  left: 6px;
+  content: "";
+  height: 4px;
+  width: 4px;
+  background-color: rgb(253, 133, 80);
+}
+
+.boxed-content-container .boxed-color-box ul li ul li:before {
+  border-radius: 50%;
+  position: absolute;
+  top: 9px;
+  left: 6px;
+  content: "";
+  height: 3px;
+  width: 3px;
+  background-color: rgb(253, 133, 80);
+}
+
+.boxed-content-container .boxed-color-box ul li ul li:first-child {
+  margin-top: -12px !important;
+}
+
+.boxed-content-container .boxed-color-box ul li ul li {
+  margin-bottom: 8px !important;
+}
+
+.boxed-content-container .boxed-color-box ul li a {
+  font-weight: 600;
+}
+@media (min-width: 576px){
+  .boxed-content-container .boxed-color-box svg {
+    display: block;
+  }
+  .boxed-content-container .boxed-color-box .boxed-content-buttons a {
+    width: auto;
+  }
+  .boxed-content-container .boxed-color-box .boxed-content-buttons {
+    -webkit-box-align: center;
+    align-items: center;
+  }
+}
+@media (min-width: 769px){
+  .boxed-content-container .boxed-color-box .boxed-content-buttons a .button__Arrow {
+    display: flex;
+  }
+}
+
+@media (min-width: 992px){
+  .boxed-content-container .curve__Wrapper {
+    display: block;
+  }
+  .boxed-content-container .boxed-color-box .boxed-content-buttons {
+    flex-direction: row;
+  }
+}
+@media (max-width:991px){
+  .boxed-content-container .boxed-color-box .boxed-content-buttons a{
+    margin-right: 0;
+    margin-bottom: 8px;
+  }
+}

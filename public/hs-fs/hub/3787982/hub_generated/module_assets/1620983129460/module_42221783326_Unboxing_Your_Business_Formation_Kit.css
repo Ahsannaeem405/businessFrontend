@@ -1,0 +1,161 @@
+.unboxing-your-business-formation-kit-wrapper {
+  position: relative;
+  padding: 32px 0px 64px;
+  z-index:2;
+}
+.unboxing-your-business-formation-kit-wrapper .unboxing-kit-accordion {
+  display:flex;
+  flex-wrap:wrap;
+  margin:0 -15px -30px;
+  justify-content:center;
+  flex-wrap:wrap;
+}
+.unboxing-your-business-formation-kit-wrapper .unboxing-kit-accordion-item {
+  width:25%;
+  padding:0 15px;
+  margin-bottom:30px;
+}
+.unboxing-your-business-formation-kit-wrapper .unboxing-kit-accordion-item-inner {
+  background-color: rgb(255, 255, 255);
+  box-shadow: rgb(236 236 236 / 50%) 0px 24px 32px 0px;
+  border-radius: 5px;
+  width: 100%;
+  position: relative;
+  height: 100%;
+}
+.unboxing-your-business-formation-kit-wrapper .unboxing-accordion-heading {
+  width: 100%;
+  text-align: left;
+  background: transparent;
+  border: 0px;
+  padding: 24px 16px 16px 64px;
+  cursor: pointer;
+  line-height: normal;
+  font-size: 13.3333px;
+}
+.unboxing-your-business-formation-kit-wrapper .unboxing-accordion-heading .accordion_arrow {
+  display: flex;
+  -webkit-box-pack: center;
+  justify-content: center;
+  -webkit-box-align: center;
+  align-items: center;
+  height: 32px;
+  width: 32px;
+  background: rgb(254, 246, 237);
+  border-radius: 50%;
+  overflow: hidden;
+  color: rgb(253, 133, 80);
+  font-family: Incfile, sans-serif;
+  font-weight: 600;
+  font-size: 16px;
+  line-height: 24px;
+  border: 1px solid transparent;
+  pointer-events: none;
+  position: absolute;
+  top: 16px;
+  left: 16px;
+}
+.unboxing-your-business-formation-kit-wrapper .unboxing-accordion-heading .accordion_arrow svg {
+  transform: rotate(
+    90deg
+  );
+  transition: transform 0.3s ease 0s;
+}
+.unboxing-your-business-formation-kit-wrapper .unboxing-accordion-heading .accordion_arrow svg path {
+  fill: rgb(253, 133, 80);
+}
+.unboxing-your-business-formation-kit-wrapper .open .unboxing-accordion-heading .accordion_arrow {
+  transform: rotate(
+    -90deg
+  );
+}
+.unboxing-your-business-formation-kit-wrapper .open .unboxing-accordion-heading .accordion_arrow svg {
+  transform: rotate( 
+    0deg
+  );
+}
+.unboxing-your-business-formation-kit-wrapper .open .unboxing-accordion-heading .ac_text {
+  font-weight: 900;
+}
+.unboxing-your-business-formation-kit-wrapper .unboxing-accordion-heading .ac_text {
+  font-size: 16px;
+  line-height: 24px;
+  text-align: left;
+  font-weight: 400;
+  color: rgb(0, 0, 0);
+}
+.unboxing-your-business-formation-kit-wrapper .unboxing-accordion-body {
+  display: none;
+  width: 100%;
+  bottom: 5px;
+  left: 0px;
+  background-color: rgb(255, 255, 255);
+  box-shadow: rgb(236 236 236 / 50%) 0px 24px 32px 0px;
+  padding: 16px 16px 16px 64px;
+  z-index: 1;
+}
+.unboxing-your-business-formation-kit-wrapper .unboxing-accordion-body p {
+  color: rgb(78, 78, 78);
+  font-size: 16px;
+  line-height: 24px;
+  margin:0;
+}
+.unboxing-your-business-formation-kit-wrapper .unboxing-kit-image-sec {
+  display: none;
+  width: 100%;
+  max-width: 1050px;
+  margin: 0px auto;
+  position: relative;
+  overflow: hidden;
+}
+.unboxing-your-business-formation-kit-wrapper .unboxing-kit-image-sec img {
+  position: absolute;
+  top: 0px;
+  left: 0px;
+  width: 100%;
+  height: 100%;
+  object-fit: cover;
+  object-position: center center;
+  opacity: 1;
+  transition: opacity 500ms ease 0s;
+}
+.unboxing-your-business-formation-kit-wrapper .unboxing-kit-accordion.unboxing-bottom-accordion {
+  max-width: 930px;
+  margin: 0 auto;
+  margin-bottom: -30px;
+}
+.unboxing-your-business-formation-kit-wrapper .unboxing-kit-accordion.unboxing-bottom-accordion .unboxing-kit-accordion-item {
+  width: 33.3333333333%;
+}
+
+@media (min-width: 992px) {
+  .unboxing-your-business-formation-kit-wrapper  {
+    padding: 32px 0px 80px;
+  }
+  .unboxing-your-business-formation-kit-wrapper .unboxing-accordion-body  {
+    position: absolute;
+    transform: translateY(100%);
+  }
+  .unboxing-your-business-formation-kit-wrapper .unboxing-kit-image-sec {
+    display: block;
+  }
+}
+
+@media(max-width: 991px) {
+  .unboxing-your-business-formation-kit-wrapper .unboxing-kit-accordion-item {
+    width: 100% !important;
+    margin-bottom: 8px !important;
+  }
+  .unboxing-your-business-formation-kit-wrapper .unboxing-kit-accordion {
+    margin-bottom: 0 !important;
+  }
+  .unboxing-your-business-formation-kit-wrapper .unboxing-kit-accordion.unboxing-bottom-accordion {
+    max-width: none !important;
+    margin-left: -15px;
+    margin-right: -15px;
+  }
+  .unboxing-your-business-formation-kit-wrapper {
+    padding-bottom:0;
+  }
+}
+

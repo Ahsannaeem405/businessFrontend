@@ -1,0 +1,143 @@
+.how-get-started-wrapper{
+  width: 100%;
+  max-width: 770px;
+  margin: 0 auto;
+  text-align: center;
+}
+
+.how-get-started-header h2{
+  font-size: 28px;
+  text-align: center;
+  margin-bottom: 80px;
+}
+
+.how-get-started-content{
+  display: flex;
+  flex-flow: column;
+}
+
+.how-get-started-item{
+  min-height: 136px;
+  display: flex;
+  align-items: center;
+  padding: 28px 32px;
+  justify-content: space-between;
+  border-radius: 16px;
+  gap: 32px;
+  transition: all 0.3s ease-out 0s;
+}
+
+.how-get-started-item:not(:last-child) {
+  margin-bottom: 24px;
+}
+
+.how-get-started-item:hover{
+  box-shadow: 0 24px 32px 0 rgba(0,0,0,.05);
+}
+.how-get-started-item:hover h3{
+  color: #fd8550;
+}
+
+.how-get-started-item_icon{
+  height: 32px;
+  width: 32px;
+}
+
+.how-get-started-desc{
+  flex: 1;
+  text-align: left;
+}
+.how-get-started-desc h3{
+  font-size:14px;
+  margin-bottom:0;
+  transition: color 0.3s ease-out 0s;
+}
+.how-get-started-desc p{
+  font-size: 13px;
+  color: #4E4E4E;
+  margin-bottom: 0;
+}
+
+.how-get-started__arrow{
+  display: none;
+    width: 32px;
+    height: 32px;
+    background-color: #fff;
+    border-radius: 50px;
+    text-align: center;
+    align-items: center;
+    justify-content: center;
+    transition: transform 0.3s ease;
+}
+
+.how-get-started-item:hover .how-get-started__arrow {
+  transform: translateX(5px);
+}
+
+.how-get-started__arrow path {
+  transition: fill 0.3s ease
+}
+
+.how-get-started-item:hover .how-get-started__arrow path {
+  fill: #fd8550;
+}
+
+.get-started-now-btn{
+  display: flex;
+  -webkit-box-pack: center;
+  justify-content: center;
+  -webkit-box-align: center;
+  align-items: center;
+  height: auto;
+  width: 100%;
+  background-color: rgb(253, 133, 80);
+  border: 2px solid rgb(253, 133, 80);
+  border-radius: 50px;
+  color: rgb(255, 255, 255);
+  font-size: 16px;
+  font-family: MarkPro;
+  line-height: 24px;
+  font-weight: 600;
+  text-align: center;
+  text-decoration: none;
+  position: relative;
+  padding: 14px 42px;
+  margin-top: 72px;
+  transition: background-color 0.3s ease 0s, color 0.3s ease 0s;
+}
+
+
+.get-started-now-btn:hover {
+  background-color: rgb(255, 255, 255);
+  color: rgb(253, 133, 80);
+}
+
+@media (min-width: 576px) {
+  .get-started-now-btn {
+    display: inline-block;
+    width: auto;
+    white-space: nowrap;
+    margin-right: auto;
+  }
+}
+
+@media screen and (min-width: 768px) {
+  .how-get-started__arrow{
+    display: flex;
+  }
+}
+
+@media screen and (min-width: 992px) {
+  .how-get-started-header h2{
+    font-size: 40px;
+  }
+  .how-get-started-desc {
+    padding: 0 .5rem;
+  }
+  .how-get-started-desc h3{
+    font-size: 18px;
+  }
+  .how-get-started-desc p{
+    font-size: 16px
+  }
+}

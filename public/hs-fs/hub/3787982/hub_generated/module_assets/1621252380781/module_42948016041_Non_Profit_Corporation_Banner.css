@@ -1,0 +1,342 @@
+.non-profit-corporation-banner-wrapper {
+  position: relative;
+  margin-bottom: 50px;
+  display: flex;
+  -webkit-box-align: center;
+  align-items: center;
+  margin-top: 120px;
+}
+.non-profit-corporation-banner-wrapper .rocket__Oval {
+  width: 100%;
+  max-width: 370px;
+  position: absolute;
+  right: 0px;
+  top: 50%;
+  transform: translateY(-50%);
+}
+.non-profit-corporation-banner-wrapper .rocket__Oval:after {
+  content: "";
+  position: absolute;
+  inset: 0px;
+  background: linear-gradient(0deg, rgb(255, 255, 255) 15%, rgba(255, 255, 255, 0) 100%);
+}
+.non-profit-corporation-banner-wrapper .rocket__Curve {
+  display: none;
+  height: 97px;
+  width: 81px;
+  position: absolute;
+  right: 0px;
+  top: 50%;
+}
+.non-profit-corporation-banner-wrapper .rocket__Moon {
+  display: block;
+  height: 130px;
+  width: 81px;
+  position: absolute;
+  top: -115px;
+  left: 30px;
+}
+.non-profit-corporation-banner-wrapper .rocket__Moon .gatsby-image-wrapper {
+  width: 100%;
+  padding-bottom: 166.66666666666669%;
+  position: relative;
+  overflow: hidden;
+}
+.non-profit-corporation-banner-wrapper .rocket__Moon .moon-image {
+  position: absolute;
+  top: 0px;
+  left: 0px;
+  width: 100%;
+  height: 100%;
+  transition-delay: 500ms;
+  background-size: cover;
+  background-position: center center;
+  background-repeat: no-repeat;
+}
+
+.non-profit-corporation-banner-wrapper .rocket__Content p {
+  line-height: 1.5;
+  font-size: 16px;
+  margin-bottom: 32px;
+}
+.non-profit-corporation-banner-wrapper a.hs-button {
+  padding: 10px 38px;
+  margin: 0;
+}
+
+.non-profit-corporation-banner-wrapper .page-center {
+  width: 100%;
+  position: relative;
+}
+.non-profit-corporation-banner-wrapper .rocket__Content {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+  -ms-flex-direction: column;
+  flex-direction: column;
+  width: 100%;
+  margin-left: auto;
+  margin-top: 260px;
+}
+
+.non-profit-corporation-banner-wrapper .rocket__RocketWrapper {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  width: 100%;
+  max-width: 755px;
+  top: 20%;
+  left: 90%;
+  position: absolute;
+  -webkit-transform: translate(-100%, -50%);
+  -ms-transform: translate(-100%, -50%);
+  transform: translate(-100%, -50%);
+  z-index: 0;
+}
+.non-profit-corporation-banner-wrapper .rocket__RocketWrapper .gatsby-image-wrapper {
+  width: 100%;
+  padding-bottom: 78.88888888888889%;
+  position: relative;
+  overflow: hidden;
+}
+.non-profit-corporation-banner-wrapper .rocket__RocketWrapper .get-image-bg {
+  position: absolute;
+  top: 0px;
+  left: 0px;
+  width: 100%;
+  height: 100%;
+  background-size: cover;
+  background-position: center center;
+  background-repeat: no-repeat;
+  transition: opacity 500ms ease 0s;
+  opacity: 1;
+}
+.non-profit-corporation-banner-wrapper .fubKOC {
+  display: flex;
+  flex-direction: column;
+  -webkit-box-align: center;
+  align-items: center;
+  height: 80px;
+  width: 100%;
+  position: relative;
+  max-width: 570px;
+}
+.non-profit-corporation-banner-wrapper .fubKOC .view-component .dropdown .bottom svg {
+  top: 40px;
+  right: 30px;
+  transform: translateY(-50%);
+  pointer-events: none;
+  position: absolute;
+}
+.non-profit-corporation-banner-wrapper .LWYsR {
+  width: 32px;
+  height: 32px;
+  transform: rotate(90deg);
+}
+.non-profit-corporation-banner-wrapper .bjxFNp {
+  box-shadow: rgb(230 230 230) 0px 40px 80px 0px;
+  position: absolute;
+  border-radius: 5px;
+  width: 100%;
+}
+.non-profit-corporation-banner-wrapper .fKmUfu {
+  display: flex;
+  -webkit-box-align: center;
+  align-items: center;
+  height: 80px;
+  width: 100%;
+  background-color: rgb(255, 255, 255);
+  padding: 0px 24px;
+  position: relative;
+}
+.non-profit-corporation-banner-wrapper .fIozt {
+  height: 16px;
+  width: 16px;
+  transform: translateY(-2px);
+  margin-right: 15px;
+}
+.non-profit-corporation-banner-wrapper .fubKOC .view-component {
+  width: 100%;
+  height: 100%;
+}
+.non-profit-corporation-banner-wrapper .fubKOC .view-component .dropdown {
+  height: 100%;
+  position: relative;
+  width: 100%;
+}
+.non-profit-corporation-banner-wrapper .kvZIDA .top {
+  display: flex;
+  -webkit-box-pack: justify;
+  justify-content: space-between;
+  width: 100%;
+}
+.non-profit-corporation-banner-wrapper .kvZIDA .bottom {
+  width: 100%;
+  z-index: 10;
+  height: inherit;
+  position: relative;
+}
+.non-profit-corporation-banner-wrapper .fubKOC .view-component .dropdown .Dropdown-control {
+  display: flex;
+  -webkit-box-align: center;
+  align-items: center;
+  border-radius: 5px 5px 0px 0px;
+  position: relative;
+  overflow: hidden;
+  font-weight: 400;
+  color: rgb(29, 29, 29);
+  outline: none;
+  padding: 12px 32px 12px 24px;
+  transition: all 200ms ease 0s;
+  cursor: pointer;
+  font-size: 16px;
+  line-height: 24px;
+}
+.non-profit-corporation-banner-wrapper .fubKOC .view-component .dropdown .bottom, .non-profit-corporation-banner-wrapper .fubKOC .view-component .dropdown .Dropdown-root, .non-profit-corporation-banner-wrapper .fubKOC .view-component .dropdown .Dropdown-control {
+  height: inherit;
+}
+.non-profit-corporation-banner-wrapper .kvZIDA .Dropdown-option {
+  color: rgb(78, 78, 78);
+  cursor: pointer;
+  display: block;
+  padding: 0px;
+}
+.non-profit-corporation-banner-wrapper .kvZIDA .Dropdown-menu {
+  background-color: rgb(252, 252, 252);
+  margin-top: -1px;
+  max-height: 200px;
+  overflow-y: auto;
+  width: 100%;
+  display:none;
+  position: absolute;
+  z-index: 1;
+  border: 1px solid rgb(221, 221, 221);
+}
+.non-profit-corporation-banner-wrapper .kvZIDA .selected .Dropdown-menu{
+  display:block;
+}
+.non-profit-corporation-banner-wrapper .fXgBse {
+  display: flex;
+  -webkit-box-pack: justify;
+  justify-content: space-between;
+  -webkit-box-align: center;
+  align-items: center;
+  height: 80px;
+  width: 100%;
+  background-color: rgb(255, 255, 255);
+  border-top: 1px solid rgb(244, 244, 244);
+  padding: 0px 40px;
+  cursor: pointer;
+}
+.non-profit-corporation-banner-wrapper .fXgBse span {
+  color: rgb(30, 30, 30);
+  font-size: 16px;
+  font-weight:900;
+  line-height: 19px;
+  text-align: left;
+}
+
+.non-profit-corporation-banner-wrapper .fubKOC .view-component .dropdown .Dropdown-root.chosen .Dropdown-control .Dropdown-placeholder {
+  font-weight: bold;
+}
+
+@media (min-width: 769px){
+  .non-profit-corporation-banner-wrapper .fKmUfu {
+    padding: 0px 40px;
+  }
+  .non-profit-corporation-banner-wrapper .fubKOC .view-component .dropdown .Dropdown-menu {
+    width: 570px;
+    left: 50%;
+    transform: translateX(-50%);
+    max-height: 240px;
+    box-shadow: rgb(236 236 236 / 50%) 0px 24px 32px 0px;
+    border: none;
+  }
+}
+
+@media (min-width: 420px) {
+  .non-profit-corporation-banner-wrapper .rocket__Content {
+    margin-top: 300px;
+  }
+}
+
+@media (min-width: 470px) {
+  .non-profit-corporation-banner-wrapper .rocket__RocketWrapper {
+    top: 20%;
+  }
+}
+
+@media (min-width: 520px) {
+  .non-profit-corporation-banner-wrapper .rocket__Content {
+    margin-top: 350px;
+  }
+}
+
+@media (min-width: 768px) {
+  .non-profit-corporation-banner-wrapper .rocket__Oval:after {
+    background: linear-gradient(0deg, rgb(255, 255, 255) 0%, rgba(255, 255, 255, 0) 20%);
+  }
+  .non-profit-corporation-banner-wrapper {
+    margin-top: 200px;
+    margin-bottom: 200px;
+  }
+  .non-profit-corporation-banner-wrapper .rocket__Moon {
+    display: block;
+    top: -26%;
+    right: 14%;
+    left: unset;
+  }
+  .non-profit-corporation-banner-wrapper .rocket__Content {
+    width: 100%;
+    max-width: 670px;
+    margin-top: 0px;
+  }
+  .non-profit-corporation-banner-wrapper .rocket__RocketWrapper {
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    top: 50%;
+    left: 32%;
+  }
+}
+
+@media (min-width: 992px) {
+  .non-profit-corporation-banner-wrapper .rocket__Curve {
+    display: block;
+  }
+  .non-profit-corporation-banner-wrapper .rocket__RocketWrapper {
+    left: 40%;
+  }
+}
+
+@media (max-width: 767px) {
+  .non-profit-corporation-banner-wrapper .rocket__Oval {
+    bottom: auto;
+    top: 40%;
+  }
+  .non-profit-corporation-banner-wrapper .kvZIDA .Dropdown-menu {
+    width: calc(100% + 111px);
+    margin-left: -55px;
+  }
+  .non-profit-corporation-banner-wrapper .fubKOC .view-component .dropdown .Dropdown-control .Dropdown-placeholder {
+    padding-right: 15px;
+  }
+}
+
+@media (max-width: 575px) {
+  .non-profit-corporation-banner-wrapper a.hs-button {
+    width: 100%;
+  }
+}
+
+@media (max-width: 479px) {
+  .non-profit-corporation-banner-wrapper .fKmUfu {
+    padding: 0 15px;
+  }
+  .non-profit-corporation-banner-wrapper .fubKOC .view-component .dropdown .Dropdown-control .Dropdown-placeholder {
+    font-size: 14px;
+  }
+}
+

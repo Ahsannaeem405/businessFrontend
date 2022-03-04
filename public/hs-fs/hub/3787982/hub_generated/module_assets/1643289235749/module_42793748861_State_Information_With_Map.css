@@ -1,0 +1,160 @@
+.state-info-with-map-wrapper .states-map__Wrapper > svg polygon:hover, 
+.state-info-with-map-wrapper .states-map__Wrapper > svg path:hover {
+  fill: rgb(80, 137, 253);
+  stroke: rgb(80, 137, 253);
+  stroke-width: 2.339;
+}
+.state-info-with-map-wrapper .state-info-map-section .oval__Wrapper-sc {
+  width: 100%;
+  height: 100%;
+  max-height: 570px;
+  max-width: 570px;
+  opacity: 1;
+  position: absolute;
+  left: 0%;
+  bottom: 0%;
+  transform: translate(0px, 0px);
+  z-index: -1;
+}
+.state-info-with-map-wrapper {
+  margin-top: -1px;
+}
+.state-info-with-map-wrapper .state-info-map-section {
+  padding-top: 100px;
+  padding-bottom: 40px;
+  position: relative;
+}
+.state-info-with-map-wrapper .state-info-map-section:before {
+  content: "";
+  height: 1564px;
+  width: 100%;
+  background-image: linear-gradient( 0deg, rgba(255, 255, 255, 0) 4%, rgb(242, 246, 255) 99%);
+  position: absolute;
+  top: 0px;
+  left: 0px;
+}
+.state-info-with-map-wrapper .state-info-map-section .state-info-map-section-inner-wrapper {
+  max-width: 770px;
+  margin: 0 auto;
+}
+.state-info-with-map-wrapper .state-info-map-section .state-info-map-section-inner-wrapper h2 {
+  text-align: center;
+}
+.state-info-with-map-wrapper .state-info-map-section .states-map__Wrapper {
+  display: flex;
+  flex-direction: row;
+  -webkit-box-pack: center;
+  justify-content: center;
+  width: 100%;
+  position: relative;
+}
+.state-info-with-map-wrapper .state-info-map-section .page-center {
+  position: relative;
+  z-index: 2;
+}
+.state-info-with-map-wrapper .state-info-map-section .states-map__Wrapper svg {
+  cursor:pointer;
+}
+.state-info-with-map-wrapper .state-info-state-section {
+  padding-bottom: 64px;
+  position: relative;
+}
+.state-info-with-map-wrapper .state-info-state-section .oval__Wrapper-sc {
+  width: 100%;
+  height: 100%;
+  max-height: 570px;
+  max-width: 570px;
+  opacity: 1;
+  position: absolute;
+  top: -24%;
+  right: 0%;
+  transform: translate(0px, 110%);
+  z-index: -1;
+}
+@media (max-width: 991px) {
+  .state-info-with-map-wrapper .state-info-state-section .oval__Wrapper-sc {
+    top: -2%;
+  }
+}
+.state-info-with-map-wrapper .state-info-state-section-header {
+  position: relative;
+  margin-bottom: 104px;
+  text-align:center;
+  overflow: hidden;
+}
+.state-info-with-map-wrapper .state-info-state-section-header h2 {
+  max-width: 770px;
+  margin: 0px auto 24px;
+}
+.state-info-with-map-wrapper .state-info-state-container {
+  position:relative;
+}
+.state-info-with-map-wrapper .curve__Wrapper-lg {
+  display: none;
+  width: 100%;
+  max-height: 25px;
+  max-width: 29px;
+  opacity: 1;
+  position: absolute;
+  top: -115px;
+  left: -115px;
+  transform: translate(0px, 0px);
+}
+.state-info-with-map-wrapper .curve__Wrapper-lg  svg {
+  transform: rotate(-15deg);
+}
+.state-info-with-map-wrapper .curve__Wrapper-lg  svg path {
+  fill: rgb(245, 205, 205);
+}
+.state-info-with-map-wrapper .state-info-state-grid {
+  display:flex;
+  flex-wrap:wrap;
+  margin:0 -15px -16px;
+}
+.state-info-with-map-wrapper .state-info-state-grid .state-info-state-item {
+  width:20%;
+  padding:0 15px;
+  margin-bottom:16px;
+}
+.state-info-with-map-wrapper .state-info-state-grid .state-info-state-item a {
+  display: flex;
+  -webkit-box-pack: center;
+  justify-content: center;
+  -webkit-box-align: center;
+  align-items: center;
+  font-size: 16px;
+  font-weight: 600;
+  line-height: 24px;
+  text-align: center;
+  background-color: rgb(242, 246, 255);
+  border-radius: 20px;
+  color: rgb(80, 137, 253);
+  padding: 8px 12px;
+  transition: background-color 0.3s ease 0s, color 0.3s ease 0s;
+}
+.state-info-with-map-wrapper .state-info-state-grid .state-info-state-item a:hover {
+  background-color: rgb(254, 246, 237);
+  color: rgb(253, 133, 80);
+}
+@media (min-width: 992px) {
+  .state-info-with-map-wrapper .curve__Wrapper-lg {
+    display: block;
+  }
+}
+
+@media(max-width: 991px) {
+  .state-info-with-map-wrapper .state-info-state-grid .state-info-state-item {
+    width: 33.3333333333%;
+  }
+}
+
+@media(max-width: 767px) {
+  .state-info-with-map-wrapper .state-info-state-grid .state-info-state-item {
+    width: 50%;
+  }
+}
+/* @media(max-width: 575px) {
+  .state-info-with-map-wrapper .state-info-state-grid .state-info-state-item {
+    width: 100%;
+  }
+} */

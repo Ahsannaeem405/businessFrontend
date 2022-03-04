@@ -1,0 +1,284 @@
+.custom-fictious-diagram-group {
+  position: relative;
+  padding: 8px 0 64px;
+}
+.custom-fictious-diagram-group .overlay-left-icon {
+  width: 100%;
+  height: 100%;
+  max-height: 570px;
+  max-width: 570px;
+  opacity: 1;
+  position: absolute;
+  transform: translate(0px, -40%);
+  z-index: -1;
+}
+.custom-fictious-diagram-group .custom-fictious-diagram-top h2 {
+  text-align: center;
+  padding-bottom: 48px;
+}
+.custom-fictious-diagram-group .custom-mobile-icon {
+  display: none;
+  width: 42px;
+  min-width: 33px;
+}
+.custom-fictious-diagram-group .custom-fictious-diagram-main {
+  max-width: 270px;
+  margin: 0 auto;
+  text-align: center;
+  display: flex;
+  align-items: center;
+  padding: 32px;
+  background-color: rgb(80, 137, 253);
+  color: rgb(255, 255, 255);
+  border-radius: 20px;
+}
+.custom-fictious-diagram-group .custom-fictious-diagram-main span {
+  font-weight: 900;
+  font-size: 20px;
+  line-height: 28px;
+  margin-left: 24px;
+}
+.custom-fictious-diagram-group .custom-icon-dektop {
+  width: 75.5%;
+  margin: 0 auto;
+  display: block;
+}
+.custom-fictious-diagram-group .custom-fictious-diagram-wrap {
+  max-width: 1104px;
+  position: relative;
+  padding-bottom: 64px;
+  margin: 0 auto;
+}
+.custom-fictious-diagram-group .custom-fictious-diagram-wrap-top-wrap {
+  display: flex;
+  justify-content: space-between;
+  margin-top: 1px;
+  margin: 0 -4px;
+}
+.custom-fictious-diagram-group .custom-fictious-diagram-wrap-top-item {
+  max-width: 278px;
+  width: 100%;
+  padding: 0 4px;
+}
+.custom-fictious-diagram-group .custom-fictious-diagram-wrap-top-item-col {
+  padding: 28px;
+  background-color: rgb(242, 246, 255);
+  display: flex;
+  -webkit-box-align: center;
+  align-items: center;
+}
+.custom-fictious-diagram-group .custom-fictious-diagram-wrap-top-item span {
+  font-weight: 900;
+  font-size: 20px;
+  line-height: 28px;
+  margin-left: 24px;
+  color: #000000;
+}
+.custom-fictious-diagram-group .custom-fictious-diagram-bottom-content p {
+  font-size: 16px;
+  line-height: 24px;
+  max-width: 970px;
+  margin-bottom: 32px;
+  margin-left: auto;
+  margin-right: auto;
+}
+.custom-fictious-diagram-group .custom-fictious-diagram-bottom-content p:last-of-type {
+  margin-bottom: 48px;
+  color: rgb(29, 29, 29);
+  font-weight: 900;
+  font-size: 20px;
+  line-height: 28px;
+}
+.custom-fictious-diagram-group .custom-fictious-diagram-pop {
+  width: 100%;
+  max-width: 770px;
+  background-color: #fef6ed;
+  position: relative;
+  margin-bottom: 0px;
+  margin: 0 auto 0px;
+}
+.custom-fictious-diagram-group .custom-fictious-diagram-pop:before {
+  content: "";
+  display: block;
+  padding-top: 56.23%;
+}
+.custom-fictious-diagram-group .custom-fictious-diagram-pop .gatsby-image-wrapper{
+  border-radius: 6px;
+  inset: 0px;
+  position: absolute;
+  overflow: hidden;
+}
+.custom-fictious-diagram-group .custom-fictious-diagram-pop .pop-video-thumb-bg {
+  width: 100%;
+  padding-bottom: 56.11111111111111%;
+  background-position: center;
+  background-size: cover;
+  background-repeat: no-repeat;
+}
+.custom-fictious-diagram-group .custom-fictious-diagram-pop .video-button {
+  height: 30%;
+  width: 16.87%;
+  max-width: 80px;
+  max-height: 80px;
+  background-color: rgb(253, 133, 80);
+  border: 0px;
+  border-radius: 50%;
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  transition: transform 0.3s ease 0s;
+  cursor: pointer;
+}
+.custom-fictious-diagram-group .custom-fictious-diagram-pop .video-button span {
+  display: block;
+  height: 26%;
+  width: 26%;
+  max-width: 21px;
+  max-height: 21px;
+  position: absolute;
+  left: 50%;
+  top: 50%;
+  transform: translate(-50%, -50%);
+}
+.custom-fictious-diagram-group .custom-fictious-diagram-pop .video-button span svg {
+  width: 100%;
+  height: 100%;
+  position: relative;
+  left: 2px;
+  display: block;
+}
+.custom-fictious-diagram-group .custom-fictious-diagram-pop .video-button:hover {
+  transform: translate(-50%, -50%) scale(1.05);
+}
+.custom-fictious-diagram-group .custom-fictious-diagram-pop .video-pop-container {
+  position: fixed;
+  z-index: 9999;
+  inset: 0px;
+  display: flex;
+  -webkit-box-pack: center;
+  justify-content: center;
+  -webkit-box-align: center;
+  align-items: center;
+  background: rgba(0, 0, 0, 0.8);
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  opacity: 0;
+  visibility: hidden;
+  transition: all .2s ease;
+  pointer-events: none;
+}
+.custom-fictious-diagram-group .custom-fictious-diagram-pop .video-pop-container-inner {
+  background-color: rgb(255, 255, 255);
+  width: 100%;
+  max-width: 913px;
+  position: relative;
+  margin: 0px 30px;
+  padding-top: 49.25%;
+  height: 29vh;
+}
+.custom-fictious-diagram-group .custom-fictious-diagram-pop .video-pop-container-inner iframe {
+  position: absolute;
+  top: 0px;
+  left: 0px;
+  width: 100%;
+  height: 100%;
+}
+.custom-fictious-diagram-group .custom-fictious-diagram-pop .video-pop-container-inner .LightBox__Control button {
+  box-sizing: inherit;
+  margin: 0px;
+  padding: 0px;
+  position: absolute;
+  top: -45px;
+  right: -15px;
+  border: none;
+  width: 30px;
+  height: 30px;
+  background: none;
+  cursor: pointer;
+}
+.custom-fictious-diagram-group .custom-fictious-diagram-pop .video-pop-container-inner .LightBox__Control svg {
+  fill: white;
+}
+.custom-fictious-diagram-group .custom-fictious-diagram-pop .video-pop-container.open {
+  opacity: 1;
+  visibility: visible;
+  pointer-events: auto;
+}
+@media (min-width: 769px) {
+  .custom-fictious-diagram-group .custom-fictious-diagram-pop .video-pop-container-inner{
+    height: 55.7vh;
+    padding-top: 0px;
+  }
+  .custom-fictious-diagram-group .custom-fictious-diagram-wrap-top-item:first-child > div {
+    border-radius: 20px 5px 5px 20px;
+  }
+  .custom-fictious-diagram-group .custom-fictious-diagram-wrap-top-item:last-child > div {
+    border-radius: 5px 20px 20px 5px;
+  }
+}
+@media (max-width: 991px) {
+  .custom-fictious-diagram-group {
+    padding: 104px 0 64px;
+  }
+  .custom-fictious-diagram-group .custom-fictious-diagram-wrap-top-item span {
+    margin-left: 28px;
+  }
+}
+@media (max-width: 768px) {
+  .custom-fictious-diagram-group .custom-icon-dektop {
+    display: none;
+  }
+  .custom-fictious-diagram-group .custom-mobile-icon {
+    display: block;
+  }
+  .custom-fictious-diagram-group .custom-fictious-diagram-wrap {
+    display: flex;
+    align-items: center;
+  }
+  .custom-fictious-diagram-group .custom-fictious-diagram-wrap-top-wrap {
+    display: block;
+    margin: 0 -4px;
+  }
+  .custom-fictious-diagram-wrap-top-col {
+    width: calc(100% - 42px);
+    padding: 0 13px;
+  }
+  .custom-fictious-diagram-group .custom-fictious-diagram-main {
+    max-width: 100%;
+    margin-bottom: 24px;
+  }
+  .custom-fictious-diagram-group .custom-fictious-diagram-wrap-top-item {
+    max-width: 100%;
+    margin: 0 0 16px;
+  }
+  .custom-fictious-diagram-group .custom-fictious-diagram-wrap-top-item-col {
+    border-radius: 20px;
+  }
+  .custom-fictious-diagram-group .custom-fictious-diagram-wrap-top-item span {
+    margin-left: 24px;
+    margin-top: 2px;
+  }
+  .custom-fictious-diagram-group .custom-fictious-diagram-wrap-top-item:last-child {
+    margin: 0;
+  }
+}
+
+@media (max-width: 575px) {
+  .custom-fictious-diagram-group .custom-mobile-icon {
+    width: 33px;
+    min-width: 33px;
+  }
+  .custom-fictious-diagram-wrap-top-col {
+    width: calc(100% - 33px);
+    padding: 0;
+  }
+  .custom-fictious-diagram-group .custom-fictious-diagram-wrap-top-item-col {
+    padding: 16px 20px 16px 32px;
+  }
+  .custom-fictious-diagram-group .custom-fictious-diagram-main {
+    padding: 24px 20px 24px 32px;
+  }
+}
