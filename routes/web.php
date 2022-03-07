@@ -22,4 +22,11 @@ Route::get('/state', function () {
 Route::get('/annual', function () {
     return view('annual-report');
 });
+Route::get('/tax', function () {
+    return view('tax-id-ein');
+});
+Route::get('/why_chose', function () {
+    return view('why-choose');
+});
+
 
