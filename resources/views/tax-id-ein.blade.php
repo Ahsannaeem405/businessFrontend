@@ -4,10 +4,10 @@
     a.cta_button{-moz-box-sizing:content-box !important;-webkit-box-sizing:content-box !important;box-sizing:content-box !important;vertical-align:middle}.hs-breadcrumb-menu{list-style-type:none;margin:0px 0px 0px 0px;padding:0px 0px 0px 0px}.hs-breadcrumb-menu-item{float:left;padding:10px 0px 10px 10px}.hs-breadcrumb-menu-divider:before{content:'›';padding-left:10px}.hs-featured-image-link{border:0}.hs-featured-image{float:right;margin:0 0 20px 20px;max-width:50%}@media (max-width: 568px){.hs-featured-image{float:none;margin:0;width:100%;max-width:100%}}.hs-screen-reader-text{clip:rect(1px, 1px, 1px, 1px);height:1px;overflow:hidden;position:absolute !important;width:1px}
     </style>
 
-    <link rel="stylesheet" href="{{asset('hs-fs/hub/3787982/hub_generated/template_assets/41141851171/1625143722352/Incfile_February_2021/css/layout.min.css')}}">
-    <link rel="stylesheet" href="{{asset('hs-fs/hub/3787982/hub_generated/template_assets/51805631655/1646227967249/Incfile_February_2021/css/custom-main.min.css')}}">
-    <link rel="stylesheet" href="{{asset('hs-fs/hub/3787982/hub_generated/template_assets/41143039748/1643731110424/Incfile_February_2021/css/theme-overrides.min.css')}}">
-    <link rel="stylesheet" href="{{asset('hs-fs/hub/3787982/hub_generated/module_assets/1646065739376/module_41143153420_Banner.css')}}">
+    {{-- <link rel="stylesheet" href="{{asset('hs-fs/hub/3787982/hub_generated/template_assets/41141851171/1625143722352/Incfile_February_2021/css/layout.min.css')}}"> --}}
+    {{-- <link rel="stylesheet" href="{{asset('hs-fs/hub/3787982/hub_generated/template_assets/51805631655/1646227967249/Incfile_February_2021/css/custom-main.min.css')}}"> --}}
+    {{-- <link rel="stylesheet" href="{{asset('hs-fs/hub/3787982/hub_generated/template_assets/41143039748/1643731110424/Incfile_February_2021/css/theme-overrides.min.css')}}"> --}}
+    {{-- <link rel="stylesheet" href="{{asset('hs-fs/hub/3787982/hub_generated/module_assets/1646065739376/module_41143153420_Banner.css')}}"> --}}
     <style>
         .banner.DND_banner-module-1_banner .banner-button-container .button-item a,
         .banner.DND_banner-module-1_banner .banner-button-container .button-item button{
@@ -380,7 +380,7 @@
 
         <div class="annual-report-layout">
             <div class="banner-section llc-page-banner">
-                <div class="container-fluid banner-area">
+                <div class="container-fluid banner-area" style="padding-left: 0px;padding-right:0px;">
                     <div class="row-fluid-wrapper">
                         <div class="row-fluid">
                             <div class="span12 widget-span widget-type-cell " style="" data-widget-type="cell"
@@ -401,70 +401,42 @@
                                                             class="hs_cos_wrapper hs_cos_wrapper_widget hs_cos_wrapper_type_module"
                                                             style="" data-hs-cos-general-type="widget"
                                                             data-hs-cos-type="module">
-                                                            <div class="banner DND_banner-module-1_banner banner_div">
-                                                                <div class="banner-oval-structure">
-                                                                    <img src="{{asset('image/head.png')}}" alt="">
-                                                                </div>
+                                                            <div class="container-fluid" style="padding-left:0px;padding-right: 0px; ">
 
-                                                                <div class="banner-image-container">
-                                                                    <div class="gatsby-image-wrapper">
-                                                                        <div class="gatsby-image-inner"
-                                                                            style="padding-bottom:81.88034188034187%;">
+                                                                <div id="myCarousel" class="carousel slide" data-ride="carousel" style="margin-bottom:20px;">
+                                                                    <!-- Indicators -->
+                                                                    <ol class="carousel-indicators">
+                                                                        <li data-target="#myCarousel" data-slide-to="0" class="active"></li>
+                                                                        <li data-target="#myCarousel" data-slide-to="1"></li>
+                                                                        <li data-target="#myCarousel" data-slide-to="2"></li>
+                                                                    </ol>
+
+                                                                    <!-- Wrapper for slides -->
+                                                                    <div class="carousel-inner">
+                                                                        <div class="item active">
+                                                                            <img src="https://www.adorama.com/alc/wp-content/uploads/2017/11/shutterstock_114802408.jpg"
+                                                                                alt="Los Angeles">
                                                                         </div>
-                                                                        <picture>
 
-                                                                            <img src="{{asset('image/2.png')}}"
-                                                                                alt="Mrs Bulb Tax Number"
-                                                                                loading="lazy">
-                                                                        </picture>
-                                                                    </div>
-                                                                </div>
+                                                                        <div class="item">
+                                                                            <img src="https://img.freepik.com/free-photo/white-cloud-blue-sky-sea_74190-4488.jpg" alt="Chicago">
+                                                                        </div>
 
-                                                                <div class="banner-content page-center">
-                                                                    <div class="banner-content-inner">
-                                                                        <div class="banner-content-container">
-                                                                            <h1
-                                                                                style="max-width: 480px; margin-bottom: 0;">
-                                                                                What is Lorem Ipsum?</h1>
-                                                                            <h2>Lorem Ipsum is simply dummy text </h2>
-
-                                                                            <div class="banner-button-container">
-
-
-                                                                                <div class="button-item th-or">
-
-
-
-
-
-
-
-                                                                                    <a href="https://orders.incfile.com/ein-form.php"
-                                                                                        target="_blank" rel="noopener">
-                                                                                        Go
-                                                                                        <div class="button__Arrow">
-                                                                                            <svg width="12" height="11"
-                                                                                                xmlns="http://www.w3.org/2000/svg">
-                                                                                                <path
-                                                                                                    d="M5.805.703L5.8.707a1 1 0 00-.003 1.416l2.379 2.379H.998a.998.998 0 000 1.996h7.179L5.798 8.877a1 1 0 00.003 1.416l.004.004a1 1 0 001.412-.003l4.078-4.088a1 1 0 000-1.412L7.217.706A1 1 0 005.805.703z"
-                                                                                                    fill="#1D1D1D"
-                                                                                                    fill-rule="nonzero">
-                                                                                                </path>
-                                                                                            </svg>
-                                                                                        </div>
-                                                                                    </a>
-                                                                                </div>
-
-
-                                                                            </div>
-
-
-
-
-
-
+                                                                        <div class="item">
+                                                                            <img src="https://media.istockphoto.com/photos/colorful-of-sky-with-clouds-in-the-evening-picture-id483033844?k=20&m=483033844&s=170667a&w=0&h=9BPQphuAhBqydPaz59h5skpBVhIdogJg3HV6Mw99bWc="
+                                                                                alt="New york">
                                                                         </div>
                                                                     </div>
+
+                                                                    <!-- Left and right controls -->
+                                                                    <a class="left carousel-control" href="#myCarousel" data-slide="prev">
+                                                                        <span class="glyphicon glyphicon-chevron-left"></span>
+                                                                        <span class="sr-only">Previous</span>
+                                                                    </a>
+                                                                    <a class="right carousel-control" href="#myCarousel" data-slide="next">
+                                                                        <span class="glyphicon glyphicon-chevron-right"></span>
+                                                                        <span class="sr-only">Next</span>
+                                                                    </a>
                                                                 </div>
                                                             </div>
 

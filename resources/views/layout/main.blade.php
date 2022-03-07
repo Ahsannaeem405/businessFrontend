@@ -27,7 +27,40 @@
 
 
 
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.1/css/bootstrap.min.css">
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
+    <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.1/js/bootstrap.min.js"></script>
+<style>.carousel-inner .item img {
+    height: 520px;
+    width: 100%;
 
+}
+
+.carousel-indicators li {
+    border-color: black;
+}
+
+.carousel-indicators .active{
+    background-color: black !important;
+}
+
+.carousel-control:hover, .carousel-control {
+    background: transparent !important;
+    height: 520px;
+}
+
+.carousel-control span {
+    color: black;
+}
+
+@media only screen and (max-width: 767px) {
+    .carousel-inner .item img {
+        height: 300px;
+    }
+    .carousel-control:hover, .carousel-control {
+        height: 300px;
+    }
+}</style>
     <style>
 
 
@@ -799,10 +832,10 @@
                                             role="navigation" data-sitemap-name="default" data-menu-id="51808385434"
                                             aria-label="Navigation Menu">
                                             <ul role="menu" class="active-branch">
-                                                <li class="hs-menu-item hs-menu-depth-1 hs-item-has-children active-branch"
-                                                    role="none"><a href="javascript:;" aria-haspopup="true"
-                                                        aria-expanded="false" role="menuitem">Review Business Types</a>
-                                                    <ul role="menu" class="hs-menu-children-wrapper active-branch">
+                                                <li class="hs-menu-item hs-menu-depth-1 active-branch"
+                                                    role="none"><a href="#" aria-haspopup="true"
+                                                        aria-expanded="false" role="menuitem">Home</a>
+                                                    {{-- <ul role="menu" class="hs-menu-children-wrapper active-branch">
                                                         <li class="hs-menu-item hs-menu-depth-2 hs-item-has-children active-branch"
                                                             role="none"><a href="javascript:;" role="menuitem"></a>
                                                             <ul role="menu"
@@ -853,97 +886,9 @@
                                                                 </li>
                                                             </ul>
                                                         </li>
-                                                    </ul>
+                                                    </ul> --}}
                                                 </li>
-                                                <li class="hs-menu-item hs-menu-depth-1 hs-item-has-children"
-                                                    role="none"><a href="javascript:;" aria-haspopup="true"
-                                                        aria-expanded="false" role="menuitem">Start</a>
-                                                    <ul role="menu" class="hs-menu-children-wrapper">
-                                                        <li class="hs-menu-item hs-menu-depth-2 hs-item-has-children"
-                                                            role="none"><a href="javascript:;" role="menuitem"></a>
-                                                            <ul role="menu" class="hs-menu-children-wrapper">
-                                                                <li class="hs-menu-item hs-menu-depth-3" role="none"><a
-                                                                        href="#" role="menuitem">Free LLC
-                                                                        Filing</a></li>
-                                                                <li class="hs-menu-item hs-menu-depth-3" role="none"><a
-                                                                        href="#"
-                                                                        role="menuitem">Choose a Name or DBA</a></li>
-                                                                <li class="hs-menu-item hs-menu-depth-3" role="none"><a
-                                                                        href="#"
-                                                                        role="menuitem">Get a Registered Agent</a></li>
-                                                                <li class="hs-menu-item hs-menu-depth-3" role="none"><a
-                                                                        href="#"
-                                                                        role="menuitem">LLC Information by State</a>
-                                                                </li>
-                                                                <li class="hs-menu-item hs-menu-depth-3 hs-item-has-children"
-                                                                    role="none"><a href="javascript:;"
-                                                                        role="menuitem"></a>
-                                                                    <ul role="menu" class="hs-menu-children-wrapper">
-                                                                        <li class="hs-menu-item hs-menu-depth-4 hs-item-has-children"
-                                                                            role="none"><a href="javascript:;"
-                                                                                role="menuitem"></a>
-                                                                            <ul role="menu"
-                                                                                class="hs-menu-children-wrapper">
-                                                                                <li class="hs-menu-item hs-menu-depth-5"
-                                                                                    role="none"><a
-                                                                                        href="#"
-                                                                                        role="menuitem">Business Name
-                                                                                        Generator</a></li>
-                                                                                <li class="hs-menu-item hs-menu-depth-5"
-                                                                                    role="none"><a
-                                                                                        href="#"
-                                                                                        role="menuitem">Free Business
-                                                                                        Name Search</a></li>
-                                                                                <li class="hs-menu-item hs-menu-depth-5"
-                                                                                    role="none"><a
-                                                                                        href="#"
-                                                                                        role="menuitem">Amendment - Name
-                                                                                        Change</a></li>
-                                                                                <li class="hs-menu-item hs-menu-depth-5"
-                                                                                    role="none"><a
-                                                                                        href="#"
-                                                                                        role="menuitem">Dissolution</a>
-                                                                                </li>
-                                                                                <li class="hs-menu-item hs-menu-depth-5"
-                                                                                    role="none"><a
-                                                                                        href="#"
-                                                                                        role="menuitem">Foreign
-                                                                                        Qualification</a></li>
-                                                                            </ul>
-                                                                        </li>
-                                                                        <li class="hs-menu-item hs-menu-depth-4 hs-item-has-children"
-                                                                            role="none"><a href="javascript:;"
-                                                                                role="menuitem"></a>
-                                                                            <ul role="menu"
-                                                                                class="hs-menu-children-wrapper">
-                                                                                <li class="hs-menu-item hs-menu-depth-5"
-                                                                                    role="none"><a
-                                                                                        href="#"
-                                                                                        role="menuitem">Get a Corporate
-                                                                                        / LLC Kit</a></li>
-                                                                                <li class="hs-menu-item hs-menu-depth-5"
-                                                                                    role="none"><a
-                                                                                        href="#"
-                                                                                        role="menuitem">State Filing
-                                                                                        Times </a></li>
-                                                                                <li class="hs-menu-item hs-menu-depth-5"
-                                                                                    role="none"><a
-                                                                                        href="#"
-                                                                                        role="menuitem">State Filing
-                                                                                        Fees</a></li>
-                                                                                <li class="hs-menu-item hs-menu-depth-5"
-                                                                                    role="none"><a
-                                                                                        href="#"
-                                                                                        role="menuitem">Corporation
-                                                                                        Information by State</a></li>
-                                                                            </ul>
-                                                                        </li>
-                                                                    </ul>
-                                                                </li>
-                                                            </ul>
-                                                        </li>
-                                                    </ul>
-                                                </li>
+
                                                 <li class="hs-menu-item hs-menu-depth-1 hs-item-has-children"
                                                     role="none"><a href="javascript:;" aria-haspopup="true"
                                                         aria-expanded="false" role="menuitem">Manage </a>
@@ -1036,10 +981,15 @@
                                                         </li>
                                                     </ul>
                                                 </li>
-                                                <li class="hs-menu-item hs-menu-depth-1 hs-item-has-children"
+                                                <li class="hs-menu-item hs-menu-depth-1"
+                                                role="none"><a href="javascript:;" aria-haspopup="true"
+                                                    aria-expanded="false" role="menuitem">LLC Information</a>
+
+                                            </li>
+                                                <li class="hs-menu-item hs-menu-depth-1"
                                                     role="none"><a href="javascript:;" aria-haspopup="true"
-                                                        aria-expanded="false" role="menuitem">Grow </a>
-                                                    <ul role="menu" class="hs-menu-children-wrapper">
+                                                        aria-expanded="false" role="menuitem">State Filling </a>
+                                                    {{-- <ul role="menu" class="hs-menu-children-wrapper">
                                                         <li class="hs-menu-item hs-menu-depth-2 hs-item-has-children"
                                                             role="none"><a href="javascript:;" role="menuitem"></a>
                                                             <ul role="menu" class="hs-menu-children-wrapper">
@@ -1099,43 +1049,12 @@
                                                                 </li>
                                                             </ul>
                                                         </li>
-                                                    </ul>
+                                                    </ul> --}}
                                                 </li>
-                                                <li class="hs-menu-item hs-menu-depth-1 hs-item-has-children"
+                                                <li class="hs-menu-item hs-menu-depth-1"
                                                     role="none"><a href="javascript:;" aria-haspopup="true"
-                                                        aria-expanded="false" role="menuitem">About</a>
-                                                    <ul role="menu" class="hs-menu-children-wrapper">
-                                                        <li class="hs-menu-item hs-menu-depth-2 hs-item-has-children"
-                                                            role="none"><a href="javascript:;" role="menuitem"></a>
-                                                            <ul role="menu" class="hs-menu-children-wrapper">
-                                                                <li class="hs-menu-item hs-menu-depth-3" role="none"><a
-                                                                        href="#"
-                                                                        role="menuitem">Why Choose Us</a></li>
-                                                                <li class="hs-menu-item hs-menu-depth-3" role="none"><a
-                                                                        href="#" role="menuitem">How It
-                                                                        Works</a></li>
-                                                                <li class="hs-menu-item hs-menu-depth-3" role="none"><a
-                                                                        href="#" role="menuitem">About Us</a>
-                                                                </li>
-                                                                <li class="hs-menu-item hs-menu-depth-3" role="none"><a
-                                                                        href="#"
-                                                                        role="menuitem">Customer Reviews</a></li>
-                                                                <li class="hs-menu-item hs-menu-depth-3" role="none"><a
-                                                                        href="#"
-                                                                        role="menuitem">Testimonials</a></li>
-                                                                <li class="hs-menu-item hs-menu-depth-3" role="none"><a
-                                                                        href="#"
-                                                                        role="menuitem">Entrepreneur Grants</a></li>
-                                                                <li class="hs-menu-item hs-menu-depth-3" role="none"><a
-                                                                        href="#"
-                                                                        role="menuitem">Contact Us: Existing Clients</a>
-                                                                </li>
-                                                                <li class="hs-menu-item hs-menu-depth-3" role="none"><a
-                                                                        href="#"
-                                                                        role="menuitem">Contact Us: New Sales</a></li>
-                                                            </ul>
-                                                        </li>
-                                                    </ul>
+                                                        aria-expanded="false" role="menuitem">About Us</a>
+
                                                 </li>
                                             </ul>
                                         </div>
@@ -1143,37 +1062,7 @@
                                 </div>
                             </div>
                         </div>
-                        <div class="header-right-links">
-                            <a href="tel:(888)%20462%203453" class="header--phone">
-                                {{-- <svg xmlns="http://www.w3.org/2000/svg" width="16" height="16">
-                                    <path
-                                        d="M15.554 11.734l-2.232-2.231c-.797-.797-2.151-.478-2.47.558-.24.717-1.036 1.115-1.753.956-1.594-.398-3.746-2.47-4.144-4.144-.239-.717.24-1.514.956-1.753 1.036-.319 1.355-1.673.558-2.47L4.238.418c-.638-.557-1.594-.557-2.152 0L.572 1.932c-1.514 1.594.16 5.818 3.905 9.563 3.745 3.745 7.969 5.499 9.563 3.905l1.514-1.514c.557-.638.557-1.594 0-2.152z"
-                                        fill="#FD8550" fill-rule="nonzero"></path>
-                                </svg> --}}
-                                <img src="{{asset('image/phone.png')}}" alt="">
-                                <span>(888) 462 3453</span>
-                            </a>
-                            <div class="login-btn">
-                                <div id="hs_cos_wrapper_login"
-                                    class="hs_cos_wrapper hs_cos_wrapper_widget hs_cos_wrapper_type_module widget-type-rich_text"
-                                    style="" data-hs-cos-general-type="widget" data-hs-cos-type="module"><span
-                                        id="hs_cos_wrapper_login_"
-                                        class="hs_cos_wrapper hs_cos_wrapper_widget hs_cos_wrapper_type_rich_text"
-                                        style="" data-hs-cos-general-type="widget" data-hs-cos-type="rich_text"><a
-                                            href="#" target="_blank" class="login" >Login</a></span>
-                                </div>
-                            </div>
-                            <div class="incorporate-btn">
-                                <div id="hs_cos_wrapper_incorporate"
-                                    class="hs_cos_wrapper hs_cos_wrapper_widget hs_cos_wrapper_type_module widget-type-rich_text"
-                                    style="" data-hs-cos-general-type="widget" data-hs-cos-type="module"><span
-                                        id="hs_cos_wrapper_incorporate_"
-                                        class="hs_cos_wrapper hs_cos_wrapper_widget hs_cos_wrapper_type_rich_text"
-                                        style="" data-hs-cos-general-type="widget" data-hs-cos-type="rich_text"><a
-                                            href="#"
-                                            target="_blank">Incorporate Now</a></span></div>
-                            </div>
-                        </div>
+
                     </div>
                     <div class="mobile-trigger">
                         <span></span>
@@ -1211,25 +1100,8 @@
                                         width="80" alt=""></span></div>
                         </div>
                         <div class="footer-news-form">
-                            <div id="hs_cos_wrapper_form_title"
-                                class="hs_cos_wrapper hs_cos_wrapper_widget hs_cos_wrapper_type_module widget-type-rich_text"
-                                style="" data-hs-cos-general-type="widget" data-hs-cos-type="module"><span
-                                    id="hs_cos_wrapper_form_title_"
-                                    class="hs_cos_wrapper hs_cos_wrapper_widget hs_cos_wrapper_type_rich_text" style=""
-                                    data-hs-cos-general-type="widget" data-hs-cos-type="rich_text">
-                                    <p
-                                        data-pm-slice="1 1 [&quot;list&quot;,{},&quot;list_item&quot;,{&quot;indent&quot;:1,&quot;type&quot;:&quot;bulleted&quot;}]">
-                                        Newsletter Sign-Up<span>(no spam)</span></p>
 
-                                </span>
-                            </div>
-                            <div class="footer-v2__Arrow-sc-1v72vsb-7 fAXFTv">
-                                <svg width="12" height="11" xmlns="http://www.w3.org/2000/svg">
-                                    <path
-                                        d="M5.805.703L5.8.707a1 1 0 00-.003 1.416l2.379 2.379H.998a.998.998 0 000 1.996h7.179L5.798 8.877a1 1 0 00.003 1.416l.004.004a1 1 0 001.412-.003l4.078-4.088a1 1 0 000-1.412L7.217.706A1 1 0 005.805.703z"
-                                        fill="#1D1D1D" fill-rule="nonzero"></path>
-                                </svg>
-                            </div>
+
                             <div id="hs_cos_wrapper_newsletter"
                                 class="hs_cos_wrapper hs_cos_wrapper_widget hs_cos_wrapper_type_module widget-type-form"
                                 style="" data-hs-cos-general-type="widget" data-hs-cos-type="module">
@@ -1272,9 +1144,7 @@
                                             <p>Entity Types</p>
                                             <ul class="footer-single__List-l1m2uz-2 dwwXzJ link">
                                                 <li><a href="#">LLC</a></li>
-                                                <li><a href="#">S Corporation</a></li>
-                                                <li><a href="#">C Corporation</a></li>
-                                                <li><a href="#">Nonprofit</a></li>
+
                                             </ul>
                                         </div>
                                         <span>
@@ -1291,25 +1161,7 @@
                                             <ul class="footer-single__List-l1m2uz-2 dwwXzJ link">
                                                 <li><a href="">Get a Registered
                                                         Agent</a></li>
-                                                <li><a href="#">Submit an Annual
-                                                        Report</a></li>
-                                                <li><a href="#">Foreign
-                                                        Qualification</a></li>
-                                                <li><a href="#">Get
-                                                        a Certificate of Good Standing</a></li>
-                                                <li><a href="#">Change
-                                                        Of Registered Agent</a></li>
-                                                <li><a href="#">Amendment</a></li>
-                                                <li><a href="#">Dissolution</a></li>
-                                                <li><a href="#">Get an EIN / TAX
-                                                        Number</a></li>
-                                                <li><a href="#">Business License
-                                                        Research Package</a></li>
-                                                <li><a href="#">Free Tax Consultation</a></li>
-                                                <li><a href="#">Choose a Name or
-                                                        DBA</a></li>
-                                                <li><a href="#">File for an S Corporation</a>
-                                                </li>
+
                                             </ul>
                                         </div>
                                         <span>
@@ -1326,15 +1178,7 @@
                                             <ul class="footer-single__List-l1m2uz-2 dwwXzJ link">
                                                 <li><a aria-current="page" class=""
                                                         href="#">Home</a></li>
-                                                <li><a href="#">Compare Entities</a></li>
-                                                <li><a href="#">Manage Your Company</a></li>
-                                                <li><a href="#">Check Order
-                                                        Status</a></li>
-                                                <li><a href="#">Research Tool</a></li>
-                                                <li><a href="#">Pricing</a>
-                                                </li>
-                                                <li><a href="#">Read the Blog</a></li>
-                                                <li><a href="#">About Us</a></li>
+
                                             </ul>
                                         </div>
                                         <span>
@@ -1351,17 +1195,7 @@
                                             <ul class="footer-single__List-l1m2uz-2 dwwXzJ link">
                                                 <li><a href="#">Renew Registered
                                                         Agent</a></li>
-                                                <li><a href="#">Filing Times</a></li>
-                                                <li><a href="#">Why Choose Us</a></li>
-                                                <li><a href="#">Testimonials</a></li>
-                                                <li><a href="#">Business Type Comparison
-                                                        Chart</a></li>
-                                                <li><a href="#">LLC Information by State</a>
-                                                </li>
-                                                <li><a href="#">Corporation Information
-                                                        by State</a></li>
-                                                <li><a href="#">Get a Corporate
-                                                        / LLC Kit</a></li>
+
                                             </ul>
                                         </div>
                                         <span>
@@ -1377,12 +1211,7 @@
                                             <p>Support</p>
                                             <ul class="footer-single__List-l1m2uz-2 dwwXzJ link">
                                                 <li><a href="contact/new-sales.html">Contact Us: New Sales</a></li>
-                                                <li><a href="affiliates.html">Affiliates</a></li>
-                                                <li><a href="sitemap.html">Sitemaps</a></li>
-                                                <li><a href="cancellation-policy.html">Cancellation Policy</a></li>
-                                                <li><a href="privacy-policy.html">Privacy Policy</a></li>
-                                                <li><a href="disclaimer.html">Legal Disclaimer</a></li>
-                                                <li><a href="glossary.html">Glossary</a></li>
+
                                             </ul>
                                         </div>
                                         <span>
@@ -1398,95 +1227,18 @@
                         </div>
                     </div>
                     <div class="footer-bottom-container">
-                        <div id="hs_cos_wrapper_copyright"
+                        {{-- <div id="hs_cos_wrapper_copyright"
                             class="hs_cos_wrapper hs_cos_wrapper_widget hs_cos_wrapper_type_module widget-type-rich_text"
                             style="" data-hs-cos-general-type="widget" data-hs-cos-type="module"><span
                                 id="hs_cos_wrapper_copyright_"
                                 class="hs_cos_wrapper hs_cos_wrapper_widget hs_cos_wrapper_type_rich_text" style=""
                                 data-hs-cos-general-type="widget" data-hs-cos-type="rich_text">
                                 <p>© 2022. Browntech.com All Rights Reserved.</p>
-                            </span></div>
-                        <div class="footer-social-share">
-                            <div id="hs_cos_wrapper_footer_social_links"
-                                class="hs_cos_wrapper hs_cos_wrapper_widget hs_cos_wrapper_type_module" style=""
-                                data-hs-cos-general-type="widget" data-hs-cos-type="module">
-                                <ul class="footer-social">
-
-                                    <li>
-
-
-
-
-
-
-
-                                        <a href="#" target="_blank" rel="noopener"
-                                            aria-label="Go to Incfile Facebook">
-                                            <svg width="32" height="32" xmlns="http://www.w3.org/2000/svg">
-                                                <path
-                                                    d="M16 0C7.164 0 0 7.164 0 16s7.164 16 16 16 16-7.164 16-16S24.836 0 16 0zm4 10.667h-1.8c-.717 0-.867.294-.867 1.037v1.63H20L19.721 16h-2.388v9.333h-4V16h-2.666v-2.667h2.666v-3.077c0-2.359 1.242-3.59 4.039-3.59H20v4z"
-                                                    fill="#819DCD" fill-rule="nonzero"></path>
-                                            </svg>
-                                        </a>
-                                    </li>
-
-                                    <li>
-
-
-
-
-
-
-
-                                        <a href="#"
-                                            target="_blank" rel="noopener" aria-label="Go to Incfile Youtube channel">
-                                            <svg width="32" height="32" xmlns="http://www.w3.org/2000/svg">
-                                                <path
-                                                    d="M16 0C7.164 0 0 7.164 0 16s7.164 16 16 16 16-7.164 16-16S24.836 0 16 0zm5.921 22.523c-2.802.192-9.045.192-11.844 0-3.034-.208-3.388-1.694-3.41-6.523.022-4.839.38-6.315 3.41-6.523 2.799-.192 9.043-.192 11.844 0 3.036.208 3.388 1.694 3.412 6.523-.024 4.839-.38 6.315-3.412 6.523zm-8.588-9.646l6.556 3.118-6.556 3.128v-6.246z"
-                                                    fill="#EB7978" fill-rule="nonzero"></path>
-                                            </svg>
-                                        </a>
-                                    </li>
-
-                                    <li>
-
-
-
-
-
-
-
-                                        <a href="#" target="_blank"
-                                            rel="noopener" aria-label="Go to Incfile Linkedin profile">
-                                            <svg width="32" height="32" xmlns="http://www.w3.org/2000/svg">
-                                                <path
-                                                    d="M16 0C7.164 0 0 7.164 0 16s7.164 16 16 16 16-7.164 16-16S24.836 0 16 0zm-2.667 21.333h-2.666v-8h2.666v8zM12 12.145c-.81 0-1.467-.661-1.467-1.478 0-.816.656-1.479 1.467-1.479.81 0 1.467.663 1.467 1.479 0 .817-.658 1.478-1.467 1.478zm10.667 9.188h-2.664V17.52c0-2.508-2.67-2.296-2.67 0v3.814h-2.666v-8h2.666v1.458c1.163-2.155 5.334-2.315 5.334 2.064v4.478z"
-                                                    fill="#72AFD7" fill-rule="nonzero"></path>
-                                            </svg>
-                                        </a>
-                                    </li>
-
-                                    <li>
-
-
-
-
-
-
-
-                                        <a href="#" target="_blank" rel="noopener"
-                                            aria-label="Go to Incfile Instagram">
-                                            <img src="hs-fs/hubfs/instagramc99e.png?width=48&amp;name=instagram.png"
-                                                alt="instagram" width="48" loading="lazy" style="width: 48px;"
-                                                srcset="https://www.incfile.com/hs-fs/hubfs/instagram.png?width=24&amp;name=instagram.png 24w, https://www.incfile.com/hs-fs/hubfs/instagram.png?width=48&amp;name=instagram.png 48w, https://www.incfile.com/hs-fs/hubfs/instagram.png?width=72&amp;name=instagram.png 72w, https://www.incfile.com/hs-fs/hubfs/instagram.png?width=96&amp;name=instagram.png 96w, https://www.incfile.com/hs-fs/hubfs/instagram.png?width=120&amp;name=instagram.png 120w, https://www.incfile.com/hs-fs/hubfs/instagram.png?width=144&amp;name=instagram.png 144w"
-                                                sizes="(max-width: 48px) 100vw, 48px">
-                                            <p>&nbsp;</p>
-                                        </a>
-                                    </li>
-
-                                </ul>
+                            </span></div> --}}
+                            <div>
+                                <p>© 2022. Browntech.com All Rights Reserved.</p>
                             </div>
-                        </div>
+
                     </div>
                 </div>
             </footer>

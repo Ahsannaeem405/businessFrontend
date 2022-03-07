@@ -103,7 +103,7 @@
         @section('content')
 
         <div class="banner-section corporation-filing-banner">
-            <div class="container-fluid banner-area">
+            <div class="container-fluid banner-area" style="padding-left:0px;padding-right:0px;">
                 <div class="row-fluid-wrapper">
                     <div class="row-fluid">
                         <div class="span12 widget-span widget-type-cell " style="" data-widget-type="cell" data-x="0"
@@ -123,114 +123,44 @@
                                                         class="hs_cos_wrapper hs_cos_wrapper_widget hs_cos_wrapper_type_module"
                                                         style="" data-hs-cos-general-type="widget"
                                                         data-hs-cos-type="module">
-                                                        <div class="banner widget_1613019964333_banner banner_div">
-                                                            <div class="banner-oval-structure">
-                                                                <img src="{{asset('image/head.png')}}" alt="">
-                                                            </div>
+                                                        <div class="container-fluid" style="padding-left:0px;padding-right: 0px; ">
 
-                                                            <div class="banner-image-container">
-                                                                <div class="gatsby-image-wrapper">
-                                                                    <div class="gatsby-image-inner"
-                                                                        style="padding-bottom:81.88%;"></div>
-                                                                    <picture>
+                                                            <div id="myCarousel" class="carousel slide" data-ride="carousel" style="margin-bottom:20px;">
+                                                                <!-- Indicators -->
+                                                                <ol class="carousel-indicators">
+                                                                    <li data-target="#myCarousel" data-slide-to="0" class="active"></li>
+                                                                    <li data-target="#myCarousel" data-slide-to="1"></li>
+                                                                    <li data-target="#myCarousel" data-slide-to="2"></li>
+                                                                </ol>
 
-                                                                        <img src="{{asset('image/2.png')}}"
-                                                                            alt="State Filling Fees Main Image"
-                                                                            loading="lazy">
-                                                                    </picture>
-                                                                </div>
-                                                            </div>
+                                                                <!-- Wrapper for slides -->
+                                                                <div class="carousel-inner">
+                                                                    <div class="item active">
+                                                                        <img src="https://www.adorama.com/alc/wp-content/uploads/2017/11/shutterstock_114802408.jpg"
+                                                                            alt="Los Angeles">
+                                                                    </div>
 
-                                                            <div class="banner-content page-center">
-                                                                <div class="banner-content-inner">
-                                                                    <div class="banner-content-container">
-                                                                        <h1>Lorem Ipsum &amp; is simply dummy text
-                                                                        </h1>
+                                                                    <div class="item">
+                                                                        <img src="https://img.freepik.com/free-photo/white-cloud-blue-sky-sea_74190-4488.jpg" alt="Chicago">
+                                                                    </div>
 
-
-
-
-
-                                                                        <div class="banner-rating-container">
-
-
-
-
-
-
-
-                                                                            <a href="#"
-                                                                                target="_blank" rel="noopener">
-                                                                                <span class="rating-icon">
-                                                                                    <img src="{{asset('image/star.png')}}" alt="">
-                                                                                </span>
-                                                                                <div class="cart-block">
-                                                                                    <div
-                                                                                        class="cart-block__RatingHeader">
-                                                                                        Trusted and Verified Reviews
-                                                                                    </div>
-                                                                                    <div class="rating-description">
-                                                                                        <div>
-
-
-
-
-
-                                                                                            <svg width="16" height="16"
-                                                                                                xmlns="http://www.w3.org/2000/svg">
-                                                                                                <path
-                                                                                                    d="M10.06 4.298l.815 1.769c.165.358.5.609.891.666l1.947.282a1.167 1.167 0 01.661 1.976l-1.49 1.505a1.167 1.167 0 00-.32 1.017l.352 2.075a1.167 1.167 0 01-1.722 1.213l-1.622-.912c-.355-.2-.789-.2-1.144 0l-1.622.912a1.167 1.167 0 01-1.722-1.213l.353-2.075a1.167 1.167 0 00-.321-1.017l-1.49-1.505a1.167 1.167 0 01.661-1.976l1.947-.282c.39-.057.726-.308.891-.666l.815-1.769a1.167 1.167 0 012.12 0z"
-                                                                                                    fill="#FFD662"
-                                                                                                    fill-rule="nonzero">
-                                                                                                </path>
-                                                                                            </svg>
-                                                                                            <svg width="16" height="16"
-                                                                                                xmlns="http://www.w3.org/2000/svg">
-                                                                                                <path
-                                                                                                    d="M10.06 4.298l.815 1.769c.165.358.5.609.891.666l1.947.282a1.167 1.167 0 01.661 1.976l-1.49 1.505a1.167 1.167 0 00-.32 1.017l.352 2.075a1.167 1.167 0 01-1.722 1.213l-1.622-.912c-.355-.2-.789-.2-1.144 0l-1.622.912a1.167 1.167 0 01-1.722-1.213l.353-2.075a1.167 1.167 0 00-.321-1.017l-1.49-1.505a1.167 1.167 0 01.661-1.976l1.947-.282c.39-.057.726-.308.891-.666l.815-1.769a1.167 1.167 0 012.12 0z"
-                                                                                                    fill="#FFD662"
-                                                                                                    fill-rule="nonzero">
-                                                                                                </path>
-                                                                                            </svg>
-                                                                                            <svg width="16" height="16"
-                                                                                                xmlns="http://www.w3.org/2000/svg">
-                                                                                                <path
-                                                                                                    d="M10.06 4.298l.815 1.769c.165.358.5.609.891.666l1.947.282a1.167 1.167 0 01.661 1.976l-1.49 1.505a1.167 1.167 0 00-.32 1.017l.352 2.075a1.167 1.167 0 01-1.722 1.213l-1.622-.912c-.355-.2-.789-.2-1.144 0l-1.622.912a1.167 1.167 0 01-1.722-1.213l.353-2.075a1.167 1.167 0 00-.321-1.017l-1.49-1.505a1.167 1.167 0 01.661-1.976l1.947-.282c.39-.057.726-.308.891-.666l.815-1.769a1.167 1.167 0 012.12 0z"
-                                                                                                    fill="#FFD662"
-                                                                                                    fill-rule="nonzero">
-                                                                                                </path>
-                                                                                            </svg>
-                                                                                            <svg width="16" height="16"
-                                                                                                xmlns="http://www.w3.org/2000/svg">
-                                                                                                <path
-                                                                                                    d="M10.06 4.298l.815 1.769c.165.358.5.609.891.666l1.947.282a1.167 1.167 0 01.661 1.976l-1.49 1.505a1.167 1.167 0 00-.32 1.017l.352 2.075a1.167 1.167 0 01-1.722 1.213l-1.622-.912c-.355-.2-.789-.2-1.144 0l-1.622.912a1.167 1.167 0 01-1.722-1.213l.353-2.075a1.167 1.167 0 00-.321-1.017l-1.49-1.505a1.167 1.167 0 01.661-1.976l1.947-.282c.39-.057.726-.308.891-.666l.815-1.769a1.167 1.167 0 012.12 0z"
-                                                                                                    fill="#FFD662"
-                                                                                                    fill-rule="nonzero">
-                                                                                                </path>
-                                                                                            </svg>
-                                                                                            <svg width="16" height="16"
-                                                                                                xmlns="http://www.w3.org/2000/svg">
-                                                                                                <path
-                                                                                                    d="M10.06 4.298l.815 1.769c.165.358.5.609.891.666l1.947.282a1.167 1.167 0 01.661 1.976l-1.49 1.505a1.167 1.167 0 00-.32 1.017l.352 2.075a1.167 1.167 0 01-1.722 1.213l-1.622-.912c-.355-.2-.789-.2-1.144 0l-1.622.912a1.167 1.167 0 01-1.722-1.213l.353-2.075a1.167 1.167 0 00-.321-1.017l-1.49-1.505a1.167 1.167 0 01.661-1.976l1.947-.282c.39-.057.726-.308.891-.666l.815-1.769a1.167 1.167 0 012.12 0z"
-                                                                                                    fill="#FFD662"
-                                                                                                    fill-rule="nonzero">
-                                                                                                </path>
-                                                                                            </svg>
-
-                                                                                            <span>27,195 ratings
-                                                                                            </span>
-                                                                                        </div>
-                                                                                    </div>
-                                                                                </div>
-                                                                            </a>
-                                                                        </div>
-
-
+                                                                    <div class="item">
+                                                                        <img src="https://media.istockphoto.com/photos/colorful-of-sky-with-clouds-in-the-evening-picture-id483033844?k=20&m=483033844&s=170667a&w=0&h=9BPQphuAhBqydPaz59h5skpBVhIdogJg3HV6Mw99bWc="
+                                                                            alt="New york">
                                                                     </div>
                                                                 </div>
+
+                                                                <!-- Left and right controls -->
+                                                                <a class="left carousel-control" href="#myCarousel" data-slide="prev">
+                                                                    <span class="glyphicon glyphicon-chevron-left"></span>
+                                                                    <span class="sr-only">Previous</span>
+                                                                </a>
+                                                                <a class="right carousel-control" href="#myCarousel" data-slide="next">
+                                                                    <span class="glyphicon glyphicon-chevron-right"></span>
+                                                                    <span class="sr-only">Next</span>
+                                                                </a>
                                                             </div>
                                                         </div>
-
 
 
                                                         <script>
