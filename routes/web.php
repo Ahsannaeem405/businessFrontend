@@ -16,3 +16,10 @@ use Illuminate\Support\Facades\Route;
 Route::get('/', function () {
     return view('business-entity-comparison');
 });
+Route::get('/state', function () {
+    return view('state-filing-fees');
+});
+Route::get('/annual', function () {
+    return view('annual-report');
+});
+

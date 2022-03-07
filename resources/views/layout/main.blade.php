@@ -6,8 +6,8 @@
 
 <head>
     <meta charset="utf-8">
-    <title>Types of Corporations &amp; Business Structures | Entity Chart</title>
-    <link rel="shortcut icon" href="hubfs/favicon-32x32.png">
+    <title>Bussiness</title>
+    <link rel="shortcut icon" href="{{asset('image/star.png')}}">
     <meta name="description"
         content="Confused about what type of corporation is best for you? Compare business entities like LLCs, C corps, S corps, and nonprofits.">
 
