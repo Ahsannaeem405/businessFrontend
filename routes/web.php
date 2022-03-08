@@ -38,4 +38,7 @@ Route::get('/dissolution', function () {
 Route::get('/certificate', function () {
     return view('certificate-of-good-standing');
 });
+Route::get('/corporation', function () {
+    return view('corporation-state-information');
+});
 
