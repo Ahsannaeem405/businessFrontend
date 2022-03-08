@@ -1,66 +1,13 @@
 <!doctype html>
 <html lang="en">
-
-<meta http-equiv="content-type" content="text/html;charset=UTF-8" />
-
-
-<head>
+  <head>
+    <!-- Required meta tags -->
     <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
     <title>Bussiness</title>
-    <link rel="shortcut icon" href="{{asset('image/star.png')}}">
-    <meta name="description"
-        content="Confused about what type of corporation is best for you? Compare business entities like LLCs, C corps, S corps, and nonprofits.">
+    <!-- Bootstrap CSS -->
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@4.0.0/dist/css/bootstrap.min.css" integrity="sha384-Gn5384xqQ1aoWXA+058RXPxPg6fy4IWvTNh0E263XmFcJlSAwiGgFAW/dAiS6JXm" crossorigin="anonymous">
 
-
-
-
-
-
-
-
-    <meta property="og:description"
-        content="Confused about what type of corporation is best for you? Compare business entities like LLCs, C corps, S corps, and nonprofits.">
-    <meta property="og:title" content="Types of Corporations &amp; Business Structures | Entity Chart">
-    <meta name="twitter:description"
-        content="Confused about what type of corporation is best for you? Compare business entities like LLCs, C corps, S corps, and nonprofits.">
-    <meta name="twitter:title" content="Types of Corporations &amp; Business Structures | Entity Chart">
-
-
-
-    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.1/css/bootstrap.min.css">
-    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
-    <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.1/js/bootstrap.min.js"></script>
-<style>.carousel-inner .item img {
-    height: 520px;
-    width: 100%;
-
-}
-
-.carousel-indicators li {
-    border-color: black;
-}
-
-.carousel-indicators .active{
-    background-color: black !important;
-}
-
-.carousel-control:hover, .carousel-control {
-    background: transparent !important;
-    height: 520px;
-}
-
-.carousel-control span {
-    color: black;
-}
-
-@media only screen and (max-width: 767px) {
-    .carousel-inner .item img {
-        height: 300px;
-    }
-    .carousel-control:hover, .carousel-control {
-        height: 300px;
-    }
-}</style>
     <style>
 
 
@@ -1631,8 +1578,11 @@
 
         window.addEventListener('DOMContentLoaded', addGclid);
     </script>
-
-<script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.6.0/jquery.min.js" integrity="sha512-894YE6QWD5I59HgZOGReFYm4dnWc1Qt5NtvYSaNcOP+u1T9qYdvdihz0PPSiiqn/+/3e7Jo4EaG7TubfWGUrMQ==" crossorigin="anonymous" referrerpolicy="no-referrer"></script>
+<!-- Optional JavaScript -->
+    <!-- jQuery first, then Popper.js, then Bootstrap JS -->
+    <script src="https://code.jquery.com/jquery-3.2.1.slim.min.js" integrity="sha384-KJ3o2DKtIkvYIK3UENzmM7KCkRr/rE9/Qpg6aAZGJwFDMVNA/GpGFF93hXpG5KkN" crossorigin="anonymous"></script>
+    <script src="https://cdn.jsdelivr.net/npm/popper.js@1.12.9/dist/umd/popper.min.js" integrity="sha384-ApNbgh9B+Y1QKtv3Rn7W3mgPxhU9K/ScQsAP7hUibX39j7fakFPskvXusvfa0b4Q" crossorigin="anonymous"></script>
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@4.0.0/dist/js/bootstrap.min.js" integrity="sha384-JZR6Spejh4U02d8jOt6vLEHfe/JQGiRRSQQxSfFWpi1MquVdAyjUar5+76PVCmYl" crossorigin="anonymous"></script>
 
 <script src="https://cdnjs.cloudflare.com/ajax/libs/OwlCarousel2/2.3.4/owl.carousel.min.js" integrity="sha512-bPs7Ae6pVvhOSiIcyUClR7/q2OAsRiovw4vAkX+zJbw3ShAeeqezq50RIIcIURq7Oa20rW2n2q+fyXBNcU9lrw==" crossorigin="anonymous" referrerpolicy="no-referrer"></script>
 

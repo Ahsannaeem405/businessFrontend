@@ -377,7 +377,27 @@
 
 @section('content')
 
-
+<div id="carouselExampleControls" class="carousel slide mb-5" data-ride="carousel">
+    <div class="carousel-inner">
+      <div class="carousel-item active">
+        <img class="d-block w-100" src="https://www.adorama.com/alc/wp-content/uploads/2017/11/shutterstock_114802408.jpg" alt="First slide">
+      </div>
+      <div class="carousel-item">
+        <img class="d-block w-100" src="https://www.adorama.com/alc/wp-content/uploads/2017/11/shutterstock_114802408.jpg" alt="Second slide">
+      </div>
+      <div class="carousel-item">
+        <img class="d-block w-100" src="https://www.adorama.com/alc/wp-content/uploads/2017/11/shutterstock_114802408.jpg" alt="Third slide">
+      </div>
+    </div>
+    <a class="carousel-control-prev" href="#carouselExampleControls" role="button" data-slide="prev">
+      <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+      <span class="sr-only">Previous</span>
+    </a>
+    <a class="carousel-control-next" href="#carouselExampleControls" role="button" data-slide="next">
+      <span class="carousel-control-next-icon" aria-hidden="true"></span>
+      <span class="sr-only">Next</span>
+    </a>
+  </div>
         <div class="annual-report-layout">
             <div class="banner-section llc-page-banner">
                 <div class="container-fluid banner-area" style="padding-left: 0px;padding-right:0px;">
@@ -386,106 +406,7 @@
                             <div class="span12 widget-span widget-type-cell " style="" data-widget-type="cell"
                                 data-x="0" data-w="12">
 
-                                <div
-                                    class="row-fluid-wrapper row-depth-1 row-number-1 dnd-section DND_banner-row-0-force-full-width-section">
-                                    <div class="row-fluid ">
-                                        <div class="span12 widget-span widget-type-cell dnd-column" style=""
-                                            data-widget-type="cell" data-x="0" data-w="12">
 
-                                            <div class="row-fluid-wrapper row-depth-1 row-number-2 dnd-row">
-                                                <div class="row-fluid ">
-                                                    <div class="span12 widget-span widget-type-custom_widget dnd-module"
-                                                        style="" data-widget-type="custom_widget" data-x="0"
-                                                        data-w="12">
-                                                        <div id="hs_cos_wrapper_DND_banner-module-1"
-                                                            class="hs_cos_wrapper hs_cos_wrapper_widget hs_cos_wrapper_type_module"
-                                                            style="" data-hs-cos-general-type="widget"
-                                                            data-hs-cos-type="module">
-                                                            <div class="container-fluid" style="padding-left:0px;padding-right: 0px; ">
-
-                                                                <div id="myCarousel" class="carousel slide" data-ride="carousel" style="margin-bottom:20px;">
-                                                                    <!-- Indicators -->
-                                                                    <ol class="carousel-indicators">
-                                                                        <li data-target="#myCarousel" data-slide-to="0" class="active"></li>
-                                                                        <li data-target="#myCarousel" data-slide-to="1"></li>
-                                                                        <li data-target="#myCarousel" data-slide-to="2"></li>
-                                                                    </ol>
-
-                                                                    <!-- Wrapper for slides -->
-                                                                    <div class="carousel-inner">
-                                                                        <div class="item active">
-                                                                            <img src="https://www.adorama.com/alc/wp-content/uploads/2017/11/shutterstock_114802408.jpg"
-                                                                                alt="Los Angeles">
-                                                                        </div>
-
-                                                                        <div class="item">
-                                                                            <img src="https://img.freepik.com/free-photo/white-cloud-blue-sky-sea_74190-4488.jpg" alt="Chicago">
-                                                                        </div>
-
-                                                                        <div class="item">
-                                                                            <img src="https://media.istockphoto.com/photos/colorful-of-sky-with-clouds-in-the-evening-picture-id483033844?k=20&m=483033844&s=170667a&w=0&h=9BPQphuAhBqydPaz59h5skpBVhIdogJg3HV6Mw99bWc="
-                                                                                alt="New york">
-                                                                        </div>
-                                                                    </div>
-
-                                                                    <!-- Left and right controls -->
-                                                                    <a class="left carousel-control" href="#myCarousel" data-slide="prev">
-                                                                        <span class="glyphicon glyphicon-chevron-left"></span>
-                                                                        <span class="sr-only">Previous</span>
-                                                                    </a>
-                                                                    <a class="right carousel-control" href="#myCarousel" data-slide="next">
-                                                                        <span class="glyphicon glyphicon-chevron-right"></span>
-                                                                        <span class="sr-only">Next</span>
-                                                                    </a>
-                                                                </div>
-                                                            </div>
-
-
-
-                                                            <script>
-                                                                const entityStateList = ['alabama', 'alaska', 'arizona', 'arkansas',
-                                                                    'california', 'colorado', 'connecticut',
-                                                                    'delaware', 'florida', 'georgia', 'hawaii',
-                                                                    'idaho', 'illinois', 'indiana', 'iowa',
-                                                                    'kansas', 'kentucky',
-                                                                    'louisiana', 'maine', 'maryland', 'massachusetts',
-                                                                    'michigan', 'minnesota', 'mississippi', 'missouri',
-                                                                    'montana', 'nebraska', 'nevada', 'new-hampshire',
-                                                                    'new-jersey', 'new-mexico', 'new-york', 'north-carolina',
-                                                                    'north-dakota', 'ohio', 'oklahoma', 'oregon',
-                                                                    'pennsylvania', 'rhode-island', 'south-carolina',
-                                                                    'south-dakota', 'tennessee', 'texas',
-                                                                    'utah', 'vermont', 'virginia',
-                                                                    'washington', 'west-virginia', 'wisconsin',
-                                                                    'wyoming', 'washingtondc'
-                                                                ];
-                                                                let requestPath = '/manage-your-company/tax-id-ein';
-                                                                let path = requestPath.substring(1).split('../index.html')[0];
-
-                                                                entityStateList.forEach(function(state) {
-                                                                    let isLLCPage = state + '-llc';
-                                                                    let isCorporationPage = state + '-corporation';
-
-                                                                    if (path === isLLCPage) {
-                                                                        document.querySelector('.banner-rating-container').style.display = 'none';
-                                                                    }
-                                                                });
-                                                            </script>
-
-                                                        </div>
-
-                                                    </div>
-                                                    <!--end widget-span -->
-                                                </div>
-                                                <!--end row-->
-                                            </div>
-                                            <!--end row-wrapper -->
-
-                                        </div>
-                                        <!--end widget-span -->
-                                    </div>
-                                    <!--end row-->
-                                </div>
                                 <!--end row-wrapper -->
 
                                 <div class="row-fluid-wrapper row-depth-1 row-number-3 dnd-section">

@@ -29,4 +29,8 @@ Route::get('/why_chose', function () {
     return view('why-choose');
 });
 
+Route::get('/amendment', function () {
+    return view('amendment');
+});
+
 
