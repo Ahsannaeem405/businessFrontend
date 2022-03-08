@@ -172,7 +172,7 @@ transform: rotate(0deg);
                                                                             <a data-id="widget_1613735646530_1" class="active">
                                                                                 <div class="left-tab-pages__Icon"><svg xmlns="http://www.w3.org/2000/svg" width="32" height="32"><g fill="none" fill-rule="evenodd"><path fill="#E0F1FA" fill-rule="nonzero" d="M25.501 5.586v22.256a3.278 3.278 0 01-.334 1.463 4.342 4.342 0 01-1.652.323H10.227c-1.062 0-2.08-.383-2.831-1.065-.751-.683-1.173-1.608-1.173-2.573V4.238c-.002-.5.112-.996.335-1.454a4.257 4.257 0 011.578-.323h13.926c.938-.087 1.87.214 2.537.82.667.606.998 1.453.902 2.305z"></path><path stroke="#1D1D1B" stroke-linecap="round" stroke-linejoin="round" stroke-width="1.4" d="M27.164 4.015V25.93c.015 1.453-.913 2.777-2.363 3.372a4.21 4.21 0 01-1.641.325H9.84c-1.068-.002-2.091-.394-2.843-1.088-.751-.694-1.169-1.633-1.16-2.61V4.016c0-.504.118-1.002.344-1.462C6.807 1.215 8.248.35 9.841.355H23.16c2.209.006 3.998 1.64 4.004 3.66z"></path><g stroke="#1D1D1B" stroke-linecap="round" stroke-linejoin="round" stroke-width="1.4"><path d="M15.371 5.792v8.196M13.988 14.113h5.878M13.988 5.75h2.742m3.157 6.779v1.584"></path></g><path fill="#E0F1FA" d="M19.636 25.091h3.136v5.227h-3.136z"></path><path stroke="#1D1D1B" stroke-linecap="round" stroke-linejoin="round" stroke-width="1.4" d="M19.636 27.136v.937-.28 3.275l.747-.713.927-.882.392.429 1.071 1.158v-3.674 1.463m1.706-6.632c.17.03.31.157.363.33a.496.496 0 01-.114.487l-.204.208-.103.1-1.118 1.146.07.435.275 1.674a.46.46 0 01-.172.457.413.413 0 01-.468.019l-1.438-.79-.371-.208-1.771.971a.438.438 0 01-.463-.051.487.487 0 01-.177-.451l.34-2.056-1.28-1.286-.166-.174a.494.494 0 01-.115-.486.461.461 0 01.365-.325l1.918-.294h.038l.819-1.628.102-.214a.453.453 0 01.406-.263c.172 0 .329.102.406.263l.882 1.868 1.976.268zM9.182 19.864h4.37m-4.37 4.181h2.185"></path></g></svg></div>
                                                                                 <div class="left-tab-pages__Content-">
-                                                                                    <span>Limited Liability Company</span>
+                                                                                    <span>Lorem, ipsum dolor.</span>
                                                                                     <div class="left-tab-pages__Arrow-sc">
                                                                                         <svg width="12" height="11" xmlns="http://www.w3.org/2000/svg">
               <path d="M5.805.703L5.8.707a1 1 0 00-.003 1.416l2.379 2.379H.998a.998.998 0 000 1.996h7.179L5.798 8.877a1 1 0 00.003 1.416l.004.004a1 1 0 001.412-.003l4.078-4.088a1 1 0 000-1.412L7.217.706A1 1 0 005.805.703z" fill="#1D1D1D" fill-rule="nonzero"></path>
@@ -184,7 +184,7 @@ transform: rotate(0deg);
                                                                             <a data-id="widget_1613735646530_2">
                                                                                 <div class="left-tab-pages__Icon"><svg xmlns="http://www.w3.org/2000/svg" width="32" height="33"><g fill="none" fill-rule="evenodd"><path fill="#D5F3E8" fill-rule="nonzero" d="M16.1 3.14V31.5h-1.45V17.02h-1.91v-6.63h1.91V2.5h.82c.169 0 .33.068.45.188.117.12.183.283.18.452z"></path><path fill="#D5F3E8" fill-rule="nonzero" d="M13.43 12.3v4.58H4.27L.99 13.65l1.37-1.35z"></path><path stroke="#1D1D1B" stroke-linecap="round" stroke-linejoin="round" stroke-width="1.4" d="M17.68 2.9v28.9h-3.36V2.9c0-.928.752-1.68 1.68-1.68h0c.928 0 1.68.752 1.68 1.68zm-3.36 7.81v6.63H4.67a1.448 1.448 0 01-1-.42L.8 14.11l-.1-.09 3-2.9c.27-.258.627-.404 1-.41h9.62z"></path><path fill="#D5F3E8" fill-rule="nonzero" d="M18.35 5.01v4.57h9.17l3.28-3.22-1.38-1.35z"></path><path stroke="#1D1D1B" stroke-linecap="round" stroke-linejoin="round" stroke-width="1.4" d="M17.68 3.42v6.62h9.76c.309 0 .606-.118.83-.33l3-3-3-3c-.22-.22-.52-.341-.83-.34l-9.76.05zM11.3 31.8h9.57"></path></g></svg></div>
                                                                                 <div class="left-tab-pages__Content-">
-                                                                                    <span>S Corporation or C Corp</span>
+                                                                                    <span>Lorem, ipsum dolor.</span>
                                                                                     <div class="left-tab-pages__Arrow-sc">
                                                                                         <svg width="12" height="11" xmlns="http://www.w3.org/2000/svg">
               <path d="M5.805.703L5.8.707a1 1 0 00-.003 1.416l2.379 2.379H.998a.998.998 0 000 1.996h7.179L5.798 8.877a1 1 0 00.003 1.416l.004.004a1 1 0 001.412-.003l4.078-4.088a1 1 0 000-1.412L7.217.706A1 1 0 005.805.703z" fill="#1D1D1D" fill-rule="nonzero"></path>
@@ -196,7 +196,7 @@ transform: rotate(0deg);
                                                                             <a data-id="widget_1613735646530_3">
                                                                                 <div class="left-tab-pages__Icon"><svg xmlns="http://www.w3.org/2000/svg" width="32" height="32"><g fill="none" fill-rule="evenodd"><path fill="#F9F2D7" fill-rule="nonzero" d="M5.87 21.22l-1.95 4.66 5-1.65-6.98 7.71 9.78-4.87a4.14 4.14 0 00-5.85-5.85z"></path><path fill="#F9F2D7" fill-rule="nonzero" d="M12.05 21a4.079 4.079 0 011.13 3.73l-.27-.26-.76-.77-.42-.42-1.16-1.15-1-1L8.48 20H8.4l-.07-.09A4.119 4.119 0 0112.05 21z"></path><path fill="#F9F2D7" fill-rule="nonzero" d="M29.51 3.48l-.22 4.33.22 2.79-4.63 4.19s-.1.25-.41 1.14c-.7 2-1.86 5.7-1.81 7.73.05 2.03.48 4.13-.19 6.2a7.03 7.03 0 01-.47 1.07L14.11 23l-1.77-1.76-.29-.24-.69-.69L10 18.92l-8.91-9s.43-.33 1-.68A18.876 18.876 0 018 8.47a66.028 66.028 0 009.49-1.22l.51-.48 3.61-3.62.28.28-.06-.5 1-.05 1.5-.08 4.33-.22a.858.858 0 01.85.9z"></path><path stroke="#1D1D1B" stroke-linecap="round" stroke-linejoin="round" stroke-width="1.4" d="M30.71 9.69l-3.94 3.94h0l-2.29 2.28-6.92 6.93a2.58 2.58 0 01-3.44.18l-1.77-1.76-.3-.26-.69-.69L10 18.92h0a2.58 2.58 0 01.2-3.41l9-9h0l3.54-3.54.56-.56"></path><path stroke="#1D1D1B" stroke-linecap="round" stroke-linejoin="round" stroke-width="1.4" d="M26.77 13.63h0c-.14.36-2.39 6.36-2.32 9.17 0 2.12.47 4.13-.2 6.21-.384.945-.877 1.84-1.47 2.67l-.78-.75L14.11 23l-1.77-1.76m6.9-14.82h0L18 6.77h0a40.048 40.048 0 01-8.18 1.44c-2.12 0-4.13-.48-6.21.19-.545.2-1.065.461-1.55.78-.57.35-1 .68-1 .68l8.91 9h0l1.37 1.38m1.84 4.48a4.09 4.09 0 01-1.13 2.11l-.2.09h0L2.28 31.7 9.22 24l-5 1.65L6.2 21c.12-.118.246-.228.38-.33h0a3.914 3.914 0 011.73-.8h0a4.14 4.14 0 014.85 4.87l.02-.02zM30.94 9.46L27.42 6l-3.86-3.91 6.82-.35a.858.858 0 01.9.91l-.34 6.81z"></path></g></svg></div>
                                                                                 <div class="left-tab-pages__Content-">
-                                                                                    <span>The C Corporation</span>
+                                                                                    <span>Lorem, ipsum dolor.</span>
                                                                                     <div class="left-tab-pages__Arrow-sc">
                                                                                         <svg width="12" height="11" xmlns="http://www.w3.org/2000/svg">
               <path d="M5.805.703L5.8.707a1 1 0 00-.003 1.416l2.379 2.379H.998a.998.998 0 000 1.996h7.179L5.798 8.877a1 1 0 00.003 1.416l.004.004a1 1 0 001.412-.003l4.078-4.088a1 1 0 000-1.412L7.217.706A1 1 0 005.805.703z" fill="#1D1D1D" fill-rule="nonzero"></path>
@@ -208,7 +208,7 @@ transform: rotate(0deg);
                                                                             <a data-id="widget_1613735646530_4">
                                                                                 <div class="left-tab-pages__Icon"><svg xmlns="http://www.w3.org/2000/svg" width="32" height="32"><g fill="none" fill-rule="evenodd" transform="translate(8)"><path fill="#FCE7D0" fill-rule="nonzero" d="M14.5 7.3a.683.683 0 01-.11.13c-.67.7-3.43 3-4.8 4.15a.892.892 0 01-1.15 0c-1.25-1.05-4.18-3.51-4.8-4.15a4 4 0 01-.94-4.07 3.002 3.002 0 012.22-1A3.2 3.2 0 017.68 4a.57.57 0 001 0 3.198 3.198 0 012.76-1.71 3.35 3.35 0 013 2.31 3.93 3.93 0 01.06 2.7z"></path><path stroke="#1D1D1B" stroke-linecap="round" stroke-linejoin="round" stroke-width="1.4" d="M14.5 7.3a.683.683 0 01-.11.13c-.67.7-3.43 3-4.8 4.15a.892.892 0 01-1.15 0c-1.25-1.05-4.18-3.51-4.8-4.15a4 4 0 01-.94-4.07.88.88 0 01.05-.15 3.33 3.33 0 013-2.31 3.219 3.219 0 012.76 1.71.58.58 0 001 0A3.191 3.191 0 0112.27.9a3.34 3.34 0 013 2.31 3.998 3.998 0 01-.77 4.09z"></path><path fill="#FCE7D0" fill-rule="nonzero" d="M16.34 18.49v2.59h-1.19a.839.839 0 00-.82.67l-1.43 7.31A2.39 2.39 0 0110.56 31H4.22L1.87 20.62l-1.49-.48-.07-1v-1.51h15.17a.86.86 0 01.86.86z"></path><path stroke="#1D1D1B" stroke-linecap="round" stroke-linejoin="round" stroke-width="1.4" d="M16.13 20.17l-.05.21-.21 1L14 30.3a1.29 1.29 0 01-1.26 1H5.2a1.29 1.29 0 01-1.27-1L1.76 19.49"></path><rect width="17.94" height="3.45" x="0.05" y="16.03" stroke="#1D1D1B" stroke-linecap="round" stroke-linejoin="round" stroke-width="1.4" rx="0.75"></rect><path stroke="#1D1D1B" stroke-linecap="round" stroke-linejoin="round" stroke-width="1.4" d="M9.01 15.58V11.88"></path></g></svg></div>
                                                                                 <div class="left-tab-pages__Content-">
-                                                                                    <span>The Nonprofit Corporation</span>
+                                                                                    <span>Lorem, ipsum dolor.</span>
                                                                                     <div class="left-tab-pages__Arrow-sc">
                                                                                         <svg width="12" height="11" xmlns="http://www.w3.org/2000/svg">
               <path d="M5.805.703L5.8.707a1 1 0 00-.003 1.416l2.379 2.379H.998a.998.998 0 000 1.996h7.179L5.798 8.877a1 1 0 00.003 1.416l.004.004a1 1 0 001.412-.003l4.078-4.088a1 1 0 000-1.412L7.217.706A1 1 0 005.805.703z" fill="#1D1D1D" fill-rule="nonzero"></path>
@@ -220,7 +220,7 @@ transform: rotate(0deg);
                                                                             <a data-id="widget_1613735646530_5">
                                                                                 <div class="left-tab-pages__Icon"><svg xmlns="http://www.w3.org/2000/svg" width="32" height="33"><g fill="none" fill-rule="evenodd" transform="translate(4 .5)"><path fill="#E6D7EA" fill-rule="nonzero" d="M18.77 9.19a7.455 7.455 0 01-1.47 4.47 10.353 10.353 0 01-4.73 1.77A7.67 7.67 0 015 7.72C5 6 6.21 4.09 7.13 2.83a7.553 7.553 0 017.71-.28 7.552 7.552 0 013.93 6.64zm-6.72 11.07l-1.68 1.87L12 28.27H.84c0-2.58.67-6.32 2-8.3a12.247 12.247 0 018.08-3h.17l-1 1.3 1.96 1.99zm9.85 8.01h-8.36l1.6-6.14-1.68-1.87 1.93-2-.51-.66a12.23 12.23 0 018.05 9s0 .23.06.47a1.103 1.103 0 01-1.09 1.2z"></path><path stroke="#1D1D1B" stroke-linecap="round" stroke-linejoin="round" stroke-width="1.4" d="M11.21 28.07H2.42a2.07 2.07 0 01-2-2.51 12.27 12.27 0 0124 0 2.07 2.07 0 01-2 2.48h-8.14"></path><circle cx="12.57" cy="8.26" r="7.55" stroke="#1D1D1B" stroke-linecap="round" stroke-linejoin="round" stroke-width="1.4"></circle><path stroke="#1D1D1B" stroke-linecap="round" stroke-linejoin="round" stroke-width="1.4" d="M13.85 16.27l1.54 1.98-1.93 2.01 1.68 1.87-1.6 6.14-.79 3.02-.78-3.02-1.6-6.14 1.68-1.87-1.94-2.01 1.55-1.98z"></path></g></svg></div>
                                                                                 <div class="left-tab-pages__Content-">
-                                                                                    <span>Sole Proprietorships</span>
+                                                                                    <span>Lorem, ipsum dolor.</span>
                                                                                     <div class="left-tab-pages__Arrow-sc">
                                                                                         <svg width="12" height="11" xmlns="http://www.w3.org/2000/svg">
               <path d="M5.805.703L5.8.707a1 1 0 00-.003 1.416l2.379 2.379H.998a.998.998 0 000 1.996h7.179L5.798 8.877a1 1 0 00.003 1.416l.004.004a1 1 0 001.412-.003l4.078-4.088a1 1 0 000-1.412L7.217.706A1 1 0 005.805.703z" fill="#1D1D1D" fill-rule="nonzero"></path>
@@ -247,12 +247,11 @@ transform: rotate(0deg);
 
 
                                                                             <div class="ad_tabber_contents_item_rich_text" style="margin-top: 24px; margin-bottom: 32px;">
-                                                                                <h3 style="margin-bottom: 24px;">Different Types of Corporate Structures</h3>
-                                                                                <p style="margin-bottom: 48px;">You’ll learn about the four main types of business entity below — LLCs, S Corporations, C Corporations and nonprofits, so you can decide which will best meet your
-                                                                                    needs.
+                                                                                <h3 style="margin-bottom: 24px;">Lorem ipsum dolor sit amet.</h3>
+                                                                                <p style="margin-bottom: 48px;">Lorem ipsum dolor sit amet consectetur adipisicing elit. At qui neque cupiditate ratione similique corrupti minima. Quo temporibus doloremque adipisci.
                                                                                 </p>
-                                                                                <h3 style="margin-bottom: 24px;">Limited Liability Company (LLC)</h3>
-                                                                                <p style="margin-bottom: 40px;">The LLC is one of the most popular types of business entities. It’s ideally suited for smaller organizations and startups, for several reasons:</p>
+                                                                                <h3 style="margin-bottom: 24px;">Lorem ipsum dolor sit amet consectetur.</h3>
+                                                                                <p style="margin-bottom: 40px;">Lorem ipsum dolor sit amet consectetur adipisicing elit. Perferendis iure, delectus incidunt vero quasi eveniet.</p>
                                                                             </div>
 
 
@@ -275,12 +274,12 @@ transform: rotate(0deg);
                                                                                     <div class="boxed-color-box">
 
                                                                                         <ul>
-                                                                                            <li style="margin-bottom: 16px;">LLCs are fast and easy to setup.</li>
-                                                                                            <li style="margin-bottom: 16px;">LLCs have a simple business structure.</li>
-                                                                                            <li style="margin-bottom: 16px;">Forming an LLC is generally inexpensive.</li>
-                                                                                            <li style="margin-bottom: 16px;">Running an LLC is easier than running a C Corp or S Corp.</li>
-                                                                                            <li style="margin-bottom: 16px;">There are fewer rules, regulations and legal compliance issues for LLCs.</li>
-                                                                                            <li>LLCs are formed and regulated on a state level.</li>
+                                                                                            <li style="margin-bottom: 16px;">Lorem ipsum dolor sit amet consectetur adipisicing.</li>
+                                                                                            <li style="margin-bottom: 16px;">Lorem ipsum dolor sit amet consectetur adipisicing..</li>
+                                                                                            <li style="margin-bottom: 16px;">Lorem ipsum dolor sit amet consectetur adipisicing..</li>
+                                                                                            <li style="margin-bottom: 16px;">Lorem ipsum dolor sit amet consectetur adipisicing.</li>
+                                                                                            <li style="margin-bottom: 16px;">Lorem ipsum dolor sit amet consectetur adipisicing.</li>
+                                                                                            <li>Lorem ipsum dolor sit amet consectetur adipisicing.</li>
                                                                                         </ul>
 
                                                                                     </div>
@@ -303,7 +302,7 @@ transform: rotate(0deg);
 
 
                                                                             <div class="ad_tabber_contents_item_rich_text" style="margin-top: 0px; margin-bottom: 0px;">
-                                                                                <p style="margin-bottom: 48px;">The cost and policies governing an LLC do vary from state to state. Check out our <a style="font-weight: 900;" href="llc-state-information.html" rel="noopener">LLC State Information</a>                                                                                            resource for additional info on your state.</p>
+                                                                                <p style="margin-bottom: 48px;">Lorem ipsum dolor sit, amet consectetur adipisicing elit. Adipisci, aspernatur! <a style="font-weight: 900;" href="llc-state-information.html" rel="noopener">Lorem ipsum dolor sit.</a>                                                                                            Lorem ipsum dolor sit amet.</p>
                                                                                 <h3 style="margin-bottom: 24px;">LLC Limited Liability Protection</h3>
                                                                             </div>
 
@@ -365,14 +364,12 @@ transform: rotate(0deg);
 
 
                                                                             <div class="ad_tabber_contents_item_rich_text" style="margin-top: 42px; margin-bottom: 0px;">
-                                                                                <p style="margin-bottom: 48px;">Like C Corps and S Corps, LLCs provide their owners with limited liability protection. This means the business assets are owned separately by the LLC, not by the owners.
-                                                                                    Any liability the business has (e.g. monies owed, equipment, depreciation, lawsuits, etc.) are purely the liability of the business, and do not (generally) have
-                                                                                    any impact on the individual owner’s personal assets.</p>
-                                                                                <h3 style="margin-bottom: 24px;">LLC Taxes and Tax Returns</h3>
-                                                                                <p style="margin-bottom: 72px;">An LLC does not pay federal income tax itself. Instead, any net profit or loss is “passed through” to the personal tax returns of the owners or members. It is then
-                                                                                    taxed as personal income by the IRS. In this sense, taxation of an LLC is very similar to taxation of a sole-proprietorship or partnership.</p>
-                                                                                <h3 style="margin-bottom: 24px;">Types of Tax an LLC is Liable For</h3>
-                                                                                <p style="margin-bottom: 40px;">It’s important to note that an LLC will be liable for certain types of tax, for example:</p>
+                                                                                <p style="margin-bottom: 48px;">Lorem ipsum dolor sit, amet consectetur adipisicing elit. Animi nam vero laborum amet ad adipisci quo atque, quas culpa expedita. Incidunt minus repellendus sed quidem vitae ad veritatis dignissimos maiores?</p>
+                                                                                <h3 style="margin-bottom: 24px;">Lorem ipsum dolor sit amet.</h3>
+                                                                                <p style="margin-bottom: 72px;">Lorem ipsum dolor sit amet consectetur adipisicing elit. Officia quam beatae debitis aperiam assumenda accusamus deserunt quidem enim adipisci eveniet!
+                                                                                   Lorem ipsum dolor sit amet consectetur adipisicing elit. Obcaecati eveniet id esse dolore quia eaque aspernatur doloribus, officiis unde quisquam..</p>
+                                                                                <h3 style="margin-bottom: 24px;">Lorem ipsum dolor sit amet consectetur adipisicing elit. Corrupti, labore.</h3>
+                                                                                <p style="margin-bottom: 40px;">Lorem ipsum dolor sit amet, consectetur adipisicing elit. Quasi, inventore!</p>
                                                                             </div>
 
 
@@ -395,11 +392,11 @@ transform: rotate(0deg);
                                                                                     <div class="boxed-color-box">
 
                                                                                         <ul>
-                                                                                            <li style="margin-bottom: 16px;">Payroll tax on salaries paid to employees (but not to members or owners — they will pay self-employment tax on their personal tax returns).</li>
-                                                                                            <li style="margin-bottom: 16px;">Sales tax on goods purchased by and for the business.</li>
-                                                                                            <li style="margin-bottom: 16px;">Property taxes on owned business property.</li>
-                                                                                            <li style="margin-bottom: 16px;">In certain cases, other types of tax or tariffs may need to be paid by an LLC.</li>
-                                                                                            <li>Generally, these taxes can be subtracted as business expenses and do not flow through to individual owner’s tax returns.</li>
+                                                                                            <li style="margin-bottom: 16px;">Lorem ipsum dolor sit amet, consectetur adipisicing elit. Pariatur doloribus aspernatur in obcaecati sed eaque repellendus cum, mollitia ullam voluptate.</li>
+                                                                                            <li style="margin-bottom: 16px;">Lorem ipsum dolor sit amet consectetur adipisicing elit. Distinctio, quia!</li>
+                                                                                            <li style="margin-bottom: 16px;">Lorem ipsum dolor sit amet consectetur adipisicing elit. Omnis, qui..</li>
+                                                                                            <li style="margin-bottom: 16px;">Lorem ipsum dolor sit amet consectetur adipisicing elit. Doloremque, sequi.</li>
+                                                                                            <li>Lorem ipsum dolor sit amet consectetur adipisicing elit. Nihil obcaecati doloremque iste neque, vel deserunt et a impedit soluta quia.</li>
                                                                                         </ul>
 
                                                                                     </div>
@@ -425,9 +422,8 @@ transform: rotate(0deg);
 
 
                                                                             <div class="ad_tabber_contents_item_rich_text" style="margin-top: 24px; margin-bottom: 0px;">
-                                                                                <h3 style="margin-bottom: 24px;">Subchapter or Small Business Corporation (S Corporation or S Corp)</h3>
-                                                                                <p style="margin-bottom: 40px;">The S Corporation, or S Corp, is a business entity that was created and enacted into law by Congress in 1958. It was created to encourage small and family business
-                                                                                    creation, while eliminating the double taxation that conventional corporations (C Corps) had to pay. Key factors for S Corps include:</p>
+                                                                                <h3 style="margin-bottom: 24px;">Lorem ipsum dolor sit amet consectetur adipisicing elit. Deleniti, obcaecati?</h3>
+                                                                                <p style="margin-bottom: 40px;">Lorem ipsum dolor sit amet consectetur adipisicing elit. Facere aut porro iste eos possimus pariatur? Doloremque repellat tempore officia facere quam praesentium nesciunt ratione unde illo tempora. Tempore quae fugit culpa, sed blanditiis provident ea vel quia perspiciatis, suscipit dolore?</p>
                                                                             </div>
 
 
@@ -450,14 +446,14 @@ transform: rotate(0deg);
                                                                                     <div class="boxed-color-box">
 
                                                                                         <ul>
-                                                                                            <li style="margin-bottom: 16px;">S Corps are formed and regulated on a state level.</li>
-                                                                                            <li style="margin-bottom: 16px;">The liability of the S Corp and the personal liability of the owners and investors are separate.</li>
-                                                                                            <li style="margin-bottom: 16px;">The liability of the owners and investors in an S Corp is limited only to the value of their investment.</li>
-                                                                                            <li style="margin-bottom: 16px;">The owners of a corporation are not personally liable for business debts, claims, or other liabilities.</li>
-                                                                                            <li style="margin-bottom: 16px;">There are some more legalities, rules, and compliance for an S Corp than an LLC.</li>
-                                                                                            <li style="margin-bottom: 16px;">An S Corp has a slightly more complex corporate structure.</li>
-                                                                                            <li style="margin-bottom: 16px;">S Corps are limited to having 100 shareholders.</li>
-                                                                                            <li>Running an S Corp is simpler and easier than running a C Corp.</li>
+                                                                                            <li style="margin-bottom: 16px;">Lorem ipsum dolor sit amet consectetur..</li>
+                                                                                            <li style="margin-bottom: 16px;">Lorem ipsum dolor sit amet consectetur adipisicing elit. Cum, quod.</li>
+                                                                                            <li style="margin-bottom: 16px;">Lorem ipsum dolor sit amet, consectetur adipisicing elit. Commodi, dolorem!</li>
+                                                                                            <li style="margin-bottom: 16px;">Lorem ipsum dolor sit amet consectetur adipisicing elit. Necessitatibus, earum.</li>
+                                                                                            <li style="margin-bottom: 16px;">Lorem ipsum dolor sit amet, consectetur adipisicing elit. Eveniet, quod!</li>
+                                                                                            <li style="margin-bottom: 16px;">Lorem ipsum dolor, sit amet consectetur adipisicing elit. Adipisci, maiores.</li>
+                                                                                            <li style="margin-bottom: 16px;">Lorem ipsum dolor sit amet consectetur adipisicing elit. Tenetur, perferendis.</li>
+                                                                                            <li>Lorem ipsum dolor sit amet consectetur adipisicing elit. Corrupti, sed.</li>
                                                                                         </ul>
 
                                                                                     </div>
@@ -480,15 +476,14 @@ transform: rotate(0deg);
 
 
                                                                             <div class="ad_tabber_contents_item_rich_text" style="margin-top: 0px; margin-bottom: 0px;">
-                                                                                <p style="margin-bottom: 48px;">The cost and policies governing an LLC do vary from state to state. Check out our <a href="llc-state-information.html" rel="noopener">LLC State Information</a> resource
-                                                                                    for additional info on your state.</p>
-                                                                                <h3 style="margin-bottom: 24px;">S Corporation Taxes and Tax Returns</h3>
-                                                                                <p style="margin-bottom: 32px;">Unlike traditional C Corporations, the S Corporation does not need to pay corporate income tax. The S Corporation is a separate tax designation recognized by the IRS.
-                                                                                    Similar to the LLC, the net profit or loss generated by an S Corporation will flow through to the personal income tax returns of the shareholders and owners, and
-                                                                                    be subject to tax there.</p>
-                                                                                <p style="margin-bottom: 48px;">As with LLCs, an S Corp will have to pay certain other types of taxes like payroll, property and sales tax on business purchases.</p>
-                                                                                <h3 style="margin-bottom: 24px;">Forming an LLC but Paying Tax as an S Corp</h3>
-                                                                                <p style="margin-bottom: 40px;">When you create an LLC, you may have the option to choose to be treated as an S Corp for taxation purposes. This takes advantage of both business types, as follows:</p>
+                                                                                <p style="margin-bottom: 48px;">Lorem ipsum dolor, sit amet consectetur adipisicing elit. Modi possimus at veritatis velit tenetur dolores?<a href="llc-state-information.html" rel="noopener">Lorem, ipsum dolor.</a> Lorem, ipsum.
+                                                                                   Lorem ipsum dolor sit amet.</p>
+                                                                                <h3 style="margin-bottom: 24px;">Lorem ipsum dolor sit amet.</h3>
+                                                                                <p style="margin-bottom: 32px;">Lorem ipsum dolor sit amet consectetur adipisicing elit. Modi obcaecati consequuntur nostrum ea iusto excepturi architecto quis suscipit quas. Perferendis?
+                                                                                    Lorem ipsum dolor sit amet consectetur, adipisicing elit. Nulla, animi nesciunt nisi sint quos quo aperiam cumque tenetur ipsa veniam perspiciatis molestiae delectus corporis dolorem dolorum debitis quis veritatis magnam.</p>
+                                                                                <p style="margin-bottom: 48px;">Lorem ipsum dolor sit amet consectetur adipisicing elit. Dolores voluptates similique doloribus nisi reprehenderit hic, esse nostrum! Molestiae, facilis voluptatibus?</p>
+                                                                                <h3 style="margin-bottom: 24px;">Lorem ipsum dolor sit amet.</h3>
+                                                                                <p style="margin-bottom: 40px;">Lorem ipsum dolor sit amet consectetur adipisicing elit. Vitae dolores ipsam suscipit ipsa neque incidunt quisquam cupiditate possimus ipsum quas.</p>
                                                                             </div>
 
 
@@ -511,10 +506,10 @@ transform: rotate(0deg);
                                                                                     <div class="boxed-color-box">
 
                                                                                         <ul>
-                                                                                            <li style="margin-bottom: 16px;">The rules and regulations for running an LLC are less onerous than running an S Corp.</li>
-                                                                                            <li style="margin-bottom: 16px;">There may be tax advantages to being taxed as an S Corp, specifically around owners and members taking money out of the business.</li>
-                                                                                            <li>You can choose to pay yourself a “reasonable” salary and deduct monies above that as share dividend income. That additional income would not be subject
-                                                                                                to self-employment tax, although it would still be subject to personal income tax.</li>
+                                                                                            <li style="margin-bottom: 16px;">Lorem ipsum dolor sit, amet consectetur adipisicing elit. Deleniti optio soluta sequi aspernatur accusamus voluptatibus perspiciatis quos. Sed, odit vel?.</li>
+                                                                                            <li style="margin-bottom: 16px;">Lorem ipsum dolor sit amet consectetur adipisicing elit. Asperiores, mollitia exercitationem. Hic enim officia aliquid sit quis perferendis blanditiis minus?</li>
+                                                                                            <li>Lorem ipsum dolor sit amet consectetur adipisicing elit. Et ab ipsa molestias modi! Enim dolore, ullam unde deleniti voluptate reiciendis?
+                                                                                               Lorem ipsum dolor sit amet consectetur adipisicing elit. Placeat, quibusdam. Quaerat eius nulla sunt. Voluptatem nisi sapiente distinctio officia numquam?</li>
                                                                                         </ul>
 
                                                                                     </div>
@@ -537,8 +532,8 @@ transform: rotate(0deg);
 
 
                                                                             <div class="ad_tabber_contents_item_rich_text" style="margin-top: 0px; margin-bottom: 0px;">
-                                                                                <p style="margin: 0;">If you're interested in how to save additional money on taxes by filing your business as an S Corporation,<a style="font-weight: 900;" href="s-corporation-tax-calculator/index.html"
-                                                                                        target="_blank" rel="noopener"> check out our S Corporation Tax Calculator. </a></p>
+                                                                                <p style="margin: 0;">Lorem ipsum dolor sit amet consectetur adipisicing elit. Exercitationem, in?,<a style="font-weight: 900;" href="s-corporation-tax-calculator/index.html"
+                                                                                        target="_blank" rel="noopener">Lorem ipsum dolor sit amet, consectetur adipisicing elit. Natus, sint! </a></p>
                                                                             </div>
 
 
@@ -560,11 +555,9 @@ transform: rotate(0deg);
 
 
                                                                             <div class="ad_tabber_contents_item_rich_text" style="margin-top: 24px; margin-bottom: 0px;">
-                                                                                <h3 style="margin-bottom: 24px;">The C Corporation</h3>
-                                                                                <p style="margin-bottom: 40px;">A <a style="font-weight: 900;" href="what-is-c-corporation/index.html">C Corp, also known as a C Corporation</a>, is a type of business entity that is formed and regulated
-                                                                                    on a state level. It is created by filing “Articles of Incorporation” with the secretary of state within the state of incorporation. It is the most formal type
-                                                                                    of company and a corporate structure. The policies and cost of creating a C Corp vary from state to state. Factors affecting whether you would want to create a
-                                                                                    C Corp include:</p>
+                                                                                <h3 style="margin-bottom: 24px;">Lorem, ipsum dolor.</h3>
+                                                                                <p style="margin-bottom: 40px;">A <a style="font-weight: 900;" href="what-is-c-corporation/index.html">Lorem ipsum dolor sit amet, consectetur adipisicing elit. Soluta, fugit.
+                                                                                   Lorem ipsum dolor sit amet consectetur adipisicing elit. Quia eligendi veniam fugiat molestias quod, eius consequatur reiciendis similique explicabo voluptates dignissimos deserunt expedita reprehenderit sed quo nisi excepturi temporibus maiores sint optio at saepe non! Nisi, et, provident inventore id, dolorem voluptas pariatur a quasi ex laborum obcaecati dignissimos deserunt?</p>
                                                                             </div>
 
 
@@ -587,24 +580,24 @@ transform: rotate(0deg);
                                                                                     <div class="boxed-color-box">
 
                                                                                         <ul>
-                                                                                            <li style="margin-bottom: 16px;">A C Corp has limited liability, so the investors and owners of a C Corp are not generally liable for business debts and other liabilities.</li>
-                                                                                            <li style="margin-bottom: 16px;">Ownership of a C Corp is determined by who owns stock in the company.</li>
-                                                                                            <li style="margin-bottom: 16px;">A C Corporation must issue stock.</li>
-                                                                                            <li style="margin-bottom: 16px;">A C Corporation must hold an Annual General Meeting.</li>
-                                                                                            <li style="margin-bottom: 16px;">The ownership of a C Corp can be fluid and transferred, depending on who holds stock at a particular moment in time.</li>
-                                                                                            <li style="margin-bottom: 16px;">Stocks in a C Corp can be bought and sold on a public stock market if the C Corp holds an “Initial Public Offering (IPO)” where it makes it stocks available
+                                                                                            <li style="margin-bottom: 16px;">Lorem ipsum dolor sit amet, consectetur adipisicing elit. Doloremque in nam assumenda consequatur nobis, excepturi sed accusamus dolorem tempore molestiae!</li>
+                                                                                            <li style="margin-bottom: 16px;">Lorem ipsum dolor, sit amet consectetur adipisicing elit. Deserunt, labore.</li>
+                                                                                            <li style="margin-bottom: 16px;">Lorem ipsum dolor sit amet..</li>
+                                                                                            <li style="margin-bottom: 16px;">Lorem ipsum dolor sit, amet consectetur adipisicing elit. Delectus, optio..</li>
+                                                                                            <li style="margin-bottom: 16px;">Lorem ipsum dolor sit amet consectetur adipisicing elit. Ipsam, commodi explicabo deserunt accusamus delectus facilis.</li>
+                                                                                            <li style="margin-bottom: 16px;">Lorem ipsum dolor sit amet consectetur, adipisicing elit. Blanditiis cum dolorum officiis unde neque facere libero at laborum eveniet vero.
                                                                                                 to the public.</li>
-                                                                                            <li style="margin-bottom: 16px;">A C Corp is required to have a board of directors.</li>
-                                                                                            <li style="margin-bottom: 16px;">A C Corp can raise more finances by issuing stock.</li>
-                                                                                            <li style="margin-bottom: 16px;">A C Corp is required to meet numerous rules and regulations.</li>
-                                                                                            <li>Money earned by a C Corp may be subject to “double taxation.”</li>
+                                                                                            <li style="margin-bottom: 16px;">Lorem ipsum, dolor sit amet consectetur adipisicing elit. Cupiditate, nulla.</li>
+                                                                                            <li style="margin-bottom: 16px;">Lorem ipsum, dolor sit amet consectetur adipisicing elit. Cupiditate, nulla.</li>
+                                                                                            <li style="margin-bottom: 16px;">Lorem ipsum, dolor sit amet consectetur adipisicing elit. Cupiditate, nulla.</li>
+                                                                                            <li>Lorem ipsum, dolor sit amet consectetur adipisicing elit. Cupiditate, nulla.</li>
                                                                                         </ul>
 
                                                                                     </div>
                                                                                 </div>
 
                                                                             </div>
-
+ 
 
 
                                                                         </div>
@@ -620,16 +613,15 @@ transform: rotate(0deg);
 
 
                                                                             <div class="ad_tabber_contents_item_rich_text" style="margin-top: 0px; margin-bottom: 0px;">
-                                                                                <h3 style="margin-bottom: 24px;">How Taxes Work In A C Corp</h3>
-                                                                                <p style="margin-bottom: 48px;">Unlike the the Limited Liability Company and the S Corporation, a corporation is required to file a corporate tax return and pay corporation taxes on any profits.
-                                                                                    When those taxes are paid to shareholders as dividends, they will also be subjected to taxation on that individual’s tax return. This is known as “double taxation.”</p>
-                                                                                <h3 style="margin-bottom: 24px;">C-Corporation Tax Rates</h3>
-                                                                                <p style="margin-bottom: 24px;">C-Corporation tax rates are as follows:</p>
+                                                                                <h3 style="margin-bottom: 24px;">Lorem ipsum dolor sit amet.</h3>
+                                                                                <p style="margin-bottom: 48px;">Lorem ipsum dolor, sit amet consectetur adipisicing elit. Ea culpa at quaerat ipsa eveniet iusto, quis, repudiandae dolorem quo repellat itaque. Mollitia dignissimos dicta molestias nihil obcaecati deserunt in voluptate.'</p>
+                                                                                <h3 style="margin-bottom: 24px;">Lorem ipsum dolor sit amet.</h3>
+                                                                                <p style="margin-bottom: 24px;">Lorem ipsum dolor sit amet.</p>
                                                                                 <table class="taxes-c-corp-table" style="width: 100%;" data-table="two-col">
                                                                                     <tbody>
                                                                                         <tr>
                                                                                             <td>
-                                                                                                <p style="margin: 0;">Profit up to $50,000</p>
+                                                                                                <p style="margin: 0;">Lorem ipsum dolor sit amet.</p>
                                                                                             </td>
                                                                                             <td>
                                                                                                 <p style="margin: 0;"><mark>15%</mark></p>
@@ -714,20 +706,17 @@ transform: rotate(0deg);
 
 
                                                                             <div class="ad_tabber_contents_item_rich_text" style="margin-top: 24px; margin-bottom: 0px;">
-                                                                                <h3 style="margin-bottom: 24px;">The Nonprofit Corporation</h3>
-                                                                                <p style="margin-bottom: 32px;">A <a href="what-is-non-profit-corporation/index.html">Nonprofit Corporation</a> is a type of corporation that donates any revenues generated to achieve a specific
-                                                                                    goal that is of public benefit. Nonprofit corporations are allowed to create profits, however those profits must be used to preserve the existence and expansion
-                                                                                    of the corporation.</p>
-                                                                                <p style="margin-bottom: 48px;">In the United States, a nonprofit corporation is formed by filing articles of incorporation in the state in which it will operate. Incorporating the nonprofit creates
-                                                                                    a legal entity and enables the organization to be treated as a corporation by law, granting it the same rights and privileges afforded to for-profit corporations.</p>
-                                                                                <h3 style="margin-bottom: 24px;">How Taxes Work In A Nonprofit</h3>
-                                                                                <p style="margin-bottom: 24px;">Unlike the the Limited Liability Company and the S Corporation, a corporation is required to file a corporate tax return and pay corporation taxes on any profits.
-                                                                                    When those taxes are paid to shareholders as dividends, they will also be subjected to taxation on that individual’s tax return. This is known as “double taxation.”</p>
+                                                                                <h3 style="margin-bottom: 24px;">Lorem ipsum dolor sit amet.</h3>
+                                                                                <p style="margin-bottom: 32px;">A <a href="what-is-non-profit-corporation/index.html">Lorem ipsum dolor sit.</a> Lorem, ipsum dolor sit amet consectetur adipisicing elit. Numquam fugit vitae blanditiis quidem recusandae? Ipsum unde, dolore adipisci optio magni quisquam ut dicta quaerat voluptate suscipit deserunt dolorem libero quae aperiam ex nesciunt eligendi? Corrupti maiores provident earum itaque dolore?</p>
+                                                                                <p style="margin-bottom: 48px;">Lorem ipsum dolor sit amet consectetur, adipisicing elit. Molestias repellendus nisi ad beatae possimus, dicta deserunt accusantium officiis enim eum sapiente quo blanditiis iste vel voluptatem voluptatum maiores quasi facilis repellat sit dolor consectetur. Iusto qui quasi tenetur, excepturi similique sed dolores sapiente sunt dolore recusandae iste perspiciatis dolorem officiis.</p>
+                                                                                <h3 style="margin-bottom: 24px;">Lorem ipsum dolor sit amet.</h3>
+                                                                                <p style="margin-bottom: 24px;">Lorem ipsum, dolor sit amet consectetur adipisicing elit. Amet earum tempore facilis error rem impedit dolorum dolorem quae sunt inventore.
+                                                                                   Lorem ipsum dolor sit amet consectetur, adipisicing elit. Ex expedita in, distinctio facere excepturi cupiditate veniam blanditiis quasi, explicabo, culpa qui laudantium quod omnis eius aliquid itaque reiciendis dolorem. Eum.</p>
                                                                                 <table class="taxes-nonprofit-table" style="width: 100%;" data-table="three-col">
                                                                                     <tbody>
                                                                                         <tr>
                                                                                             <td>
-                                                                                                <p style="margin: 0;">Fedaral tax</p>
+                                                                                                <p style="margin: 0;">Lorem, ipsum.</p>
                                                                                             </td>
                                                                                             <td>
                                                                                                 <hr>
@@ -736,7 +725,7 @@ transform: rotate(0deg);
                                                                                         </tr>
                                                                                         <tr>
                                                                                             <td>
-                                                                                                <p style="margin: 0;">Sales tax</p>
+                                                                                                <p style="margin: 0;">Lorem, ipsum.</p>
                                                                                             </td>
                                                                                             <td>
                                                                                                 <hr>
@@ -745,7 +734,7 @@ transform: rotate(0deg);
                                                                                         </tr>
                                                                                         <tr>
                                                                                             <td>
-                                                                                                <p style="margin: 0;">Property tax</p>
+                                                                                                <p style="margin: 0;">Lorem, ipsum.</p>
                                                                                             </td>
                                                                                             <td>
                                                                                                 <hr>
@@ -754,7 +743,7 @@ transform: rotate(0deg);
                                                                                         </tr>
                                                                                         <tr>
                                                                                             <td>
-                                                                                                <p style="margin: 0;">Payroll tax</p>
+                                                                                                <p style="margin: 0;">Lorem, ipsum.</p>
                                                                                             </td>
                                                                                             <td><img alt="Check" src="hubfs/Incfile_February_2021/images/fill_checklist.svg"></td>
                                                                                             <td>
@@ -763,7 +752,7 @@ transform: rotate(0deg);
                                                                                         </tr>
                                                                                         <tr>
                                                                                             <td>
-                                                                                                <p style="margin: 0;">Taxes on income unrelated to the main purpose</p>
+                                                                                                <p style="margin: 0;">Lorem ipsum dolor sit amet.</p>
                                                                                             </td>
                                                                                             <td><img alt="Check" src="hubfs/Incfile_February_2021/images/fill_checklist.svg"></td>
                                                                                             <td>
@@ -793,13 +782,9 @@ transform: rotate(0deg);
 
 
                                                                             <div class="ad_tabber_contents_item_rich_text" style="margin-top: 24px; margin-bottom: 0px;">
-                                                                                <h3 style="margin-bottom: 24px;">A Note on Sole Proprietorships and Partnerships</h3>
-                                                                                <p style="margin-bottom: 32px;">Before closing, a word on sole-proprietorships and partnerships: although these may not be “formal” business entities, some people may choose to complete work as a
-                                                                                    sole proprietor or partner. In these cases, there’s generally no separate business entity — the business and the proprietor (or partnership) are effectively one
-                                                                                    and the same. This means all income, expenses and other financial matters would be reported on an individual’s personal tax return, and they’d pay tax accordingly.
-                                                                                    It also means there’s no separation for areas like personal liability.</p>
-                                                                                <p style="margin-bottom: 0;">We always recommend setting up a formal business entity — it keeps everything neater, removes personal liability for your business, and may have several tax advantages.
-                                                                                    Incorporate your business today using <a style="font-weight: 900;" href="https://orders.incfile.com/form-order-now.php" rel="noopener" target="_blank" targrt="_blank">Incfile's three easy steps to online business formation.</a></p>
+                                                                                <h3 style="margin-bottom: 24px;">Lorem ipsum dolor sit amet.</h3>
+                                                                                <p style="margin-bottom: 32px;">Lorem ipsum dolor sit amet consectetur adipisicing elit. Delectus libero architecto nesciunt. Eum aut vero voluptatem veniam fugit esse necessitatibus iusto magni labore ipsa dignissimos aliquid, minus assumenda, cumque doloremque doloribus perferendis saepe exercitationem odio nostrum dolorem optio velit consequatur ipsum. Eum at neque quas minima natus nulla beatae quod! Dolore, ea. Minima perspiciatis veritatis repellendus dolore natus, officiis voluptatem.</p>
+                                                                                <p style="margin-bottom: 0;">Lorem, ipsum dolor sit amet consectetur adipisicing elit. Similique nulla tempore corporis ut quaerat earum voluptatibus, dolor corrupti sed nesciunt facere est veniam illo neque voluptas cum magnam minima iusto doloremque optio autem odio consequuntur amet molestias. Autem, consequuntur architecto. <a style="font-weight: 900;" href="#" rel="noopener" target="_blank" targrt="_blank">Incfile's three easy steps to online business formation.</a></p>
                                                                             </div>
 
 
@@ -869,7 +854,7 @@ transform: rotate(0deg);
                                                         <div class="page-center">
                                                             <div class="content-center__Wrapper">
                                                                 <div class="content-center__Content">
-                                                                    <h2 class="heading__HeadingWrapper">Business Structure Comparison Chart</h2>
+                                                                    <h2 class="heading__HeadingWrapper">Lorem ipsum dolor sit amet.</h2>
 
                                                                 </div>
                                                             </div>
@@ -886,19 +871,19 @@ transform: rotate(0deg);
                                                                     </div>
                                                                     <div class="white-box__Wrapper">
                                                                         <div class="grid-table-row__Cell">
-                                                                            <span class="span-as-heading__HeadingWrapper-sc">Entity Type</span>
+                                                                            <span class="span-as-heading__HeadingWrapper-sc">Lorem, ipsum dolor.</span>
                                                                         </div>
                                                                         <div class="grid-table-row__Cell">
-                                                                            <span class="span-as-heading__HeadingWrapper-sc">LLC</span>
+                                                                            <span class="span-as-heading__HeadingWrapper-sc">lorem</span>
                                                                         </div>
                                                                         <div class="grid-table-row__Cell">
-                                                                            <span class="span-as-heading__HeadingWrapper-sc">C-Corp</span>
+                                                                            <span class="span-as-heading__HeadingWrapper-sc">lorem</span>
                                                                         </div>
                                                                         <div class="grid-table-row__Cell">
-                                                                            <span class="span-as-heading__HeadingWrapper-sc">S-Corp</span>
+                                                                            <span class="span-as-heading__HeadingWrapper-sc">loerm</span>
                                                                         </div>
                                                                         <div class="grid-table-row__Cell">
-                                                                            <span class="span-as-heading__HeadingWrapper-sc">Non-Profit</span>
+                                                                            <span class="span-as-heading__HeadingWrapper-sc">lorem</span>
                                                                         </div>
                                                                     </div>
                                                                     <div class="comparison-chart-table__TabsWrapper ">
@@ -906,7 +891,7 @@ transform: rotate(0deg);
                                                                         <div class="comparison-chart-table__TabBox  active">
 
                                                                             <div class="comparison-chart-table__Separator">
-                                                                                <span>Protection</span>
+                                                                                <span>lorem</span>
                                                                             </div>
 
                                                                             <button class="comparison-chart-table__Button" data-id="widget_1615203080926-protection1">
@@ -921,7 +906,7 @@ transform: rotate(0deg);
         <div class="comparison-chart-table__Content">
           <div class="white-box__Wrappergrid-table-row">
             <div class="grid-table-row__Cell">
-              <p class="paragraph__StyledParagraph">Limited Liability Protection</p>
+              <p class="paragraph__StyledParagraph">Lorem ipsum dolor sit amet.</p>
             </div>
             <div class="grid-table-row__Cell">
 
@@ -950,20 +935,20 @@ transform: rotate(0deg);
                                                                                 <div class="comparison-chart-table__PanelWrapper">
                                                                                     <div class="comparison-chart-table__Grid-sc">
                                                                                         <div class="comparison-chart-table__Column">
-                                                                                            <p class="p-to-heading__HeadingWrapper">LLC</p>
-                                                                                            <p class="paragraph__StyledParagraph">LLCs provide personal asset protection, which shields you from being personally liable for business debts.</p>
+                                                                                            <p class="p-to-heading__HeadingWrapper">lorem</p>
+                                                                                            <p class="paragraph__StyledParagraph">Lorem ipsum dolor sit amet consectetur, adipisicing elit. Aperiam, quia?</p>
                                                                                         </div>
                                                                                         <div class="comparison-chart-table__Column">
-                                                                                            <p class="p-to-heading__HeadingWrapper">Corporation</p>
-                                                                                            <p class="paragraph__StyledParagraph">C Corps provide personal asset protection, which shields you from being personally liable for business debts.</p>
+                                                                                            <p class="p-to-heading__HeadingWrapper">lorem</p>
+                                                                                            <p class="paragraph__StyledParagraph">Lorem, ipsum dolor sit amet consectetur adipisicing elit. Autem, saepe!.</p>
                                                                                         </div>
                                                                                         <div class="comparison-chart-table__Column">
-                                                                                            <p class="p-to-heading__HeadingWrapper">S-Corporation</p>
-                                                                                            <p class="paragraph__StyledParagraph">S Corps provide personal asset protection, which shields you from being personally liable for business debts.</p>
+                                                                                            <p class="p-to-heading__HeadingWrapper">lorem</p>
+                                                                                            <p class="paragraph__StyledParagraph">Lorem ipsum dolor sit amet consectetur adipisicing elit. Magni, ea!</p>
                                                                                         </div>
                                                                                         <div class="comparison-chart-table__Column">
-                                                                                            <p class="p-to-heading__HeadingWrapper">Nonprofit</p>
-                                                                                            <p class="paragraph__StyledParagraph">Nonprofits provide personal asset protection, which shields you from being personally liable for business debts.</p>
+                                                                                            <p class="p-to-heading__HeadingWrapper">lorem</p>
+                                                                                            <p class="paragraph__StyledParagraph">Lorem ipsum dolor sit amet consectetur adipisicing elit. Sequi, ducimus.</p>
                                                                                         </div>
                                                                                     </div>
                                                                                 </div>
@@ -973,7 +958,7 @@ transform: rotate(0deg);
                                                                         <div class="comparison-chart-table__TabBox ">
 
                                                                             <div class="comparison-chart-table__Separator">
-                                                                                <span>STATE FILING FEES</span>
+                                                                                <span>Lorem, ipsum dolor.</span>
                                                                             </div>
 
                                                                             <button class="comparison-chart-table__Button" data-id="widget_1615203080926-statefilingfees2">
@@ -988,7 +973,7 @@ transform: rotate(0deg);
         <div class="comparison-chart-table__Content">
           <div class="white-box__Wrappergrid-table-row">
             <div class="grid-table-row__Cell">
-              <p class="paragraph__StyledParagraph">State Formation Fees</p>
+              <p class="paragraph__StyledParagraph">Lorem, ipsum dolor.</p>
             </div>
             <div class="grid-table-row__Cell">
 
@@ -1017,20 +1002,20 @@ transform: rotate(0deg);
                                                                                 <div class="comparison-chart-table__PanelWrapper">
                                                                                     <div class="comparison-chart-table__Grid-sc">
                                                                                         <div class="comparison-chart-table__Column">
-                                                                                            <p class="p-to-heading__HeadingWrapper">LLC</p>
-                                                                                            <p class="paragraph__StyledParagraph">LLCs are required to pay formation fees to the state. Fees will vary based on the state of incorporation.</p>
+                                                                                            <p class="p-to-heading__HeadingWrapper">lorem</p>
+                                                                                            <p class="paragraph__StyledParagraph">Lorem ipsum dolor sit amet consectetur, adipisicing elit. Commodi, voluptas!</p>
                                                                                         </div>
                                                                                         <div class="comparison-chart-table__Column">
-                                                                                            <p class="p-to-heading__HeadingWrapper">Corporation</p>
-                                                                                            <p class="paragraph__StyledParagraph">C Corps are required to pay formation fees to the state. Fees will vary based on the state of incorporation.</p>
+                                                                                            <p class="p-to-heading__HeadingWrapper">lorem</p>
+                                                                                            <p class="paragraph__StyledParagraph">Lorem ipsum dolor sit amet consectetur adipisicing elit. Culpa, accusamus!</p>
                                                                                         </div>
                                                                                         <div class="comparison-chart-table__Column">
-                                                                                            <p class="p-to-heading__HeadingWrapper">S-Corporation</p>
-                                                                                            <p class="paragraph__StyledParagraph">S Corps are required to pay formation fees to the state. Fees will vary based on the state of incorporation.</p>
+                                                                                            <p class="p-to-heading__HeadingWrapper">lorem</p>
+                                                                                            <p class="paragraph__StyledParagraph">Lorem ipsum dolor sit amet consectetur adipisicing elit. Facilis, rem!.</p>
                                                                                         </div>
                                                                                         <div class="comparison-chart-table__Column">
-                                                                                            <p class="p-to-heading__HeadingWrapper">Nonprofit</p>
-                                                                                            <p class="paragraph__StyledParagraph">Nonprofits are required to pay formation fees to the state. Fees will vary based on the state of incorporation.</p>
+                                                                                            <p class="p-to-heading__HeadingWrapper">lorem</p>
+                                                                                            <p class="paragraph__StyledParagraph">Lorem ipsum dolor sit amet consectetur adipisicing elit. Adipisci, minus..</p>
                                                                                         </div>
                                                                                     </div>
                                                                                 </div>
@@ -1051,7 +1036,7 @@ transform: rotate(0deg);
         <div class="comparison-chart-table__Content">
           <div class="white-box__Wrappergrid-table-row">
             <div class="grid-table-row__Cell">
-              <p class="paragraph__StyledParagraph">Ongoing Compliance Fees</p>
+              <p class="paragraph__StyledParagraph">Lorem ipsum dolor sit amet.</p>
             </div>
             <div class="grid-table-row__Cell">
 
@@ -1080,20 +1065,20 @@ transform: rotate(0deg);
                                                                                 <div class="comparison-chart-table__PanelWrapper">
                                                                                     <div class="comparison-chart-table__Grid-sc">
                                                                                         <div class="comparison-chart-table__Column">
-                                                                                            <p class="p-to-heading__HeadingWrapper">LLC</p>
-                                                                                            <p class="paragraph__StyledParagraph">Depending on the state of incorporation, reports and fees may be required.</p>
+                                                                                            <p class="p-to-heading__HeadingWrapper">lorem</p>
+                                                                                            <p class="paragraph__StyledParagraph">Lorem ipsum dolor sit amet consectetur adipisicing elit. Labore, minima..</p>
                                                                                         </div>
                                                                                         <div class="comparison-chart-table__Column">
-                                                                                            <p class="p-to-heading__HeadingWrapper">Corporation</p>
-                                                                                            <p class="paragraph__StyledParagraph">An annual report and franchise fees are generally due each year along with other reports and fees, which varies depending on the state of incorporation.</p>
+                                                                                            <p class="p-to-heading__HeadingWrapper">lorem</p>
+                                                                                            <p class="paragraph__StyledParagraph">Lorem ipsum dolor sit amet, consectetur adipisicing elit. Facilis, dolorum.</p>
                                                                                         </div>
                                                                                         <div class="comparison-chart-table__Column">
-                                                                                            <p class="p-to-heading__HeadingWrapper">S-Corporation</p>
-                                                                                            <p class="paragraph__StyledParagraph">An annual report and franchise fees are generally due each year along with other reports and fees, which varies depending on the state of incorporation.</p>
+                                                                                            <p class="p-to-heading__HeadingWrapper">lorem</p>
+                                                                                            <p class="paragraph__StyledParagraph">Lorem ipsum dolor sit amet consectetur, adipisicing elit. Cupiditate, corporis!.</p>
                                                                                         </div>
                                                                                         <div class="comparison-chart-table__Column">
-                                                                                            <p class="p-to-heading__HeadingWrapper">Nonprofit</p>
-                                                                                            <p class="paragraph__StyledParagraph">For Nonprofits this varies from state to state.</p>
+                                                                                            <p class="p-to-heading__HeadingWrapper">lorem</p>
+                                                                                            <p class="paragraph__StyledParagraph">Lorem ipsum, dolor sit amet consectetur adipisicing elit. Dignissimos, pariatur.</p>
                                                                                         </div>
                                                                                     </div>
                                                                                 </div>
@@ -1103,7 +1088,7 @@ transform: rotate(0deg);
                                                                         <div class="comparison-chart-table__TabBox ">
 
                                                                             <div class="comparison-chart-table__Separator">
-                                                                                <span>MANAGING YOUR BUSINESS FEES</span>
+                                                                                <span>Lorem, ipsum dolor.</span>
                                                                             </div>
 
                                                                             <button class="comparison-chart-table__Button" data-id="widget_1615203080926-managingyourbusinessfees4">
@@ -1118,7 +1103,7 @@ transform: rotate(0deg);
         <div class="comparison-chart-table__Content">
           <div class="white-box__Wrappergrid-table-row">
             <div class="grid-table-row__Cell">
-              <p class="paragraph__StyledParagraph">Flexible Management Structure</p>
+              <p class="paragraph__StyledParagraph">Lorem ipsum dolor sit amet.</p>
             </div>
             <div class="grid-table-row__Cell">
 
@@ -1147,20 +1132,20 @@ transform: rotate(0deg);
                                                                                 <div class="comparison-chart-table__PanelWrapper">
                                                                                     <div class="comparison-chart-table__Grid-sc">
                                                                                         <div class="comparison-chart-table__Column">
-                                                                                            <p class="p-to-heading__HeadingWrapper">LLC</p>
-                                                                                            <p class="paragraph__StyledParagraph">LLCs must be member or manager managed according to the terms of the operating agreement.</p>
+                                                                                            <p class="p-to-heading__HeadingWrapper">loreem</p>
+                                                                                            <p class="paragraph__StyledParagraph">Lorem ipsum dolor sit amet consectetur adipisicing elit. Eaque, nesciunt.</p>
                                                                                         </div>
                                                                                         <div class="comparison-chart-table__Column">
-                                                                                            <p class="p-to-heading__HeadingWrapper">Corporation</p>
-                                                                                            <p class="paragraph__StyledParagraph">C Corps are required to have shareholder elected directors who oversee and elect officers to run the day-to-day operations of the company.</p>
+                                                                                            <p class="p-to-heading__HeadingWrapper">lorem</p>
+                                                                                            <p class="paragraph__StyledParagraph">Lorem ipsum dolor sit amet consectetur adipisicing elit. Esse, eius.</p>
                                                                                         </div>
                                                                                         <div class="comparison-chart-table__Column">
-                                                                                            <p class="p-to-heading__HeadingWrapper">S-Corporation</p>
-                                                                                            <p class="paragraph__StyledParagraph">S Corps are required to have shareholder elected directors who oversee and elect officers to run the day-to-day operations of the company.</p>
+                                                                                            <p class="p-to-heading__HeadingWrapper">lorem</p>
+                                                                                            <p class="paragraph__StyledParagraph">Lorem ipsum dolor sit amet consectetur adipisicing elit. Unde, corrupti..</p>
                                                                                         </div>
                                                                                         <div class="comparison-chart-table__Column">
-                                                                                            <p class="p-to-heading__HeadingWrapper">Nonprofit</p>
-                                                                                            <p class="paragraph__StyledParagraph">Nonprofits are managed by their board of directors following the regulations set forth in their Bylaws.</p>
+                                                                                            <p class="p-to-heading__HeadingWrapper">lorem</p>
+                                                                                            <p class="paragraph__StyledParagraph">Lorem ipsum dolor sit, amet consectetur adipisicing elit. Porro, ad?</p>
                                                                                         </div>
                                                                                     </div>
                                                                                 </div>
@@ -1181,11 +1166,11 @@ transform: rotate(0deg);
         <div class="comparison-chart-table__Content">
           <div class="white-box__Wrappergrid-table-row">
             <div class="grid-table-row__Cell">
-              <p class="paragraph__StyledParagraph">Adding/Transferring Ownership</p>
+              <p class="paragraph__StyledParagraph">Lorem, ipsum dolor.</p>
             </div>
             <div class="grid-table-row__Cell">
 
-              <p class="paragraph__StyledParagraph">Varies</p>
+              <p class="paragraph__StyledParagraph">lorem</p>
 
             </div>
             <div class="grid-table-row__Cell">
@@ -1210,20 +1195,20 @@ transform: rotate(0deg);
                                                                                 <div class="comparison-chart-table__PanelWrapper">
                                                                                     <div class="comparison-chart-table__Grid-sc">
                                                                                         <div class="comparison-chart-table__Column">
-                                                                                            <p class="p-to-heading__HeadingWrapper">LLC</p>
-                                                                                            <p class="paragraph__StyledParagraph">Changes in ownership of an LLC are dependent on the terms of the operating agreement.</p>
+                                                                                            <p class="p-to-heading__HeadingWrapper">lorem</p>
+                                                                                            <p class="paragraph__StyledParagraph">Lorem ipsum dolor sit amet consectetur adipisicing elit. Eligendi, laborum.</p>
                                                                                         </div>
                                                                                         <div class="comparison-chart-table__Column">
-                                                                                            <p class="p-to-heading__HeadingWrapper">Corporation</p>
-                                                                                            <p class="paragraph__StyledParagraph">Ownership changes in a C Corp are easily made through the sell of stock to new or existing shareholders.</p>
+                                                                                            <p class="p-to-heading__HeadingWrapper">lorem</p>
+                                                                                            <p class="paragraph__StyledParagraph">Lorem ipsum dolor sit amet consectetur adipisicing elit. Velit, ratione!</p>
                                                                                         </div>
                                                                                         <div class="comparison-chart-table__Column">
-                                                                                            <p class="p-to-heading__HeadingWrapper">S-Corporation</p>
-                                                                                            <p class="paragraph__StyledParagraph">Ownership changes in an S Corp are easily made through the sell of stock to new or existing shareholders.</p>
+                                                                                            <p class="p-to-heading__HeadingWrapper">lorem</p>
+                                                                                            <p class="paragraph__StyledParagraph">Lorem ipsum dolor, sit amet consectetur adipisicing elit. Ipsum, officia.</p>
                                                                                         </div>
                                                                                         <div class="comparison-chart-table__Column">
-                                                                                            <p class="p-to-heading__HeadingWrapper">Nonprofit</p>
-                                                                                            <p class="paragraph__StyledParagraph">Nonprofits have no owners.</p>
+                                                                                            <p class="p-to-heading__HeadingWrapper">lorem</p>
+                                                                                            <p class="paragraph__StyledParagraph">Lorem ipsum dolor sit..</p>
                                                                                         </div>
                                                                                     </div>
                                                                                 </div>
@@ -1244,7 +1229,7 @@ transform: rotate(0deg);
         <div class="comparison-chart-table__Content">
           <div class="white-box__Wrappergrid-table-row">
             <div class="grid-table-row__Cell">
-              <p class="paragraph__StyledParagraph">Ongoing Requirements</p>
+              <p class="paragraph__StyledParagraph">Lorem, ipsum.</p>
             </div>
             <div class="grid-table-row__Cell">
 
@@ -1273,22 +1258,20 @@ transform: rotate(0deg);
                                                                                 <div class="comparison-chart-table__PanelWrapper">
                                                                                     <div class="comparison-chart-table__Grid-sc">
                                                                                         <div class="comparison-chart-table__Column">
-                                                                                            <p class="p-to-heading__HeadingWrapper">LLC</p>
-                                                                                            <p class="paragraph__StyledParagraph">Depending on the state of incorporation, an LLC may be required to file an annual report and/or pay franchise fees.</p>
+                                                                                            <p class="p-to-heading__HeadingWrapper">lorem</p>
+                                                                                            <p class="paragraph__StyledParagraph">Lorem, ipsum dolor sit amet consectetur adipisicing elit. Voluptatum, deserunt..</p>
                                                                                         </div>
                                                                                         <div class="comparison-chart-table__Column">
-                                                                                            <p class="p-to-heading__HeadingWrapper">Corporation</p>
-                                                                                            <p class="paragraph__StyledParagraph">After formation, C Corps have many ongoing formalities such as writing bylaws, selecting directors, holding initial and annual shareholder meetings, and
-                                                                                                issuing stock.</p>
+                                                                                            <p class="p-to-heading__HeadingWrapper">lorem</p>
+                                                                                            <p class="paragraph__StyledParagraph">Lorem ipsum dolor sit amet consectetur, adipisicing elit. Laborum totam nihil, tenetur cum mollitia minima et voluptates inventore ipsam fuga.</p>
                                                                                         </div>
                                                                                         <div class="comparison-chart-table__Column">
-                                                                                            <p class="p-to-heading__HeadingWrapper">S-Corporation</p>
-                                                                                            <p class="paragraph__StyledParagraph">After formation, S Corps have many ongoing formalities such as writing bylaws, selecting directors, holding initial and annual shareholder meetings, and
-                                                                                                issuing stock.</p>
+                                                                                            <p class="p-to-heading__HeadingWrapper">lorem</p>
+                                                                                            <p class="paragraph__StyledParagraph">Lorem ipsum dolor sit amet consectetur, adipisicing elit. Odio aspernatur facilis voluptas harum inventore maiores dicta officiis eveniet, itaque quam!</p>
                                                                                         </div>
                                                                                         <div class="comparison-chart-table__Column">
-                                                                                            <p class="p-to-heading__HeadingWrapper">Nonprofit</p>
-                                                                                            <p class="paragraph__StyledParagraph">After formation, Nonprofits have many ongoing formalities such as writing bylaws, selecting directors, and seeking tax exempt status.</p>
+                                                                                            <p class="p-to-heading__HeadingWrapper">lorem</p>
+                                                                                            <p class="paragraph__StyledParagraph">Lorem ipsum dolor sit amet consectetur adipisicing elit. Sapiente enim illum modi quasi architecto, ad repudiandae vel totam doloribus obcaecati?</p>
                                                                                         </div>
                                                                                     </div>
                                                                                 </div>
@@ -1309,11 +1292,11 @@ transform: rotate(0deg);
         <div class="comparison-chart-table__Content">
           <div class="white-box__Wrappergrid-table-row">
             <div class="grid-table-row__Cell">
-              <p class="paragraph__StyledParagraph">Ease of Raising Capital</p>
+              <p class="paragraph__StyledParagraph">lorem</p>
             </div>
             <div class="grid-table-row__Cell">
 
-              <p class="paragraph__StyledParagraph">Varies</p>
+              <p class="paragraph__StyledParagraph">lorem</p>
 
             </div>
             <div class="grid-table-row__Cell">
@@ -1338,20 +1321,20 @@ transform: rotate(0deg);
                                                                                 <div class="comparison-chart-table__PanelWrapper">
                                                                                     <div class="comparison-chart-table__Grid-sc">
                                                                                         <div class="comparison-chart-table__Column">
-                                                                                            <p class="p-to-heading__HeadingWrapper">LLC</p>
-                                                                                            <p class="paragraph__StyledParagraph">LLCs are not allowed to sell stock but may be able to raise capital via bank loans and various other avenues.</p>
+                                                                                            <p class="p-to-heading__HeadingWrapper">lorrem</p>
+                                                                                            <p class="paragraph__StyledParagraph">Lorem ipsum dolor sit amet consectetur adipisicing elit. Consequatur aut est sunt voluptatem quod et iure, nobis impedit minus quidem!.</p>
                                                                                         </div>
                                                                                         <div class="comparison-chart-table__Column">
-                                                                                            <p class="p-to-heading__HeadingWrapper">Corporation</p>
-                                                                                            <p class="paragraph__StyledParagraph">C Corps may issue many types of stocks, which may be sold to an unlimited number of shareholders.</p>
+                                                                                            <p class="p-to-heading__HeadingWrapper">lorem</p>
+                                                                                            <p class="paragraph__StyledParagraph">Lorem ipsum dolor sit amet consectetur adipisicing elit. Cupiditate iure illo fugit delectus voluptatibus suscipit explicabo doloribus libero sint officia.</p>
                                                                                         </div>
                                                                                         <div class="comparison-chart-table__Column">
-                                                                                            <p class="p-to-heading__HeadingWrapper">S-Corporation</p>
-                                                                                            <p class="paragraph__StyledParagraph">S Corps may issue one type of stock, which may be sold to a maximum of 100 shareholders.</p>
+                                                                                            <p class="p-to-heading__HeadingWrapper">lorem</p>
+                                                                                            <p class="paragraph__StyledParagraph">Lorem ipsum dolor sit amet consectetur adipisicing elit. Debitis provident laboriosam sapiente quos dignissimos cupiditate fuga enim nesciunt quod iure!</p>
                                                                                         </div>
                                                                                         <div class="comparison-chart-table__Column">
-                                                                                            <p class="p-to-heading__HeadingWrapper">Nonprofit</p>
-                                                                                            <p class="paragraph__StyledParagraph">Nonprofits may obtain bank loans, grants, venture capital, and tax-exempt donations. In some states, Nonprofits may sell stock.</p>
+                                                                                            <p class="p-to-heading__HeadingWrapper">lorem</p>
+                                                                                            <p class="paragraph__StyledParagraph">Lorem ipsum dolor sit amet consectetur, adipisicing elit. Mollitia consequuntur quo deleniti aperiam quia minus quam dicta voluptate minima aliquam!</p>
                                                                                         </div>
                                                                                     </div>
                                                                                 </div>
@@ -1376,7 +1359,7 @@ transform: rotate(0deg);
         <div class="comparison-chart-table__Content">
           <div class="white-box__Wrappergrid-table-row">
             <div class="grid-table-row__Cell">
-              <p class="paragraph__StyledParagraph">Pass-through Taxation</p>
+              <p class="paragraph__StyledParagraph">Lorem, ipsum.</p>
             </div>
             <div class="grid-table-row__Cell">
 
@@ -1405,20 +1388,20 @@ transform: rotate(0deg);
                                                                                 <div class="comparison-chart-table__PanelWrapper">
                                                                                     <div class="comparison-chart-table__Grid-sc">
                                                                                         <div class="comparison-chart-table__Column">
-                                                                                            <p class="p-to-heading__HeadingWrapper">LLC</p>
-                                                                                            <p class="paragraph__StyledParagraph">LLCs are not taxed at the corporate level. Instead, all profit and losses are reported with the personal income taxes of each member.</p>
+                                                                                            <p class="p-to-heading__HeadingWrapper">lorem</p>
+                                                                                            <p class="paragraph__StyledParagraph">Lorem ipsum dolor sit, amet consectetur adipisicing elit. Animi quaerat ipsa eveniet nesciunt, tempore temporibus error veniam consequuntur ratione illo!</p>
                                                                                         </div>
                                                                                         <div class="comparison-chart-table__Column">
-                                                                                            <p class="p-to-heading__HeadingWrapper">Corporation</p>
-                                                                                            <p class="paragraph__StyledParagraph">The income of the C Corp is taxed at the corporate level and then again at the shareholder level.</p>
+                                                                                            <p class="p-to-heading__HeadingWrapper">lorem</p>
+                                                                                            <p class="paragraph__StyledParagraph">Lorem ipsum dolor sit amet consectetur adipisicing elit. Velit similique earum nisi harum consequuntur ratione voluptas impedit obcaecati commodi. Error commodi aliquid, officia nostrum quos non dignissimos quidem quas ipsum.</p>
                                                                                         </div>
                                                                                         <div class="comparison-chart-table__Column">
-                                                                                            <p class="p-to-heading__HeadingWrapper">S-Corporation</p>
-                                                                                            <p class="paragraph__StyledParagraph">S Corps are not taxed at the corporate level. Instead, all profit and losses are reported with the personal income taxes of each shareholder (owner).</p>
+                                                                                            <p class="p-to-heading__HeadingWrapper">lorem</p>
+                                                                                            <p class="paragraph__StyledParagraph">Lorem ipsum dolor sit amet consectetur adipisicing elit. Optio, exercitationem! Qui, laudantium eaque. Provident, quibusdam quas. Facere eius illo ea!.</p>
                                                                                         </div>
                                                                                         <div class="comparison-chart-table__Column">
-                                                                                            <p class="p-to-heading__HeadingWrapper">Nonprofit</p>
-                                                                                            <p class="paragraph__StyledParagraph">The income of Nonprofits is taxed at the corporate level unless they apply for and are granted tax-exempt status.</p>
+                                                                                            <p class="p-to-heading__HeadingWrapper">lorem</p>
+                                                                                            <p class="paragraph__StyledParagraph">Lorem ipsum dolor sit amet consectetur adipisicing elit. Officia minima aliquid laborum perferendis aperiam nihil soluta tempora architecto alias quo.</p>
                                                                                         </div>
                                                                                     </div>
                                                                                 </div>
@@ -1439,7 +1422,7 @@ transform: rotate(0deg);
         <div class="comparison-chart-table__Content">
           <div class="white-box__Wrappergrid-table-row">
             <div class="grid-table-row__Cell">
-              <p class="paragraph__StyledParagraph">Double Taxation</p>
+              <p class="paragraph__StyledParagraph">Lorem, ipsum.</p>
             </div>
             <div class="grid-table-row__Cell">
 
@@ -1468,20 +1451,20 @@ transform: rotate(0deg);
                                                                                 <div class="comparison-chart-table__PanelWrapper">
                                                                                     <div class="comparison-chart-table__Grid-sc">
                                                                                         <div class="comparison-chart-table__Column">
-                                                                                            <p class="p-to-heading__HeadingWrapper">LLC</p>
-                                                                                            <p class="paragraph__StyledParagraph">LLCs are not taxed at the corporate level.</p>
+                                                                                            <p class="p-to-heading__HeadingWrapper">lorem</p>
+                                                                                            <p class="paragraph__StyledParagraph">Lorem ipsum dolor sit amet.</p>
                                                                                         </div>
                                                                                         <div class="comparison-chart-table__Column">
-                                                                                            <p class="p-to-heading__HeadingWrapper">Corporation</p>
-                                                                                            <p class="paragraph__StyledParagraph">The income of the C Corp is taxed at the corporate level and then again at the shareholder level.</p>
+                                                                                            <p class="p-to-heading__HeadingWrapper">lorem</p>
+                                                                                            <p class="paragraph__StyledParagraph">Lorem ipsum dolor sit amet consectetur adipisicing elit. Inventore, expedita.</p>
                                                                                         </div>
                                                                                         <div class="comparison-chart-table__Column">
-                                                                                            <p class="p-to-heading__HeadingWrapper">S-Corporation</p>
-                                                                                            <p class="paragraph__StyledParagraph">S Corps are not taxed at the corporate level.</p>
+                                                                                            <p class="p-to-heading__HeadingWrapper">lorem</p>
+                                                                                            <p class="paragraph__StyledParagraph">Lorem ipsum dolor sit amet consectetur adipisicing elit. Distinctio, eaque?</p>
                                                                                         </div>
                                                                                         <div class="comparison-chart-table__Column">
-                                                                                            <p class="p-to-heading__HeadingWrapper">Nonprofit</p>
-                                                                                            <p class="paragraph__StyledParagraph">The income of Nonprofits is taxed at the corporate level unless they apply for and are granted tax-exempt status.</p>
+                                                                                            <p class="p-to-heading__HeadingWrapper">lorem</p>
+                                                                                            <p class="paragraph__StyledParagraph">Lorem ipsum dolor sit, amet consectetur adipisicing elit. Iste maiores ipsum accusantium sint necessitatibus quae vero porro eius dolores sit!</p>
                                                                                         </div>
                                                                                     </div>
                                                                                 </div>
@@ -1531,20 +1514,20 @@ transform: rotate(0deg);
                                                                                 <div class="comparison-chart-table__PanelWrapper">
                                                                                     <div class="comparison-chart-table__Grid-sc">
                                                                                         <div class="comparison-chart-table__Column">
-                                                                                            <p class="p-to-heading__HeadingWrapper">LLC</p>
-                                                                                            <p class="paragraph__StyledParagraph">LLCs are not eligible for tax-exempt status.</p>
+                                                                                            <p class="p-to-heading__HeadingWrapper">lorem</p>
+                                                                                            <p class="paragraph__StyledParagraph">Lorem ipsum dolor sit amet consectetur, adipisicing elit. Ea, nulla.</p>
                                                                                         </div>
                                                                                         <div class="comparison-chart-table__Column">
-                                                                                            <p class="p-to-heading__HeadingWrapper">Corporation</p>
-                                                                                            <p class="paragraph__StyledParagraph">C Corps are not eligible for tax-exempt status.</p>
+                                                                                            <p class="p-to-heading__HeadingWrapper">lorem</p>
+                                                                                            <p class="paragraph__StyledParagraph">Lorem ipsum dolor, sit amet consectetur adipisicing elit. Alias, tempora.</p>
                                                                                         </div>
                                                                                         <div class="comparison-chart-table__Column">
-                                                                                            <p class="p-to-heading__HeadingWrapper">S-Corporation</p>
-                                                                                            <p class="paragraph__StyledParagraph">S Corps are not eligible for tax-exempt status.</p>
+                                                                                            <p class="p-to-heading__HeadingWrapper">lorem</p>
+                                                                                            <p class="paragraph__StyledParagraph">Lorem ipsum dolor sit amet, consectetur adipisicing elit. Atque, magni!.</p>
                                                                                         </div>
                                                                                         <div class="comparison-chart-table__Column">
-                                                                                            <p class="p-to-heading__HeadingWrapper">Nonprofit</p>
-                                                                                            <p class="paragraph__StyledParagraph">The income of Nonprofits is taxed at the corporate level unless they apply for and are granted tax-exempt status.</p>
+                                                                                            <p class="p-to-heading__HeadingWrapper">lorem</p>
+                                                                                            <p class="paragraph__StyledParagraph">Lorem ipsum, dolor sit amet consectetur adipisicing elit. Debitis, itaque..</p>
                                                                                         </div>
                                                                                     </div>
                                                                                 </div>
@@ -1807,8 +1790,8 @@ transform: rotate(0deg);
 
                                                         <div class="rocket__Content">
                                                             <div>
-                                                                <h2>Launch <br>Your Business with Incfile</h2>
-                                                                <p>No contracts. No surprises. <br>Only $0 + state fee to launch your business.</p>
+                                                                <h2>lorem <br>Lorem ipsum dolor sit amet.</h2>
+                                                                <p>Lorem ipsum dolor sit amet. <br>Lorem ipsum dolor sit amet.</p>
 
 
 
@@ -1817,8 +1800,8 @@ transform: rotate(0deg);
 
 
 
-                                                                <a href="https://orders.incfile.com/form-order-now.php" target="_blank" rel="noopener" class="hs-button btn-with-icon">
-    Launch Your Business
+                                                                <a href="#" target="_blank" rel="noopener" class="hs-button btn-with-icon">
+    Lorem, ipsum dolor.
     <div class="external-link__Arrow">
       <svg width="12" height="11" xmlns="http://www.w3.org/2000/svg">
         <path d="M5.805.703L5.8.707a1 1 0 00-.003 1.416l2.379 2.379H.998a.998.998 0 000 1.996h7.179L5.798 8.877a1 1 0 00.003 1.416l.004.004a1 1 0 001.412-.003l4.078-4.088a1 1 0 000-1.412L7.217.706A1 1 0 005.805.703z" fill="#1D1D1D" fill-rule="nonzero"></path>
@@ -1863,8 +1846,8 @@ transform: rotate(0deg);
 
                                                     <div class="page-center clearfix">
                                                         <div class="download-guide-form-sec-header">
-                                                            <h2>Download Our Guide to Different Types of Corporations &amp; Business Entities.</h2>
-                                                            <p>Learn about the difference between LLCs, S Corporations, C Corporations and Non Profits</p>
+                                                            <h2>Lorem, ipsum dolor sit amet consectetur adipisicing elit. Tenetur, aliquid. &amp; Lorem, ipsum..</h2>
+                                                            <p>Lorem ipsum dolor, sit amet consectetur adipisicing elit. Consectetur, incidunt!</p>
                                                         </div>
                                                         <div class="download-guide-form-box">
 
@@ -1875,7 +1858,7 @@ transform: rotate(0deg);
 
                                                             <div class="download-guide-form-box-inner">
 
-                                                                <h3 id="boxTitle">Please enter the information below</h3>
+                                                                <h3 id="boxTitle">Lorem ipsum dolor sit amet.</h3>
 
                                                                 <span id="hs_cos_wrapper_widget_1615205073177_" class="hs_cos_wrapper hs_cos_wrapper_widget hs_cos_wrapper_type_form" style="" data-hs-cos-general-type="widget" data-hs-cos-type="form"><h3 id="hs_cos_wrapper_form_303890057_title" class="hs_cos_wrapper form-title" data-hs-cos-general-type="widget_field" data-hs-cos-type="text"></h3>
 
@@ -2010,7 +1993,7 @@ transform: rotate(0deg);
                                     <div class="row-fluid ">
                                         <div class="span12 widget-span widget-type-custom_widget widget_1615206243899-padding dnd-module" style="" data-widget-type="custom_widget" data-x="0" data-w="12">
                                             <div id="hs_cos_wrapper_widget_1615206243899" class="hs_cos_wrapper hs_cos_wrapper_widget hs_cos_wrapper_type_module widget-type-rich_text" style="" data-hs-cos-general-type="widget" data-hs-cos-type="module"><span id="hs_cos_wrapper_widget_1615206243899_" class="hs_cos_wrapper hs_cos_wrapper_widget hs_cos_wrapper_type_rich_text" style="" data-hs-cos-general-type="widget" data-hs-cos-type="rich_text"><h2 style="max-width: 610px; margin: 0px auto 24px; text-align: center;">How Our Service Works</h2>
-<p style="max-width: 770px; text-align: center; margin: 0px auto 24px; line-height: 31px;">Take a moment to view our instructional video and see how easy it can be to get your business incorporated.</p></span></div>
+<p style="max-width: 770px; text-align: center; margin: 0px auto 24px; line-height: 31px;">Lorem, ipsum dolor sit amet consectetur adipisicing elit. Deserunt, magnam?</p></span></div>
 
                                         </div>
                                         <!--end widget-span -->
