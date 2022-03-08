@@ -324,19 +324,9 @@
                                                                             class="hs_cos_wrapper hs_cos_wrapper_widget hs_cos_wrapper_type_rich_text"
                                                                             style="" data-hs-cos-general-type="widget"
                                                                             data-hs-cos-type="rich_text">
-                                                                            <h3>Change your LLC or Corporation name,
-                                                                                address, and more</h3>
-                                                                            <p style="margin-bottom: 40px;">When you
-                                                                                first filed to become a <a
-                                                                                    href="#">legal
-                                                                                    business entity</a>, part of the
-                                                                                process included creating Articles
-                                                                                of Incorporation or Articles of
-                                                                                Organization. The information that
-                                                                                you submitted contained the name of
-                                                                                the business, which business
-                                                                                structure best suited your needs
-                                                                                (such as an <a
+                                                                            <h3>Lorem ipsum dolor sit amet.</h3>
+                                                                            <p style="margin-bottom: 40px;">Lorem ipsum dolor sit amet.<a
+                                                                                    href="#">Lorem ipsum dolor sit amet consectetur, adipisicing elit. Odit, dignissimos. <a
                                                                                     href="#">LLC</a>,
                                                                                 <a
                                                                                     href="#">S
@@ -345,26 +335,9 @@
                                                                                     Corporation</a> or a <a
                                                                                     href="#">Nonprofit
                                                                                     Corporation</a>), the appointed
-                                                                                <a href="#">registered
-                                                                                    agent's</a> name and contact
-                                                                                information, the effective date in
-                                                                                which you started the business and
-                                                                                the names of the current partners or
-                                                                                shareholders.
+                                                                                <a href="#">Lorem, ipsum.s</a> Lorem ipsum dolor sit amet consectetur adipisicing elit. Excepturi, aperiam.
                                                                             </p>
-                                                                            <p style="margin-bottom: 72px;">As time
-                                                                                passes and businesses evolve, you
-                                                                                may find that you are in a situation
-                                                                                where your business name no longer
-                                                                                fits the services you provide or
-                                                                                perhaps the leadership team of your
-                                                                                company is undergoing changes. Any
-                                                                                major event that alters the
-                                                                                information on your Articles of
-                                                                                Incorporation or Articles of
-                                                                                Organization needs to be reported to
-                                                                                your secretary of state by filing an
-                                                                                Articles of Amendment form.</p>
+                                                                            <p style="margin-bottom: 72px;">Lorem ipsum dolor sit amet consectetur adipisicing elit. Adipisci nulla rem neque debitis nemo error dicta officia blanditiis, minima quas.</p>
                                                                         </span></div>
 
                                                                 </div>
@@ -402,14 +375,7 @@
 
                                                                                 </div>
 
-                                                                                <p style="margin: 0;">Any major
-                                                                                    event that alters the
-                                                                                    information on your Articles of
-                                                                                    Incorporation or Articles of
-                                                                                    Organization needs to be
-                                                                                    reported to your secretary of
-                                                                                    state by filing an Articles of
-                                                                                    Amendment form.</p>
+                                                                                <p style="margin: 0;">Lorem, ipsum dolor sit amet consectetur adipisicing elit. Quisquam deserunt architecto, nam aspernatur ex natus accusamus exercitationem cupiditate labore nulla!</p>
                                                                                 <div class="boxed-content-buttons">
 
                                                                                 </div>
@@ -584,22 +550,15 @@
                                                                                 </path>
                                                                             </svg>
                                                                         </div>
-                                                                        <h2>Help file my Amendment</h2>
-                                                                        <h4>Save your time. We'll handle the
-                                                                            paperwork.</h4>
-                                                                        <p style="margin-bottom: 0;">Articles of
-                                                                            Amendment are typically filed to change
-                                                                            the following information:</p>
+                                                                        <h2>Lorem, ipsum dolor.</h2>
+                                                                        <h4>Lorem ipsum dolor sit amet..</h4>
+                                                                        <p style="margin-bottom: 0;">Lorem, ipsum dolor sit amet consectetur adipisicing elit. Fugit, excepturi!</p>
                                                                         <ul>
-                                                                            <li>The addition or removal of a
-                                                                                director, officer or member for LLCs
+                                                                            <li>Lorem ipsum dolor sit, amet consectetur adipisicing elit. A, totam?
                                                                             </li>
-                                                                            <li>To change the business address of
-                                                                                the corporation or LLC</li>
-                                                                            <li>To change the number of authorized
-                                                                                shares issued by a corporation</li>
-                                                                            <li>To alter stated business activities
-                                                                                conducted by the corporation or LLC
+                                                                            <li>Lorem ipsum dolor sit amet consectetur adipisicing elit. Id, ex.</li>
+                                                                            <li>Lorem ipsum dolor sit, amet consectetur adipisicing elit. Illum, quas.</li>
+                                                                            <li>Lorem ipsum, dolor sit amet consectetur adipisicing elit. Voluptatem, excepturi.
                                                                             </li>
                                                                         </ul>
                                                                     </div>
@@ -690,11 +649,7 @@
                                                                                                 value="state">demo</option>
                                                                                         </select>
                                                                                         {{-- <span class="field__error"
-                                                                                            v-show="errors.compStateField">The
-                                                                                            State of Incorporation
-                                                                                            and State of Foreign
-                                                                                            Qualification should not
-                                                                                            same</span> --}}
+                                                                                            v-show="errors.compStateField">Lorem ipsum dolor sit amet consectetur adipisicing elit. Molestiae, rerum!</span> --}}
                                                                                     </div>
                                                                                 </div>
 
@@ -790,7 +745,7 @@
                                                             data-hs-cos-type="rich_text">
                                                             <blockquote>
                                                                 <h2 style="max-width: 640px; margin: 0px auto 24px;">
-                                                                    Common questions about filing an Amendment</h2>
+                                                                  Lorem ipsum dolor sit amet consectetur.</h2>
                                                             </blockquote>
                                                         </span></div>
 
@@ -839,9 +794,7 @@
 
 
                                                                             <div class="title">
-                                                                                <span>What business changes can be
-                                                                                    reported in an Articles of
-                                                                                    Amendment form?</span>
+                                                                                <span>Lorem ipsum dolor sit amet.</span>
                                                                             </div>
 
                                                                         </div>
@@ -850,29 +803,19 @@
                                                                     <div class="acc_body"
                                                                         data-id="widget_1614260364663-whatbusinesschangescanbereportedinanarticlesofamendmentform1">
                                                                         <div class="inner">
-                                                                            <p>Common changes to file for an
-                                                                                amendment with the secretary of
-                                                                                state are:</p>
+                                                                            <p>Lorem ipsum dolor sit amet consectetur, adipisicing elit. Aliquam, nihil?</p>
                                                                             <ul>
-                                                                                <li>Changes to the company name</li>
-                                                                                <li>Updates to the registered
-                                                                                    agent's contact information</li>
-                                                                                <li>New company business address
+                                                                                <li>Lorem ipsum dolor sit amet.</li>
+                                                                                <li>Lorem ipsum dolor sit amet.</li>
+                                                                                <li>Lorem ipsum dolor sit amet.
                                                                                 </li>
-                                                                                <li>Director or member information
+                                                                                <li>Lorem, ipsum dolor.
                                                                                 </li>
-                                                                                <li>Number of authorized shares</li>
-                                                                                <li>Change in business activities
+                                                                                <li>Lorem, ipsum dolor.</li>
+                                                                                <li>Lorem, ipsum dolor.
                                                                                 </li>
                                                                             </ul>
-                                                                            <p style="margin-bottom: 32px;">Most
-                                                                                items that are listed on the
-                                                                                original articles can be changed by
-                                                                                filing an amendment other than the
-                                                                                filing date, incorporator or
-                                                                                organizer. You cannot change a
-                                                                                registered agent through an Articles
-                                                                                of Amendment.</p>
+                                                                            <p style="margin-bottom: 32px;">Lorem ipsum dolor sit amet consectetur adipisicing elit. Accusamus, deserunt?</p>
 
 
                                                                         </div>
@@ -902,9 +845,7 @@
 
 
                                                                             <div class="title">
-                                                                                <span>What information is required
-                                                                                    to file an Articles of
-                                                                                    Amendment?</span>
+                                                                                <span>Lorem ipsum dolor sit amet.</span>
                                                                             </div>
 
                                                                         </div>
@@ -913,28 +854,12 @@
                                                                     <div class="acc_body"
                                                                         data-id="widget_1614260364663-whatinformationisrequiredtofileanarticlesofamendment2">
                                                                         <div class="inner">
-                                                                            <p>The basic information needed
-                                                                                includes:</p>
+                                                                            <p>Lorem ipsum dolor sit amet.</p>
                                                                             <ul style="margin-bottom: 24px;">
-                                                                                <li>Your current entity name</li>
-                                                                                <li>The name you wish to change it
-                                                                                    to (if applicable)</li>
-                                                                                <li>The text of the new amendments
-                                                                                    that you are adopting</li>
-                                                                                <li>The date on which each amendment
-                                                                                    was adopted (some states require
-                                                                                    member or board of directors
-                                                                                    voting to pass these
-                                                                                    amendments), if there is a delay
-                                                                                    in the date as to when the
-                                                                                    amendment will be adopted and
-                                                                                    the name(s) and address(es) of
-                                                                                    the individual(s) who are
-                                                                                    submitting this document to be
-                                                                                    delivered for filing (many
-                                                                                    states require the signatures of
-                                                                                    the president and secretary of
-                                                                                    your company).</li>
+                                                                                <li>Lorem ipsum dolor sit.</li>
+                                                                                <li>Lorem ipsum dolor sit.</li>
+                                                                                <li>Lorem ipsum dolor sit.</li>
+                                                                                <li>Lorem ipsum dolor sit amet consectetur, adipisicing elit. Ratione nemo labore doloremque voluptates accusantium. Vel ullam laborum quisquam dolore at..</li>
                                                                             </ul>
 
 
@@ -965,8 +890,7 @@
 
 
                                                                             <div class="title">
-                                                                                <span>Why do I need to file an
-                                                                                    Articles of Amendment?</span>
+                                                                                <span>Lorem ipsum dolor, sit amet consectetur adipisicing elit.</span>
                                                                             </div>
 
                                                                         </div>
@@ -976,20 +900,7 @@
                                                                         data-id="widget_1614260364663-whydoineedtofileanarticlesofamendment3">
                                                                         <div class="inner">
                                                                             <p style="margin-bottom: 32px;">
-                                                                                Information in the articles of
-                                                                                organization is a matter of public
-                                                                                record, so LLCs need to make sure
-                                                                                that their Articles of Organization
-                                                                                on file list the correct
-                                                                                information, including company name,
-                                                                                owners and managers of the company.
-                                                                                If a dispute arises involving
-                                                                                ownership, the information contained
-                                                                                in the company’s Articles of
-                                                                                Organization will be used to prove
-                                                                                who owns the company. If a name
-                                                                                dispute arises with another company,
-                                                                                this also ensures your legal rights.
+                                                                               Lorem ipsum dolor sit amet consectetur, adipisicing elit. Aut minima culpa temporibus amet nemo reprehenderit et earum dolores nostrum ex.
                                                                             </p>
 
 
@@ -1020,8 +931,7 @@
 
 
                                                                             <div class="title">
-                                                                                <span>How do I submit my Articles of
-                                                                                    Amendment?</span>
+                                                                                <span>Lorem ipsum dolor sit amet.</span>
                                                                             </div>
 
                                                                         </div>
@@ -1030,16 +940,7 @@
                                                                     <div class="acc_body"
                                                                         data-id="widget_1614260364663-howdoisubmitmyarticlesofamendment4">
                                                                         <div class="inner">
-                                                                            <p style="margin-bottom: 32px;">These
-                                                                                forms need to either be mailed to
-                                                                                your secretary of state or delivered
-                                                                                in person to their office. Some
-                                                                                states do offer online forms, but as
-                                                                                in Maryland, online forms are
-                                                                                considered expedited and can cost an
-                                                                                additional fee. However, Incfile can
-                                                                                take care of filing your Articles of
-                                                                                Amendment for you.</p>
+                                                                            <p style="margin-bottom: 32px;">Lorem ipsum dolor, sit amet consectetur adipisicing elit. Enim odio temporibus ducimus similique ipsum repudiandae ratione, ipsam laudantium accusamus suscipit.</p>
 
 
                                                                         </div>
@@ -1069,8 +970,7 @@
 
 
                                                                             <div class="title">
-                                                                                <span>How much does it cost to file
-                                                                                    Articles of Amendment?</span>
+                                                                                <span>Lorem ipsum dolor sit amet consectetur adipisicing elit. Perspiciatis, odit.</span>
                                                                             </div>
 
                                                                         </div>
@@ -1079,13 +979,7 @@
                                                                     <div class="acc_body"
                                                                         data-id="widget_1614260364663-howmuchdoesitcosttofilearticlesofamendment5">
                                                                         <div class="inner">
-                                                                            <p style="margin-bottom: 32px;">The
-                                                                                state fee varies by state. Our
-                                                                                service fee to file Articles of
-                                                                                Amendment is $119. To review the fee
-                                                                                in your state, select the state and
-                                                                                entity type in our Articles of
-                                                                                Amendment online form.</p>
+                                                                            <p style="margin-bottom: 32px;">Lorem ipsum dolor sit amet consectetur adipisicing elit. Commodi accusamus quod fugiat adipisci, architecto delectus aliquam enim est consequatur?</p>
 
 
                                                                         </div>
@@ -1115,8 +1009,7 @@
 
 
                                                                             <div class="title">
-                                                                                <span>How long does it take to file
-                                                                                    Articles of Amendment?</span>
+                                                                                <span>Lorem ipsum dolor sit amet consectetur adipisicing elit. Veritatis, illum!</span>
                                                                             </div>
 
                                                                         </div>
@@ -1125,13 +1018,7 @@
                                                                     <div class="acc_body"
                                                                         data-id="widget_1614260364663-howlongdoesittaketofilearticlesofamendment6">
                                                                         <div class="inner">
-                                                                            <p style="margin-bottom: 32px;">The
-                                                                                filing time is dependent on the
-                                                                                governing state agency and varies by
-                                                                                state. For example, in California
-                                                                                the process takes over eight weeks.
-                                                                                Many states do offered expedited
-                                                                                service for an additional fee.</p>
+                                                                            <p style="margin-bottom: 32px;">Lorem ipsum dolor sit amet consectetur adipisicing elit. Eos, quis?</p>
 
 
                                                                         </div>
@@ -1161,9 +1048,7 @@
 
 
                                                                             <div class="title">
-                                                                                <span>What will I receive when the
-                                                                                    Articles of Amendment are
-                                                                                    filed?</span>
+                                                                                <span>Lorem ipsum dolor sit, amet consectetur adipisicing elit. Ut, aliquam.</span>
                                                                             </div>
 
                                                                         </div>
@@ -1172,11 +1057,7 @@
                                                                     <div class="acc_body"
                                                                         data-id="widget_1614260364663-whatwillireceivewhenthearticlesofamendmentarefiled7">
                                                                         <div class="inner">
-                                                                            <p style="margin-bottom: 32px;">The
-                                                                                governing state agency will
-                                                                                typically return a copy of the filed
-                                                                                articles to Incfile, which are then
-                                                                                mailed to our customers.</p>
+                                                                            <p style="margin-bottom: 32px;">Lorem ipsum dolor sit amet consectetur adipisicing elit. Nesciunt, incidunt..</p>
 
 
                                                                         </div>
@@ -1222,12 +1103,10 @@
                                                             style="" data-hs-cos-general-type="widget"
                                                             data-hs-cos-type="rich_text">
                                                             <h3 style="text-align: center; margin-bottom: 24px;">
-                                                                Providing Everything You Need When You Need It</h3>
+                                                                Lorem, ipsum dolor sit amet consectetur adipisicing elit. Enim, rerum!</h3>
                                                             <p
                                                                 style="text-align: center; margin-bottom: 48px; max-width: 770px; margin-left: auto; margin-right: auto;">
-                                                                As your business grows we'll be there every step of
-                                                                the way to make sure that you have the resources at
-                                                                hand to service your companies ongoing needs.</p>
+                                                               Lorem ipsum dolor sit amet consectetur adipisicing elit. Repellendus, numquam?.</p>
                                                         </span></div>
 
                                                 </div>
@@ -1251,10 +1130,9 @@
                                                                 <div class="benefits-tabber-nav-inner">
 
                                                                     <a class="active"
-                                                                        href="#module_161892440681910tab1">Company
-                                                                        Changes</a>
+                                                                        href="#module_161892440681910tab1">Lorem, ipsum.</a>
 
-                                                                    <a href="#module_161892440681910tab2">Compliance</a>
+                                                                    <a href="#module_161892440681910tab2">lorem</a>
 
                                                                     <a href="#module_161892440681910tab3">Registered
                                                                         Agent</a>
@@ -1287,9 +1165,7 @@
                                                                                 <div class="feature-content">
                                                                                     <div class="content-holder">
                                                                                         <h3>Dissolution</h3>
-                                                                                        <p>Used to formally
-                                                                                            terminate the existence
-                                                                                            of a entity.</p>
+                                                                                        <p>Lorem ipsum dolor sit amet.</p>
                                                                                     </div>
 
 

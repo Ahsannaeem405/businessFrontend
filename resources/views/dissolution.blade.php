@@ -431,30 +431,11 @@
                                                                             class="hs_cos_wrapper hs_cos_wrapper_widget hs_cos_wrapper_type_rich_text"
                                                                             style="" data-hs-cos-general-type="widget"
                                                                             data-hs-cos-type="rich_text">
-                                                                            <p style="margin-bottom: 32px;">A
-                                                                                corporation or LLC can come to a
-                                                                                place of dissolution for several
-                                                                                reasons. It can simply be a decision
-                                                                                you've made for your company because
-                                                                                it is no longer successful, you are
-                                                                                moving on to a new adventure or your
-                                                                                shareholders wish to dissolve its
-                                                                                assets. This will, fortunately, stop
-                                                                                the necessary tax filings and other
-                                                                                requirements that come with having a
-                                                                                record of operation on file with the
-                                                                                secretary of state. But, the
-                                                                                emotional decision to dissolve your
-                                                                                company can be tough at times, if
-                                                                                you put your heart and sweat into
-                                                                                building your own business.</p>
-                                                                            <p style="margin-bottom: 72px;">Allow
-                                                                                Incfile.com to ease the burden by
-                                                                                doing the <a
+                                                                            <p style="margin-bottom: 32px;">Lorem ipsum dolor sit amet consectetur adipisicing elit. Sapiente consequatur quam inventore, odio hic eum? Reiciendis ipsam excepturi aspernatur repellat..</p>
+                                                                            <p style="margin-bottom: 72px;">Lorem ipsum dolor sit amet. <a
                                                                                     href="#"
                                                                                     target="_blank"
-                                                                                    rel="noopener">dissolution
-                                                                                    paperwork for you</a><a
+                                                                                    rel="noopener">Lorem ipsum dolor sit amet.</a><a
                                                                                     href="#"
                                                                                     target="_blank" rel="noopener"></a><span
                                                                                     style="color: #999999;"><a
@@ -462,20 +443,9 @@
                                                                                         target="_blank" rel="noopener"
                                                                                         style="color: #999999;">.</a></span>
                                                                             </p>
-                                                                            <h3>How to Close an LLC or Corporation
+                                                                            <h3>Lorem ipsum dolor sit amet.
                                                                             </h3>
-                                                                            <p style="margin-bottom: 40px;">A
-                                                                                company begins with Articles of
-                                                                                Incorporation when it is formed,
-                                                                                therefore it makes sense that
-                                                                                Articles must be filed to dissolve a
-                                                                                company that has been in operation.
-                                                                                Without filing the proper paperwork,
-                                                                                the business owner will continue to
-                                                                                be liable for taxes and other state
-                                                                                requirements. Fortunately, closing a
-                                                                                company is really a matter of
-                                                                                paperwork.</p>
+                                                                            <p style="margin-bottom: 40px;">Lorem ipsum dolor sit amet consectetur adipisicing elit. Laudantium facilis nisi labore. Aspernatur nisi voluptates et consequatur, nostrum accusantium error?.</p>
                                                                         </span></div>
 
                                                                 </div>
@@ -511,19 +481,7 @@
 
 
 
-                                                                                <p style="margin: 0;">In order to
-                                                                                    properly close a corporation or
-                                                                                    LLC that is no longer
-                                                                                    transacting business, the
-                                                                                    company must file Articles of
-                                                                                    Dissolution with the state of
-                                                                                    incorporation. Neglecting to
-                                                                                    file Articles of Dissolution for
-                                                                                    a company that is no longer
-                                                                                    active may expose the
-                                                                                    corporation or LLC to
-                                                                                    unnecessary recurring fees or
-                                                                                    taxes.</p>
+                                                                                <p style="margin: 0;">Lorem ipsum dolor, sit amet consectetur adipisicing elit. Blanditiis eos, enim facere maiores mollitia pariatur harum nobis similique quia excepturi.</p>
                                                                                 <div class="boxed-content-buttons">
 
                                                                                 </div>
@@ -551,17 +509,8 @@
                                                                             class="hs_cos_wrapper hs_cos_wrapper_widget hs_cos_wrapper_type_rich_text"
                                                                             style="" data-hs-cos-general-type="widget"
                                                                             data-hs-cos-type="rich_text">
-                                                                            <p style="margin-bottom: 72px;">Business
-                                                                                dissolution is primarily an act of
-                                                                                filing Articles of Dissolution with
-                                                                                your secretary of state. However, if
-                                                                                a business is not in a sound
-                                                                                position with the state to dissolve,
-                                                                                other legal matters may complicate
-                                                                                the process.</p>
-                                                                            <h3 style="margin-bottom: 24px;">Steps
-                                                                                to Dissolving Your LLC or
-                                                                                Corporation</h3>
+                                                                            <p style="margin-bottom: 72px;">Lorem ipsum dolor sit amet consectetur adipisicing elit. Recusandae, quam!</p>
+                                                                            <h3 style="margin-bottom: 24px;">Lorem ipsum dolor sit amet.</h3>
                                                                         </span></div>
 
                                                                 </div>
@@ -648,13 +597,7 @@
                                                                             class="hs_cos_wrapper hs_cos_wrapper_widget hs_cos_wrapper_type_rich_text"
                                                                             style="" data-hs-cos-general-type="widget"
                                                                             data-hs-cos-type="rich_text">
-                                                                            <p style="margin-bottom: 40px;">There
-                                                                                are three key steps to dissolving a
-                                                                                company. Incfile completes these
-                                                                                steps in a timely manner on your
-                                                                                behalf, making an otherwise
-                                                                                cumbersome process simple and
-                                                                                stress-free.</p>
+                                                                            <p style="margin-bottom: 40px;">Lorem, ipsum dolor sit amet consectetur adipisicing elit. Quam impedit quis quas quia ipsum eveniet similique doloribus dicta, porro minima.</p>
                                                                         </span></div>
 
                                                                 </div>
@@ -684,23 +627,8 @@
                                                                                 <div class="content-list-icon-content">
                                                                                     <h5
                                                                                         style="padding-top: 4px; margin-bottom: 16px;">
-                                                                                        Hold a meeting with the
-                                                                                        Board of Directors</h5>
-                                                                                    <p style="margin: 0;">In this
-                                                                                        case, you want the minutes
-                                                                                        of your meeting to reflect
-                                                                                        that a vote was taken and
-                                                                                        appropriate majority (as
-                                                                                        outlined in your
-                                                                                        incorporation papers) was
-                                                                                        achieved. Those companies
-                                                                                        with shareholders will want
-                                                                                        a written documentation of
-                                                                                        this decision signed by all
-                                                                                        company owners. Some
-                                                                                        companies, such as
-                                                                                        single-member LLCs will not
-                                                                                        need to complete this step.
+                                                                                       Lorem ipsum dolor sit amet.</h5>
+                                                                                    <p style="margin: 0;">Lorem, ipsum dolor sit amet consectetur adipisicing elit. Ipsam facere quae odio quo doloribus iste officiis cum nam quia voluptatibus.
                                                                                     </p>
 
                                                                                 </div>
@@ -712,29 +640,11 @@
                                                                                 <span class="circle__Wrapper">2</span>
 
                                                                                 <div class="content-list-icon-content">
-                                                                                    <h5>File the Articles of
-                                                                                        Dissolution</h5>
-                                                                                    <p style="margin: 0;">The
-                                                                                        paperwork must be completed
-                                                                                        and signed by
-                                                                                        the<span>&nbsp;</span><a
+                                                                                    <h5>Lorem ipsum dolor sit amet.</h5>
+                                                                                    <p style="margin: 0;">Lorem ipsum dolor sit amet consectetur adipisicing elit. Ipsam, aspernatur.<span>&nbsp;</span><a
                                                                                             href="#"
                                                                                             target="_blank"
-                                                                                            rel="noopener">Registered
-                                                                                            Agent</a><span>&nbsp;</span>of
-                                                                                        your company. You will be
-                                                                                        issued a Certificate of
-                                                                                        Dissolution that formalizes
-                                                                                        the termination of business
-                                                                                        activity in your state. Once
-                                                                                        dissolution is properly
-                                                                                        documented, all branches in
-                                                                                        other states will
-                                                                                        automatically be dissolved
-                                                                                        as well. The dissolution of
-                                                                                        a company must take place in
-                                                                                        the state where
-                                                                                        incorporation took place.
+                                                                                            rel="noopener">Lorem, ipsum.</a><span>&nbsp;</span>Lorem ipsum dolor sit amet consectetur adipisicing elit. Ipsam quasi nam pariatur laudantium dolor nisi dignissimos itaque necessitatibus deserunt praesentium?
                                                                                     </p>
 
                                                                                 </div>
@@ -748,26 +658,8 @@
                                                                                 <div class="content-list-icon-content">
                                                                                     <h5
                                                                                         style="padding-top: 4px; margin-bottom: 16px;">
-                                                                                        Notify the IRS</h5>
-                                                                                    <p style="margin: 0;">This step
-                                                                                        is important because it will
-                                                                                        provide you with a "consent
-                                                                                        to dissolution" or "tax
-                                                                                        clearance" that makes the
-                                                                                        process a smooth one. It
-                                                                                        will be necessary to pay all
-                                                                                        federal and state taxes due
-                                                                                        at this time to receive this
-                                                                                        consent. This document(s)
-                                                                                        will be required by the
-                                                                                        secretary of state to
-                                                                                        achieve a formal
-                                                                                        dissolution. While we'll
-                                                                                        help you file your Articles
-                                                                                        of Dissolution, you will be
-                                                                                        responsible for contacting
-                                                                                        the IRS to receive any tax
-                                                                                        clearances, etc.</p>
+                                                                                       Lorem, ipsum dolor.</h5>
+                                                                                    <p style="margin: 0;">Lorem ipsum dolor sit amet consectetur, adipisicing elit. Nisi, nam.</p>
 
                                                                                 </div>
                                                                             </div>
@@ -795,18 +687,7 @@
                                                                             class="hs_cos_wrapper hs_cos_wrapper_widget hs_cos_wrapper_type_rich_text"
                                                                             style="" data-hs-cos-general-type="widget"
                                                                             data-hs-cos-type="rich_text">
-                                                                            <p style="margin: 0;">An additional step
-                                                                                often recommended at this point is
-                                                                                the closing of all credit lines and
-                                                                                accounts that pertain to your
-                                                                                business. Letting your creditors
-                                                                                know that you have dissolved a
-                                                                                company will set you up for more
-                                                                                favorable circumstances should debt
-                                                                                still be present. Finally, if you
-                                                                                have any fictitious names in other
-                                                                                states, you'll want to cancel those
-                                                                                as well.</p>
+                                                                            <p style="margin: 0;">Lorem ipsum dolor sit amet consectetur adipisicing elit. Enim, amet. Error facere eligendi nostrum dicta. Nulla dicta sequi nemo molestiae?</p>
                                                                         </span></div>
 
                                                                 </div>
@@ -990,26 +871,14 @@
 
                                                                                     <h2
                                                                                         style="margin-bottom: 56px; max-width: 460px;">
-                                                                                        Save your time. We'll handle
-                                                                                        the paperwork.</h2>
+                                                                                       Lorem ipsum dolor sit amet.</h2>
                                                                                     <h4 style="margin-bottom: 24px;">
-                                                                                        Requirements to file
-                                                                                        Articles of Dissolution:
+                                                                                       Lorem ipsum dolor sit amet.
                                                                                     </h4>
                                                                                     <p style="margin: 0;">The
-                                                                                        company must be in <a
+                                                                                        lorem<a
                                                                                             style="font-weight: 900;"
-                                                                                            href="#">good
-                                                                                            standing</a> with the
-                                                                                        state of incorporation and
-                                                                                        cannot be in arrears of
-                                                                                        franchise taxes or annual
-                                                                                        reporting requirements. In
-                                                                                        the event that the entity is
-                                                                                        not in good standing
-                                                                                        reinstatement would be
-                                                                                        required in order to proceed
-                                                                                        with the dissolution.</p>
+                                                                                            href="#">Lorem, ipsum.</a>Lorem ipsum dolor sit amet.</p>
                                                                                 </div>
                                                                             </div>
 
@@ -1150,14 +1019,7 @@
                                                                                                     </select>
                                                                                                     {{-- <span
                                                                                                         class="field__error"
-                                                                                                        v-show="errors.compStateField">The
-                                                                                                        State of
-                                                                                                        Incorporation
-                                                                                                        and State of
-                                                                                                        Foreign
-                                                                                                        Qualification
-                                                                                                        should not
-                                                                                                        same</span> --}}
+                                                                                                        v-show="errors.compStateField">Lorem ipsum dolor sit amet.</span> --}}
                                                                                                 </div>
                                                                                             </div>
 
@@ -1233,7 +1095,7 @@
                                                             data-hs-cos-type="rich_text">
                                                             <blockquote>
                                                                 <h2 style="max-width: 640px; margin: 0px auto 24px;">
-                                                                    Common questions on filing Dissolution</h2>
+                                                                    Lorem ipsum dolor sit.</h2>
                                                             </blockquote>
                                                         </span></div>
 
@@ -1282,8 +1144,7 @@
 
 
                                                                             <div class="title">
-                                                                                <span>What are Articles of
-                                                                                    Distribution exactly?</span>
+                                                                                <span>Lorem ipsum dolor sit.</span>
                                                                             </div>
 
                                                                         </div>
@@ -1292,16 +1153,7 @@
                                                                     <div class="acc_body"
                                                                         data-id="widget_1614260364663-whatarearticlesofdistributionexactly1">
                                                                         <div class="inner">
-                                                                            <p><span>The articles formalize the
-                                                                                    cessation of activity as an
-                                                                                    incorporated entity. They define
-                                                                                    parameters surrounding the
-                                                                                    dissolution of a company. This
-                                                                                    could include the distribution
-                                                                                    or sale of assets, how
-                                                                                    shareholders will be compensated
-                                                                                    and responsibilities divided
-                                                                                    among management.</span></p>
+                                                                            <p><span>Lorem ipsum dolor sit amet consectetur adipisicing elit. Veniam, ipsum..</span></p>
 
 
                                                                         </div>
@@ -1331,8 +1183,7 @@
 
 
                                                                             <div class="title">
-                                                                                <span>How much will it cost to file
-                                                                                    Articles of Dissolution?</span>
+                                                                                <span>Lorem ipsum dolor sit amet.</span>
                                                                             </div>
 
                                                                         </div>
@@ -1341,13 +1192,7 @@
                                                                     <div class="acc_body"
                                                                         data-id="widget_1614260364663-howmuchwillitcosttofilearticlesofdissolution2">
                                                                         <div class="inner">
-                                                                            <p><span>The state fee varies by state
-                                                                                    our service fee to file Articles
-                                                                                    of Dissolution is $149. To
-                                                                                    review the fee in your state
-                                                                                    click on the “order now” button
-                                                                                    and select the state and entity
-                                                                                    type.</span></p>
+                                                                            <p><span>Lorem ipsum dolor sit amet consectetur adipisicing elit. Possimus, ea.</span></p>
 
 
                                                                         </div>
@@ -1377,9 +1222,7 @@
 
 
                                                                             <div class="title">
-                                                                                <span>What contingencies would
-                                                                                    prohibit me from filing a
-                                                                                    dissolution?</span>
+                                                                                <span>Lorem ipsum dolor sit amet consectetur, adipisicing elit. Ex, dolorem.</span>
                                                                             </div>
 
                                                                         </div>
@@ -1388,16 +1231,7 @@
                                                                     <div class="acc_body"
                                                                         data-id="widget_1614260364663-whatcontingencieswouldprohibitmefromfilingadissolution3">
                                                                         <div class="inner">
-                                                                            <p><span>The only stipulation that would
-                                                                                    prohibit the owners of an entity
-                                                                                    from filing a dissolution is if
-                                                                                    the company owes outstanding
-                                                                                    taxes or has annual reports
-                                                                                    outstanding. In this event the
-                                                                                    company would need to bring the
-                                                                                    itself to good standing with the
-                                                                                    state before filing the
-                                                                                    dissolution.</span></p>
+                                                                            <p><span>Lorem, ipsum dolor sit amet consectetur adipisicing elit. Tempora, debitis.</span></p>
 
 
                                                                         </div>
@@ -1427,9 +1261,7 @@
 
 
                                                                             <div class="title">
-                                                                                <span>How long will it take to have
-                                                                                    the Articles of Dissolution
-                                                                                    filed?</span>
+                                                                                <span>Lorem ipsum dolor, sit amet consectetur adipisicing elit. Accusantium, fugit.</span>
                                                                             </div>
 
                                                                         </div>
@@ -1438,9 +1270,7 @@
                                                                     <div class="acc_body"
                                                                         data-id="widget_1614260364663-howlongwillittaketohavethearticlesofdissolutionfiled4">
                                                                         <div class="inner">
-                                                                            <p><span>The filing time is dependent on
-                                                                                    the governing state agency and
-                                                                                    varies by state.</span></p>
+                                                                            <p><span>Lorem ipsum dolor sit amet consectetur adipisicing elit. Minus, fuga..</span></p>
 
 
                                                                         </div>
@@ -1470,9 +1300,7 @@
 
 
                                                                             <div class="title">
-                                                                                <span>What will I receive when the
-                                                                                    Articles of Dissolution are
-                                                                                    filed?</span>
+                                                                                <span>Lorem ipsum dolor sit amet consectetur adipisicing elit. Recusandae, perspiciatis.</span>
                                                                             </div>
 
                                                                         </div>
@@ -1481,10 +1309,7 @@
                                                                     <div class="acc_body"
                                                                         data-id="widget_1614260364663-whatwillireceivewhenthearticlesofdissolutionarefiled5">
                                                                         <div class="inner">
-                                                                            <p><span>The governing state agency will
-                                                                                    return a copy of the filed
-                                                                                    articles which are then mailed
-                                                                                    to the client.</span></p>
+                                                                            <p><span>Lorem ipsum dolor sit amet consectetur adipisicing elit. Distinctio, ipsam.</span></p>
 
 
                                                                         </div>
@@ -1517,12 +1342,10 @@
                                                             style="" data-hs-cos-general-type="widget"
                                                             data-hs-cos-type="rich_text">
                                                             <h3 style="text-align: center; margin-bottom: 24px;">
-                                                                Providing Everything You Need When You Need It</h3>
+                                                             Lorem ipsum, dolor sit amet consectetur adipisicing elit. Animi, beatae.</h3>
                                                             <p
                                                                 style="text-align: center; margin-bottom: 48px; max-width: 770px; margin-left: auto; margin-right: auto;">
-                                                                As your business grows we'll be there every step of
-                                                                the way to make sure that you have the resources at
-                                                                hand to service your companies ongoing needs.</p>
+                                                                                                    Lorem ipsum dolor, sit amet consectetur adipisicing elit. In, alias!</p>
                                                         </span></div>
 
                                                 </div>
