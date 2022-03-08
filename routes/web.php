@@ -35,5 +35,7 @@ Route::get('/amendment', function () {
 Route::get('/dissolution', function () {
     return view('dissolution');
 });
-
+Route::get('/certificate', function () {
+    return view('certificate-of-good-standing');
+});
 
