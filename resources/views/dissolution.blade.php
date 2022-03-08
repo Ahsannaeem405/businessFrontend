@@ -1,70 +1,174 @@
 @extends('layout.main')
+<link rel="stylesheet" href="{{asset('hs-fs/hub/3787982/hub_generated/module_assets/41359297094/1620320068261/module_41359297094_Overlay_Icon.min.css')}}">
+
+<link rel="stylesheet" href="{{asset('hs-fs/hub/3787982/hub_generated/module_assets/1628597401941/module_41218342583_Boxed_Content.css')}}">
+<link rel="stylesheet" href="{{asset('hs-fs/hub/3787982/hub_generated/module_assets/1638370530837/module_41216488591_Popup_Video.css')}}">
+
+<link rel="stylesheet" href="{{asset('hs-fs/hub/3787982/hub_generated/module_assets/41221399372/1624021311142/module_41221399372_Content_List_With_Icons.min.css')}}">
+<link rel="stylesheet" href="{{asset('hs-fs/hub/3787982/hub_generated/module_assets/41968232339/1620217843091/module_41968232339_Help_File_My_Annual_Report.min.css')}}">
+<link rel="stylesheet" href="{{asset('hs-fs/hub/3787982/hub_generated/module_assets/48024845617/1622195496363/module_48024845617_Misc_Order_Form.min.css')}}">
+<link rel="stylesheet" href="{{asset('hs-fs/hub/3787982/hub_generated/module_assets/1643216358498/module_41351299817_Accordion.css')}}">
 
 
-<link rel="stylesheet"
-    href="{{ asset('hs-fs/hub/3787982/hub_generated/module_assets/1628597401941/module_41218342583_Boxed_Content.css') }}">
 
-
-
-<link rel="stylesheet"
-    href="{{ asset('hs-fs/hub/3787982/hub_generated/module_assets/45526294337/1622430602926/module_45526294337_Help_File_My_Amendment.min.css') }}">
-<link rel="stylesheet"
-    href="{{ asset('hs-fs/hub/3787982/hub_generated/module_assets/48024845617/1622195496363/module_48024845617_Misc_Order_Form.min.css') }}">
-<link rel="stylesheet"
-    href="{{ asset('hs-fs/hub/3787982/hub_generated/module_assets/1643216358498/module_41351299817_Accordion.css') }}">
-<style>
-    #widget_1614260364663.default_bullet .acc_item .acc_body .inner ul {
-        list-style: disc;
-        padding-left: 16px;
+<link rel="stylesheet" href="{{asset('hs-fs/hub/3787982/hub_generated/module_assets/41951289498/1620380498964/module_41951289498_Benefits_Tabber.min.css')}}">
+<link rel="stylesheet" href="{{asset('hs-fs/hub/3787982/hub_generated/template_assets/41952706287/1619548359317/Incfile_February_2021/css/slick.min.css')}}">
+<link rel="stylesheet" href="{{asset('hs-fs/hub/3787982/hub_generated/module_assets/1646265821701/module_41952544958_Related_Articles.css')}}">
+<link rel="stylesheet" href="{{asset('hs-fs/hub/3787982/hub_generated/module_assets/41148244352/1636038378453/module_41148244352_Footer_Social_Icons.min.css')}}">
+<style id="hs_editor_style" type="text/css">
+    #hs_cos_wrapper_widget_1614255465082  { display: block !important; margin-bottom: 80px !important; padding-top: 80px !important }
+    #hs_cos_wrapper_widget_1614256647308  { display: block !important; padding-top: 175px !important }
+    #hs_cos_wrapper_widget_1614249300775  { display: block !important; margin-top: 72px !important }
+    #hs_cos_wrapper_widget_1614265660004  { display: block !important; margin-top: 10px !important }
+    #hs_cos_wrapper_widget_1614250434822  { display: block !important; margin-top: 48px !important }
+    .DND_banner-row-0-force-full-width-section > .row-fluid {
+      max-width: none !important;
     }
-
-    #widget_1614260364663.default_bullet .acc_item .acc_body .inner ul ul {
-        list-style-type: circle;
-        padding-top: 16px;
+    .widget_1614248864336-flexbox-positioning {
+      display: -ms-flexbox !important;
+      -ms-flex-direction: column !important;
+      -ms-flex-align: center !important;
+      -ms-flex-pack: start;
+      display: flex !important;
+      flex-direction: column !important;
+      align-items: center !important;
+      justify-content: flex-start;
     }
-
-    #widget_1614260364663.default_bullet .acc_item .acc_body .inner ul li {
-        padding-left: 0;
+    .widget_1614248864336-flexbox-positioning > div {
+      max-width: 100%;
+      flex-shrink: 0 !important;
     }
-
-    #widget_1614260364663.default_bullet .acc_item .acc_body .inner ul li:before {
-        content: none;
+    .bottom_area-row-0-force-full-width-section > .row-fluid {
+      max-width: none !important;
     }
-
-    #widget_1614260364663.acc_wrapper>.inner {
-        max-width: 828px;
-        padding-top: 25px;
-        padding-bottom: 0px;
-        padding-left: 29px;
-        padding-right: 29px;
+    .bottom_area-row-1-background-gradient {
+      background-image: linear-gradient(to bottom, rgba(242, 246, 255, 1), rgba(255, 255, 255, 0)) !important;
     }
-
-    #widget_1614260364663.acc_wrapper .acc_item .title {
-        color: #4e4e4e;
+    /* HubSpot Non-stacked Media Query Styles */
+    @media (min-width:768px) {
+      .bottom_area-row-1-vertical-alignment > .row-fluid {
+        display: -ms-flexbox !important;
+        -ms-flex-direction: row;
+        display: flex !important;
+        flex-direction: row;
+      }
+      .cell_1614251938391-vertical-alignment {
+        display: -ms-flexbox !important;
+        -ms-flex-direction: column !important;
+        -ms-flex-pack: center !important;
+        display: flex !important;
+        flex-direction: column !important;
+        justify-content: center !important;
+      }
+      .cell_1614251938391-vertical-alignment > div {
+        flex-shrink: 0 !important;
+      }
+      .cell_1614251938391-row-0-vertical-alignment > .row-fluid {
+        display: -ms-flexbox !important;
+        -ms-flex-direction: row;
+        display: flex !important;
+        flex-direction: row;
+      }
+      .cell_1622191229738-vertical-alignment {
+        display: -ms-flexbox !important;
+        -ms-flex-direction: column !important;
+        -ms-flex-pack: center !important;
+        display: flex !important;
+        flex-direction: column !important;
+        justify-content: center !important;
+      }
+      .cell_1622191229738-vertical-alignment > div {
+        flex-shrink: 0 !important;
+      }
+      .cell_1622191229736-vertical-alignment {
+        display: -ms-flexbox !important;
+        -ms-flex-direction: column !important;
+        -ms-flex-pack: center !important;
+        display: flex !important;
+        flex-direction: column !important;
+        justify-content: center !important;
+      }
+      .cell_1622191229736-vertical-alignment > div {
+        flex-shrink: 0 !important;
+      }
     }
-
-    #widget_1614260364663.acc_wrapper .acc_body {
-        color: #4e4e4e;
+    /* HubSpot Styles (default) */
+    .sidebar-row-0-padding {
+      padding-top: 0px !important;
+      padding-bottom: 0px !important;
     }
-
-    #widget_1614260364663.acc_wrapper.ic_indexNumb .indx_icon span {
-        background-color: #5089fd;
+    .cell_16142488649482-padding {
+      padding-left: 0px !important;
+      padding-right: 0px !important;
     }
-
-    #widget_1614260364663.acc_wrapper .acc_item .acc_body .inner:not(.default_bullet) ul li:before {
-        background-color: #5089fd;
+    .dnd_area-row-0-padding {
+      padding-top: 60px !important;
+      padding-bottom: 0px !important;
     }
+    .cell_16142489146702-padding {
+      padding-left: 0px !important;
+      padding-right: 0px !important;
+    }
+    .bottom_area-row-0-margin {
+      margin-bottom: -1px !important;
+    }
+    .bottom_area-row-0-padding {
+      padding-top: 0px !important;
+      padding-bottom: 0px !important;
+    }
+    .bottom_area-row-1-margin {
+      margin-top: 89px !important;
+    }
+    .bottom_area-row-1-padding {
+      padding-top: 72px !important;
+      padding-bottom: 0px !important;
+    }
+    /* HubSpot Styles (mobile) */
+    @media (max-width: 767px) {
+      .widget_1614248864336-hidden {
+        display: none !important;
+      }
+      .bottom_area-row-1-margin {
+        margin-top: 64px !important;
+      }
+      .bottom_area-row-1-padding {
+        padding-top: 64px !important;
+      }
+      .widget_1614255465082-margin > #hs_cos_wrapper_widget_1614255465082 {
+        margin-bottom: 48px !important;
+      }
+      .widget_1614255465082-padding > #hs_cos_wrapper_widget_1614255465082 {
+        padding-top: 64px !important;
+      }
+      .widget_1614256647308-padding > #hs_cos_wrapper_widget_1614256647308 {
+        padding-top: 128px !important;
+      }
+    }
+    </style>
+    <style>
+        .video-wrapper_widget_1614265578054 {
+          position: relative;
+          margin-left: auto;
+          margin-right: auto;
+          width: 100%;
+          max-width: 770px;
+        }
 
-</style>
+        .video-wrapper_widget_1614265578054::before {
+          content: '';
+          display: block;
+          padding-top: 56.2%;
+        }
 
-<link rel="stylesheet"
-    href="{{ asset('hs-fs/hub/3787982/hub_generated/module_assets/41951289498/1620380498964/module_41951289498_Benefits_Tabber.min.css') }}">
-<link rel="stylesheet"
-    href="{{ asset('hs-fs/hub/3787982/hub_generated/template_assets/41952706287/1619548359317/Incfile_February_2021/css/slick.min.css') }}">
-<link rel="stylesheet"
-    href="{{ asset('hs-fs/hub/3787982/hub_generated/module_assets/1646265821701/module_41952544958_Related_Articles.css') }}">
-<link rel="stylesheet"
-    href="{{ asset('hs-fs/hub/3787982/hub_generated/module_assets/41148244352/1636038378453/module_41148244352_Footer_Social_Icons.min.css') }}">
+        .video-wrapper_widget_1614265578054 .video-pop-container {
+          position: absolute;
+          top: 0;
+          left: 0;
+          width: 100%;
+          max-width: 770px;
+          z-index: 5;
+        }
+      </style>
 @section('content')
 <div id="carouselExampleControls" class="carousel slide mb-5" data-ride="carousel">
     <div class="carousel-inner">
@@ -93,6 +197,8 @@
     <span class="sr-only">Next</span>
     </a>
  </div>
+
+
     <div class="annual-report-layout">
         <div class="banner-section llc-page-banner">
             <div class="container-fluid banner-area">
@@ -136,7 +242,7 @@
                                                                 'washington', 'west-virginia', 'wisconsin',
                                                                 'wyoming', 'washingtondc'
                                                             ];
-                                                            let requestPath = '/manage-your-company/amendment';
+                                                            let requestPath = '/manage-your-company/dissolution';
                                                             let path = requestPath.substring(1).split('../index.html')[0];
 
                                                             entityStateList.forEach(function(state) {
@@ -182,14 +288,15 @@
 
                                                         <div class="overlay-icon-module overlay_icon_widget_1614262401744   "
                                                             style="
-       max-width: 570px;
-       max-height: 570px;
-       top: -227px;  left: 0;
-       transform: rotate(0deg);
+                                                                                         max-width: 570px;
+                                                                                        max-height: 570px;
+                                                                                                top: -227px;  left: 0;
+                                                                                                transform: rotate(0deg);
 
 
 
-       "><svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 720 720">
+                                                                                     "><svg
+                                                                xmlns="http://www.w3.org/2000/svg" viewBox="0 0 720 720">
                                                                 <defs>
                                                                     <lineargradient
                                                                         id="top-left-transparent-green3_inline_svg__a"
@@ -270,11 +377,11 @@
                                                                                 class="hs_cos_wrapper hs_cos_wrapper_widget hs_cos_wrapper_type_linked_image"
                                                                                 style="" data-hs-cos-general-type="widget"
                                                                                 data-hs-cos-type="linked_image"><img
-                                                                                    src="{{asset('image/record.png')}}"
+                                                                                    src="{{asset('image/cut.png')}}"
                                                                                     class="hs-image-widget "
                                                                                     style="max-width: 100%; height: auto;"
-                                                                                    alt="amendment" title="amendment"
-                                                                                    loading="lazy"></span>
+                                                                                    alt="dissolation"
+                                                                                    title="dissolation"></span>
                                                                         </div>
 
                                                                     </div>
@@ -324,47 +431,51 @@
                                                                             class="hs_cos_wrapper hs_cos_wrapper_widget hs_cos_wrapper_type_rich_text"
                                                                             style="" data-hs-cos-general-type="widget"
                                                                             data-hs-cos-type="rich_text">
-                                                                            <h3>Change your LLC or Corporation name,
-                                                                                address, and more</h3>
-                                                                            <p style="margin-bottom: 40px;">When you
-                                                                                first filed to become a <a
-                                                                                    href="#">legal
-                                                                                    business entity</a>, part of the
-                                                                                process included creating Articles
-                                                                                of Incorporation or Articles of
-                                                                                Organization. The information that
-                                                                                you submitted contained the name of
-                                                                                the business, which business
-                                                                                structure best suited your needs
-                                                                                (such as an <a
-                                                                                    href="#">LLC</a>,
-                                                                                <a
-                                                                                    href="#">S
-                                                                                    Corporation</a>, <a
-                                                                                    href="#">C
-                                                                                    Corporation</a> or a <a
-                                                                                    href="#">Nonprofit
-                                                                                    Corporation</a>), the appointed
-                                                                                <a href="#">registered
-                                                                                    agent's</a> name and contact
-                                                                                information, the effective date in
-                                                                                which you started the business and
-                                                                                the names of the current partners or
-                                                                                shareholders.
+                                                                            <p style="margin-bottom: 32px;">A
+                                                                                corporation or LLC can come to a
+                                                                                place of dissolution for several
+                                                                                reasons. It can simply be a decision
+                                                                                you've made for your company because
+                                                                                it is no longer successful, you are
+                                                                                moving on to a new adventure or your
+                                                                                shareholders wish to dissolve its
+                                                                                assets. This will, fortunately, stop
+                                                                                the necessary tax filings and other
+                                                                                requirements that come with having a
+                                                                                record of operation on file with the
+                                                                                secretary of state. But, the
+                                                                                emotional decision to dissolve your
+                                                                                company can be tough at times, if
+                                                                                you put your heart and sweat into
+                                                                                building your own business.</p>
+                                                                            <p style="margin-bottom: 72px;">Allow
+                                                                                Incfile.com to ease the burden by
+                                                                                doing the <a
+                                                                                    href="#"
+                                                                                    target="_blank"
+                                                                                    rel="noopener">dissolution
+                                                                                    paperwork for you</a><a
+                                                                                    href="#"
+                                                                                    target="_blank" rel="noopener"></a><span
+                                                                                    style="color: #999999;"><a
+                                                                                        href="#"
+                                                                                        target="_blank" rel="noopener"
+                                                                                        style="color: #999999;">.</a></span>
                                                                             </p>
-                                                                            <p style="margin-bottom: 72px;">As time
-                                                                                passes and businesses evolve, you
-                                                                                may find that you are in a situation
-                                                                                where your business name no longer
-                                                                                fits the services you provide or
-                                                                                perhaps the leadership team of your
-                                                                                company is undergoing changes. Any
-                                                                                major event that alters the
-                                                                                information on your Articles of
-                                                                                Incorporation or Articles of
-                                                                                Organization needs to be reported to
-                                                                                your secretary of state by filing an
-                                                                                Articles of Amendment form.</p>
+                                                                            <h3>How to Close an LLC or Corporation
+                                                                            </h3>
+                                                                            <p style="margin-bottom: 40px;">A
+                                                                                company begins with Articles of
+                                                                                Incorporation when it is formed,
+                                                                                therefore it makes sense that
+                                                                                Articles must be filed to dissolve a
+                                                                                company that has been in operation.
+                                                                                Without filing the proper paperwork,
+                                                                                the business owner will continue to
+                                                                                be liable for taxes and other state
+                                                                                requirements. Fortunately, closing a
+                                                                                company is really a matter of
+                                                                                paperwork.</p>
                                                                         </span></div>
 
                                                                 </div>
@@ -398,24 +509,305 @@
 
                                                                             <div class="boxed-color-box">
 
-                                                                                <div class="icon-wrapper">
 
-                                                                                </div>
 
-                                                                                <p style="margin: 0;">Any major
-                                                                                    event that alters the
-                                                                                    information on your Articles of
-                                                                                    Incorporation or Articles of
-                                                                                    Organization needs to be
-                                                                                    reported to your secretary of
-                                                                                    state by filing an Articles of
-                                                                                    Amendment form.</p>
+                                                                                <p style="margin: 0;">In order to
+                                                                                    properly close a corporation or
+                                                                                    LLC that is no longer
+                                                                                    transacting business, the
+                                                                                    company must file Articles of
+                                                                                    Dissolution with the state of
+                                                                                    incorporation. Neglecting to
+                                                                                    file Articles of Dissolution for
+                                                                                    a company that is no longer
+                                                                                    active may expose the
+                                                                                    corporation or LLC to
+                                                                                    unnecessary recurring fees or
+                                                                                    taxes.</p>
                                                                                 <div class="boxed-content-buttons">
 
                                                                                 </div>
                                                                             </div>
                                                                         </div>
                                                                     </div>
+
+                                                                </div>
+                                                                <!--end widget-span -->
+                                                            </div>
+                                                            <!--end row-->
+                                                        </div>
+                                                        <!--end row-wrapper -->
+
+                                                        <div class="row-fluid-wrapper row-depth-1 row-number-4 dnd-row">
+                                                            <div class="row-fluid ">
+                                                                <div class="span12 widget-span widget-type-custom_widget dnd-module"
+                                                                    style="" data-widget-type="custom_widget" data-x="0"
+                                                                    data-w="12">
+                                                                    <div id="hs_cos_wrapper_widget_1614249300775"
+                                                                        class="hs_cos_wrapper hs_cos_wrapper_widget hs_cos_wrapper_type_module widget-type-rich_text"
+                                                                        style="" data-hs-cos-general-type="widget"
+                                                                        data-hs-cos-type="module"><span
+                                                                            id="hs_cos_wrapper_widget_1614249300775_"
+                                                                            class="hs_cos_wrapper hs_cos_wrapper_widget hs_cos_wrapper_type_rich_text"
+                                                                            style="" data-hs-cos-general-type="widget"
+                                                                            data-hs-cos-type="rich_text">
+                                                                            <p style="margin-bottom: 72px;">Business
+                                                                                dissolution is primarily an act of
+                                                                                filing Articles of Dissolution with
+                                                                                your secretary of state. However, if
+                                                                                a business is not in a sound
+                                                                                position with the state to dissolve,
+                                                                                other legal matters may complicate
+                                                                                the process.</p>
+                                                                            <h3 style="margin-bottom: 24px;">Steps
+                                                                                to Dissolving Your LLC or
+                                                                                Corporation</h3>
+                                                                        </span></div>
+
+                                                                </div>
+                                                                <!--end widget-span -->
+                                                            </div>
+                                                            <!--end row-->
+                                                        </div>
+                                                        <!--end row-wrapper -->
+
+                                                        <div class="row-fluid-wrapper row-depth-1 row-number-5 dnd-row">
+                                                            <div class="row-fluid ">
+                                                                <div class="span12 widget-span widget-type-custom_widget dnd-module"
+                                                                    style="" data-widget-type="custom_widget" data-x="0"
+                                                                    data-w="12">
+                                                                    <div id="hs_cos_wrapper_widget_1614265578054"
+                                                                        class="hs_cos_wrapper hs_cos_wrapper_widget hs_cos_wrapper_type_module"
+                                                                        style="" data-hs-cos-general-type="widget"
+                                                                        data-hs-cos-type="module">
+                                                                        <div class="video-wrapper_widget_1614265578054">
+                                                                            <div
+                                                                                class="popup-video-container widget_1614265578054 al_left">
+
+                                                                                <div class="gatsby-image-wrapper">
+                                                                                    <div class="pop-video-thumb-bg"
+                                                                                        style="background:url('../hubfs/Incfile_February_2021/images/how-to-dissolved-an-llc-video-thumb-21122020.jpg') center center / cover; background-size: cover;">
+                                                                                    </div>
+                                                                                </div>
+                                                                                <div
+                                                                                    class="video-button popup_video_btn_widget_1614265578054">
+                                                                                    <span>
+                                                                                        <svg viewBox="0 0 17 21"
+                                                                                            xmlns="http://www.w3.org/2000/svg">
+                                                                                            <path
+                                                                                                d="M3.08.463C1.379-.623 0 .267 0 2.449v16.1c0 2.185 1.379 3.073 3.08 1.988l12.644-8.07c1.701-1.087 1.701-2.847 0-3.933L3.08.463z"
+                                                                                                fill="#FFF"
+                                                                                                fill-rule="nonzero">
+                                                                                            </path>
+                                                                                        </svg>
+                                                                                    </span>
+                                                                                </div>
+                                                                            </div>
+                                                                            <div
+                                                                                class="video-pop-container popup_video_container_widget_1614265578054">
+                                                                                <div class="video-pop-container-inner">
+                                                                                    <iframe class="video-frame"
+                                                                                        title="Incfile Video" src="#"
+                                                                                        width="500" height="349"
+                                                                                        frameborder="0"
+                                                                                        allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture"
+                                                                                        allowfullscreen></iframe>
+                                                                                    <!--     <div class="LightBox__Control">
+            <button>
+              <svg
+                   xmlns="http://www.w3.org/2000/svg" viewBox="0 0 512.001 512.001">
+                <path d="M284.286 256.002L506.143 34.144c7.811-7.811 7.811-20.475 0-28.285-7.811-7.81-20.475-7.811-28.285 0L256 227.717 34.143 5.859c-7.811-7.811-20.475-7.811-28.285 0-7.81 7.811-7.811 20.475 0 28.285l221.857 221.857L5.858 477.859c-7.811 7.811-7.811 20.475 0 28.285a19.938 19.938 0 0014.143 5.857 19.94 19.94 0 0014.143-5.857L256 284.287l221.857 221.857c3.905 3.905 9.024 5.857 14.143 5.857s10.237-1.952 14.143-5.857c7.811-7.811 7.811-20.475 0-28.285L284.286 256.002z"></path>
+              </svg>
+            </button>
+          </div> -->
+                                                                                </div>
+                                                                            </div>
+                                                                        </div>
+
+
+
+                                                                    </div>
+
+                                                                </div>
+                                                                <!--end widget-span -->
+                                                            </div>
+                                                            <!--end row-->
+                                                        </div>
+                                                        <!--end row-wrapper -->
+
+                                                        <div class="row-fluid-wrapper row-depth-1 row-number-6 dnd-row">
+                                                            <div class="row-fluid ">
+                                                                <div class="span12 widget-span widget-type-custom_widget dnd-module"
+                                                                    style="" data-widget-type="custom_widget" data-x="0"
+                                                                    data-w="12">
+                                                                    <div id="hs_cos_wrapper_widget_1614265660004"
+                                                                        class="hs_cos_wrapper hs_cos_wrapper_widget hs_cos_wrapper_type_module widget-type-rich_text"
+                                                                        style="" data-hs-cos-general-type="widget"
+                                                                        data-hs-cos-type="module"><span
+                                                                            id="hs_cos_wrapper_widget_1614265660004_"
+                                                                            class="hs_cos_wrapper hs_cos_wrapper_widget hs_cos_wrapper_type_rich_text"
+                                                                            style="" data-hs-cos-general-type="widget"
+                                                                            data-hs-cos-type="rich_text">
+                                                                            <p style="margin-bottom: 40px;">There
+                                                                                are three key steps to dissolving a
+                                                                                company. Incfile completes these
+                                                                                steps in a timely manner on your
+                                                                                behalf, making an otherwise
+                                                                                cumbersome process simple and
+                                                                                stress-free.</p>
+                                                                        </span></div>
+
+                                                                </div>
+                                                                <!--end widget-span -->
+                                                            </div>
+                                                            <!--end row-->
+                                                        </div>
+                                                        <!--end row-wrapper -->
+
+                                                        <div class="row-fluid-wrapper row-depth-1 row-number-7 dnd-row">
+                                                            <div class="row-fluid ">
+                                                                <div class="span12 widget-span widget-type-custom_widget dnd-module"
+                                                                    style="" data-widget-type="custom_widget" data-x="0"
+                                                                    data-w="12">
+                                                                    <div id="hs_cos_wrapper_widget_1614265709783"
+                                                                        class="hs_cos_wrapper hs_cos_wrapper_widget hs_cos_wrapper_type_module"
+                                                                        style="" data-hs-cos-general-type="widget"
+                                                                        data-hs-cos-type="module">
+                                                                        <div
+                                                                            class="widget_1614265709783 content-list-icon-container">
+
+                                                                            <div
+                                                                                class="content-list-icon-items it1 icon-count">
+
+                                                                                <span class="circle__Wrapper">1</span>
+
+                                                                                <div class="content-list-icon-content">
+                                                                                    <h5
+                                                                                        style="padding-top: 4px; margin-bottom: 16px;">
+                                                                                        Hold a meeting with the
+                                                                                        Board of Directors</h5>
+                                                                                    <p style="margin: 0;">In this
+                                                                                        case, you want the minutes
+                                                                                        of your meeting to reflect
+                                                                                        that a vote was taken and
+                                                                                        appropriate majority (as
+                                                                                        outlined in your
+                                                                                        incorporation papers) was
+                                                                                        achieved. Those companies
+                                                                                        with shareholders will want
+                                                                                        a written documentation of
+                                                                                        this decision signed by all
+                                                                                        company owners. Some
+                                                                                        companies, such as
+                                                                                        single-member LLCs will not
+                                                                                        need to complete this step.
+                                                                                    </p>
+
+                                                                                </div>
+                                                                            </div>
+
+                                                                            <div
+                                                                                class="content-list-icon-items it2 icon-count">
+
+                                                                                <span class="circle__Wrapper">2</span>
+
+                                                                                <div class="content-list-icon-content">
+                                                                                    <h5>File the Articles of
+                                                                                        Dissolution</h5>
+                                                                                    <p style="margin: 0;">The
+                                                                                        paperwork must be completed
+                                                                                        and signed by
+                                                                                        the<span>&nbsp;</span><a
+                                                                                            href="#"
+                                                                                            target="_blank"
+                                                                                            rel="noopener">Registered
+                                                                                            Agent</a><span>&nbsp;</span>of
+                                                                                        your company. You will be
+                                                                                        issued a Certificate of
+                                                                                        Dissolution that formalizes
+                                                                                        the termination of business
+                                                                                        activity in your state. Once
+                                                                                        dissolution is properly
+                                                                                        documented, all branches in
+                                                                                        other states will
+                                                                                        automatically be dissolved
+                                                                                        as well. The dissolution of
+                                                                                        a company must take place in
+                                                                                        the state where
+                                                                                        incorporation took place.
+                                                                                    </p>
+
+                                                                                </div>
+                                                                            </div>
+
+                                                                            <div
+                                                                                class="content-list-icon-items it3 icon-count">
+
+                                                                                <span class="circle__Wrapper">3</span>
+
+                                                                                <div class="content-list-icon-content">
+                                                                                    <h5
+                                                                                        style="padding-top: 4px; margin-bottom: 16px;">
+                                                                                        Notify the IRS</h5>
+                                                                                    <p style="margin: 0;">This step
+                                                                                        is important because it will
+                                                                                        provide you with a "consent
+                                                                                        to dissolution" or "tax
+                                                                                        clearance" that makes the
+                                                                                        process a smooth one. It
+                                                                                        will be necessary to pay all
+                                                                                        federal and state taxes due
+                                                                                        at this time to receive this
+                                                                                        consent. This document(s)
+                                                                                        will be required by the
+                                                                                        secretary of state to
+                                                                                        achieve a formal
+                                                                                        dissolution. While we'll
+                                                                                        help you file your Articles
+                                                                                        of Dissolution, you will be
+                                                                                        responsible for contacting
+                                                                                        the IRS to receive any tax
+                                                                                        clearances, etc.</p>
+
+                                                                                </div>
+                                                                            </div>
+
+                                                                        </div>
+                                                                    </div>
+
+                                                                </div>
+                                                                <!--end widget-span -->
+                                                            </div>
+                                                            <!--end row-->
+                                                        </div>
+                                                        <!--end row-wrapper -->
+
+                                                        <div class="row-fluid-wrapper row-depth-1 row-number-8 dnd-row">
+                                                            <div class="row-fluid ">
+                                                                <div class="span12 widget-span widget-type-custom_widget dnd-module"
+                                                                    style="" data-widget-type="custom_widget" data-x="0"
+                                                                    data-w="12">
+                                                                    <div id="hs_cos_wrapper_widget_1614250434822"
+                                                                        class="hs_cos_wrapper hs_cos_wrapper_widget hs_cos_wrapper_type_module widget-type-rich_text"
+                                                                        style="" data-hs-cos-general-type="widget"
+                                                                        data-hs-cos-type="module"><span
+                                                                            id="hs_cos_wrapper_widget_1614250434822_"
+                                                                            class="hs_cos_wrapper hs_cos_wrapper_widget hs_cos_wrapper_type_rich_text"
+                                                                            style="" data-hs-cos-general-type="widget"
+                                                                            data-hs-cos-type="rich_text">
+                                                                            <p style="margin: 0;">An additional step
+                                                                                often recommended at this point is
+                                                                                the closing of all credit lines and
+                                                                                accounts that pertain to your
+                                                                                business. Letting your creditors
+                                                                                know that you have dissolved a
+                                                                                company will set you up for more
+                                                                                favorable circumstances should debt
+                                                                                still be present. Finally, if you
+                                                                                have any fictitious names in other
+                                                                                states, you'll want to cancel those
+                                                                                as well.</p>
+                                                                        </span></div>
 
                                                                 </div>
                                                                 <!--end widget-span -->
@@ -556,229 +948,280 @@
                             <!--end row-wrapper -->
 
                             <div
-                                class="row-fluid-wrapper row-depth-1 row-number-4 bottom_area-row-1-vertical-alignment dnd-section bottom_area-row-1-margin bottom_area-row-1-padding bottom_area-row-1-background-color">
-                                <div class="row-fluid ">
-                                    <div class="span7 widget-span widget-type-cell cell_16189242528202-vertical-alignment dnd-column"
-                                        style="" data-widget-type="cell" data-x="0" data-w="7">
-
-                                        <div class="row-fluid-wrapper row-depth-1 row-number-5 dnd-row">
-                                            <div class="row-fluid ">
-                                                <div class="span12 widget-span widget-type-custom_widget dnd-module"
-                                                    style="" data-widget-type="custom_widget" data-x="0" data-w="12">
-                                                    <div id="hs_cos_wrapper_widget_1618926228149"
-                                                        class="hs_cos_wrapper hs_cos_wrapper_widget hs_cos_wrapper_type_module"
-                                                        style="" data-hs-cos-general-type="widget"
-                                                        data-hs-cos-type="module">
-                                                        <div class="hfma-wrapper" id="widget_1618926228149">
-                                                            <div class="hfma-row">
-
-                                                                <div class="hfma-wrapper-left-column">
-                                                                    <div class="hfma-wrapper-left-column-inner">
-                                                                        <div class="top_curve_icon" color="#5089fd">
-                                                                            <svg width="115" height="114"
-                                                                                viewBox="0 0 29 25"
-                                                                                xmlns="http://www.w3.org/2000/svg">
-                                                                                <path
-                                                                                    d="M29 1.389c0 .746-.599 1.349-1.354 1.384a26.869 26.869 0 00-12.317 3.66C8.575 10.388 4.231 16.836 2.785 23.885A1.4 1.4 0 011.408 25c-.89 0-1.556-.806-1.38-1.666 1.599-7.79 6.398-14.916 13.863-19.286A29.704 29.704 0 0127.54.002C28.337-.036 29 .602 29 1.387v.002z"
-                                                                                    fill="#5089fd" fill-rule="evenodd">
-                                                                                </path>
-                                                                            </svg>
-                                                                        </div>
-                                                                        <h2>Help file my Amendment</h2>
-                                                                        <h4>Save your time. We'll handle the
-                                                                            paperwork.</h4>
-                                                                        <p style="margin-bottom: 0;">Articles of
-                                                                            Amendment are typically filed to change
-                                                                            the following information:</p>
-                                                                        <ul>
-                                                                            <li>The addition or removal of a
-                                                                                director, officer or member for LLCs
-                                                                            </li>
-                                                                            <li>To change the business address of
-                                                                                the corporation or LLC</li>
-                                                                            <li>To change the number of authorized
-                                                                                shares issued by a corporation</li>
-                                                                            <li>To alter stated business activities
-                                                                                conducted by the corporation or LLC
-                                                                            </li>
-                                                                        </ul>
-                                                                    </div>
-                                                                </div>
-                                                            </div>
-                                                        </div>
-                                                    </div>
-
-                                                </div>
-                                                <!--end widget-span -->
-                                            </div>
-                                            <!--end row-->
-                                        </div>
-                                        <!--end row-wrapper -->
-
-                                    </div>
-                                    <!--end widget-span -->
-                                    <div class="span5 widget-span widget-type-cell dnd-column cell_1622180047562-vertical-alignment"
-                                        style="" data-widget-type="cell" data-x="7" data-w="5">
-
-                                        <div class="row-fluid-wrapper row-depth-1 row-number-6 dnd-row">
-                                            <div class="row-fluid ">
-                                                <div class="span12 widget-span widget-type-custom_widget dnd-module"
-                                                    style="" data-widget-type="custom_widget" data-x="0" data-w="12">
-                                                    <div id="hs_cos_wrapper_widget_1622181006977"
-                                                        class="hs_cos_wrapper hs_cos_wrapper_widget hs_cos_wrapper_type_module"
-                                                        style="" data-hs-cos-general-type="widget"
-                                                        data-hs-cos-type="module">
-                                                        <div id="misc__order_form" class="misc__order_form">
-                                                            <div class="hfma-wrapper-right-column">
-                                                                <div class="hfma-wrapper-right-column-inner">
-                                                                    <div class="certificate-card-holder submit-with-icon">
-                                                                        <h3 class="gJQqAX">Amendment</h3>
-                                                                        <div id="hs_form_target_form_547796101">
-                                                                            <form>
-                                                                                <div
-                                                                                    class="hs_entity_typ hs-entity_typ hs-fieldtype-select field hs-form-field">
-                                                                                    <label
-                                                                                        placeholder="Enter your Entity Type"
-                                                                                        for="entityType">
-                                                                                        <span>Entity Type</span>
-                                                                                    </label>
-                                                                                    <div class="input">
-                                                                                        <select class="hs-input"
-                                                                                            v-model="entityType">
-                                                                                            <option value="demo">Demo</option>
-                                                                                        </select>
-                                                                                        {{-- <span class="field__error"
-                                                                                            v-show="errors.entityTypeField">This
-                                                                                            field is required</span> --}}
-                                                                                    </div>
-                                                                                </div>
-
-                                                                                <div
-                                                                                    class="hs_state_of_formation hs-state_of_formation hs-fieldtype-select field hs-form-field">
-                                                                                    <label class=""
-                                                                                        placeholder="Enter your Select State"
-                                                                                        for="">Enter your Select State</label>
-                                                                                    <div class="input">
-                                                                                        <select class="hs-input"
-                                                                                            v-model="entityState">
-                                                                                            <option value="">Select
-                                                                                                State</option>
-                                                                                            <option
-                                                                                                v-for="state in exactStateList"
-                                                                                                value="state">demo</option>
-                                                                                        </select>
-                                                                                        {{-- <span class="field__error"
-                                                                                            v-show="errors.entityStateField">This
-                                                                                            field is required</span> --}}
-                                                                                    </div>
-                                                                                </div>
-
-                                                                                <div v-if="getOrderType == 18"
-                                                                                    class="hs_state_of_formation hs-state_of_formation hs-fieldtype-select field hs-form-field">
-                                                                                    <label class=""
-                                                                                        placeholder="Enter your Select State"
-                                                                                        for=""><span>State of
-                                                                                            Foreign
-                                                                                            Qualification</span></label>
-                                                                                    <div class="input">
-                                                                                        <select class="hs-input"
-                                                                                            v-model="compState">
-                                                                                            <option value="">Select
-                                                                                                State</option>
-                                                                                            <option
-                                                                                                v-for="state in exactStateList"
-                                                                                                value="state">demo</option>
-                                                                                        </select>
-                                                                                        {{-- <span class="field__error"
-                                                                                            v-show="errors.compStateField">The
-                                                                                            State of Incorporation
-                                                                                            and State of Foreign
-                                                                                            Qualification should not
-                                                                                            same</span> --}}
-                                                                                    </div>
-                                                                                </div>
-
-                                                                                <div>
-                                                                                    <div
-                                                                                        class="hs-richtext hs-main-font-element">
-                                                                                        <p
-                                                                                            style="text-align: center; font-size: 48px; font-weight: bold; line-height: 56px; color: #1d1d1d; margin-bottom: 8px;">
-                                                                                            $ 200</p>
-                                                                                        <p
-                                                                                            style="text-align: center; font-size: 16px; line-height: 24px; color: #7a7a7a;">
-                                                                                            $50 extraFee </p>
-                                                                                    </div>
-                                                                                </div>
-
-                                                                                <div class="hs_submit hs-submit">
-                                                                                    <div class="actions">
-                                                                                        <input type="submit"
-
-                                                                                            value="Go"
-                                                                                            class="hs-button primary large">
-                                                                                        <div
-                                                                                            class="button-action__Arrow-sc-1lf0xj6-1 ghTmmo arrow1">
-                                                                                            <svg width="12" height="11"
-                                                                                                xmlns="http://www.w3.org/2000/svg">
-                                                                                                <path
-                                                                                                    d="M5.805.703L5.8.707a1 1 0 00-.003 1.416l2.379 2.379H.998a.998.998 0 000 1.996h7.179L5.798 8.877a1 1 0 00.003 1.416l.004.004a1 1 0 001.412-.003l4.078-4.088a1 1 0 000-1.412L7.217.706A1 1 0 005.805.703z"
-                                                                                                    fill="#1D1D1D"
-                                                                                                    fill-rule="nonzero">
-                                                                                                </path>
-                                                                                            </svg>
-                                                                                        </div>
-                                                                                    </div>
-                                                                                </div>
-                                                                            </form>
-                                                                        </div>
-                                                                    </div>
-                                                                </div>
-                                                            </div>
-                                                        </div>
-
-                                                    </div>
-
-                                                </div>
-                                                <!--end widget-span -->
-                                            </div>
-                                            <!--end row-->
-                                        </div>
-                                        <!--end row-wrapper -->
-
-                                        <div class="row-fluid-wrapper row-depth-1 row-number-7 dnd-row">
-                                            <div class="row-fluid ">
-                                                <div class="span12 widget-span widget-type-custom_widget dnd-module"
-                                                    style="" data-widget-type="custom_widget" data-x="0" data-w="12">
-                                                    <span id="hs_cos_wrapper_widget_1622180047270"
-                                                        class="hs_cos_wrapper hs_cos_wrapper_widget hs_cos_wrapper_type_module"
-                                                        style="" data-hs-cos-general-type="widget"
-                                                        data-hs-cos-type="module">
-                                                        <!-- custom widget definition not found -->
-                                                    </span>
-
-                                                </div>
-                                                <!--end widget-span -->
-                                            </div>
-                                            <!--end row-->
-                                        </div>
-                                        <!--end row-wrapper -->
-
-                                    </div>
-                                    <!--end widget-span -->
-                                </div>
-                                <!--end row-->
-                            </div>
-                            <!--end row-wrapper -->
-
-                            <div
-                                class="row-fluid-wrapper row-depth-1 row-number-8 bottom_area-row-2-vertical-alignment bottom_area-row-2-padding dnd-section bottom_area-row-2-background-color">
+                                class="row-fluid-wrapper row-depth-1 row-number-4 bottom_area-row-1-vertical-alignment bottom_area-row-1-background-gradient dnd-section bottom_area-row-1-margin bottom_area-row-1-padding">
                                 <div class="row-fluid ">
                                     <div class="span12 widget-span widget-type-cell cell_1614251938391-vertical-alignment dnd-column"
                                         style="" data-widget-type="cell" data-x="0" data-w="12">
 
-                                        <div class="row-fluid-wrapper row-depth-1 row-number-9 dnd-row">
+                                        <div
+                                            class="row-fluid-wrapper row-depth-1 row-number-5 dnd-row cell_1614251938391-row-0-vertical-alignment">
                                             <div class="row-fluid ">
-                                                <div class="span12 widget-span widget-type-custom_widget widget_1614255465082-margin dnd-module"
+                                                <div class="span7 widget-span widget-type-cell dnd-column cell_1622191229736-vertical-alignment"
+                                                    style="" data-widget-type="cell" data-x="0" data-w="7">
+
+                                                    <div class="row-fluid-wrapper row-depth-1 row-number-6 dnd-row">
+                                                        <div class="row-fluid ">
+                                                            <div class="span12 widget-span widget-type-custom_widget dnd-module"
+                                                                style="" data-widget-type="custom_widget" data-x="0"
+                                                                data-w="12">
+                                                                <div id="hs_cos_wrapper_widget_1614255383124"
+                                                                    class="hs_cos_wrapper hs_cos_wrapper_widget hs_cos_wrapper_type_module"
+                                                                    style="" data-hs-cos-general-type="widget"
+                                                                    data-hs-cos-type="module">
+                                                                    <div class="my-annual-report-wrapper"
+                                                                        id="widget_1614255383124">
+                                                                        <div class="my-annual-report-row">
+                                                                            <div
+                                                                                class="my-annual-report-wrapper-left-column">
+                                                                                <div
+                                                                                    class="my-annual-report-wrapper-left-column-inner">
+
+                                                                                    <div class="top_curve_icon"
+                                                                                        color="#5089FD">
+                                                                                        <svg width="29" height="25"
+                                                                                            xmlns="http://www.w3.org/2000/svg">
+                                                                                            <path
+                                                                                                d="M0 1.389c0 .746.599 1.349 1.354 1.384a26.869 26.869 0 0112.317 3.66c6.754 3.954 11.098 10.402 12.544 17.451A1.4 1.4 0 0027.592 25c.89 0 1.556-.806 1.38-1.666-1.599-7.79-6.398-14.916-13.863-19.286A29.704 29.704 0 001.46.002 1.393 1.393 0 000 1.387v.002z"
+                                                                                                fill="#C9A3EE"
+                                                                                                fill-rule="evenodd">
+                                                                                            </path>
+                                                                                        </svg>
+                                                                                    </div>
+
+                                                                                    <h2
+                                                                                        style="margin-bottom: 56px; max-width: 460px;">
+                                                                                        Save your time. We'll handle
+                                                                                        the paperwork.</h2>
+                                                                                    <h4 style="margin-bottom: 24px;">
+                                                                                        Requirements to file
+                                                                                        Articles of Dissolution:
+                                                                                    </h4>
+                                                                                    <p style="margin: 0;">The
+                                                                                        company must be in <a
+                                                                                            style="font-weight: 900;"
+                                                                                            href="#">good
+                                                                                            standing</a> with the
+                                                                                        state of incorporation and
+                                                                                        cannot be in arrears of
+                                                                                        franchise taxes or annual
+                                                                                        reporting requirements. In
+                                                                                        the event that the entity is
+                                                                                        not in good standing
+                                                                                        reinstatement would be
+                                                                                        required in order to proceed
+                                                                                        with the dissolution.</p>
+                                                                                </div>
+                                                                            </div>
+
+                                                                            <div
+                                                                                class="my-annual-report-wrapper-right-column">
+                                                                                <div
+                                                                                    class="my-annual-report-wrapper-right-column-inner">
+
+                                                                                </div>
+                                                                            </div>
+
+                                                                        </div>
+
+                                                                    </div>
+
+                                                                    <style>
+                                                                        #widget_1614255383124.my-annual-report-wrapper .top_curve_icon svg path {
+                                                                            fill: rgba(80, 137, 253, 1.0);
+                                                                        }
+
+                                                                        @media (min-width: 1200px) {
+                                                                            #widget_1614255383124.my-annual-report-wrapper .top_curve_icon {
+                                                                                right: 170px;
+                                                                            }
+                                                                        }
+
+                                                                    </style>
+                                                                </div>
+
+                                                            </div>
+                                                            <!--end widget-span -->
+                                                        </div>
+                                                        <!--end row-->
+                                                    </div>
+                                                    <!--end row-wrapper -->
+
+                                                </div>
+                                                <!--end widget-span -->
+                                                <div class="span5 widget-span widget-type-cell dnd-column cell_1622191229738-vertical-alignment"
+                                                    style="" data-widget-type="cell" data-x="7" data-w="5">
+
+                                                    <div class="row-fluid-wrapper row-depth-1 row-number-7 dnd-row">
+                                                        <div class="row-fluid ">
+                                                            <div class="span12 widget-span widget-type-custom_widget dnd-module"
+                                                                style="" data-widget-type="custom_widget" data-x="0"
+                                                                data-w="12">
+                                                                <div id="hs_cos_wrapper_widget_1622191229342"
+                                                                    class="hs_cos_wrapper hs_cos_wrapper_widget hs_cos_wrapper_type_module"
+                                                                    style="" data-hs-cos-general-type="widget"
+                                                                    data-hs-cos-type="module">
+                                                                    <div id="misc__order_form" class="misc__order_form">
+                                                                        <div class="hfma-wrapper-right-column">
+                                                                            <div class="hfma-wrapper-right-column-inner">
+                                                                                <div
+                                                                                    class="certificate-card-holder submit-with-icon">
+                                                                                    <h3 class="gJQqAX">
+                                                                                        Dissolution</h3>
+                                                                                    <div id="hs_form_target_form_547796101">
+                                                                                        <form>
+                                                                                            <div
+                                                                                                class="hs_entity_typ hs-entity_typ hs-fieldtype-select field hs-form-field">
+                                                                                                <label
+                                                                                                    placeholder="Enter your Entity Type"
+                                                                                                    for="entityType">
+                                                                                                    <span>Entity
+                                                                                                        Type</span>
+                                                                                                </label>
+                                                                                                <div
+                                                                                                    class="input">
+                                                                                                    <select
+                                                                                                        class="hs-input"
+                                                                                                        v-model="entityType">
+                                                                                                        <option
+                                                                                                            v-for="option in entitiesType"
+                                                                                                            value="option">demo
+
+                                                                                                        </option>
+                                                                                                    </select>
+                                                                                                    {{-- <span
+                                                                                                        class="field__error"
+                                                                                                        v-show="errors.entityTypeField">This
+                                                                                                        field is
+                                                                                                        required</span> --}}
+                                                                                                </div>
+                                                                                            </div>
+
+                                                                                            <div
+                                                                                                class="hs_state_of_formation hs-state_of_formation hs-fieldtype-select field hs-form-field">
+                                                                                                <label
+                                                                                                    class=""
+                                                                                                    placeholder="Enter your Select State"
+                                                                                                    for=""><span>State</span></label>
+                                                                                                <div
+                                                                                                    class="input">
+                                                                                                    <select
+                                                                                                        class="hs-input"
+                                                                                                        v-model="entityState">
+                                                                                                        <option value="">
+                                                                                                            Select
+                                                                                                            State
+                                                                                                        </option>
+                                                                                                        <option
+                                                                                                            v-for="state in exactStateList"
+                                                                                                            value="state">
+                                                                                                          Demo
+                                                                                                        </option>
+                                                                                                    </select>
+                                                                                                    {{-- <span
+                                                                                                        class="field__error"
+                                                                                                        v-show="errors.entityStateField">This
+                                                                                                        field is
+                                                                                                        required</span> --}}
+                                                                                                </div>
+                                                                                            </div>
+
+                                                                                            <div v-if="getOrderType == 18"
+                                                                                                class="hs_state_of_formation hs-state_of_formation hs-fieldtype-select field hs-form-field">
+                                                                                                <label
+                                                                                                    class=""
+                                                                                                    placeholder="Enter your Select State"
+                                                                                                    for=""><span>State
+                                                                                                        of Foreign
+                                                                                                        Qualification</span></label>
+                                                                                                <div
+                                                                                                    class="input">
+                                                                                                    <select
+                                                                                                        class="hs-input"
+                                                                                                        v-model="compState">
+                                                                                                        <option value="">
+                                                                                                            Select
+                                                                                                            State
+                                                                                                        </option>
+                                                                                                        <option
+                                                                                                            v-for="state in exactStateList"
+                                                                                                            value="state">
+                                                                                                         Demo
+                                                                                                        </option>
+                                                                                                    </select>
+                                                                                                    {{-- <span
+                                                                                                        class="field__error"
+                                                                                                        v-show="errors.compStateField">The
+                                                                                                        State of
+                                                                                                        Incorporation
+                                                                                                        and State of
+                                                                                                        Foreign
+                                                                                                        Qualification
+                                                                                                        should not
+                                                                                                        same</span> --}}
+                                                                                                </div>
+                                                                                            </div>
+
+                                                                                            <div>
+                                                                                                <div
+                                                                                                    class="hs-richtext hs-main-font-element">
+                                                                                                    <p
+                                                                                                        style="text-align: center; font-size: 48px; font-weight: bold; line-height: 56px; color: #1d1d1d; margin-bottom: 8px;">
+                                                                                                        $200</p>
+                                                                                                    <p
+                                                                                                        style="text-align: center; font-size: 16px; line-height: 24px; color: #7a7a7a;">
+                                                                                                        $50 extraFee
+                                                                                                        </p>
+                                                                                                </div>
+                                                                                            </div>
+
+                                                                                            <div
+                                                                                                class="hs_submit hs-submit">
+                                                                                                <div
+                                                                                                    class="actions">
+                                                                                                    <input type="submit"
+                                                                                                        @click.prevent="handleSubmit"
+                                                                                                        value="Go"
+                                                                                                        class="hs-button primary large">
+                                                                                                    <div
+                                                                                                        class="button-action__Arrow-sc-1lf0xj6-1 ghTmmo arrow1">
+                                                                                                        <svg width="12"
+                                                                                                            height="11"
+                                                                                                            xmlns="http://www.w3.org/2000/svg">
+                                                                                                            <path
+                                                                                                                d="M5.805.703L5.8.707a1 1 0 00-.003 1.416l2.379 2.379H.998a.998.998 0 000 1.996h7.179L5.798 8.877a1 1 0 00.003 1.416l.004.004a1 1 0 001.412-.003l4.078-4.088a1 1 0 000-1.412L7.217.706A1 1 0 005.805.703z"
+                                                                                                                fill="#0000FF"
+                                                                                                                fill-rule="nonzero">
+                                                                                                            </path>
+                                                                                                        </svg>
+                                                                                                    </div>
+                                                                                                </div>
+                                                                                            </div>
+                                                                                        </form>
+                                                                                    </div>
+                                                                                </div>
+                                                                            </div>
+                                                                        </div>
+                                                                    </div>
+
+                                                                </div>
+
+                                                            </div>
+                                                            <!--end widget-span -->
+                                                        </div>
+                                                        <!--end row-->
+                                                    </div>
+                                                    <!--end row-wrapper -->
+
+                                                </div>
+                                                <!--end widget-span -->
+                                            </div>
+                                            <!--end row-->
+                                        </div>
+                                        <!--end row-wrapper -->
+
+                                        <div class="row-fluid-wrapper row-depth-1 row-number-8 dnd-row">
+                                            <div class="row-fluid ">
+                                                <div class="span12 widget-span widget-type-custom_widget widget_1614255465082-margin widget_1614255465082-padding dnd-module"
                                                     style="" data-widget-type="custom_widget" data-x="0" data-w="12">
                                                     <div id="hs_cos_wrapper_widget_1614255465082"
                                                         class="hs_cos_wrapper hs_cos_wrapper_widget hs_cos_wrapper_type_module widget-type-rich_text"
@@ -790,7 +1233,7 @@
                                                             data-hs-cos-type="rich_text">
                                                             <blockquote>
                                                                 <h2 style="max-width: 640px; margin: 0px auto 24px;">
-                                                                    Common questions about filing an Amendment</h2>
+                                                                    Common questions on filing Dissolution</h2>
                                                             </blockquote>
                                                         </span></div>
 
@@ -801,7 +1244,7 @@
                                         </div>
                                         <!--end row-wrapper -->
 
-                                        <div class="row-fluid-wrapper row-depth-1 row-number-10 dnd-row">
+                                        <div class="row-fluid-wrapper row-depth-1 row-number-9 dnd-row">
                                             <div class="row-fluid ">
                                                 <div class="span12 widget-span widget-type-custom_widget dnd-module"
                                                     style="" data-widget-type="custom_widget" data-x="0" data-w="12">
@@ -819,7 +1262,7 @@
                                                                 <div class="acc_item acc1">
 
                                                                     <div class="acc_header trigger"
-                                                                        data-id="widget_1614260364663-whatbusinesschangescanbereportedinanarticlesofamendmentform1">
+                                                                        data-id="widget_1614260364663-whatarearticlesofdistributionexactly1">
                                                                         <div class="inner">
 
                                                                             <div class="arr_icon first_pos">
@@ -839,40 +1282,26 @@
 
 
                                                                             <div class="title">
-                                                                                <span>What business changes can be
-                                                                                    reported in an Articles of
-                                                                                    Amendment form?</span>
+                                                                                <span>What are Articles of
+                                                                                    Distribution exactly?</span>
                                                                             </div>
 
                                                                         </div>
                                                                     </div>
 
                                                                     <div class="acc_body"
-                                                                        data-id="widget_1614260364663-whatbusinesschangescanbereportedinanarticlesofamendmentform1">
+                                                                        data-id="widget_1614260364663-whatarearticlesofdistributionexactly1">
                                                                         <div class="inner">
-                                                                            <p>Common changes to file for an
-                                                                                amendment with the secretary of
-                                                                                state are:</p>
-                                                                            <ul>
-                                                                                <li>Changes to the company name</li>
-                                                                                <li>Updates to the registered
-                                                                                    agent's contact information</li>
-                                                                                <li>New company business address
-                                                                                </li>
-                                                                                <li>Director or member information
-                                                                                </li>
-                                                                                <li>Number of authorized shares</li>
-                                                                                <li>Change in business activities
-                                                                                </li>
-                                                                            </ul>
-                                                                            <p style="margin-bottom: 32px;">Most
-                                                                                items that are listed on the
-                                                                                original articles can be changed by
-                                                                                filing an amendment other than the
-                                                                                filing date, incorporator or
-                                                                                organizer. You cannot change a
-                                                                                registered agent through an Articles
-                                                                                of Amendment.</p>
+                                                                            <p><span>The articles formalize the
+                                                                                    cessation of activity as an
+                                                                                    incorporated entity. They define
+                                                                                    parameters surrounding the
+                                                                                    dissolution of a company. This
+                                                                                    could include the distribution
+                                                                                    or sale of assets, how
+                                                                                    shareholders will be compensated
+                                                                                    and responsibilities divided
+                                                                                    among management.</span></p>
 
 
                                                                         </div>
@@ -882,7 +1311,7 @@
                                                                 <div class="acc_item acc2">
 
                                                                     <div class="acc_header trigger"
-                                                                        data-id="widget_1614260364663-whatinformationisrequiredtofileanarticlesofamendment2">
+                                                                        data-id="widget_1614260364663-howmuchwillitcosttofilearticlesofdissolution2">
                                                                         <div class="inner">
 
                                                                             <div class="arr_icon first_pos">
@@ -902,40 +1331,23 @@
 
 
                                                                             <div class="title">
-                                                                                <span>What information is required
-                                                                                    to file an Articles of
-                                                                                    Amendment?</span>
+                                                                                <span>How much will it cost to file
+                                                                                    Articles of Dissolution?</span>
                                                                             </div>
 
                                                                         </div>
                                                                     </div>
 
                                                                     <div class="acc_body"
-                                                                        data-id="widget_1614260364663-whatinformationisrequiredtofileanarticlesofamendment2">
+                                                                        data-id="widget_1614260364663-howmuchwillitcosttofilearticlesofdissolution2">
                                                                         <div class="inner">
-                                                                            <p>The basic information needed
-                                                                                includes:</p>
-                                                                            <ul style="margin-bottom: 24px;">
-                                                                                <li>Your current entity name</li>
-                                                                                <li>The name you wish to change it
-                                                                                    to (if applicable)</li>
-                                                                                <li>The text of the new amendments
-                                                                                    that you are adopting</li>
-                                                                                <li>The date on which each amendment
-                                                                                    was adopted (some states require
-                                                                                    member or board of directors
-                                                                                    voting to pass these
-                                                                                    amendments), if there is a delay
-                                                                                    in the date as to when the
-                                                                                    amendment will be adopted and
-                                                                                    the name(s) and address(es) of
-                                                                                    the individual(s) who are
-                                                                                    submitting this document to be
-                                                                                    delivered for filing (many
-                                                                                    states require the signatures of
-                                                                                    the president and secretary of
-                                                                                    your company).</li>
-                                                                            </ul>
+                                                                            <p><span>The state fee varies by state
+                                                                                    our service fee to file Articles
+                                                                                    of Dissolution is $149. To
+                                                                                    review the fee in your state
+                                                                                    click on the “order now” button
+                                                                                    and select the state and entity
+                                                                                    type.</span></p>
 
 
                                                                         </div>
@@ -945,7 +1357,7 @@
                                                                 <div class="acc_item acc3">
 
                                                                     <div class="acc_header trigger"
-                                                                        data-id="widget_1614260364663-whydoineedtofileanarticlesofamendment3">
+                                                                        data-id="widget_1614260364663-whatcontingencieswouldprohibitmefromfilingadissolution3">
                                                                         <div class="inner">
 
                                                                             <div class="arr_icon first_pos">
@@ -965,32 +1377,27 @@
 
 
                                                                             <div class="title">
-                                                                                <span>Why do I need to file an
-                                                                                    Articles of Amendment?</span>
+                                                                                <span>What contingencies would
+                                                                                    prohibit me from filing a
+                                                                                    dissolution?</span>
                                                                             </div>
 
                                                                         </div>
                                                                     </div>
 
                                                                     <div class="acc_body"
-                                                                        data-id="widget_1614260364663-whydoineedtofileanarticlesofamendment3">
+                                                                        data-id="widget_1614260364663-whatcontingencieswouldprohibitmefromfilingadissolution3">
                                                                         <div class="inner">
-                                                                            <p style="margin-bottom: 32px;">
-                                                                                Information in the articles of
-                                                                                organization is a matter of public
-                                                                                record, so LLCs need to make sure
-                                                                                that their Articles of Organization
-                                                                                on file list the correct
-                                                                                information, including company name,
-                                                                                owners and managers of the company.
-                                                                                If a dispute arises involving
-                                                                                ownership, the information contained
-                                                                                in the company’s Articles of
-                                                                                Organization will be used to prove
-                                                                                who owns the company. If a name
-                                                                                dispute arises with another company,
-                                                                                this also ensures your legal rights.
-                                                                            </p>
+                                                                            <p><span>The only stipulation that would
+                                                                                    prohibit the owners of an entity
+                                                                                    from filing a dissolution is if
+                                                                                    the company owes outstanding
+                                                                                    taxes or has annual reports
+                                                                                    outstanding. In this event the
+                                                                                    company would need to bring the
+                                                                                    itself to good standing with the
+                                                                                    state before filing the
+                                                                                    dissolution.</span></p>
 
 
                                                                         </div>
@@ -1000,7 +1407,7 @@
                                                                 <div class="acc_item acc4">
 
                                                                     <div class="acc_header trigger"
-                                                                        data-id="widget_1614260364663-howdoisubmitmyarticlesofamendment4">
+                                                                        data-id="widget_1614260364663-howlongwillittaketohavethearticlesofdissolutionfiled4">
                                                                         <div class="inner">
 
                                                                             <div class="arr_icon first_pos">
@@ -1020,26 +1427,20 @@
 
 
                                                                             <div class="title">
-                                                                                <span>How do I submit my Articles of
-                                                                                    Amendment?</span>
+                                                                                <span>How long will it take to have
+                                                                                    the Articles of Dissolution
+                                                                                    filed?</span>
                                                                             </div>
 
                                                                         </div>
                                                                     </div>
 
                                                                     <div class="acc_body"
-                                                                        data-id="widget_1614260364663-howdoisubmitmyarticlesofamendment4">
+                                                                        data-id="widget_1614260364663-howlongwillittaketohavethearticlesofdissolutionfiled4">
                                                                         <div class="inner">
-                                                                            <p style="margin-bottom: 32px;">These
-                                                                                forms need to either be mailed to
-                                                                                your secretary of state or delivered
-                                                                                in person to their office. Some
-                                                                                states do offer online forms, but as
-                                                                                in Maryland, online forms are
-                                                                                considered expedited and can cost an
-                                                                                additional fee. However, Incfile can
-                                                                                take care of filing your Articles of
-                                                                                Amendment for you.</p>
+                                                                            <p><span>The filing time is dependent on
+                                                                                    the governing state agency and
+                                                                                    varies by state.</span></p>
 
 
                                                                         </div>
@@ -1049,99 +1450,7 @@
                                                                 <div class="acc_item acc5">
 
                                                                     <div class="acc_header trigger"
-                                                                        data-id="widget_1614260364663-howmuchdoesitcosttofilearticlesofamendment5">
-                                                                        <div class="inner">
-
-                                                                            <div class="arr_icon first_pos">
-                                                                                <svg width="32" height="32"
-                                                                                    xmlns="http://www.w3.org/2000/svg">
-                                                                                    <g fill="none" fill-rule="evenodd">
-                                                                                        <circle fill="#FEF6ED" cx="16"
-                                                                                            cy="16" r="16">
-                                                                                        </circle>
-                                                                                        <path
-                                                                                            d="M20.297 16.195l-.004.004a1 1 0 01-1.416.003l-2.379-2.379v7.179a.998.998 0 01-1.996 0v-7.179l-2.379 2.379a1 1 0 01-1.416-.003l-.004-.004a1 1 0 01.003-1.412l4.088-4.078a1 1 0 011.412 0l4.088 4.078a1 1 0 01.003 1.412z"
-                                                                                            fill="#0000FF"></path>
-                                                                                    </g>
-                                                                                </svg>
-                                                                            </div>
-
-
-
-                                                                            <div class="title">
-                                                                                <span>How much does it cost to file
-                                                                                    Articles of Amendment?</span>
-                                                                            </div>
-
-                                                                        </div>
-                                                                    </div>
-
-                                                                    <div class="acc_body"
-                                                                        data-id="widget_1614260364663-howmuchdoesitcosttofilearticlesofamendment5">
-                                                                        <div class="inner">
-                                                                            <p style="margin-bottom: 32px;">The
-                                                                                state fee varies by state. Our
-                                                                                service fee to file Articles of
-                                                                                Amendment is $119. To review the fee
-                                                                                in your state, select the state and
-                                                                                entity type in our Articles of
-                                                                                Amendment online form.</p>
-
-
-                                                                        </div>
-                                                                    </div>
-                                                                </div>
-
-                                                                <div class="acc_item acc6">
-
-                                                                    <div class="acc_header trigger"
-                                                                        data-id="widget_1614260364663-howlongdoesittaketofilearticlesofamendment6">
-                                                                        <div class="inner">
-
-                                                                            <div class="arr_icon first_pos">
-                                                                                <svg width="32" height="32"
-                                                                                    xmlns="http://www.w3.org/2000/svg">
-                                                                                    <g fill="none" fill-rule="evenodd">
-                                                                                        <circle fill="#FEF6ED" cx="16"
-                                                                                            cy="16" r="16">
-                                                                                        </circle>
-                                                                                        <path
-                                                                                            d="M20.297 16.195l-.004.004a1 1 0 01-1.416.003l-2.379-2.379v7.179a.998.998 0 01-1.996 0v-7.179l-2.379 2.379a1 1 0 01-1.416-.003l-.004-.004a1 1 0 01.003-1.412l4.088-4.078a1 1 0 011.412 0l4.088 4.078a1 1 0 01.003 1.412z"
-                                                                                            fill="#0000FF"></path>
-                                                                                    </g>
-                                                                                </svg>
-                                                                            </div>
-
-
-
-                                                                            <div class="title">
-                                                                                <span>How long does it take to file
-                                                                                    Articles of Amendment?</span>
-                                                                            </div>
-
-                                                                        </div>
-                                                                    </div>
-
-                                                                    <div class="acc_body"
-                                                                        data-id="widget_1614260364663-howlongdoesittaketofilearticlesofamendment6">
-                                                                        <div class="inner">
-                                                                            <p style="margin-bottom: 32px;">The
-                                                                                filing time is dependent on the
-                                                                                governing state agency and varies by
-                                                                                state. For example, in California
-                                                                                the process takes over eight weeks.
-                                                                                Many states do offered expedited
-                                                                                service for an additional fee.</p>
-
-
-                                                                        </div>
-                                                                    </div>
-                                                                </div>
-
-                                                                <div class="acc_item acc7">
-
-                                                                    <div class="acc_header trigger"
-                                                                        data-id="widget_1614260364663-whatwillireceivewhenthearticlesofamendmentarefiled7">
+                                                                        data-id="widget_1614260364663-whatwillireceivewhenthearticlesofdissolutionarefiled5">
                                                                         <div class="inner">
 
                                                                             <div class="arr_icon first_pos">
@@ -1162,7 +1471,7 @@
 
                                                                             <div class="title">
                                                                                 <span>What will I receive when the
-                                                                                    Articles of Amendment are
+                                                                                    Articles of Dissolution are
                                                                                     filed?</span>
                                                                             </div>
 
@@ -1170,13 +1479,12 @@
                                                                     </div>
 
                                                                     <div class="acc_body"
-                                                                        data-id="widget_1614260364663-whatwillireceivewhenthearticlesofamendmentarefiled7">
+                                                                        data-id="widget_1614260364663-whatwillireceivewhenthearticlesofdissolutionarefiled5">
                                                                         <div class="inner">
-                                                                            <p style="margin-bottom: 32px;">The
-                                                                                governing state agency will
-                                                                                typically return a copy of the filed
-                                                                                articles to Incfile, which are then
-                                                                                mailed to our customers.</p>
+                                                                            <p><span>The governing state agency will
+                                                                                    return a copy of the filed
+                                                                                    articles which are then mailed
+                                                                                    to the client.</span></p>
 
 
                                                                         </div>
@@ -1196,28 +1504,15 @@
                                         </div>
                                         <!--end row-wrapper -->
 
-                                    </div>
-                                    <!--end widget-span -->
-                                </div>
-                                <!--end row-->
-                            </div>
-                            <!--end row-wrapper -->
-
-                            <div
-                                class="row-fluid-wrapper row-depth-1 row-number-11 bottom_area-row-3-padding bottom_area-row-3-background-gradient dnd-section bottom_area-row-3-vertical-alignment">
-                                <div class="row-fluid ">
-                                    <div class="span12 widget-span widget-type-cell dnd-column cell_16189244068192-vertical-alignment"
-                                        style="" data-widget-type="cell" data-x="0" data-w="12">
-
-                                        <div class="row-fluid-wrapper row-depth-1 row-number-12 dnd-row">
+                                        <div class="row-fluid-wrapper row-depth-1 row-number-10 dnd-row">
                                             <div class="row-fluid ">
-                                                <div class="span12 widget-span widget-type-custom_widget dnd-module"
+                                                <div class="span12 widget-span widget-type-custom_widget dnd-module widget_1614256647308-padding"
                                                     style="" data-widget-type="custom_widget" data-x="0" data-w="12">
-                                                    <div id="hs_cos_wrapper_module_16189244068199"
+                                                    <div id="hs_cos_wrapper_widget_1614256647308"
                                                         class="hs_cos_wrapper hs_cos_wrapper_widget hs_cos_wrapper_type_module widget-type-rich_text"
                                                         style="" data-hs-cos-general-type="widget"
                                                         data-hs-cos-type="module"><span
-                                                            id="hs_cos_wrapper_module_16189244068199_"
+                                                            id="hs_cos_wrapper_widget_1614256647308_"
                                                             class="hs_cos_wrapper hs_cos_wrapper_widget hs_cos_wrapper_type_rich_text"
                                                             style="" data-hs-cos-general-type="widget"
                                                             data-hs-cos-type="rich_text">
@@ -1237,11 +1532,11 @@
                                         </div>
                                         <!--end row-wrapper -->
 
-                                        <div class="row-fluid-wrapper row-depth-1 row-number-13 dnd-row">
+                                        <div class="row-fluid-wrapper row-depth-1 row-number-11 dnd-row">
                                             <div class="row-fluid ">
                                                 <div class="span12 widget-span widget-type-custom_widget dnd-module"
                                                     style="" data-widget-type="custom_widget" data-x="0" data-w="12">
-                                                    <div id="hs_cos_wrapper_module_161892440681910"
+                                                    <div id="hs_cos_wrapper_widget_1614256769396"
                                                         class="hs_cos_wrapper hs_cos_wrapper_widget hs_cos_wrapper_type_module"
                                                         style="" data-hs-cos-general-type="widget"
                                                         data-hs-cos-type="module">
@@ -1251,15 +1546,15 @@
                                                                 <div class="benefits-tabber-nav-inner">
 
                                                                     <a class="active"
-                                                                        href="#module_161892440681910tab1">Company
+                                                                        href="#widget_1614256769396tab1">Company
                                                                         Changes</a>
 
-                                                                    <a href="#module_161892440681910tab2">Compliance</a>
+                                                                    <a href="#widget_1614256769396tab2">Compliance</a>
 
-                                                                    <a href="#module_161892440681910tab3">Registered
+                                                                    <a href="#widget_1614256769396tab3">Registered
                                                                         Agent</a>
 
-                                                                    <a href="#module_161892440681910tab4">IRS
+                                                                    <a href="#widget_1614256769396tab4">IRS
                                                                         Filings</a>
 
                                                                 </div>
@@ -1267,29 +1562,29 @@
                                                             <div class="benefits-tabber-tabs-container">
 
                                                                 <div class="benefits-tabber-tab-panal show"
-                                                                    id="module_161892440681910tab1">
+                                                                    id="widget_1614256769396tab1">
                                                                     <div class="benefits-tabber-feature-grid">
 
                                                                         <div class="benefits-tabber-feature-item">
                                                                             <div
                                                                                 class="benefits-tabber-feature-item-inner">
                                                                                 <div class="featute-top"
-                                                                                    style="background-color: rgba(238, 249, 254,1.0);">
+                                                                                    style="background-color: rgba(250, 242, 248,1.0);">
 
                                                                                     <div class="feature-icon-holder">
 
-                                                                                        <img src="../hubfs/Incfile_February_2021/images/bc-20.png"
-                                                                                            alt="Dissolution"
-                                                                                            loading="lazy">
+                                                                                        <img src="../hubfs/Incfile_February_2021/images/bc-01.png"
+                                                                                            alt="Amendment" loading="lazy">
                                                                                     </div>
 
                                                                                 </div>
                                                                                 <div class="feature-content">
                                                                                     <div class="content-holder">
-                                                                                        <h3>Dissolution</h3>
-                                                                                        <p>Used to formally
-                                                                                            terminate the existence
-                                                                                            of a entity.</p>
+                                                                                        <h3>Amendment</h3>
+                                                                                        <p>Filed if a company
+                                                                                            requires changes to
+                                                                                            membership, addresses or
+                                                                                            company name.</p>
                                                                                     </div>
 
 
@@ -1415,7 +1710,7 @@
                                                                 </div>
 
                                                                 <div class="benefits-tabber-tab-panal "
-                                                                    id="module_161892440681910tab2">
+                                                                    id="widget_1614256769396tab2">
                                                                     <div class="benefits-tabber-feature-grid">
 
                                                                         <div class="benefits-tabber-feature-item">
@@ -1598,8 +1893,11 @@
 
 
 
+
+
                                                                                     <a class="feature-button"
-                                                                                        href="#">
+                                                                                        href="#"
+                                                                                        target="_blank" rel="noopener">
                                                                                         <div class="arrow">
                                                                                             <svg width="12" height="11"
                                                                                                 xmlns="http://www.w3.org/2000/svg">
@@ -1621,7 +1919,7 @@
                                                                 </div>
 
                                                                 <div class="benefits-tabber-tab-panal "
-                                                                    id="module_161892440681910tab3">
+                                                                    id="widget_1614256769396tab3">
                                                                     <div class="benefits-tabber-feature-grid">
 
                                                                         <div class="benefits-tabber-feature-item">
@@ -1776,7 +2074,7 @@
                                                                 </div>
 
                                                                 <div class="benefits-tabber-tab-panal "
-                                                                    id="module_161892440681910tab4">
+                                                                    id="widget_1614256769396tab4">
                                                                     <div class="benefits-tabber-feature-grid">
 
                                                                         <div class="benefits-tabber-feature-item">
@@ -1942,12 +2240,12 @@
                             </div>
                             <!--end row-wrapper -->
 
-                            <div class="row-fluid-wrapper row-depth-1 row-number-14 bottom_area-row-4-padding dnd-section">
+                            <div class="row-fluid-wrapper row-depth-1 row-number-12 dnd-section">
                                 <div class="row-fluid ">
                                     <div class="span12 widget-span widget-type-cell dnd-column" style=""
                                         data-widget-type="cell" data-x="0" data-w="12">
 
-                                        <div class="row-fluid-wrapper row-depth-1 row-number-15 dnd-row">
+                                        <div class="row-fluid-wrapper row-depth-1 row-number-13 dnd-row">
                                             <div class="row-fluid ">
                                                 <div class="span12 widget-span widget-type-custom_widget dnd-module"
                                                     style="" data-widget-type="custom_widget" data-x="0" data-w="12">
@@ -1980,11 +2278,12 @@
 
                                                                     <div class="related-post-item">
                                                                         <div class="related-post-item-inner">
-                                                                            <a href="#">
+                                                                            <a
+                                                                                href="#">
 
                                                                                 <div class="related-post-featured">
-                                                                                    <img src="../hubfs/Imported_Blog_Media/sellingllccorporation-3.jpg"
-                                                                                        alt="How to Sell Your LLC or Corporation">
+                                                                                    <img src="../hubfs/Imported_Blog_Media/jason-briscoe-Z9Rx4im9qLs-unsplash-3.jpg"
+                                                                                        alt="How to Dissolve Your LLC — The Least Painful Way">
                                                                                 </div>
 
                                                                                 <div class="post-title-holder matchHeight">
@@ -1998,8 +2297,8 @@
                                                                                             </path>
                                                                                         </svg>
                                                                                     </div>
-                                                                                    <h3>How to Sell Your LLC or
-                                                                                        Corporation</h3>
+                                                                                    <h3>How to Dissolve Your LLC —
+                                                                                        The Least Painful Way</h3>
                                                                                 </div>
                                                                             </a>
                                                                         </div>
@@ -2007,11 +2306,12 @@
 
                                                                     <div class="related-post-item">
                                                                         <div class="related-post-item-inner">
-                                                                            <a href="#">
+                                                                            <a
+                                                                                href="#">
 
                                                                                 <div class="related-post-featured">
-                                                                                    <img src="../hubfs/Imported_Blog_Media/how_to_change_the_name_of_your_llc-3.jpg"
-                                                                                        alt="How to Change the Name of Your LLC">
+                                                                                    <img src="../hubfs/Imported_Blog_Media/Should-I-dissolve-my-business-3.jpg"
+                                                                                        alt="I'm Closing My Business - Should I Dissolve the Entity?">
                                                                                 </div>
 
                                                                                 <div class="post-title-holder matchHeight">
@@ -2025,8 +2325,9 @@
                                                                                             </path>
                                                                                         </svg>
                                                                                     </div>
-                                                                                    <h3>How to Change the Name of
-                                                                                        Your LLC</h3>
+                                                                                    <h3>I'm Closing My Business -
+                                                                                        Should I Dissolve the
+                                                                                        Entity?</h3>
                                                                                 </div>
                                                                             </a>
                                                                         </div>
@@ -2168,15 +2469,14 @@
             </div>
         </main>
     </div>
-    <script defer src="{{ asset('hs/hsstatic/HubspotToolsMenu/static-1.119/js/index.js') }}"></script>
     <script
-        src="{{ asset('hs-fs/hub/3787982/hub_generated/module_assets/41351299817/1643216358461/module_41351299817_Accordion.min.js') }}">
+        src="{{asset('hs-fs/hub/3787982/hub_generated/module_assets/41143153380/1636114335499/module_41143153380_Button.min.js')}}">
     </script>
     <script
-        src="{{ asset('hs-fs/hub/3787982/hub_generated/module_assets/41143153380/1636114335499/module_41143153380_Button.min.js') }}">
+        src="{{asset('hs-fs/hub/3787982/hub_generated/module_assets/41351299817/1643216358461/module_41351299817_Accordion.min.js')}}">
     </script>
-
     <script
-        src="{{ asset('hs-fs/hub/3787982/hub_generated/module_assets/41951289498/1620380498784/module_41951289498_Benefits_Tabber.min.js') }}">
+        src="{{asset('hs-fs/hub/3787982/hub_generated/module_assets/41951289498/1620380498784/module_41951289498_Benefits_Tabber.min.js')}}">
     </script>
 @endsection
+

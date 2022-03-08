@@ -32,5 +32,8 @@ Route::get('/why_chose', function () {
 Route::get('/amendment', function () {
     return view('amendment');
 });
+Route::get('/dissolution', function () {
+    return view('dissolution');
+});
 
 
