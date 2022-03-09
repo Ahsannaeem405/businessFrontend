@@ -7,7 +7,15 @@
             <link rel="stylesheet" href="{{asset('hs-fs/hub/3787982/hub_generated/module_assets/41359297094/1620320068261/module_41359297094_Overlay_Icon.min.css')}}">
 
             <link rel="stylesheet" href="{{asset('hs-fs/hub/3787982/hub_generated/module_assets/1628597401941/module_41218342583_Boxed_Content.css')}}">
+<style>
 
+.two-col_main-section {
+    max-width: 100% !important;
+    height: auto;
+    overflow: initial;
+}
+
+</style>
 
             <style>
                 a.cta_button {
@@ -750,7 +758,7 @@
                 <div id="tabs" class="two-col-section">
                     <div class="page-center">
                         <div class="two-col-section-inner">
-                            <div class="two-col_sidebar">
+                            {{-- <div class="two-col_sidebar">
                                 <div class="two-col_sidebar-inner">
                                     <div class="container-fluid pages-sidebar-container">
                                         <div class="row-fluid-wrapper">
@@ -819,8 +827,8 @@
                                         </div>
                                     </div>
                                 </div>
-                            </div>
-                            <div class="two-col_main-section">
+                            </div> --}}
+                            <div class="two-col_main-section" style="width: 100%;">
                                 <div class="container-fluid body-container body-container__website">
                                     <div class="row-fluid-wrapper">
                                         <div class="row-fluid">

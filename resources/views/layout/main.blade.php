@@ -9,6 +9,29 @@
     <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@4.0.0/dist/css/bootstrap.min.css" integrity="sha384-Gn5384xqQ1aoWXA+058RXPxPg6fy4IWvTNh0E263XmFcJlSAwiGgFAW/dAiS6JXm" crossorigin="anonymous">
 
     <style>
+        .state-info-state-item a{
+
+
+/* CSS */
+
+  background: #5E5DF0;
+
+  box-shadow: #5E5DF0 0 10px 20px -15px;
+
+  color: #FFFFFF;
+  cursor: pointer;
+
+  opacity: 1;
+  outline: 0 solid transparent;
+  padding: 8px 18px !important;
+  user-select: none;
+  -webkit-user-select: none;
+  touch-action: manipulation;
+  width: fit-content;
+  word-break: break-word;
+  border: 0;
+
+        }
         .card{
             transition: box-shadow .3s linear;
         }
