@@ -108,84 +108,7 @@
 </style>
 @section('content')
 
-<div id="carouselExampleControls" class="carousel slide mb-5" data-ride="carousel">
-   <div class="carousel-inner">
-      <div class="carousel-item active">
-         <img class="d-block w-100"
-            src="https://www.adorama.com/alc/wp-content/uploads/2017/11/shutterstock_114802408.jpg"
-            alt="First slide">
-            <div class="header-text">
-                <div class="col-md-12 text-center">
-                    <h2>
-                        <span>Welcome to <strong>LOREM IPSUM</strong></span>
-                    </h2>
-
-                    <h5>
-                        <span>"Your willingness to look at your darkness is what empowers you to change."</span>
-                    </h5>
-
-                    <div class="">
-                        <a class="hs-button" href="https://orders.incfile.com/form-order-now.php" target="_blank" rel="noopener">
-                            <span>Get started</span>
-
-                        </a></div>
-                </div>
-            </div><!-- /header-text -->
-      </div>
-      <div class="carousel-item">
-         <img class="d-block w-100"
-            src="https://www.adorama.com/alc/wp-content/uploads/2017/11/shutterstock_114802408.jpg"
-            alt="Second slide">
-            <div class="header-text">
-                <div class="col-md-12 text-center">
-                    <h2>
-                        <span>Welcome to <strong>LOREM IPSUM</strong></span>
-                    </h2>
-
-                    <h5>
-                        <span>"In a busy marketplace, not standing out is the same as being invisible."</span>
-                    </h5>
-
-                    <div class="">
-                        <a class="hs-button" href="https://orders.incfile.com/form-order-now.php" target="_blank" rel="noopener">
-                            <span>Get started</span>
-
-                        </a></div>
-                </div>
-            </div><!-- /header-text -->
-      </div>
-      <div class="carousel-item">
-         <img class="d-block w-100"
-            src="https://www.adorama.com/alc/wp-content/uploads/2017/11/shutterstock_114802408.jpg"
-            alt="Third slide">
-            <div class="header-text">
-                <div class="col-md-12 text-center">
-                    <h2>
-                        <span>Welcome to <strong>LOREM IPSUM</strong></span>
-                    </h2>
-
-                    <h5>
-                        <span>"Risk-taking is the cornerstone of empires."</span>
-                    </h5>
-
-                    <div class="">
-                        <a class="hs-button" href="https://orders.incfile.com/form-order-now.php" target="_blank" rel="noopener">
-                            <span>Get started</span>
-
-                        </a></div>
-                </div>
-            </div><!-- /header-text -->
-      </div>
-   </div>
-   <a class="carousel-control-prev" href="#carouselExampleControls" role="button" data-slide="prev">
-   <span class="carousel-control-prev-icon" aria-hidden="true"></span>
-   <span class="sr-only">Previous</span>
-   </a>
-   <a class="carousel-control-next" href="#carouselExampleControls" role="button" data-slide="next">
-   <span class="carousel-control-next-icon" aria-hidden="true"></span>
-   <span class="sr-only">Next</span>
-   </a>
-</div>
+@include('slider')
 <div class="banner-section corporation-filing-banner">
     <div class="container-fluid banner-area">
         <div class="row-fluid-wrapper">
@@ -1373,7 +1296,7 @@ transform: rotate(0deg);
 
                                 <div class="row-fluid-wrapper row-depth-1 row-number-7 dnd-row">
                                     <div class="row-fluid ">
-                                        <div class="span12 widget-span widget-type-custom_widget dnd-module" style="" data-widget-type="custom_widget" data-x="0" data-w="12">
+                                        <div class="span12 widget-span widget-type-custom_widget dnd-module" style="overflow:hidden" data-widget-type="custom_widget" data-x="0" data-w="12">
                                             <div id="hs_cos_wrapper_widget_1615204963342" class="hs_cos_wrapper hs_cos_wrapper_widget hs_cos_wrapper_type_module" style="" data-hs-cos-general-type="widget" data-hs-cos-type="module">
                                                 <div class="get-started-banner widget_1615204963342_banner">
                                                     <div class="rocket__Oval">
@@ -1393,17 +1316,17 @@ transform: rotate(0deg);
 </svg>
                                                     </div>
 
-                                                    <div class="rocket__Moon">
+                                                    {{-- <div class="rocket__Moon">
                                                         <div class="gatsby-image-wrapper" style="position:relative;overflow:hidden">
                                                             <div class="moon-image" data-background="../f.hubspotusercontent30.net/hubfs/3787982/Incfile_February_2021/images/moon.png"></div>
                                                         </div>
-                                                    </div>
+                                                    </div> --}}
 
                                                     <div class="page-center">
 
                                                         <div class="rocket__RocketWrapper">
                                                             <div class=" gatsby-image-wrapper">
-                                                                <div class="get-image-bg" data-background="../f.hubspotusercontent30.net/hubfs/3787982/Incfile_February_2021/images/rocket-2x-1.png"></div>
+                                                                <div class="get-image-bg" data-background="{{asset('image/whychooseus.png')}}}"></div>
                                                             </div>
                                                         </div>
 

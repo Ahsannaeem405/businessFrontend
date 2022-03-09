@@ -313,7 +313,7 @@
                                                         class="hs_cos_wrapper hs_cos_wrapper_widget hs_cos_wrapper_type_module"
                                                         style="" data-hs-cos-general-type="widget"
                                                         data-hs-cos-type="module">
-                                                        <div class="container pl-md-5 pr-md-5"
+                                                        <div class="container pl-md-5 pr-md-5 pt-3 "
                                                             style="background-color:rgba(254, 246, 237,1.0);">
                                                             <div class="page-center">
 
@@ -321,9 +321,9 @@
                                                                     <div class="container-wrapper">
                                                                         <div class="content-center">
                                                                             <div class="content-center text-center">
-                                                                                <h2 class="heading-headingwrapper">
+                                                                                <h3 class="heading-headingwrapper">
                                                                                     Lorem Ipsum is simply dummy text of the printing and
-typesetting industry.</h2>
+typesetting industry.</h3>
                                                                                 <p>Lorem Ipsum is simply dummy text of the printing and
                                                                                     typesetting industry. Lorem Ipsum has been the industry's
                                                                                     standard dummy text ever since the 1500s, when an unknown
@@ -338,7 +338,7 @@ typesetting industry.</h2>
                                                                 <div class="deciding-imgageBottom text-center">
                                                                     <div class=" gatsby-image-wrapper">
                                                                         <div class="image-wrapper"></div>
-                                                                        <img src="hubfs/Incfile_February_2021/images/mr-bulb-compass-3979.png"
+                                                                        <img src="{{asset('image/girl.png')}}"
                                                                            width="50%" alt="mr-bulb-compass-3979">
                                                                     </div>
                                                                 </div>
@@ -1150,7 +1150,7 @@ typesetting industry.</h2>
                                         <div class="row-fluid-wrapper row-depth-1 row-number-11 dnd-row">
                                             <div class="row-fluid ">
                                                 <div class="span12 widget-span widget-type-custom_widget dnd-module"
-                                                    style="" data-widget-type="custom_widget" data-x="0" data-w="12">
+                                                    style="overflow:hidden" data-widget-type="custom_widget" data-x="0" data-w="12">
                                                     <div id="hs_cos_wrapper_widget_1612523550855"
                                                         class="hs_cos_wrapper hs_cos_wrapper_widget hs_cos_wrapper_type_module"
                                                         style="" data-hs-cos-general-type="widget"
@@ -1179,21 +1179,21 @@ typesetting industry.</h2>
                                                                 <img src="{{asset('image/head3.png')}}" alt="">
                                                             </div>
 
-                                                            <div class="rocket__Moon">
+                                                            {{-- <div class="rocket__Moon">
                                                                 <div class="gatsby-image-wrapper"
                                                                     style="position:relative;overflow:hidden">
                                                                     <div class="moon-image"
                                                                         data-background="../f.hubspotusercontent30.net/hubfs/3787982/Incfile_February_2021/images/moon.png">
                                                                     </div>
                                                                 </div>
-                                                            </div>
+                                                            </div> --}}
 
                                                             <div class="page-center">
 
                                                                 <div class="rocket__RocketWrapper">
                                                                     <div class=" gatsby-image-wrapper">
                                                                         <div class="get-image-bg"
-                                                                            data-background="../f.hubspotusercontent30.net/hubfs/3787982/Incfile_February_2021/images/rocket-2x-1.png">
+                                                                            data-background="{{asset('image/whychooseus.png')}}">
                                                                         </div>
                                                                     </div>
                                                                 </div>

@@ -1506,7 +1506,7 @@
                                             </div>
                                             <!--end row-wrapper -->
 
-                                            <div class="row-fluid-wrapper row-depth-1 row-number-6 dnd-row">
+                                            {{-- <div class="row-fluid-wrapper row-depth-1 row-number-6 dnd-row">
                                                 <div class="row-fluid ">
                                                     <div class="span12 widget-span widget-type-custom_widget widget_1614255465082-padding dnd-module"
                                                         style="" data-widget-type="custom_widget" data-x="0"
@@ -1531,10 +1531,10 @@
                                                     <!--end widget-span -->
                                                 </div>
                                                 <!--end row-->
-                                            </div>
+                                            </div> --}}
                                             <!--end row-wrapper -->
 
-                                            <div
+                                            {{-- <div
                                                 class="row-fluid-wrapper row-depth-1 row-number-7 cell_1614251938391-row-2-padding dnd-row">
                                                 <div class="row-fluid ">
                                                     <div class="span6 widget-span widget-type-cell cell_1614256401350-padding cell_1614256401350-margin dnd-column"
@@ -1632,10 +1632,10 @@
                                                     <!--end widget-span -->
                                                 </div>
                                                 <!--end row-->
-                                            </div>
+                                            </div> --}}
                                             <!--end row-wrapper -->
 
-                                            <div
+                                            {{-- <div
                                                 class="row-fluid-wrapper row-depth-1 row-number-10 dnd-row cell_1614251938391-row-3-padding">
                                                 <div class="row-fluid ">
                                                     <div class="span6 widget-span widget-type-cell cell_16142564410092-margin cell_16142564410092-padding dnd-column"
@@ -1733,7 +1733,7 @@
                                                     <!--end widget-span -->
                                                 </div>
                                                 <!--end row-->
-                                            </div>
+                                            </div> --}}
                                             <!--end row-wrapper -->
 
                                             <div class="row-fluid-wrapper row-depth-1 row-number-13 dnd-row">
@@ -1807,7 +1807,7 @@
                                                                                         <div
                                                                                             class="feature-icon-holder">
 
-                                                                                            <img src="../hubfs/Incfile_February_2021/images/bc-01.png"
+                                                                                            <img src="{{asset('hubfs/Incfile_February_2021/images/bc-01.png')}}"
                                                                                                 alt="Amendment"
                                                                                                 loading="lazy">
                                                                                         </div>
@@ -1854,7 +1854,7 @@
                                                                                         <div
                                                                                             class="feature-icon-holder">
 
-                                                                                            <img src="../hubfs/Incfile_February_2021/images/bc-20.png"
+                                                                                            <img src="{{asset('hubfs/Incfile_February_2021/images/bc-20.png')}}"
                                                                                                 alt="Dissolution"
                                                                                                 loading="lazy">
                                                                                         </div>
@@ -1901,7 +1901,7 @@
                                                                                         <div
                                                                                             class="feature-icon-holder">
 
-                                                                                            <img src="../hubfs/Incfile_February_2021/images/bc-03.png"
+                                                                                            <img src="{{asset('hubfs/Incfile_February_2021/images/bc-03.png')}}"
                                                                                                 alt="Foreign Qualification"
                                                                                                 loading="lazy">
                                                                                         </div>
@@ -1949,7 +1949,7 @@
                                                                                         <div
                                                                                             class="feature-icon-holder">
 
-                                                                                            <img src="../hubfs/Incfile_February_2021/images/bc-19.png"
+                                                                                            <img src="{{asset('hubfs/Incfile_February_2021/images/bc-19.png')}}"
                                                                                                 alt="Fictitious Business Name"
                                                                                                 loading="lazy">
                                                                                         </div>
@@ -2004,7 +2004,7 @@
                                                                                         <div
                                                                                             class="feature-icon-holder">
 
-                                                                                            <img src="../hubfs/Incfile_February_2021/images/bc-10.png"
+                                                                                            <img src="{{asset('hubfs/Incfile_February_2021/images/bc-10.png')}}"
                                                                                                 alt="Certificate of Good Standing"
                                                                                                 loading="lazy">
                                                                                         </div>
@@ -2051,7 +2051,7 @@
                                                                                         <div
                                                                                             class="feature-icon-holder">
 
-                                                                                            <img src="../hubfs/Incfile_February_2021/images/bc-17.png"
+                                                                                            <img src="{{asset('hubfs/Incfile_February_2021/images/bc-17.png')}}"
                                                                                                 alt="Business License Search"
                                                                                                 loading="lazy">
                                                                                         </div>
@@ -2099,7 +2099,7 @@
                                                                                         <div
                                                                                             class="feature-icon-holder">
 
-                                                                                            <img src="../hubfs/Incfile_February_2021/images/bc-07.png"
+                                                                                            <img src="{{asset('hubfs/Incfile_February_2021/images/bc-07.png')}}"
                                                                                                 alt="Trademark Name Search"
                                                                                                 loading="lazy">
                                                                                         </div>
@@ -2154,7 +2154,7 @@
                                                                                         <div
                                                                                             class="feature-icon-holder">
 
-                                                                                            <img src="../hubfs/Incfile_February_2021/images/bc-11.png"
+                                                                                            <img src="{{asset('hubfs/Incfile_February_2021/images/bc-11.png')}}"
                                                                                                 alt="Order Registered Agent"
                                                                                                 loading="lazy">
                                                                                         </div>
@@ -2207,7 +2207,7 @@
                                                                                         <div
                                                                                             class="feature-icon-holder">
 
-                                                                                            <img src="../hubfs/Incfile_February_2021/images/bc-18.png"
+                                                                                            <img src="{{asset('hubfs/Incfile_February_2021/images/bc-18.png')}}"
                                                                                                 alt="Renew Registered Agent"
                                                                                                 loading="lazy">
                                                                                         </div>
@@ -2259,7 +2259,7 @@
                                                                                         <div
                                                                                             class="feature-icon-holder">
 
-                                                                                            <img src="../hubfs/Incfile_February_2021/images/bc-16.png"
+                                                                                            <img src="{{asset('hubfs/Incfile_February_2021/images/bc-16.png')}}"
                                                                                                 alt="Change Registered Agent"
                                                                                                 loading="lazy">
                                                                                         </div>
@@ -2318,7 +2318,7 @@
                                                                                         <div
                                                                                             class="feature-icon-holder">
 
-                                                                                            <img src="../hubfs/Incfile_February_2021/images/bc-12.png"
+                                                                                            <img src="{{asset('hubfs/Incfile_February_2021/images/bc-12.png')}}"
                                                                                                 alt="EIN / Tax ID #"
                                                                                                 loading="lazy">
                                                                                         </div>
@@ -2369,7 +2369,7 @@
                                                                                         <div
                                                                                             class="feature-icon-holder">
 
-                                                                                            <img src="../hubfs/Incfile_February_2021/images/bc-13.png"
+                                                                                            <img src="{{asset('hubfs/Incfile_February_2021/images/bc-13.png')}}"
                                                                                                 alt="File Business Taxes"
                                                                                                 loading="lazy">
                                                                                         </div>
@@ -2416,7 +2416,7 @@
                                                                                         <div
                                                                                             class="feature-icon-holder">
 
-                                                                                            <img src="../hubfs/Incfile_February_2021/images/bc-15.png"
+                                                                                            <img src="{{asset('hubfs/Incfile_February_2021/images/bc-15.png')}}"
                                                                                                 alt="File S Corp Tax Election"
                                                                                                 loading="lazy">
                                                                                         </div>
@@ -2476,7 +2476,7 @@
                                 </div>
                                 <!--end row-wrapper -->
 
-                                <div class="row-fluid-wrapper row-depth-1 row-number-15 dnd-section">
+                                {{-- <div class="row-fluid-wrapper row-depth-1 row-number-15 dnd-section">
                                     <div class="row-fluid ">
                                         <div class="span12 widget-span widget-type-cell dnd-column" style=""
                                             data-widget-type="cell" data-x="0" data-w="12">
@@ -2510,360 +2510,7 @@
 
 
 
-{{--
-                                                                    <div class="related-post-grid related-post-slider">
 
-                                                                        <div class="related-post-item">
-                                                                            <div class="related-post-item-inner">
-                                                                                <a
-                                                                                    href="../blog/financial-statements-for-annual-report.html">
-
-                                                                                    <div class="related-post-featured">
-                                                                                        <img src="../hubfs/financial-statements-annual-report.jpg"
-                                                                                            alt="What Are the 5 Financial Statements for an Annual Report?">
-                                                                                    </div>
-
-                                                                                    <div
-                                                                                        class="post-title-holder matchHeight">
-                                                                                        <div class="title_arrow">
-                                                                                            <svg width="12" height="11"
-                                                                                                xmlns="http://www.w3.org/2000/svg">
-                                                                                                <path
-                                                                                                    d="M5.805.703L5.8.707a1 1 0 00-.003 1.416l2.379 2.379H.998a.998.998 0 000 1.996h7.179L5.798 8.877a1 1 0 00.003 1.416l.004.004a1 1 0 001.412-.003l4.078-4.088a1 1 0 000-1.412L7.217.706A1 1 0 005.805.703z"
-                                                                                                    fill="#1D1D1D"
-                                                                                                    fill-rule="nonzero">
-                                                                                                </path>
-                                                                                            </svg>
-                                                                                        </div>
-                                                                                        <h3>What Are the 5 Financial
-                                                                                            Statements for an Annual
-                                                                                            Report?</h3>
-                                                                                    </div>
-                                                                                </a>
-                                                                            </div>
-                                                                        </div>
-
-                                                                        <div class="related-post-item">
-                                                                            <div class="related-post-item-inner">
-                                                                                <a
-                                                                                    href="../blog/file-annual-report-no-sales.html">
-
-                                                                                    <div class="related-post-featured">
-                                                                                        <img src="../hubfs/file-annual-report-no-sales.jpg"
-                                                                                            alt="Do I Still Need to File My Annual Report If I Haven't Made Any Sales?">
-                                                                                    </div>
-
-                                                                                    <div
-                                                                                        class="post-title-holder matchHeight">
-                                                                                        <div class="title_arrow">
-                                                                                            <svg width="12" height="11"
-                                                                                                xmlns="http://www.w3.org/2000/svg">
-                                                                                                <path
-                                                                                                    d="M5.805.703L5.8.707a1 1 0 00-.003 1.416l2.379 2.379H.998a.998.998 0 000 1.996h7.179L5.798 8.877a1 1 0 00.003 1.416l.004.004a1 1 0 001.412-.003l4.078-4.088a1 1 0 000-1.412L7.217.706A1 1 0 005.805.703z"
-                                                                                                    fill="#1D1D1D"
-                                                                                                    fill-rule="nonzero">
-                                                                                                </path>
-                                                                                            </svg>
-                                                                                        </div>
-                                                                                        <h3>Do I Still Need to File My
-                                                                                            Annual Report If I Haven't
-                                                                                            Made Any Sales?</h3>
-                                                                                    </div>
-                                                                                </a>
-                                                                            </div>
-                                                                        </div>
-
-                                                                        <div class="related-post-item">
-                                                                            <div class="related-post-item-inner">
-                                                                                <a
-                                                                                    href="../blog/post/filing-annual-report-ultimate-guide.html">
-
-                                                                                    <div class="related-post-featured">
-                                                                                        <img src="../hubfs/how-to-file-annual-report-incfile.jpg"
-                                                                                            alt="The Easiest Guide to Filing Your Annual Report with Incfile">
-                                                                                    </div>
-
-                                                                                    <div
-                                                                                        class="post-title-holder matchHeight">
-                                                                                        <div class="title_arrow">
-                                                                                            <svg width="12" height="11"
-                                                                                                xmlns="http://www.w3.org/2000/svg">
-                                                                                                <path
-                                                                                                    d="M5.805.703L5.8.707a1 1 0 00-.003 1.416l2.379 2.379H.998a.998.998 0 000 1.996h7.179L5.798 8.877a1 1 0 00.003 1.416l.004.004a1 1 0 001.412-.003l4.078-4.088a1 1 0 000-1.412L7.217.706A1 1 0 005.805.703z"
-                                                                                                    fill="#1D1D1D"
-                                                                                                    fill-rule="nonzero">
-                                                                                                </path>
-                                                                                            </svg>
-                                                                                        </div>
-                                                                                        <h3>The Easiest Guide to Filing
-                                                                                            Your Annual Report with
-                                                                                            Incfile</h3>
-                                                                                    </div>
-                                                                                </a>
-                                                                            </div>
-                                                                        </div>
-
-                                                                        <div class="related-post-item">
-                                                                            <div class="related-post-item-inner">
-                                                                                <a
-                                                                                    href="../blog/difference-between-10-k-and-20-f-filing.html">
-
-                                                                                    <div class="related-post-featured">
-                                                                                        <img src="../hubfs/10-K-vs-20-F.jpg"
-                                                                                            alt="What Is the Difference Between 10-K and 20-F?">
-                                                                                    </div>
-
-                                                                                    <div
-                                                                                        class="post-title-holder matchHeight">
-                                                                                        <div class="title_arrow">
-                                                                                            <svg width="12" height="11"
-                                                                                                xmlns="http://www.w3.org/2000/svg">
-                                                                                                <path
-                                                                                                    d="M5.805.703L5.8.707a1 1 0 00-.003 1.416l2.379 2.379H.998a.998.998 0 000 1.996h7.179L5.798 8.877a1 1 0 00.003 1.416l.004.004a1 1 0 001.412-.003l4.078-4.088a1 1 0 000-1.412L7.217.706A1 1 0 005.805.703z"
-                                                                                                    fill="#1D1D1D"
-                                                                                                    fill-rule="nonzero">
-                                                                                                </path>
-                                                                                            </svg>
-                                                                                        </div>
-                                                                                        <h3>What Is the Difference
-                                                                                            Between 10-K and 20-F?</h3>
-                                                                                    </div>
-                                                                                </a>
-                                                                            </div>
-                                                                        </div>
-
-                                                                        <div class="related-post-item">
-                                                                            <div class="related-post-item-inner">
-                                                                                <a
-                                                                                    href="../blog/what-happens-if-you-dont-file-an-annual-report-small-business.html">
-
-                                                                                    <div class="related-post-featured">
-                                                                                        <img src="../hubfs/dontfileannualreport.jpg"
-                                                                                            alt="What Happens If You Don't File an Annual Report (All Business Entities Covered)">
-                                                                                    </div>
-
-                                                                                    <div
-                                                                                        class="post-title-holder matchHeight">
-                                                                                        <div class="title_arrow">
-                                                                                            <svg width="12" height="11"
-                                                                                                xmlns="http://www.w3.org/2000/svg">
-                                                                                                <path
-                                                                                                    d="M5.805.703L5.8.707a1 1 0 00-.003 1.416l2.379 2.379H.998a.998.998 0 000 1.996h7.179L5.798 8.877a1 1 0 00.003 1.416l.004.004a1 1 0 001.412-.003l4.078-4.088a1 1 0 000-1.412L7.217.706A1 1 0 005.805.703z"
-                                                                                                    fill="#1D1D1D"
-                                                                                                    fill-rule="nonzero">
-                                                                                                </path>
-                                                                                            </svg>
-                                                                                        </div>
-                                                                                        <h3>What Happens If You Don't
-                                                                                            File an Annual Report (All
-                                                                                            Business Entities Covered)
-                                                                                        </h3>
-                                                                                    </div>
-                                                                                </a>
-                                                                            </div>
-                                                                        </div>
-
-                                                                        <div class="related-post-item">
-                                                                            <div class="related-post-item-inner">
-                                                                                <a
-                                                                                    href="../blog/post/managing-annual-reports-for-small-business.html">
-
-                                                                                    <div class="related-post-featured">
-                                                                                        <img src="../hubfs/Imported_Blog_Media/Small_04_02-2.jpg"
-                                                                                            alt="Managing Annual Reports on Your Own? You Might be Risking Your Business.">
-                                                                                    </div>
-
-                                                                                    <div
-                                                                                        class="post-title-holder matchHeight">
-                                                                                        <div class="title_arrow">
-                                                                                            <svg width="12" height="11"
-                                                                                                xmlns="http://www.w3.org/2000/svg">
-                                                                                                <path
-                                                                                                    d="M5.805.703L5.8.707a1 1 0 00-.003 1.416l2.379 2.379H.998a.998.998 0 000 1.996h7.179L5.798 8.877a1 1 0 00.003 1.416l.004.004a1 1 0 001.412-.003l4.078-4.088a1 1 0 000-1.412L7.217.706A1 1 0 005.805.703z"
-                                                                                                    fill="#1D1D1D"
-                                                                                                    fill-rule="nonzero">
-                                                                                                </path>
-                                                                                            </svg>
-                                                                                        </div>
-                                                                                        <h3>Managing Annual Reports on
-                                                                                            Your Own? You Might be
-                                                                                            Risking Your Business.</h3>
-                                                                                    </div>
-                                                                                </a>
-                                                                            </div>
-                                                                        </div>
-
-                                                                        <div class="related-post-item">
-                                                                            <div class="related-post-item-inner">
-                                                                                <a
-                                                                                    href="../blog/post/form-llc-12-california-llc.html">
-
-                                                                                    <div class="related-post-featured">
-                                                                                        <img src="../hubfs/Imported_Blog_Media/young-business-colleagues-thoughtfully-working-on-7L4JENH-3.jpg"
-                                                                                            alt="California LLCs: Don't Miss Filing Form LLC-12">
-                                                                                    </div>
-
-                                                                                    <div
-                                                                                        class="post-title-holder matchHeight">
-                                                                                        <div class="title_arrow">
-                                                                                            <svg width="12" height="11"
-                                                                                                xmlns="http://www.w3.org/2000/svg">
-                                                                                                <path
-                                                                                                    d="M5.805.703L5.8.707a1 1 0 00-.003 1.416l2.379 2.379H.998a.998.998 0 000 1.996h7.179L5.798 8.877a1 1 0 00.003 1.416l.004.004a1 1 0 001.412-.003l4.078-4.088a1 1 0 000-1.412L7.217.706A1 1 0 005.805.703z"
-                                                                                                    fill="#1D1D1D"
-                                                                                                    fill-rule="nonzero">
-                                                                                                </path>
-                                                                                            </svg>
-                                                                                        </div>
-                                                                                        <h3>California LLCs: Don't Miss
-                                                                                            Filing Form LLC-12</h3>
-                                                                                    </div>
-                                                                                </a>
-                                                                            </div>
-                                                                        </div>
-
-                                                                        <div class="related-post-item">
-                                                                            <div class="related-post-item-inner">
-                                                                                <a
-                                                                                    href="../blog/post/2019-tax-preparation-checklist.html">
-
-                                                                                    <div class="related-post-featured">
-                                                                                        <img src="../hubfs/Imported_Blog_Media/taxprep-3.jpg"
-                                                                                            alt="2019 Tax Preparation Checklist: How Does COVID-19 Change Your Taxes?">
-                                                                                    </div>
-
-                                                                                    <div
-                                                                                        class="post-title-holder matchHeight">
-                                                                                        <div class="title_arrow">
-                                                                                            <svg width="12" height="11"
-                                                                                                xmlns="http://www.w3.org/2000/svg">
-                                                                                                <path
-                                                                                                    d="M5.805.703L5.8.707a1 1 0 00-.003 1.416l2.379 2.379H.998a.998.998 0 000 1.996h7.179L5.798 8.877a1 1 0 00.003 1.416l.004.004a1 1 0 001.412-.003l4.078-4.088a1 1 0 000-1.412L7.217.706A1 1 0 005.805.703z"
-                                                                                                    fill="#1D1D1D"
-                                                                                                    fill-rule="nonzero">
-                                                                                                </path>
-                                                                                            </svg>
-                                                                                        </div>
-                                                                                        <h3>2019 Tax Preparation
-                                                                                            Checklist: How Does COVID-19
-                                                                                            Change Your Taxes?</h3>
-                                                                                    </div>
-                                                                                </a>
-                                                                            </div>
-                                                                        </div>
-
-                                                                        <div class="related-post-item">
-                                                                            <div class="related-post-item-inner">
-                                                                                <a
-                                                                                    href="../blog/post/delaware-annual-report-filing.html">
-
-                                                                                    <div class="related-post-featured">
-                                                                                        <img src="../hubfs/Imported_Blog_Media/freestocks-org-vcPtHBqHnKk-unsplash-1-3.jpg"
-                                                                                            alt="Don't Miss the Delaware Annual Report Due Date of March 1: Here's What You Need to Know">
-                                                                                    </div>
-
-                                                                                    <div
-                                                                                        class="post-title-holder matchHeight">
-                                                                                        <div class="title_arrow">
-                                                                                            <svg width="12" height="11"
-                                                                                                xmlns="http://www.w3.org/2000/svg">
-                                                                                                <path
-                                                                                                    d="M5.805.703L5.8.707a1 1 0 00-.003 1.416l2.379 2.379H.998a.998.998 0 000 1.996h7.179L5.798 8.877a1 1 0 00.003 1.416l.004.004a1 1 0 001.412-.003l4.078-4.088a1 1 0 000-1.412L7.217.706A1 1 0 005.805.703z"
-                                                                                                    fill="#1D1D1D"
-                                                                                                    fill-rule="nonzero">
-                                                                                                </path>
-                                                                                            </svg>
-                                                                                        </div>
-                                                                                        <h3>Don't Miss the Delaware
-                                                                                            Annual Report Due Date of
-                                                                                            March 1: Here's What You
-                                                                                            Need to Know</h3>
-                                                                                    </div>
-                                                                                </a>
-                                                                            </div>
-                                                                        </div>
-
-                                                                    </div> --}}
-
-                                                                </div>
-                                                                {{-- <ul class="related-post-most-popular">
-
-
-                                                                    <li>​Do LLCs Get a 1099 During Tax Time?</li>
-
-                                                                    <li>LLC vs. S Corp: Which Is Right for Your
-                                                                        Business?</li>
-
-                                                                    <li>15 Items You Can Easily Flip for $100-$5,000 in
-                                                                        Profit a Month</li>
-
-                                                                    <li>7 Small Business Ideas That Take Under $500 to
-                                                                        Start</li>
-
-                                                                    <li>S Corp vs. C Corp: Differences and Benefits of
-                                                                        Each</li>
-
-                                                                    <li>Understanding DBAs and How They May Be
-                                                                        Beneficial to Your Small Business</li>
-
-                                                                    <li>How to Create and File an LLC for Free</li>
-
-                                                                    <li>So You Moved? Follow This Guide to Moving Your
-                                                                        LLC to Another State</li>
-
-                                                                    <li>15 U.S. States with the Lowest State Fee to
-                                                                        Start a Business Today</li>
-
-                                                                    <li>Real Estate Investing for Dummies: Use LLCs for
-                                                                        Each Property</li>
-
-                                                                    <li>If You're Not a U.S. Citizen, Can You Get an EIN
-                                                                        for Your Business?</li>
-
-                                                                    <li>Why You Should Form an LLC vs. Sole
-                                                                        Proprietorship</li>
-
-                                                                    <li>Need a Physical Address for Your Business?</li>
-
-                                                                    <li>Are Non-U.S. Residents Allowed to Own a
-                                                                        Corporation or LLC?</li>
-
-                                                                    <li>How to Search and Choose Your Business Name in
-                                                                        All 50 States</li>
-
-                                                                    <li>Manager-Managed LLC vs. Member-Managed LLC:
-                                                                        Which One Is Right For Your Business?</li>
-
-                                                                    <li>How Do I Change My LLC to Sole Proprietorship on
-                                                                        My Own?</li>
-
-                                                                    <li>5 Online Business Ideas You Can Start in 2022
-                                                                        with Little or No Money</li>
-
-                                                                    <li>Rules for Naming Your LLC — An Entire State
-                                                                        Guide</li>
-
-                                                                    <li>​Understanding When to Use LLC for Your Business
-                                                                    </li>
-
-                                                                </ul> --}}
-                                                            </div>
-
-                                                            <script>
-                                                                var relatedPostsFormatter = function(relatedPosts) {
-                                                                    //     console.log(relatedPosts);
-                                                                    //     $.each(relatedPosts, function(i, post) {
-                                                                    //       console.log($(".related-post-most-popular").children());
-                                                                    //       $(".related-post-most-popular").children().each(function(index, element) {
-                                                                    //         if (post.name == element.innerText) {
-                                                                    //           console.log("Match!");
-                                                                    //           console.log(post.name);
-                                                                    //           console.log($('.related-post-slider h3'));
-                                                                    //           console.log($(`.related-post-slider h3:contains("${post.name}")`));
-                                                                    //           setTimeout(function () { console.log($(`.related-post-slider h3:contains("${post.name}")`));}, 1000);
-                                                                    //         }
-                                                                    //       });
-                                                                    //     });
 
                                                                     var formatted = '<div class="related-post-grid related-post-slider">';
                                                                     for (var i = 0; i < relatedPosts.length; i++) {
@@ -2909,7 +2556,7 @@
                                         <!--end widget-span -->
                                     </div>
                                     <!--end row-->
-                                </div>
+                                </div> --}}
                                 <!--end row-wrapper -->
 
                             </div>

@@ -1228,7 +1228,7 @@
 
                                 <div class="row-fluid-wrapper row-depth-1 row-number-2 dnd-row">
                                     <div class="row-fluid ">
-                                        <div class="span12 widget-span widget-type-custom_widget dnd-module" style="" data-widget-type="custom_widget" data-x="0" data-w="12">
+                                        <div class="span12 widget-span widget-type-custom_widget dnd-module" style="overflow: hidden" data-widget-type="custom_widget" data-x="0" data-w="12">
                                             <div id="hs_cos_wrapper_widget_1612523550855" class="hs_cos_wrapper hs_cos_wrapper_widget hs_cos_wrapper_type_module" style="" data-hs-cos-general-type="widget" data-hs-cos-type="module">
                                                 <div class="get-started-banner widget_1612523550855_banner">
                                                     <div class="rocket__Oval">
@@ -1248,17 +1248,17 @@
 </svg>
                                                     </div>
 
-                                                    <div class="rocket__Moon">
+                                                    {{-- <div class="rocket__Moon">
                                                         <div class="gatsby-image-wrapper" style="position:relative;overflow:hidden">
                                                             <div class="moon-image" data-background="../f.hubspotusercontent30.net/hubfs/3787982/Incfile_February_2021/images/moon.png"></div>
                                                         </div>
-                                                    </div>
+                                                    </div> --}}
 
                                                     <div class="page-center">
 
                                                         <div class="rocket__RocketWrapper">
                                                             <div class=" gatsby-image-wrapper">
-                                                                <div class="get-image-bg" data-background="../f.hubspotusercontent30.net/hubfs/3787982/Incfile_February_2021/images/rocket-2x-1.png"></div>
+                                                                <div class="get-image-bg" data-background="{{asset('image/whychooseus.png')}}"></div>
                                                             </div>
                                                         </div>
 
