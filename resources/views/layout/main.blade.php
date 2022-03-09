@@ -9,6 +9,10 @@
     <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@4.0.0/dist/css/bootstrap.min.css" integrity="sha384-Gn5384xqQ1aoWXA+058RXPxPg6fy4IWvTNh0E263XmFcJlSAwiGgFAW/dAiS6JXm" crossorigin="anonymous">
 
     <style>
+        .carousel-inner{
+
+        max-height: 500px !important;
+    }
         .state-info-state-item a{
 
 
@@ -45,13 +49,17 @@
             .header-text h2 span {
     color: white;
     padding: 10px;
-    font-size: 18px;
+    font-size: 12px;
 }
 .header-text h5 span {
     background-color: transparent;
     color: white;
     padding: 15px;
-    font-size: 15px;
+    font-size: 10px;
+}
+.hs-button{
+    font-size: 10px !important;
+    padding: 5px 10px 5px 10px !important;
 }
 }
 .header-text {
