@@ -1,6 +1,11 @@
 @extends('layout.main')
 
 <style>
+    .two-col_main-section {
+    max-width: 100% !important;
+    height: auto;
+    overflow: initial;
+}
     @media only screen and (min-width: 1024px){
     /*Tablets [601px -> 1200px]*/
     .get-started-right-business-wrapper .get-started-right-business-features-item {
@@ -470,7 +475,7 @@
                 <div id="tabs" class="two-col-section">
                     <div class="page-center">
                         <div class="two-col-section-inner">
-                            <div class="two-col_sidebar">
+                            {{-- <div class="two-col_sidebar">
                                 <div class="two-col_sidebar-inner">
                                     <div class="container-fluid pages-sidebar-container">
                                         <div class="row-fluid-wrapper">
@@ -539,7 +544,7 @@
                                         </div>
                                     </div>
                                 </div>
-                            </div>
+                            </div> --}}
                             <div class="two-col_main-section">
                                 <div class="container-fluid body-container body-container__website">
                                     <div class="row-fluid-wrapper">
