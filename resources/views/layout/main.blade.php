@@ -9,6 +9,12 @@
     <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@4.0.0/dist/css/bootstrap.min.css" integrity="sha384-Gn5384xqQ1aoWXA+058RXPxPg6fy4IWvTNh0E263XmFcJlSAwiGgFAW/dAiS6JXm" crossorigin="anonymous">
 
     <style>
+        .card{
+            transition: box-shadow .3s linear;
+        }
+        .card:hover {
+  box-shadow: 0 0 35px rgba(0, 0, 0, .3);
+}
         .text-normal{
             font-size: 15px;
         }
@@ -1136,6 +1142,7 @@
         </div>
 
     </div>
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
     <script src="{{asset('hs/hsstatic/jquery-libs/static-1.1/jquery/jquery-1.7.1.js')}}"></script>
     <script>
         hsjQuery = window['jQuery'];

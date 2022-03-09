@@ -9,42 +9,101 @@
 </style>
 {{-- navtabs --}}
 <style>
-.wrapper {
-    position:relative;
-    margin:0 auto;
-    overflow:hidden;
-	padding:5px;
-  	height:50px;
+    .ex1 {
+
+
+  height: 150px;
+  overflow-y:scroll;
+
+
+
 }
 
-.list {
-    position:absolute;
-    left:0px;
-    top:0px;
-  	min-width:3500px;
-    margin-top:0px;
+
+.ex1::-webkit-scrollbar {
+        width: 5px;
+
+
+    }
+
+
+    /* Track */
+    .ex1::-webkit-scrollbar-track {
+        box-shadow: inset 0 0 5px gray;
+        border-radius: 15px;
+    }
+
+
+    /* Handle */
+    .ex1::-webkit-scrollbar-thumb {
+        background: #6f32e2;
+        border-radius: 15px;
+        height: 50px;
+
+    }
+
+    /* Handle on hover */
+    .ex1::-webkit-scrollbar-thumb:hover {
+        background: #C530D6;
+    }
+
+
+.cycle-tab-container {
+  margin: 30px auto;
+  width:100%;
+  padding: 20px;
+  /* box-shadow: 0 0 10px 2px #ddd; */
 }
 
-.list li{
-	display:table-cell;
-    position:relative;
-    text-align:center;
-    cursor:grab;
-    cursor:-webkit-grab;
-    color:#efefef;
-    vertical-align:middle;
+.cycle-tab-container a {
+  color: #173649;
+  font-size: 16px;
+
+  text-align: center;
 }
 
-.scroller {
-  text-align:center;
-  cursor:pointer;
-  display:none;
-  padding:7px;
-  padding-top:13px;
-  white-space:no-wrap;
-  vertical-align:middle;
-  background-color:#fff;
+.tab-pane {
+    text-align: center;
+    height: 100px !important;
+    margin: 30px auto;
+    width: 100%;
+    max-width: 100%;
 }
+
+.fade {
+  opacity: 0;
+  transition: opacity 4s ease-in-out;
+}
+
+.fade.active {
+  opacity: 1;
+}
+
+.cycle-tab-item {
+  width: 180px;
+}
+
+.cycle-tab-item:after {
+  display:block;
+  content: '';
+  /* border-bottom: solid 3px orange; */
+  transform: scaleX(0);
+  transition: transform 0ms ease-out;
+}
+.cycle-tab-item.active:after {
+  transform: scaleX(1);
+  transform-origin:  0% 50%;
+  transition: transform 5000ms ease-in;
+}
+
+
+.nav-link:focus,
+.nav-link:hover,
+.cycle-tab-item.active a {
+  border-color: transparent !important;
+  color: blue;
+}
+
 
 </style>
 @section('content')
@@ -261,48 +320,38 @@ transform: rotate(0deg);
                                         <div class="span12 widget-span widget-type-custom_widget dnd-module" style="" data-widget-type="custom_widget" data-x="0" data-w="12">
                                             <div id="hs_cos_wrapper_widget_1613735646530" class="hs_cos_wrapper hs_cos_wrapper_widget hs_cos_wrapper_type_module" style="" data-hs-cos-general-type="widget" data-hs-cos-type="module">
                                                 <div class="ad_tabber widget_1613735646530_ad_tabber ad_tabber_type_tabber">
-                                                    <div class="w-100 pt-3">
-                                                        <div class="scroller scroller-left float-left mt-2"><i class="fa fa-chevron-left"></i></div>
-                                                        <div class="scroller scroller-right float-right mt-2"><i class="fa fa-chevron-right"></i></div>
-                                                        <div class="wrapper text-center">
-                                                            <nav class="nav nav-tabs list mt-2" id="myTab" role="tablist">
+                                                    <div class="cycle-tab-container">
 
-                                                                <a class="nav-item nav-link active" data-toggle="tab" href="#tab1" role="tab" aria-controls="public" aria-expanded="true">Tab1</a>
-                                                                <a class="nav-item nav-link" href="#tab2" role="tab" data-toggle="tab">Tab 2</a>
-                                                                <a class="nav-item nav-link" href="#tab3" role="tab" data-toggle="tab">Tab 3</a>
-                                                                <a class="nav-item nav-link" href="#tab4" role="tab" data-toggle="tab">Tab 4</a>
 
-                                                            </nav>
+                                                        <ul class="nav nav-tabs justify-content-center">
+
+                                                        <li class="cycle-tab-item active">
+                                                          <a class="nav-link" role="tab" data-toggle="tab" href="#home">Lorem Ipsum</a>
+                                                        </li>
+                                                        <li class="cycle-tab-item">
+                                                          <a class="nav-link" role="tab" data-toggle="tab" href="#profile">Lorem Ipsum</a>
+                                                        </li>
+                                                        <li class="cycle-tab-item">
+                                                          <a class="nav-link" role="tab" data-toggle="tab" href="#messages">Lorem Ipsum</a>
+                                                        </li>
+                                                        <li class="cycle-tab-item">
+                                                          <a class="nav-link" role="tab" data-toggle="tab" href="#settings">Lorem Ipsum</a>
+                                                        </li>
+
+                                                      </ul>
+
+                                                        <div class="tab-content">
+                                                        <div class="tab-pane fade active in ex1" id="home" role="tabpanel" aria-labelledby="home-tab">
+                                                            Humblebrag activated charcoal ut in taiyaki PBR&B scenester dreamcatcher flannel offal air plant DIY. Selvage fingerstache in green juice jean shorts.   Humblebrag activated charcoal ut in taiyaki PBR&B scenester dreamcatcher flannel offal air plant DIY. Selvage fingerstache in green juice jean shorts.
                                                         </div>
-                                                        <div class="tab-content p-3" id="myTabContent">
-                                                            <div role="tabpanel" class="tab-pane fade active show mt-2" id="tab1" aria-labelledby="public-tab" aria-expanded="true">
-                                                                This is the content of Tab 1...
-                                                            </div>
-                                                            <div class="tab-pane fade mt-2" id="tab2" role="tabpanel" aria-labelledby="group-dropdown2-tab" aria-expanded="false">
-                                                                <p>Tab2</p>
-                                                            </div>
-                                                            <div class="tab-pane fade mt-2" id="tab3" role="tabpanel" aria-labelledby="group-dropdown2-tab" aria-expanded="false">
-                                                                <p>Tab3</p>
-                                                            </div>
-                                                            <div class="tab-pane fade mt-2" id="tab4" role="tabpanel" aria-labelledby="group-dropdown2-tab" aria-expanded="false">
-                                                                <p class="">Tab 4</p>
-                                                                <p class="">Tab 4</p>
-                                                                <p class="">Tab 4</p>
-                                                                <p class="">Tab 4</p>
-                                                                <p class="">Tab 4</p>
-                                                                <p class="">Tab 4</p>
-                                                                <p class="">Tab 4</p>
-                                                                <p class="">Tab 4</p>
-                                                                <p class="">Tab 4</p>
-                                                                <p class="">Tab 4</p>
-                                                                <p class="">Tab 4</p>
-                                                            </div>
-
-
-                                                        </div>
+                                                        <div class="tab-pane fade ex1" id="profile" role="tabpanel" aria-labelledby="profile-tab">Palo santo kogi ramps nostrud organic schlitz, art party PBR&B tbh taxidermy hammock officia chia farm-to-table irony. </div>
+                                                        <div class="tab-pane fade ex1" id="messages" role="tabpanel" aria-labelledby="messages-tab">Asymmetrical sustainable live-edge tempor eiusmod kale chips cloud bread vexillologist et man bun pitchfork hashtag excepteur scenester ethical.</div>
+                                                        <div class="tab-pane fade ex1" id="settings" role="tabpanel" aria-labelledby="settings-tab"> Literally wolf flexitarian snackwave raw denim bitters ut synth kombucha consequat twee polaroid.</div>
+                                                      </div>
+                                                      </div>
                                                     </div>
 
-                                                </div>
+
                                             </div>
 
                                         </div>
@@ -1097,6 +1146,7 @@ transform: rotate(0deg);
                                                         </div>
 
                                                         <div class="get-started-right-business-features-container">
+
                                                             <div class="get-started-right-business-features">
                                                                 <div class="curve__Wrapper">
                                                                     <svg width="29" height="25" xmlns="http://www.w3.org/2000/svg"><path d="M29 1.389c0 .746-.599 1.349-1.354 1.384a26.869 26.869 0 00-12.317 3.66C8.575 10.388 4.231 16.836 2.785 23.885A1.4 1.4 0 011.408 25c-.89 0-1.556-.806-1.38-1.666 1.599-7.79 6.398-14.916 13.863-19.286A29.704 29.704 0 0127.54.002C28.337-.036 29 .602 29 1.387v.002z" fill="#FD8550" fill-rule="evenodd"></path></svg>
@@ -1110,7 +1160,7 @@ transform: rotate(0deg);
 
 
                                                                     <a href="limited-liability-company.html">
-                                                                        <div class="get-started-right-business-features-card">
+                                                                        {{-- <div class="get-started-right-business-features-card">
                                                                             <div class="icon-and-title-column">
 
                                                                                 <div class="boxed__ImageWrapper" style="background-color: rgba(238, 249, 254,1.0);">
@@ -1123,7 +1173,24 @@ transform: rotate(0deg);
                                                                             <span class="circle__IconWrapper">
         <svg width="12" height="11" xmlns="http://www.w3.org/2000/svg"><path d="M5.805.703L5.8.707a1 1 0 00-.003 1.416l2.379 2.379H.998a.998.998 0 000 1.996h7.179L5.798 8.877a1 1 0 00.003 1.416l.004.004a1 1 0 001.412-.003l4.078-4.088a1 1 0 000-1.412L7.217.706A1 1 0 005.805.703z" fill="#1D1D1D" fill-rule="nonzero"></path></svg>
       </span>
-                                                                        </div>
+                                                                        </div> --}}
+                                                                        <div class="card pt-3 text-center" style="width:100%;">
+
+
+
+                                                                            <img class="card-img-top" src="{{asset('hubfs/Incfile_February_2021/images/cert-llc-232.png')}}" style="width: 30%;"  alt="Card image cap">
+
+                                                                            <div class="card-body">
+                                                                                <div class="d-flex justify-content-between">
+                                                                                    <h5 class="card-title">LLC</h5>
+
+                                                                                    <a href="#" class="float-right"> <span class="circle__IconWrapper">
+                                                                                      <svg width="12" height="11" xmlns="http://www.w3.org/2000/svg"><path d="M5.805.703L5.8.707a1 1 0 00-.003 1.416l2.379 2.379H.998a.998.998 0 000 1.996h7.179L5.798 8.877a1 1 0 00.003 1.416l.004.004a1 1 0 001.412-.003l4.078-4.088a1 1 0 000-1.412L7.217.706A1 1 0 005.805.703z" fill="#1D1D1D" fill-rule="nonzero"></path></svg>
+                                                                                    </span></a>
+                                                                                </div>
+
+                                                                            </div>
+                                                                          </div>
                                                                     </a>
                                                                 </div>
 
@@ -1137,8 +1204,8 @@ transform: rotate(0deg);
 
 
 
-                                                                    <a href="what-is-s-corporation/index.html" target="_blank" rel="noopener">
-                                                                        <div class="get-started-right-business-features-card">
+                                                                    <a href="#" target="_blank" rel="noopener">
+                                                                        {{-- <div class="get-started-right-business-features-card">
                                                                             <div class="icon-and-title-column">
 
                                                                                 <div class="boxed__ImageWrapper" style="background-color: rgba(250, 242, 248,1.0);">
@@ -1151,7 +1218,24 @@ transform: rotate(0deg);
                                                                             <span class="circle__IconWrapper">
         <svg width="12" height="11" xmlns="http://www.w3.org/2000/svg"><path d="M5.805.703L5.8.707a1 1 0 00-.003 1.416l2.379 2.379H.998a.998.998 0 000 1.996h7.179L5.798 8.877a1 1 0 00.003 1.416l.004.004a1 1 0 001.412-.003l4.078-4.088a1 1 0 000-1.412L7.217.706A1 1 0 005.805.703z" fill="#1D1D1D" fill-rule="nonzero"></path></svg>
       </span>
-                                                                        </div>
+                                                                        </div> --}}
+                                                                        <div class="card pt-3 text-center" style="width:100%;">
+
+
+
+                                                                            <img class="card-img-top " src="{{asset('hubfs/Incfile_February_2021/images/cert-s-433.png')}}" style="width: 30%"  alt="Card image cap">
+
+                                                                            <div class="card-body">
+                                                                                <div class="d-flex justify-content-between">
+                                                                                    <h5 class="card-title">S Corporation</h5>
+
+                                                                                    <a href="#" class="float-right"> <span class="circle__IconWrapper">
+                                                                                      <svg width="12" height="11" xmlns="http://www.w3.org/2000/svg"><path d="M5.805.703L5.8.707a1 1 0 00-.003 1.416l2.379 2.379H.998a.998.998 0 000 1.996h7.179L5.798 8.877a1 1 0 00.003 1.416l.004.004a1 1 0 001.412-.003l4.078-4.088a1 1 0 000-1.412L7.217.706A1 1 0 005.805.703z" fill="#1D1D1D" fill-rule="nonzero"></path></svg>
+                                                                                    </span></a>
+                                                                                </div>
+
+                                                                            </div>
+                                                                          </div>
                                                                     </a>
                                                                 </div>
 
@@ -1164,7 +1248,7 @@ transform: rotate(0deg);
 
 
                                                                     <a href="what-is-non-profit-corporation/index.html">
-                                                                        <div class="get-started-right-business-features-card">
+                                                                        {{-- <div class="get-started-right-business-features-card">
                                                                             <div class="icon-and-title-column">
 
                                                                                 <div class="boxed__ImageWrapper" style="background-color: rgba(242, 248, 243,1.0);">
@@ -1177,7 +1261,24 @@ transform: rotate(0deg);
                                                                             <span class="circle__IconWrapper">
         <svg width="12" height="11" xmlns="http://www.w3.org/2000/svg"><path d="M5.805.703L5.8.707a1 1 0 00-.003 1.416l2.379 2.379H.998a.998.998 0 000 1.996h7.179L5.798 8.877a1 1 0 00.003 1.416l.004.004a1 1 0 001.412-.003l4.078-4.088a1 1 0 000-1.412L7.217.706A1 1 0 005.805.703z" fill="#1D1D1D" fill-rule="nonzero"></path></svg>
       </span>
-                                                                        </div>
+                                                                        </div> --}}
+                                                                        <div class="card pt-3 text-center" style="width:100%;">
+
+
+
+                                                                            <img class="card-img-top " src="{{asset('hubfs/Incfile_February_2021/images/cert-n-826.png')}}"  style="width: 30%"  alt="Card image cap">
+
+                                                                            <div class="card-body">
+                                                                                <div class="d-flex justify-content-between">
+                                                                                    <h5 class="card-title">Nonprofit</h5>
+
+                                                                                    <a href="#" class="float-right"> <span class="circle__IconWrapper">
+                                                                                      <svg width="12" height="11" xmlns="http://www.w3.org/2000/svg"><path d="M5.805.703L5.8.707a1 1 0 00-.003 1.416l2.379 2.379H.998a.998.998 0 000 1.996h7.179L5.798 8.877a1 1 0 00.003 1.416l.004.004a1 1 0 001.412-.003l4.078-4.088a1 1 0 000-1.412L7.217.706A1 1 0 005.805.703z" fill="#1D1D1D" fill-rule="nonzero"></path></svg>
+                                                                                    </span></a>
+                                                                                </div>
+
+                                                                            </div>
+                                                                          </div>
                                                                     </a>
                                                                 </div>
 
@@ -1190,7 +1291,7 @@ transform: rotate(0deg);
 
 
                                                                     <a href="what-is-c-corporation/index.html">
-                                                                        <div class="get-started-right-business-features-card">
+                                                                        {{-- <div class="get-started-right-business-features-card">
                                                                             <div class="icon-and-title-column">
 
                                                                                 <div class="boxed__ImageWrapper" style="background-color: rgba(254, 246, 237,1.0);">
@@ -1203,7 +1304,24 @@ transform: rotate(0deg);
                                                                             <span class="circle__IconWrapper">
         <svg width="12" height="11" xmlns="http://www.w3.org/2000/svg"><path d="M5.805.703L5.8.707a1 1 0 00-.003 1.416l2.379 2.379H.998a.998.998 0 000 1.996h7.179L5.798 8.877a1 1 0 00.003 1.416l.004.004a1 1 0 001.412-.003l4.078-4.088a1 1 0 000-1.412L7.217.706A1 1 0 005.805.703z" fill="#1D1D1D" fill-rule="nonzero"></path></svg>
       </span>
-                                                                        </div>
+                                                                        </div> --}}
+                                                                        <div class="card pt-3 text-center" style="width:100%;">
+
+
+
+                                                                            <img class="card-img-top " src="{{asset('hubfs/Incfile_February_2021/images/cert-c-831.png')}}"  style="width: 30%"  alt="Card image cap">
+
+                                                                            <div class="card-body">
+                                                                                <div class="d-flex justify-content-between">
+                                                                                    <h5 class="card-title">C Corporation</h5>
+
+                                                                                    <a href="#" class="float-right"> <span class="circle__IconWrapper">
+                                                                                      <svg width="12" height="11" xmlns="http://www.w3.org/2000/svg"><path d="M5.805.703L5.8.707a1 1 0 00-.003 1.416l2.379 2.379H.998a.998.998 0 000 1.996h7.179L5.798 8.877a1 1 0 00.003 1.416l.004.004a1 1 0 001.412-.003l4.078-4.088a1 1 0 000-1.412L7.217.706A1 1 0 005.805.703z" fill="#1D1D1D" fill-rule="nonzero"></path></svg>
+                                                                                    </span></a>
+                                                                                </div>
+
+                                                                            </div>
+                                                                          </div>
                                                                     </a>
                                                                 </div>
 
@@ -1372,6 +1490,7 @@ transform: rotate(0deg);
 
 
                                                                 </select>
+                                                                <button class="btn btn-primary mt-3 float-right">Submit</button>
 
                                                                 <span id="hs_cos_wrapper_widget_1615205073177_" class="hs_cos_wrapper hs_cos_wrapper_widget hs_cos_wrapper_type_form" style="" data-hs-cos-general-type="widget" data-hs-cos-type="form"><h3 id="hs_cos_wrapper_form_303890057_title" class="hs_cos_wrapper form-title" data-hs-cos-general-type="widget_field" data-hs-cos-type="text"></h3>
 
@@ -1572,4 +1691,37 @@ transform: rotate(0deg);
         </div>
     </div>
 </main>
+
+
+<script>
+    // Tab-Pane change function
+function tabChange() {
+    var tabs = $('.nav-tabs > li');
+    var active = tabs.filter('.active');
+    var next = active.next('li').length? active.next('li').find('a') : tabs.filter(':first-child').find('a');
+    next.tab('show');
+}
+
+$('.tab-pane').hover(function() {
+    clearInterval(tabCycle);
+}, function() {
+    tabCycle = setInterval(tabChange, 5000);
+});
+
+// Tab Cycle function
+var tabCycle = setInterval(tabChange, 5000)
+
+// Tab click event handler
+
+$(function(){
+    $('.nav-tabs a').click(function(e) {
+        e.preventDefault();
+        clearInterval(tabCycle);
+        $(this).tab('show')
+        tabCycle = setInterval(tabChange, 5000);
+    });
+});
+
+
+</script>
 @endsection
