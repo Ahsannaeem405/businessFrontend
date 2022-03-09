@@ -336,20 +336,14 @@
                                                         class="hs_cos_wrapper hs_cos_wrapper_widget hs_cos_wrapper_type_module"
                                                         style="" data-hs-cos-general-type="widget"
                                                         data-hs-cos-type="module">
-                                                        <div class="deciding-wrapper"
+                                                        <div class="container pl-md-5 pr-md-5"
                                                             style="background-color:rgba(254, 246, 237,1.0);">
                                                             <div class="page-center">
-                                                                <div class="deciding-imgageBottom">
-                                                                    <div class=" gatsby-image-wrapper">
-                                                                        <div class="image-wrapper"></div>
-                                                                        <img src="hubfs/Incfile_February_2021/images/mr-bulb-compass-3979.png"
-                                                                           width="50%" alt="mr-bulb-compass-3979">
-                                                                    </div>
-                                                                </div>
+
                                                                 <div class="heading-center">
                                                                     <div class="container-wrapper">
                                                                         <div class="content-center">
-                                                                            <div class="content-center">
+                                                                            <div class="content-center text-center">
                                                                                 <h2 class="heading-headingwrapper">
                                                                                     Lorem Ipsum is simply dummy text of the printing and
 typesetting industry.</h2>
@@ -362,6 +356,13 @@ typesetting industry.</h2>
                                                                                     remaining essentially unchanged. </p>
                                                                             </div>
                                                                         </div>
+                                                                    </div>
+                                                                </div>
+                                                                <div class="deciding-imgageBottom text-center">
+                                                                    <div class=" gatsby-image-wrapper">
+                                                                        <div class="image-wrapper"></div>
+                                                                        <img src="hubfs/Incfile_February_2021/images/mr-bulb-compass-3979.png"
+                                                                           width="50%" alt="mr-bulb-compass-3979">
                                                                     </div>
                                                                 </div>
                                                             </div>
