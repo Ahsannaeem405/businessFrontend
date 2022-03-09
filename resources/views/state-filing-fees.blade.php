@@ -9,6 +9,9 @@
         <link rel="stylesheet" href="{{asset('hs-fs/hub/3787982/hub_generated/module_assets/44255302177/1622801432068/module_44255302177_Review_State_Filing_Fees.min.css')}}">
         <link rel="stylesheet" href="{{asset('hs-fs/hub/3787982/hub_generated/module_assets/1631534448375/module_41246686164_Get_Started_Banner.css')}}">
         <style>
+                .carousel-inner{
+        max-height: 500px;
+    }
             .banner.widget_1613019964333_banner .banner-button-container .button-item a,
             .banner.widget_1613019964333_banner .banner-button-container .button-item button {
                 margin-bottom: 0px;
@@ -101,27 +104,7 @@
 
         </style>
         @section('content')
-<div id="carouselExampleControls" class="carousel slide mb-5" data-ride="carousel">
-    <div class="carousel-inner">
-      <div class="carousel-item active">
-        <img class="d-block w-100" src="https://www.adorama.com/alc/wp-content/uploads/2017/11/shutterstock_114802408.jpg" alt="First slide">
-      </div>
-      <div class="carousel-item">
-        <img class="d-block w-100" src="https://www.adorama.com/alc/wp-content/uploads/2017/11/shutterstock_114802408.jpg" alt="Second slide">
-      </div>
-      <div class="carousel-item">
-        <img class="d-block w-100" src="https://www.adorama.com/alc/wp-content/uploads/2017/11/shutterstock_114802408.jpg" alt="Third slide">
-      </div>
-    </div>
-    <a class="carousel-control-prev" href="#carouselExampleControls" role="button" data-slide="prev">
-      <span class="carousel-control-prev-icon" aria-hidden="true"></span>
-      <span class="sr-only">Previous</span>
-    </a>
-    <a class="carousel-control-next" href="#carouselExampleControls" role="button" data-slide="next">
-      <span class="carousel-control-next-icon" aria-hidden="true"></span>
-      <span class="sr-only">Next</span>
-    </a>
-  </div>
+@include('slider')
 
   <div class="banner-section corporation-filing-banner">
     <div class="container-fluid banner-area">

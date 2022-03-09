@@ -17,6 +17,9 @@
         list-style: disc;
         padding-left: 16px;
     }
+    .carousel-inner{
+        max-height: 500px;
+    }
 
     #widget_1614260364663.default_bullet .acc_item .acc_body .inner ul ul {
         list-style-type: circle;
@@ -66,33 +69,7 @@
 <link rel="stylesheet"
     href="{{ asset('hs-fs/hub/3787982/hub_generated/module_assets/41148244352/1636038378453/module_41148244352_Footer_Social_Icons.min.css') }}">
 @section('content')
-<div id="carouselExampleControls" class="carousel slide mb-5" data-ride="carousel">
-    <div class="carousel-inner">
-       <div class="carousel-item active">
-          <img class="d-block w-100"
-             src="https://www.adorama.com/alc/wp-content/uploads/2017/11/shutterstock_114802408.jpg"
-             alt="First slide">
-       </div>
-       <div class="carousel-item">
-          <img class="d-block w-100"
-             src="https://www.adorama.com/alc/wp-content/uploads/2017/11/shutterstock_114802408.jpg"
-             alt="Second slide">
-       </div>
-       <div class="carousel-item">
-          <img class="d-block w-100"
-             src="https://www.adorama.com/alc/wp-content/uploads/2017/11/shutterstock_114802408.jpg"
-             alt="Third slide">
-       </div>
-    </div>
-    <a class="carousel-control-prev" href="#carouselExampleControls" role="button" data-slide="prev">
-    <span class="carousel-control-prev-icon" aria-hidden="true"></span>
-    <span class="sr-only">Previous</span>
-    </a>
-    <a class="carousel-control-next" href="#carouselExampleControls" role="button" data-slide="next">
-    <span class="carousel-control-next-icon" aria-hidden="true"></span>
-    <span class="sr-only">Next</span>
-    </a>
- </div>
+@include('slider')
     <div class="annual-report-layout">
         <div class="banner-section llc-page-banner">
             <div class="container-fluid banner-area">

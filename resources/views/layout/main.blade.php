@@ -9,7 +9,63 @@
     <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@4.0.0/dist/css/bootstrap.min.css" integrity="sha384-Gn5384xqQ1aoWXA+058RXPxPg6fy4IWvTNh0E263XmFcJlSAwiGgFAW/dAiS6JXm" crossorigin="anonymous">
 
     <style>
+        .text-normal{
+            font-size: 15px;
+        }
+        @media only screen and (max-width: 425px){
+            .header-text h2 span {
+    color: white;
+    padding: 10px;
+    font-size: 18px;
+}
+.header-text h5 span {
+    background-color: transparent;
+    color: white;
+    padding: 15px;
+    font-size: 15px;
+}
+}
+.header-text {
+    position: absolute;
+    top: 20%;
+    left: 1.8%;
+    right: auto;
+    width: 96.66666666666666%;
+    color: #fff;
+}
 
+.header-text h2 {
+    /* font-size: 40px; */
+}
+
+.header-text h2 span {
+    color: white;
+	padding: 10px;
+}
+
+.header-text h5 span {
+	background-color: transparent;
+    color: white;
+	padding: 15px;
+}
+
+.btn-min-block {
+    min-width: 170px;
+    line-height: 26px;
+}
+
+.btn-theme {
+    color: #fff;
+    background-color: transparent;
+    border: 2px solid #fff;
+    margin-right: 15px;
+}
+
+.btn-theme:hover {
+    color: #000;
+    background-color: #fff;
+    border-color: #fff;
+}
 
         .link li a:hover{
             color: blue !important;
@@ -754,9 +810,8 @@
 
 
 
-                        <a href="#" aria-label="Go to Incfile main page">
-                            <img src="https://99designs-blog.imgix.net/blog/wp-content/uploads/2016/09/att-logo-600x600.jpg?auto=format&q=60&fit=max&w=930"
-                                alt="">
+                        <a href="{{url('/')}}" aria-label="Go to main page">
+                            <img src="{{asset('image/logo.png')}}"  alt="">
                             <!-- <svg width="100%" height="100%" viewbox="0 0 79.05 23.22" xmlns="http://www.w3.org/2000/svg"> <g fill="none" fill-rule="evenodd"> <path fill="#035496" d="M.34 22.882h4.42V6.247H.34zM21.816 22.882h-4.42V12.834c0-1.166-.18-1.988-.535-2.469-.44-.56-1.22-.841-2.349-.841-2.28 0-3.42 1.278-3.42 3.84v9.518H6.677V6.247h4.23v1.56c0 .605.014.906.032.906 0-.022.009-.032.03-.032a5.414 5.414 0 012.242-2.137 6.55 6.55 0 013.09-.766c2.213 0 3.824.867 4.826 2.59.463.833.69 1.83.69 2.998v11.516zM38.368 12.209h-4.42c-.148-.854-.494-1.524-1.035-2.014a2.725 2.725 0 00-1.881-.733c-1.171 0-2.08.54-2.728 1.621-.52.917-.784 1.989-.784 3.215 0 3.58 1.096 5.39 3.292 5.432.773 0 1.457-.254 2.054-.765.595-.511.934-1.211 1.02-2.107h4.449c-.249 1.957-1.09 3.533-2.522 4.728-1.43 1.197-3.151 1.805-5.157 1.826-2.509 0-4.432-.81-5.77-2.433-1.257-1.52-1.881-3.547-1.881-6.087 0-2.705.606-4.848 1.82-6.428 1.357-1.77 3.356-2.653 5.987-2.653 2.089 0 3.813.54 5.174 1.622 1.462 1.166 2.257 2.758 2.382 4.776zM48.953 9.4h-2.854v13.483h-4.357V9.4h-2.447V6.247h2.447c0-4.035 2.36-6.055 7.087-6.055v3.56c-1.11 0-1.843.176-2.194.53-.361.352-.536 1.008-.536 1.965h2.854v3.154zM50.786 22.882h4.419V6.247h-4.419zM57.182 22.882h4.42V.442h-4.42zM79.393 15.735H67.89c.105 1.373.544 2.434 1.318 3.183.668.626 1.482.935 2.446.935.707 0 1.348-.166 1.912-.498.563-.331.93-.78 1.096-1.34h4.513c-.499 1.683-1.398 2.989-2.694 3.916-1.297.926-2.833 1.388-4.612 1.388-5.578 0-8.367-3.028-8.367-9.083 0-2.558.706-4.602 2.118-6.133 1.408-1.53 3.39-2.292 5.94-2.292 5.224 0 7.834 3.306 7.834 9.924zm-4.514-2.776c-.102-1.116-.485-1.993-1.142-2.632-.661-.639-1.418-.958-2.274-.958-.836 0-1.558.298-2.162.897-.67.64-1.09 1.536-1.255 2.693h6.833z"></path> <path d="M55.32 2.343a2.262 2.262 0 01-2.27 2.259 2.264 2.264 0 01-2.267-2.26A2.262 2.262 0 0153.05.086a2.261 2.261 0 012.27 2.258zM4.708 2.343a2.263 2.263 0 01-2.27 2.259 2.264 2.264 0 01-2.266-2.26A2.262 2.262 0 012.439.086a2.262 2.262 0 012.269 2.258z" fill="#ED5726"></path> </g> </svg> -->
                         </a>
                     </div>
@@ -780,60 +835,9 @@
                                             aria-label="Navigation Menu">
                                             <ul role="menu" class="active-branch">
                                                 <li class="hs-menu-item hs-menu-depth-1 active-branch"
-                                                    role="none"><a href="#" aria-haspopup="true"
+                                                    role="none"><a href="{{url('/')}}" aria-haspopup="true"
                                                         aria-expanded="false" role="menuitem">Home</a>
-                                                    {{-- <ul role="menu" class="hs-menu-children-wrapper active-branch">
-                                                        <li class="hs-menu-item hs-menu-depth-2 hs-item-has-children active-branch"
-                                                            role="none"><a href="javascript:;" role="menuitem"></a>
-                                                            <ul role="menu"
-                                                                class="hs-menu-children-wrapper active-branch">
-                                                                <li class="hs-menu-item hs-menu-depth-3 active active-branch"
-                                                                    role="none"><a
-                                                                        href="#"
-                                                                        role="menuitem">Business Type Comparison
-                                                                        Chart</a></li>
-                                                                <li class="hs-menu-item hs-menu-depth-3" role="none"><a
-                                                                        href="#"
-                                                                        role="menuitem">Business Type Quiz</a></li>
-                                                                <li class="hs-menu-item hs-menu-depth-3" role="none"><a
-                                                                        href="#"
-                                                                        role="menuitem">LLC (File for Free)</a></li>
-                                                                <li class="hs-menu-item hs-menu-depth-3 hs-item-has-children"
-                                                                    role="none"><a href="javascript:;"
-                                                                        role="menuitem"></a>
-                                                                    <ul role="menu" class="hs-menu-children-wrapper">
-                                                                        <li class="hs-menu-item hs-menu-depth-4 hs-item-has-children"
-                                                                            role="none"><a href="javascript:;"
-                                                                                role="menuitem"></a>
-                                                                            <ul role="menu"
-                                                                                class="hs-menu-children-wrapper">
-                                                                                <li class="hs-menu-item hs-menu-depth-5"
-                                                                                    role="none"><a
-                                                                                        href="diy-business-course.html"
-                                                                                        role="menuitem">DIY Business
-                                                                                        Course</a></li>
-                                                                                <li class="hs-menu-item hs-menu-depth-5"
-                                                                                    role="none"><a
-                                                                                        href="#"
-                                                                                        role="menuitem">C
-                                                                                        Corporation</a></li>
-                                                                                <li class="hs-menu-item hs-menu-depth-5"
-                                                                                    role="none"><a
-                                                                                        href="#"
-                                                                                        role="menuitem">S
-                                                                                        Corporation</a></li>
-                                                                                <li class="hs-menu-item hs-menu-depth-5"
-                                                                                    role="none"><a
-                                                                                        href="#"
-                                                                                        role="menuitem">Nonprofit</a>
-                                                                                </li>
-                                                                            </ul>
-                                                                        </li>
-                                                                    </ul>
-                                                                </li>
-                                                            </ul>
-                                                        </li>
-                                                    </ul> --}}
+
                                                 </li>
 
                                                 <li class="hs-menu-item hs-menu-depth-1 hs-item-has-children"
@@ -844,97 +848,38 @@
                                                             role="none"><a href="javascript:;" role="menuitem"></a>
                                                             <ul role="menu" class="hs-menu-children-wrapper">
                                                                 <li class="hs-menu-item hs-menu-depth-3" role="none"><a
-                                                                        href="#"
-                                                                        role="menuitem">Submit an Annual Report</a></li>
+                                                                        href="{{url('/annual')}}"
+                                                                        role="menuitem">Annual Report</a></li>
                                                                 <li class="hs-menu-item hs-menu-depth-3" role="none"><a
-                                                                        href="#"
-                                                                        role="menuitem">Business License Requirements
-                                                                        &amp; Search</a></li>
+                                                                        href="{{url('/tax')}}"
+                                                                        role="menuitem">Tax Consultation</a></li>
                                                                 <li class="hs-menu-item hs-menu-depth-3" role="none"><a
-                                                                        href="manage-your-company/tax-id-ein.html"
-                                                                        role="menuitem">Get an EIN / TAX Number</a></li>
-                                                                <li class="hs-menu-item hs-menu-depth-3 hs-item-has-children"
-                                                                    role="none"><a href="javascript:;"
-                                                                        role="menuitem"></a>
-                                                                    <ul role="menu" class="hs-menu-children-wrapper">
-                                                                        <li class="hs-menu-item hs-menu-depth-4 hs-item-has-children"
-                                                                            role="none"><a href="javascript:;"
-                                                                                role="menuitem"></a>
-                                                                            <ul role="menu"
-                                                                                class="hs-menu-children-wrapper">
-                                                                                <li class="hs-menu-item hs-menu-depth-5"
-                                                                                    role="none"><a
-                                                                                        href="manage-your-company/certificate-of-good-standing.html"
-                                                                                        role="menuitem">Get a
-                                                                                        Certificate of Good Standing</a>
-                                                                                </li>
-                                                                                <li class="hs-menu-item hs-menu-depth-5"
-                                                                                    role="none"><a
-                                                                                        href="#"
-                                                                                        role="menuitem">File a
-                                                                                        Trademark</a></li>
-                                                                                <li class="hs-menu-item hs-menu-depth-5"
-                                                                                    role="none"><a
-                                                                                        href="#"
-                                                                                        role="menuitem">Change of
-                                                                                        Registered Agent</a></li>
-                                                                                <li class="hs-menu-item hs-menu-depth-5"
-                                                                                    role="none"><a
-                                                                                        href="#"
-                                                                                        role="menuitem">Annual Report
-                                                                                        Due Date Tool</a></li>
-                                                                                <li class="hs-menu-item hs-menu-depth-5"
-                                                                                    role="none"><a
-                                                                                        href="#"
-                                                                                        role="menuitem">File for an S
-                                                                                        Corporation</a></li>
-                                                                            </ul>
-                                                                        </li>
-                                                                        <li class="hs-menu-item hs-menu-depth-4 hs-item-has-children"
-                                                                            role="none"><a href="javascript:;"
-                                                                                role="menuitem"></a>
-                                                                            <ul role="menu"
-                                                                                class="hs-menu-children-wrapper">
-                                                                                <li class="hs-menu-item hs-menu-depth-5"
-                                                                                    role="none"><a
-                                                                                        href="#"
-                                                                                        role="menuitem">Ongoing Filing
-                                                                                        Requirements</a></li>
-                                                                                <li class="hs-menu-item hs-menu-depth-5"
-                                                                                    role="none"><a
-                                                                                        href="#"
-                                                                                        role="menuitem">S Corp Tax
-                                                                                        Calculator</a></li>
-                                                                                <li class="hs-menu-item hs-menu-depth-5"
-                                                                                    role="none"><a
-                                                                                        href="#"
-                                                                                        role="menuitem">Sales Tax
-                                                                                        Calculator</a></li>
-                                                                                <li class="hs-menu-item hs-menu-depth-5"
-                                                                                    role="none"><a
-                                                                                        href="#"
-                                                                                        role="menuitem">Free Tax
-                                                                                        Consultation</a></li>
-                                                                                <li class="hs-menu-item hs-menu-depth-5"
-                                                                                    role="none"><a
-                                                                                        href="#"
-                                                                                        role="menuitem">Payroll Tax
-                                                                                        Calculator</a></li>
-                                                                            </ul>
-                                                                        </li>
-                                                                    </ul>
-                                                                </li>
+                                                                        href="{{url('/amendment')}}"
+                                                                        role="menuitem">Amendment</a></li>
+                                                                        <li class="hs-menu-item hs-menu-depth-3" role="none"><a
+                                                                            href="{{url('/dissolution')}}"
+                                                                            role="menuitem">Dissolution</a></li>
+                                                                            <li class="hs-menu-item hs-menu-depth-3" role="none"><a
+                                                                                href="{{url('/certificate')}}"
+                                                                                role="menuitem">Certificate Of Goods</a></li>
+
+
                                                             </ul>
                                                         </li>
                                                     </ul>
                                                 </li>
+                                                <li class="hs-menu-item hs-menu-depth-1 active-branch"
+                                                role="none"><a href="{{url('/corporation')}}" aria-haspopup="true"
+                                                    aria-expanded="false" role="menuitem">Corporation-State Information</a>
+
+                                            </li>
                                                 <li class="hs-menu-item hs-menu-depth-1"
-                                                role="none"><a href="javascript:;" aria-haspopup="true"
+                                                role="none"><a href="{{url('/llc-state-information')}}" aria-haspopup="true"
                                                     aria-expanded="false" role="menuitem">LLC Information</a>
 
                                             </li>
                                                 <li class="hs-menu-item hs-menu-depth-1"
-                                                    role="none"><a href="javascript:;" aria-haspopup="true"
+                                                    role="none"><a href="{{url('/state')}}" aria-haspopup="true"
                                                         aria-expanded="false" role="menuitem">State Filling </a>
                                                     {{-- <ul role="menu" class="hs-menu-children-wrapper">
                                                         <li class="hs-menu-item hs-menu-depth-2 hs-item-has-children"
@@ -999,7 +944,7 @@
                                                     </ul> --}}
                                                 </li>
                                                 <li class="hs-menu-item hs-menu-depth-1"
-                                                    role="none"><a href="javascript:;" aria-haspopup="true"
+                                                    role="none"><a href="{{url('/why_chose')}}" aria-haspopup="true"
                                                         aria-expanded="false" role="menuitem">About Us</a>
 
                                                 </li>
@@ -1043,7 +988,7 @@
                                     id="hs_cos_wrapper_footer_logo_"
                                     class="hs_cos_wrapper hs_cos_wrapper_widget hs_cos_wrapper_type_rich_text" style=""
                                     data-hs-cos-general-type="widget" data-hs-cos-type="rich_text">
-                                    <img src="https://99designs-blog.imgix.net/blog/wp-content/uploads/2016/09/att-logo-600x600.jpg?auto=format&q=60&fit=max&w=930"
+                                    <img src="{{asset('image/logo.png')}}"
                                         width="80" alt=""></span></div>
                         </div>
                         <div class="footer-news-form">
@@ -1090,7 +1035,7 @@
                                         <div class="footer-single__FooterItem-l1m2uz-1 EkBfz">
                                             <p>Entity Types</p>
                                             <ul class="footer-single__List-l1m2uz-2 dwwXzJ link">
-                                                <li><a href="#">LLC</a></li>
+                                                <li><a href="{{url('/llc-state-information')}}">LLC Information</a></li>
 
                                             </ul>
                                         </div>
@@ -1104,10 +1049,24 @@
                                     </div>
                                     <div class="footer-single__Wrapper idAROM">
                                         <div class="footer-single__FooterItem-l1m2uz-1 EkBfz">
-                                            <p>Services</p>
+                                            <p>Manage</p>
                                             <ul class="footer-single__List-l1m2uz-2 dwwXzJ link">
-                                                <li><a href="">Get a Registered
-                                                        Agent</a></li>
+                                                <li><a
+                                                    href="{{url('/annual')}}"
+                                                    role="menuitem">Annual Report</a></li>
+                                            <li><a
+                                                    href="{{url('/tax')}}"
+                                                    role="menuitem">Tax Consultation</a></li>
+                                            <li><a
+                                                    href="{{url('/amendment')}}"
+                                                    role="menuitem">Amendment</a></li>
+                                                    <li><a
+                                                        href="{{url('/dissolution')}}"
+                                                        role="menuitem">Dissolution</a></li>
+                                                        <li><a
+                                                            href="{{url('/certificate')}}"
+                                                            role="menuitem">Certificate Of Goods</a></li>
+
 
                                             </ul>
                                         </div>
@@ -1119,29 +1078,14 @@
                                             </svg>
                                         </span>
                                     </div>
-                                    <div class="footer-single__Wrapper idAROM">
-                                        <div class="footer-single__FooterItem-l1m2uz-1 EkBfz">
-                                            <p>Quick links</p>
-                                            <ul class="footer-single__List-l1m2uz-2 dwwXzJ link">
-                                                <li><a aria-current="page" class=""
-                                                        href="#">Home</a></li>
 
-                                            </ul>
-                                        </div>
-                                        <span>
-                                            <svg width="12" height="7" xmlns="http://www.w3.org/2000/svg">
-                                                <path
-                                                    d="M11.808.585l-.393-.39a.656.656 0 00-.464-.19.656.656 0 00-.464.19L6.003 4.622 1.513.189A.655.655 0 001.05 0a.656.656 0 00-.464.19L.192.577a.643.643 0 000 .917l5.345 5.297A.675.675 0 006.002 7h.002c.176 0 .34-.086.464-.208l5.34-5.283a.65.65 0 000-.924z"
-                                                    fill="#4E4E4E" fill-rule="nonzero"></path>
-                                            </svg>
-                                        </span>
-                                    </div>
                                     <div class="footer-single__Wrapper idAROM">
                                         <div class="footer-single__FooterItem-l1m2uz-1 EkBfz">
-                                            <p>Resources</p>
+                                            <p>Quick Links</p>
                                             <ul class="footer-single__List-l1m2uz-2 dwwXzJ link">
-                                                <li><a href="#">Renew Registered
-                                                        Agent</a></li>
+                                                <li><a href="{{url('/')}}">Home</a></li>
+                                                <li><a href="{{url('/amendment')}}">Amendment</a></li>
+                                                <li><a href="{{url('/state')}}">State Filling Fees</a></li>
 
                                             </ul>
                                         </div>
@@ -1157,7 +1101,7 @@
                                         <div class="footer-single__FooterItem-l1m2uz-1 EkBfz">
                                             <p>Support</p>
                                             <ul class="footer-single__List-l1m2uz-2 dwwXzJ link">
-                                                <li><a href="contact/new-sales.html">Contact Us: New Sales</a></li>
+                                                <li><a href="{{url('/why_chose')}}">About Us</a></li>
 
                                             </ul>
                                         </div>
@@ -1173,7 +1117,7 @@
                             </div>
                         </div>
                     </div>
-                    <div class="footer-bottom-container">
+                    <div class=" text-center">
                         {{-- <div id="hs_cos_wrapper_copyright"
                             class="hs_cos_wrapper hs_cos_wrapper_widget hs_cos_wrapper_type_module widget-type-rich_text"
                             style="" data-hs-cos-general-type="widget" data-hs-cos-type="module"><span
@@ -1182,9 +1126,9 @@
                                 data-hs-cos-general-type="widget" data-hs-cos-type="rich_text">
                                 <p>© 2022. Browntech.com All Rights Reserved.</p>
                             </span></div> --}}
-                            <div>
-                                <p>© 2022. Browntech.com All Rights Reserved.</p>
-                            </div>
+
+                                <p class="text-normal">© 2022. Browntech.com All Rights Reserved.</p>
+
 
                     </div>
                 </div>

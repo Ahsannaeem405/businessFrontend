@@ -42,4 +42,9 @@ Route::get('/certificate', function () {
 Route::get('/corporation', function () {
     return view('corporation-state-information');
 });
+Route::get('/llc-state-information', function () {
+    return view('llc-state-information');
+});
+
+
 
