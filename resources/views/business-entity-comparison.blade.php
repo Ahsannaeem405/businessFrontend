@@ -1082,7 +1082,7 @@ transform: rotate(0deg);
 
 
 
-                                                                    <a href="limited-liability-company.html">
+                                                                    <a href="#">
                                                                         {{-- <div class="get-started-right-business-features-card">
                                                                             <div class="icon-and-title-column">
 
@@ -1170,7 +1170,7 @@ transform: rotate(0deg);
 
 
 
-                                                                    <a href="what-is-non-profit-corporation/index.html">
+                                                                    <a href="#">
                                                                         {{-- <div class="get-started-right-business-features-card">
                                                                             <div class="icon-and-title-column">
 
@@ -1213,7 +1213,7 @@ transform: rotate(0deg);
 
 
 
-                                                                    <a href="what-is-c-corporation/index.html">
+                                                                    <a href="#">
                                                                         {{-- <div class="get-started-right-business-features-card">
                                                                             <div class="icon-and-title-column">
 
@@ -1262,7 +1262,7 @@ transform: rotate(0deg);
 
 
 
-                                                            <a class="hs-button" href="https://orders.incfile.com/form-order-now.php" target="_blank" rel="noopener">
+                                                            <a class="hs-button" href="#" target="_blank" rel="noopener">
                                                                 <span>Get started</span>
                                                                 <div class="button__Arrow">
                                                                     <svg width="12" height="11" xmlns="http://www.w3.org/2000/svg"><path d="M5.805.703L5.8.707a1 1 0 00-.003 1.416l2.379 2.379H.998a.998.998 0 000 1.996h7.179L5.798 8.877a1 1 0 00.003 1.416l.004.004a1 1 0 001.412-.003l4.078-4.088a1 1 0 000-1.412L7.217.706A1 1 0 005.805.703z" fill="#1D1D1D" fill-rule="nonzero"></path></svg>
