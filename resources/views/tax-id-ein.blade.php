@@ -1172,7 +1172,7 @@
                                             </div>
                                             <!--end row-wrapper -->
 
-                                            <div class="row-fluid-wrapper row-depth-1 row-number-7 dnd-row">
+                                            {{-- <div class="row-fluid-wrapper row-depth-1 row-number-7 dnd-row">
                                                 <div class="row-fluid ">
                                                     <div class="span12 widget-span widget-type-custom_widget dnd-module"
                                                         style="" data-widget-type="custom_widget" data-x="0"
@@ -1368,6 +1368,325 @@
                                                                                     standard dummy text ever since the 1500s, when an unknown
                                                                                     printer took a galley of type and scrambled it to make a
                                                                                     type specimen book.</span></p>
+
+
+                                                                            </div>
+                                                                        </div>
+                                                                    </div>
+
+                                                                </div>
+
+
+                                                            </div>
+                                                        </div>
+
+                                                    </div>
+                                                    <!--end widget-span -->
+                                                </div>
+                                                <!--end row-->
+                                            </div> --}}
+                                            <div class="row-fluid-wrapper row-depth-1 row-number-10 dnd-row">
+                                                <div class="row-fluid ">
+                                                    <div class="span12 widget-span widget-type-custom_widget dnd-module"
+                                                        style="" data-widget-type="custom_widget" data-x="0" data-w="12">
+                                                        <div id="hs_cos_wrapper_widget_1614260364663"
+                                                            class="hs_cos_wrapper hs_cos_wrapper_widget hs_cos_wrapper_type_module"
+                                                            style="" data-hs-cos-general-type="widget"
+                                                            data-hs-cos-type="module">
+                                                            <div id="widget_1614260364663"
+                                                                class=" acc_wrapper acc_mod_wrapper ic_widOutIcon  acc_allToggle">
+                                                                <div class="inner">
+
+
+
+
+                                                                    <div class="acc_item acc1">
+
+                                                                        <div class="acc_header trigger"
+                                                                            data-id="widget_1614260364663-whatbusinesschangescanbereportedinanarticlesofamendmentform1">
+                                                                            <div class="inner">
+
+                                                                                <div class="arr_icon first_pos">
+                                                                                    <svg width="32" height="32"
+                                                                                        xmlns="http://www.w3.org/2000/svg">
+                                                                                        <g fill="none" fill-rule="evenodd">
+                                                                                            <circle fill="#FEF6ED" cx="16"
+                                                                                                cy="16" r="16">
+                                                                                            </circle>
+                                                                                            <path
+                                                                                                d="M20.297 16.195l-.004.004a1 1 0 01-1.416.003l-2.379-2.379v7.179a.998.998 0 01-1.996 0v-7.179l-2.379 2.379a1 1 0 01-1.416-.003l-.004-.004a1 1 0 01.003-1.412l4.088-4.078a1 1 0 011.412 0l4.088 4.078a1 1 0 01.003 1.412z"
+                                                                                                fill="#0000FF"></path>
+                                                                                        </g>
+                                                                                    </svg>
+                                                                                </div>
+
+
+
+                                                                                <div class="title">
+                                                                                    <span>Lorem ipsum dolor sit amet.</span>
+                                                                                </div>
+
+                                                                            </div>
+                                                                        </div>
+
+                                                                        <div class="acc_body"
+                                                                            data-id="widget_1614260364663-whatbusinesschangescanbereportedinanarticlesofamendmentform1">
+                                                                            <div class="inner">
+                                                                                <p>Lorem ipsum dolor sit amet consectetur, adipisicing elit. Aliquam, nihil?</p>
+                                                                                <ul>
+                                                                                    <li>Lorem ipsum dolor sit amet.</li>
+                                                                                    <li>Lorem ipsum dolor sit amet.</li>
+                                                                                    <li>Lorem ipsum dolor sit amet.
+                                                                                    </li>
+                                                                                    <li>Lorem, ipsum dolor.
+                                                                                    </li>
+                                                                                    <li>Lorem, ipsum dolor.</li>
+                                                                                    <li>Lorem, ipsum dolor.
+                                                                                    </li>
+                                                                                </ul>
+                                                                                <p style="margin-bottom: 32px;">Lorem ipsum dolor sit amet consectetur adipisicing elit. Accusamus, deserunt?</p>
+
+
+                                                                            </div>
+                                                                        </div>
+                                                                    </div>
+
+                                                                    <div class="acc_item acc2">
+
+                                                                        <div class="acc_header trigger"
+                                                                            data-id="widget_1614260364663-whatinformationisrequiredtofileanarticlesofamendment2">
+                                                                            <div class="inner">
+
+                                                                                <div class="arr_icon first_pos">
+                                                                                    <svg width="32" height="32"
+                                                                                        xmlns="http://www.w3.org/2000/svg">
+                                                                                        <g fill="none" fill-rule="evenodd">
+                                                                                            <circle fill="#FEF6ED" cx="16"
+                                                                                                cy="16" r="16">
+                                                                                            </circle>
+                                                                                            <path
+                                                                                                d="M20.297 16.195l-.004.004a1 1 0 01-1.416.003l-2.379-2.379v7.179a.998.998 0 01-1.996 0v-7.179l-2.379 2.379a1 1 0 01-1.416-.003l-.004-.004a1 1 0 01.003-1.412l4.088-4.078a1 1 0 011.412 0l4.088 4.078a1 1 0 01.003 1.412z"
+                                                                                                fill="#0000FF"></path>
+                                                                                        </g>
+                                                                                    </svg>
+                                                                                </div>
+
+
+
+                                                                                <div class="title">
+                                                                                    <span>Lorem ipsum dolor sit amet.</span>
+                                                                                </div>
+
+                                                                            </div>
+                                                                        </div>
+
+                                                                        <div class="acc_body"
+                                                                            data-id="widget_1614260364663-whatinformationisrequiredtofileanarticlesofamendment2">
+                                                                            <div class="inner">
+                                                                                <p>Lorem ipsum dolor sit amet.</p>
+                                                                                <ul style="margin-bottom: 24px;">
+                                                                                    <li>Lorem ipsum dolor sit.</li>
+                                                                                    <li>Lorem ipsum dolor sit.</li>
+                                                                                    <li>Lorem ipsum dolor sit.</li>
+                                                                                    <li>Lorem ipsum dolor sit amet consectetur, adipisicing elit. Ratione nemo labore doloremque voluptates accusantium. Vel ullam laborum quisquam dolore at..</li>
+                                                                                </ul>
+
+
+                                                                            </div>
+                                                                        </div>
+                                                                    </div>
+
+                                                                    <div class="acc_item acc3">
+
+                                                                        <div class="acc_header trigger"
+                                                                            data-id="widget_1614260364663-whydoineedtofileanarticlesofamendment3">
+                                                                            <div class="inner">
+
+                                                                                <div class="arr_icon first_pos">
+                                                                                    <svg width="32" height="32"
+                                                                                        xmlns="http://www.w3.org/2000/svg">
+                                                                                        <g fill="none" fill-rule="evenodd">
+                                                                                            <circle fill="#FEF6ED" cx="16"
+                                                                                                cy="16" r="16">
+                                                                                            </circle>
+                                                                                            <path
+                                                                                                d="M20.297 16.195l-.004.004a1 1 0 01-1.416.003l-2.379-2.379v7.179a.998.998 0 01-1.996 0v-7.179l-2.379 2.379a1 1 0 01-1.416-.003l-.004-.004a1 1 0 01.003-1.412l4.088-4.078a1 1 0 011.412 0l4.088 4.078a1 1 0 01.003 1.412z"
+                                                                                                fill="#0000FF"></path>
+                                                                                        </g>
+                                                                                    </svg>
+                                                                                </div>
+
+
+
+                                                                                <div class="title">
+                                                                                    <span>Lorem ipsum dolor, sit amet consectetur adipisicing elit.</span>
+                                                                                </div>
+
+                                                                            </div>
+                                                                        </div>
+
+                                                                        <div class="acc_body"
+                                                                            data-id="widget_1614260364663-whydoineedtofileanarticlesofamendment3">
+                                                                            <div class="inner">
+                                                                                <p style="margin-bottom: 32px;">
+                                                                                   Lorem ipsum dolor sit amet consectetur, adipisicing elit. Aut minima culpa temporibus amet nemo reprehenderit et earum dolores nostrum ex.
+                                                                                </p>
+
+
+                                                                            </div>
+                                                                        </div>
+                                                                    </div>
+
+                                                                    <div class="acc_item acc4">
+
+                                                                        <div class="acc_header trigger"
+                                                                            data-id="widget_1614260364663-howdoisubmitmyarticlesofamendment4">
+                                                                            <div class="inner">
+
+                                                                                <div class="arr_icon first_pos">
+                                                                                    <svg width="32" height="32"
+                                                                                        xmlns="http://www.w3.org/2000/svg">
+                                                                                        <g fill="none" fill-rule="evenodd">
+                                                                                            <circle fill="#FEF6ED" cx="16"
+                                                                                                cy="16" r="16">
+                                                                                            </circle>
+                                                                                            <path
+                                                                                                d="M20.297 16.195l-.004.004a1 1 0 01-1.416.003l-2.379-2.379v7.179a.998.998 0 01-1.996 0v-7.179l-2.379 2.379a1 1 0 01-1.416-.003l-.004-.004a1 1 0 01.003-1.412l4.088-4.078a1 1 0 011.412 0l4.088 4.078a1 1 0 01.003 1.412z"
+                                                                                                fill="#0000FF"></path>
+                                                                                        </g>
+                                                                                    </svg>
+                                                                                </div>
+
+
+
+                                                                                <div class="title">
+                                                                                    <span>Lorem ipsum dolor sit amet.</span>
+                                                                                </div>
+
+                                                                            </div>
+                                                                        </div>
+
+                                                                        <div class="acc_body"
+                                                                            data-id="widget_1614260364663-howdoisubmitmyarticlesofamendment4">
+                                                                            <div class="inner">
+                                                                                <p style="margin-bottom: 32px;">Lorem ipsum dolor, sit amet consectetur adipisicing elit. Enim odio temporibus ducimus similique ipsum repudiandae ratione, ipsam laudantium accusamus suscipit.</p>
+
+
+                                                                            </div>
+                                                                        </div>
+                                                                    </div>
+
+                                                                    <div class="acc_item acc5">
+
+                                                                        <div class="acc_header trigger"
+                                                                            data-id="widget_1614260364663-howmuchdoesitcosttofilearticlesofamendment5">
+                                                                            <div class="inner">
+
+                                                                                <div class="arr_icon first_pos">
+                                                                                    <svg width="32" height="32"
+                                                                                        xmlns="http://www.w3.org/2000/svg">
+                                                                                        <g fill="none" fill-rule="evenodd">
+                                                                                            <circle fill="#FEF6ED" cx="16"
+                                                                                                cy="16" r="16">
+                                                                                            </circle>
+                                                                                            <path
+                                                                                                d="M20.297 16.195l-.004.004a1 1 0 01-1.416.003l-2.379-2.379v7.179a.998.998 0 01-1.996 0v-7.179l-2.379 2.379a1 1 0 01-1.416-.003l-.004-.004a1 1 0 01.003-1.412l4.088-4.078a1 1 0 011.412 0l4.088 4.078a1 1 0 01.003 1.412z"
+                                                                                                fill="#0000FF"></path>
+                                                                                        </g>
+                                                                                    </svg>
+                                                                                </div>
+
+
+
+                                                                                <div class="title">
+                                                                                    <span>Lorem ipsum dolor sit amet consectetur adipisicing elit. Perspiciatis, odit.</span>
+                                                                                </div>
+
+                                                                            </div>
+                                                                        </div>
+
+                                                                        <div class="acc_body"
+                                                                            data-id="widget_1614260364663-howmuchdoesitcosttofilearticlesofamendment5">
+                                                                            <div class="inner">
+                                                                                <p style="margin-bottom: 32px;">Lorem ipsum dolor sit amet consectetur adipisicing elit. Commodi accusamus quod fugiat adipisci, architecto delectus aliquam enim est consequatur?</p>
+
+
+                                                                            </div>
+                                                                        </div>
+                                                                    </div>
+
+                                                                    <div class="acc_item acc6">
+
+                                                                        <div class="acc_header trigger"
+                                                                            data-id="widget_1614260364663-howlongdoesittaketofilearticlesofamendment6">
+                                                                            <div class="inner">
+
+                                                                                <div class="arr_icon first_pos">
+                                                                                    <svg width="32" height="32"
+                                                                                        xmlns="http://www.w3.org/2000/svg">
+                                                                                        <g fill="none" fill-rule="evenodd">
+                                                                                            <circle fill="#FEF6ED" cx="16"
+                                                                                                cy="16" r="16">
+                                                                                            </circle>
+                                                                                            <path
+                                                                                                d="M20.297 16.195l-.004.004a1 1 0 01-1.416.003l-2.379-2.379v7.179a.998.998 0 01-1.996 0v-7.179l-2.379 2.379a1 1 0 01-1.416-.003l-.004-.004a1 1 0 01.003-1.412l4.088-4.078a1 1 0 011.412 0l4.088 4.078a1 1 0 01.003 1.412z"
+                                                                                                fill="#0000FF"></path>
+                                                                                        </g>
+                                                                                    </svg>
+                                                                                </div>
+
+
+
+                                                                                <div class="title">
+                                                                                    <span>Lorem ipsum dolor sit amet consectetur adipisicing elit. Veritatis, illum!</span>
+                                                                                </div>
+
+                                                                            </div>
+                                                                        </div>
+
+                                                                        <div class="acc_body"
+                                                                            data-id="widget_1614260364663-howlongdoesittaketofilearticlesofamendment6">
+                                                                            <div class="inner">
+                                                                                <p style="margin-bottom: 32px;">Lorem ipsum dolor sit amet consectetur adipisicing elit. Eos, quis?</p>
+
+
+                                                                            </div>
+                                                                        </div>
+                                                                    </div>
+
+                                                                    <div class="acc_item acc7">
+
+                                                                        <div class="acc_header trigger"
+                                                                            data-id="widget_1614260364663-whatwillireceivewhenthearticlesofamendmentarefiled7">
+                                                                            <div class="inner">
+
+                                                                                <div class="arr_icon first_pos">
+                                                                                    <svg width="32" height="32"
+                                                                                        xmlns="http://www.w3.org/2000/svg">
+                                                                                        <g fill="none" fill-rule="evenodd">
+                                                                                            <circle fill="#FEF6ED" cx="16"
+                                                                                                cy="16" r="16">
+                                                                                            </circle>
+                                                                                            <path
+                                                                                                d="M20.297 16.195l-.004.004a1 1 0 01-1.416.003l-2.379-2.379v7.179a.998.998 0 01-1.996 0v-7.179l-2.379 2.379a1 1 0 01-1.416-.003l-.004-.004a1 1 0 01.003-1.412l4.088-4.078a1 1 0 011.412 0l4.088 4.078a1 1 0 01.003 1.412z"
+                                                                                                fill="#0000FF"></path>
+                                                                                        </g>
+                                                                                    </svg>
+                                                                                </div>
+
+
+
+                                                                                <div class="title">
+                                                                                    <span>Lorem ipsum dolor sit, amet consectetur adipisicing elit. Ut, aliquam.</span>
+                                                                                </div>
+
+                                                                            </div>
+                                                                        </div>
+
+                                                                        <div class="acc_body"
+                                                                            data-id="widget_1614260364663-whatwillireceivewhenthearticlesofamendmentarefiled7">
+                                                                            <div class="inner">
+                                                                                <p style="margin-bottom: 32px;">Lorem ipsum dolor sit amet consectetur adipisicing elit. Nesciunt, incidunt..</p>
 
 
                                                                             </div>
