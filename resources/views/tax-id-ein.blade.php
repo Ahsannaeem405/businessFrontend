@@ -2356,43 +2356,7 @@ type specimen book.</p>
                         </div>
                     </div>
                 </div>
-                <div class="container">
-                    <div class="owl-carousel owl-theme">
-                        <div class="item" style="padding: 10px;">
-                            <div style="box-shadow: rgba(100, 100, 111, 0.2) 0px 7px 29px 0px;border-radius:10px;padding:10px">
-                                <img src="https://images.unsplash.com/photo-1640622842008-1897f26aafe3?ixlib=rb-1.2.1&ixid=MnwxMjA3fDF8MHxlZGl0b3JpYWwtZmVlZHw2fHx8ZW58MHx8fHw%3D&auto=format&fit=crop&w=500&q=60" style="border-radius:10px"/>
-                                <div style="padding-top: 20px">
 
-                                     <a href="#"><i class="fas fa-arrow-right"></i> If You're Not a U.S. Citizen, Can You Get an EIN for Your Business?</a>
-
-                                </div>
-                            </div>
-
-                        </div>
-                        <div class="item" style="padding: 10px;">
-                            <div style="box-shadow: rgba(100, 100, 111, 0.2) 0px 7px 29px 0px;border-radius:10px;padding:10px">
-                                <img src="https://images.unsplash.com/photo-1640622842008-1897f26aafe3?ixlib=rb-1.2.1&ixid=MnwxMjA3fDF8MHxlZGl0b3JpYWwtZmVlZHw2fHx8ZW58MHx8fHw%3D&auto=format&fit=crop&w=500&q=60" style="border-radius:10px"/>
-                                <div style="padding-top: 20px">
-
-                                     <a href="#"><i class="fas fa-arrow-right"></i> If You're Not a U.S. Citizen, Can You Get an EIN for Your Business?</a>
-
-                                </div>
-                            </div>
-
-                        </div>
-                        <div class="item" style="padding: 10px;">
-                            <div style="box-shadow: rgba(100, 100, 111, 0.2) 0px 7px 29px 0px;border-radius:10px;padding:10px">
-                                <img src="https://images.unsplash.com/photo-1640622842008-1897f26aafe3?ixlib=rb-1.2.1&ixid=MnwxMjA3fDF8MHxlZGl0b3JpYWwtZmVlZHw2fHx8ZW58MHx8fHw%3D&auto=format&fit=crop&w=500&q=60" style="border-radius:10px"/>
-                                <div style="padding-top: 20px">
-
-                                     <a href="#"><i class="fas fa-arrow-right"></i> If You're Not a U.S. Citizen, Can You Get an EIN for Your Business?</a>
-
-                                </div>
-                            </div>
-
-                        </div>
-                    </div>
-                </div>
             </main>
 
         </div>
