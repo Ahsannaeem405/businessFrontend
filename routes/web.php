@@ -45,6 +45,10 @@ Route::get('/corporation', function () {
 Route::get('/llc-state-information', function () {
     return view('llc-state-information');
 });
+Route::get('/coperate', function () {
+    return view('coperate2');
+});
+
 
 
 
