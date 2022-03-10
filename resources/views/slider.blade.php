@@ -11,7 +11,7 @@
                      </h2>
 
                      <h5>
-                         <span>"Your willingness to look at your darkness is what empowers you to change."</span>
+                         <span>"Risk-taking is the cornerstone of empires."</span>
                      </h5>
 
                      <div class="">
@@ -33,7 +33,7 @@
                      </h2>
 
                      <h5>
-                         <span>"In a busy marketplace, not standing out is the same as being invisible."</span>
+                         <span>"Risk-taking is the cornerstone of empires."</span>
                      </h5>
 
                      <div class="">
