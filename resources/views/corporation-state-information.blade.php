@@ -493,7 +493,7 @@
 
 
                                                                             <a
-                                                                                href="#">Alabama</a>
+                                                                                href="{{url('')}}">Alabama</a>
 
                                                                         </div>
 
@@ -504,19 +504,7 @@
 
 
 
-                                                                            <a href="#">Alaska</a>
-
-                                                                        </div>
-
-                                                                        <div class="state-info-state-item">
-
-
-
-
-
-
-                                                                            <a
-                                                                                href="#">Arizona</a>
+                                                                            <a href="{{url('coperate')}}">Alaska</a>
 
                                                                         </div>
 
@@ -528,7 +516,7 @@
 
 
                                                                             <a
-                                                                                href="#">Arkansas</a>
+                                                                                href="{{url('coperate')}}">Arizona</a>
 
                                                                         </div>
 
@@ -540,7 +528,7 @@
 
 
                                                                             <a
-                                                                                href="#">California</a>
+                                                                                href="{{url('coperate')}}">Arkansas</a>
 
                                                                         </div>
 
@@ -552,7 +540,7 @@
 
 
                                                                             <a
-                                                                                href="#">Colorado</a>
+                                                                                href="{{url('coperate')}}">California</a>
 
                                                                         </div>
 
@@ -564,7 +552,7 @@
 
 
                                                                             <a
-                                                                                href="#">Connecticut</a>
+                                                                                href="{{url('coperate')}}">Colorado</a>
 
                                                                         </div>
 
@@ -576,7 +564,7 @@
 
 
                                                                             <a
-                                                                                href="#">Delaware</a>
+                                                                                href="{{url('coperate')}}">Connecticut</a>
 
                                                                         </div>
 
@@ -588,7 +576,7 @@
 
 
                                                                             <a
-                                                                                href="#">Florida</a>
+                                                                                href="{{url('coperate')}}">Delaware</a>
 
                                                                         </div>
 
@@ -600,29 +588,7 @@
 
 
                                                                             <a
-                                                                                href="#">Georgia</a>
-
-                                                                        </div>
-
-                                                                        <div class="state-info-state-item">
-
-
-
-
-
-
-                                                                            <a href="#">Hawaii</a>
-
-                                                                        </div>
-
-                                                                        <div class="state-info-state-item">
-
-
-
-
-
-
-                                                                            <a href="#">Idaho</a>
+                                                                                href="{{url('coperate')}}">Florida</a>
 
                                                                         </div>
 
@@ -634,7 +600,29 @@
 
 
                                                                             <a
-                                                                                href="#">Illinois</a>
+                                                                                href="{{url('coperate')}}">Georgia</a>
+
+                                                                        </div>
+
+                                                                        <div class="state-info-state-item">
+
+
+
+
+
+
+                                                                            <a href="{{url('coperate')}}">Hawaii</a>
+
+                                                                        </div>
+
+                                                                        <div class="state-info-state-item">
+
+
+
+
+
+
+                                                                            <a href="{{url('coperate')}}">Idaho</a>
 
                                                                         </div>
 
@@ -646,29 +634,7 @@
 
 
                                                                             <a
-                                                                                href="#">Indiana</a>
-
-                                                                        </div>
-
-                                                                        <div class="state-info-state-item">
-
-
-
-
-
-
-                                                                            <a href="#">Iowa</a>
-
-                                                                        </div>
-
-                                                                        <div class="state-info-state-item">
-
-
-
-
-
-
-                                                                            <a href="#">Kansas</a>
+                                                                                href="{{url('coperate')}}">Illinois</a>
 
                                                                         </div>
 
@@ -680,7 +646,29 @@
 
 
                                                                             <a
-                                                                                href="#">Kentucky</a>
+                                                                                href="{{url('coperate')}}">Indiana</a>
+
+                                                                        </div>
+
+                                                                        <div class="state-info-state-item">
+
+
+
+
+
+
+                                                                            <a href="{{url('coperate')}}">Iowa</a>
+
+                                                                        </div>
+
+                                                                        <div class="state-info-state-item">
+
+
+
+
+
+
+                                                                            <a href="{{url('coperate')}}">Kansas</a>
 
                                                                         </div>
 
@@ -692,18 +680,7 @@
 
 
                                                                             <a
-                                                                                href="#">Louisiana</a>
-
-                                                                        </div>
-
-                                                                        <div class="state-info-state-item">
-
-
-
-
-
-
-                                                                            <a href="#">Maine</a>
+                                                                                href="{{url('coperate')}}">Kentucky</a>
 
                                                                         </div>
 
@@ -715,7 +692,18 @@
 
 
                                                                             <a
-                                                                                href="#">Maryland</a>
+                                                                                href="{{url('coperate')}}">Louisiana</a>
+
+                                                                        </div>
+
+                                                                        <div class="state-info-state-item">
+
+
+
+
+
+
+                                                                            <a href="{{url('coperate')}}">Maine</a>
 
                                                                         </div>
 
@@ -727,7 +715,7 @@
 
 
                                                                             <a
-                                                                                href="#">Massachusetts</a>
+                                                                                href="{{url('coperate')}}">Maryland</a>
 
                                                                         </div>
 
@@ -739,7 +727,7 @@
 
 
                                                                             <a
-                                                                                href="#">Michigan</a>
+                                                                                href="{{url('coperate')}}">Massachusetts</a>
 
                                                                         </div>
 
@@ -751,7 +739,7 @@
 
 
                                                                             <a
-                                                                                href="#">Minnesota</a>
+                                                                                href="{{url('coperate')}}">Michigan</a>
 
                                                                         </div>
 
@@ -763,7 +751,7 @@
 
 
                                                                             <a
-                                                                                href="#">Mississippi</a>
+                                                                                href="{{url('coperate')}}">Minnesota</a>
 
                                                                         </div>
 
@@ -775,7 +763,7 @@
 
 
                                                                             <a
-                                                                                href="#">Missouri</a>
+                                                                                href="{{url('coperate')}}">Mississippi</a>
 
                                                                         </div>
 
@@ -787,7 +775,7 @@
 
 
                                                                             <a
-                                                                            href="#">Montana</a>
+                                                                                href="{{url('coperate')}}">Missouri</a>
 
                                                                         </div>
 
@@ -799,7 +787,7 @@
 
 
                                                                             <a
-                                                                            href="#">Nebraska</a>
+                                                                            href="{{url('coperate')}}">Montana</a>
 
                                                                         </div>
 
@@ -810,7 +798,8 @@
 
 
 
-                                                                            <a href="#">Nevada</a>
+                                                                            <a
+                                                                            href="{{url('coperate')}}">Nebraska</a>
 
                                                                         </div>
 
@@ -821,7 +810,18 @@
 
 
 
-                                                                            <a href="#">New
+                                                                            <a href="{{url('coperate')}}">Nevada</a>
+
+                                                                        </div>
+
+                                                                        <div class="state-info-state-item">
+
+
+
+
+
+
+                                                                            <a href="{{url('coperate')}}">New
                                                                                 Hampshire</a>
 
                                                                         </div>
@@ -833,7 +833,7 @@
 
 
 
-                                                                            <a href="#">New
+                                                                            <a href="{{url('coperate')}}">New
                                                                                 Jersey</a>
 
                                                                         </div>
@@ -845,7 +845,7 @@
 
 
 
-                                                                            <a href="#">New
+                                                                            <a href="{{url('coperate')}}">New
                                                                                 Mexico</a>
 
                                                                         </div>
@@ -857,7 +857,7 @@
 
 
 
-                                                                            <a href="#">New
+                                                                            <a href="{{url('coperate')}}">New
                                                                                 York</a>
 
                                                                         </div>
@@ -869,7 +869,7 @@
 
 
 
-                                                                            <a href="#">North
+                                                                            <a href="{{url('coperate')}}">North
                                                                                 Carolina</a>
 
                                                                         </div>
@@ -881,7 +881,7 @@
 
 
 
-                                                                            <a href="#">North
+                                                                            <a href="{{url('coperate')}}">North
                                                                                 Dakota</a>
 
                                                                         </div>
@@ -893,7 +893,7 @@
 
 
 
-                                                                            <a href="#">Ohio</a>
+                                                                            <a href="{{url('coperate')}}">Ohio</a>
 
                                                                         </div>
 
@@ -905,7 +905,7 @@
 
 
                                                                             <a
-                                                                            href="#">Oklahoma</a>
+                                                                            href="{{url('coperate')}}">Oklahoma</a>
 
                                                                         </div>
 
@@ -916,7 +916,7 @@
 
 
 
-                                                                            <a href="#">Oregon</a>
+                                                                            <a href="{{url('coperate')}}">Oregon</a>
 
                                                                         </div>
 
@@ -928,7 +928,7 @@
 
 
                                                                             <a
-                                                                            href="#">Pennsylvania</a>
+                                                                            href="{{url('coperate')}}">Pennsylvania</a>
 
                                                                         </div>
 
@@ -939,7 +939,7 @@
 
 
 
-                                                                            <a href="#">Rhode
+                                                                            <a href="{{url('coperate')}}">Rhode
                                                                                 Island</a>
 
                                                                         </div>
@@ -951,7 +951,7 @@
 
 
 
-                                                                            <a href="#">South
+                                                                            <a href="{{url('coperate')}}">South
                                                                                 Carolina</a>
 
                                                                         </div>
@@ -963,7 +963,7 @@
 
 
 
-                                                                            <a href="#">South
+                                                                            <a href="{{url('coperate')}}">South
                                                                                 Dakota</a>
 
                                                                         </div>
@@ -976,7 +976,7 @@
 
 
                                                                             <a
-                                                                            href="#">Tennessee</a>
+                                                                            href="{{url('coperate')}}">Tennessee</a>
 
                                                                         </div>
 
@@ -987,7 +987,7 @@
 
 
 
-                                                                            <a href="#">Texas</a>
+                                                                            <a href="{{url('coperate')}}">Texas</a>
 
                                                                         </div>
 
@@ -998,19 +998,7 @@
 
 
 
-                                                                            <a href="#">Utah</a>
-
-                                                                        </div>
-
-                                                                        <div class="state-info-state-item">
-
-
-
-
-
-
-                                                                            <a
-                                                                            href="#">Vermont</a>
+                                                                            <a href="{{url('coperate')}}">Utah</a>
 
                                                                         </div>
 
@@ -1022,7 +1010,7 @@
 
 
                                                                             <a
-                                                                            href="#">Virginia</a>
+                                                                            href="{{url('coperate')}}">Vermont</a>
 
                                                                         </div>
 
@@ -1034,7 +1022,7 @@
 
 
                                                                             <a
-                                                                            href="#">Washington</a>
+                                                                            href="{{url('coperate')}}">Virginia</a>
 
                                                                         </div>
 
@@ -1045,7 +1033,19 @@
 
 
 
-                                                                            <a href="#">Washington
+                                                                            <a
+                                                                            href="{{url('coperate')}}">Washington</a>
+
+                                                                        </div>
+
+                                                                        <div class="state-info-state-item">
+
+
+
+
+
+
+                                                                            <a href="{{url('coperate')}}">Washington
                                                                                 DC</a>
 
                                                                         </div>
@@ -1057,7 +1057,7 @@
 
 
 
-                                                                            <a href="#">West
+                                                                            <a href="{{url('coperate')}}">West
                                                                                 Virginia</a>
 
                                                                         </div>
@@ -1070,7 +1070,7 @@
 
 
                                                                             <a
-                                                                            href="#">Wisconsin</a>
+                                                                            href="{{url('coperate')}}">Wisconsin</a>
 
                                                                         </div>
 
@@ -1082,7 +1082,7 @@
 
 
                                                                             <a
-                                                                            href="#">Wyoming</a>
+                                                                            href="{{url('coperate')}}">Wyoming</a>
 
                                                                         </div>
 

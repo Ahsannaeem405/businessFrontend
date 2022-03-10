@@ -48,6 +48,9 @@ Route::get('/llc-state-information', function () {
 Route::get('/coperate', function () {
     return view('coperate2');
 });
+Route::get('/llc', function () {
+    return view('llc2');
+});
 
 
 

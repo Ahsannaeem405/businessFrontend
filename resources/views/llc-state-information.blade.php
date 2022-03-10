@@ -492,7 +492,7 @@
 
 
                                                                             <a
-                                                                                href="#">Alabama</a>
+                                                                                href="{{url('llc')}}">Alabama</a>
 
                                                                         </div>
 
@@ -503,19 +503,7 @@
 
 
 
-                                                                            <a href="#">Alaska</a>
-
-                                                                        </div>
-
-                                                                        <div class="state-info-state-item">
-
-
-
-
-
-
-                                                                            <a
-                                                                                href="#">Arizona</a>
+                                                                            <a href="{{url('llc')}}">Alaska</a>
 
                                                                         </div>
 
@@ -527,7 +515,7 @@
 
 
                                                                             <a
-                                                                                href="#">Arkansas</a>
+                                                                                href="{{url('llc')}}">Arizona</a>
 
                                                                         </div>
 
@@ -539,7 +527,7 @@
 
 
                                                                             <a
-                                                                                href="#">California</a>
+                                                                                href="{{url('llc')}}">Arkansas</a>
 
                                                                         </div>
 
@@ -551,7 +539,7 @@
 
 
                                                                             <a
-                                                                                href="#">Colorado</a>
+                                                                                href="{{url('llc')}}">California</a>
 
                                                                         </div>
 
@@ -563,7 +551,7 @@
 
 
                                                                             <a
-                                                                                href="#">Connecticut</a>
+                                                                                href="{{url('llc')}}">Colorado</a>
 
                                                                         </div>
 
@@ -575,7 +563,7 @@
 
 
                                                                             <a
-                                                                                href="#">Delaware</a>
+                                                                                href="{{url('llc')}}">Connecticut</a>
 
                                                                         </div>
 
@@ -587,7 +575,7 @@
 
 
                                                                             <a
-                                                                                href="#">Florida</a>
+                                                                                href="{{url('llc')}}">Delaware</a>
 
                                                                         </div>
 
@@ -599,29 +587,7 @@
 
 
                                                                             <a
-                                                                                href="#">Georgia</a>
-
-                                                                        </div>
-
-                                                                        <div class="state-info-state-item">
-
-
-
-
-
-
-                                                                            <a href="#">Hawaii</a>
-
-                                                                        </div>
-
-                                                                        <div class="state-info-state-item">
-
-
-
-
-
-
-                                                                            <a href="#">Idaho</a>
+                                                                                href="{{url('llc')}}">Florida</a>
 
                                                                         </div>
 
@@ -633,7 +599,29 @@
 
 
                                                                             <a
-                                                                                href="#">Illinois</a>
+                                                                                href="{{url('llc')}}">Georgia</a>
+
+                                                                        </div>
+
+                                                                        <div class="state-info-state-item">
+
+
+
+
+
+
+                                                                            <a href="{{url('llc')}}">Hawaii</a>
+
+                                                                        </div>
+
+                                                                        <div class="state-info-state-item">
+
+
+
+
+
+
+                                                                            <a href="{{url('llc')}}">Idaho</a>
 
                                                                         </div>
 
@@ -645,29 +633,7 @@
 
 
                                                                             <a
-                                                                                href="#">Indiana</a>
-
-                                                                        </div>
-
-                                                                        <div class="state-info-state-item">
-
-
-
-
-
-
-                                                                            <a href="#">Iowa</a>
-
-                                                                        </div>
-
-                                                                        <div class="state-info-state-item">
-
-
-
-
-
-
-                                                                            <a href="#">Kansas</a>
+                                                                                href="{{url('llc')}}">Illinois</a>
 
                                                                         </div>
 
@@ -679,7 +645,29 @@
 
 
                                                                             <a
-                                                                                href="#">Kentucky</a>
+                                                                                href="{{url('llc')}}">Indiana</a>
+
+                                                                        </div>
+
+                                                                        <div class="state-info-state-item">
+
+
+
+
+
+
+                                                                            <a href="{{url('llc')}}">Iowa</a>
+
+                                                                        </div>
+
+                                                                        <div class="state-info-state-item">
+
+
+
+
+
+
+                                                                            <a href="{{url('llc')}}">Kansas</a>
 
                                                                         </div>
 
@@ -691,18 +679,7 @@
 
 
                                                                             <a
-                                                                                href="#">Louisiana</a>
-
-                                                                        </div>
-
-                                                                        <div class="state-info-state-item">
-
-
-
-
-
-
-                                                                            <a href="#">Maine</a>
+                                                                                href="{{url('llc')}}">Kentucky</a>
 
                                                                         </div>
 
@@ -714,7 +691,18 @@
 
 
                                                                             <a
-                                                                                href="#">Maryland</a>
+                                                                                href="{{url('llc')}}">Louisiana</a>
+
+                                                                        </div>
+
+                                                                        <div class="state-info-state-item">
+
+
+
+
+
+
+                                                                            <a href="{{url('llc')}}">Maine</a>
 
                                                                         </div>
 
@@ -726,7 +714,7 @@
 
 
                                                                             <a
-                                                                                href="#">Massachusetts</a>
+                                                                                href="{{url('llc')}}">Maryland</a>
 
                                                                         </div>
 
@@ -738,7 +726,7 @@
 
 
                                                                             <a
-                                                                                href="#">Michigan</a>
+                                                                                href="{{url('llc')}}">Massachusetts</a>
 
                                                                         </div>
 
@@ -750,7 +738,7 @@
 
 
                                                                             <a
-                                                                                href="#">Minnesota</a>
+                                                                                href="{{url('llc')}}">Michigan</a>
 
                                                                         </div>
 
@@ -762,7 +750,7 @@
 
 
                                                                             <a
-                                                                                href="#">Mississippi</a>
+                                                                                href="{{url('llc')}}">Minnesota</a>
 
                                                                         </div>
 
@@ -774,7 +762,7 @@
 
 
                                                                             <a
-                                                                                href="#">Missouri</a>
+                                                                                href="{{url('llc')}}">Mississippi</a>
 
                                                                         </div>
 
@@ -786,7 +774,7 @@
 
 
                                                                             <a
-                                                                            href="#">Montana</a>
+                                                                                href="{{url('llc')}}">Missouri</a>
 
                                                                         </div>
 
@@ -798,7 +786,7 @@
 
 
                                                                             <a
-                                                                            href="#">Nebraska</a>
+                                                                            href="{{url('llc')}}">Montana</a>
 
                                                                         </div>
 
@@ -809,7 +797,8 @@
 
 
 
-                                                                            <a href="#">Nevada</a>
+                                                                            <a
+                                                                            href="{{url('llc')}}">Nebraska</a>
 
                                                                         </div>
 
@@ -820,7 +809,18 @@
 
 
 
-                                                                            <a href="#">New
+                                                                            <a href="{{url('llc')}}">Nevada</a>
+
+                                                                        </div>
+
+                                                                        <div class="state-info-state-item">
+
+
+
+
+
+
+                                                                            <a href="{{url('llc')}}">New
                                                                                 Hampshire</a>
 
                                                                         </div>
@@ -832,7 +832,7 @@
 
 
 
-                                                                            <a href="#">New
+                                                                            <a href="{{url('llc')}}">New
                                                                                 Jersey</a>
 
                                                                         </div>
@@ -844,7 +844,7 @@
 
 
 
-                                                                            <a href="#">New
+                                                                            <a href="{{url('llc')}}">New
                                                                                 Mexico</a>
 
                                                                         </div>
@@ -856,7 +856,7 @@
 
 
 
-                                                                            <a href="#">New
+                                                                            <a href="{{url('llc')}}">New
                                                                                 York</a>
 
                                                                         </div>
@@ -868,7 +868,7 @@
 
 
 
-                                                                            <a href="#">North
+                                                                            <a href="{{url('llc')}}">North
                                                                                 Carolina</a>
 
                                                                         </div>
@@ -880,7 +880,7 @@
 
 
 
-                                                                            <a href="#">North
+                                                                            <a href="{{url('llc')}}">North
                                                                                 Dakota</a>
 
                                                                         </div>
@@ -892,7 +892,7 @@
 
 
 
-                                                                            <a href="#">Ohio</a>
+                                                                            <a href="{{url('llc')}}">Ohio</a>
 
                                                                         </div>
 
@@ -904,7 +904,7 @@
 
 
                                                                             <a
-                                                                            href="#">Oklahoma</a>
+                                                                            href="{{url('llc')}}">Oklahoma</a>
 
                                                                         </div>
 
@@ -915,7 +915,7 @@
 
 
 
-                                                                            <a href="#">Oregon</a>
+                                                                            <a href="{{url('llc')}}">Oregon</a>
 
                                                                         </div>
 
@@ -927,7 +927,7 @@
 
 
                                                                             <a
-                                                                            href="#">Pennsylvania</a>
+                                                                            href="{{url('llc')}}">Pennsylvania</a>
 
                                                                         </div>
 
@@ -938,7 +938,7 @@
 
 
 
-                                                                            <a href="#">Rhode
+                                                                            <a href="{{url('llc')}}">Rhode
                                                                                 Island</a>
 
                                                                         </div>
@@ -950,7 +950,7 @@
 
 
 
-                                                                            <a href="#">South
+                                                                            <a href="{{url('llc')}}">South
                                                                                 Carolina</a>
 
                                                                         </div>
@@ -962,7 +962,7 @@
 
 
 
-                                                                            <a href="#">South
+                                                                            <a href="{{url('llc')}}">South
                                                                                 Dakota</a>
 
                                                                         </div>
@@ -975,7 +975,7 @@
 
 
                                                                             <a
-                                                                            href="#">Tennessee</a>
+                                                                            href="{{url('llc')}}">Tennessee</a>
 
                                                                         </div>
 
@@ -986,7 +986,7 @@
 
 
 
-                                                                            <a href="#">Texas</a>
+                                                                            <a href="{{url('llc')}}">Texas</a>
 
                                                                         </div>
 
@@ -997,19 +997,7 @@
 
 
 
-                                                                            <a href="#">Utah</a>
-
-                                                                        </div>
-
-                                                                        <div class="state-info-state-item">
-
-
-
-
-
-
-                                                                            <a
-                                                                            href="#">Vermont</a>
+                                                                            <a href="{{url('llc')}}">Utah</a>
 
                                                                         </div>
 
@@ -1021,7 +1009,7 @@
 
 
                                                                             <a
-                                                                            href="#">Virginia</a>
+                                                                            href="{{url('llc')}}">Vermont</a>
 
                                                                         </div>
 
@@ -1033,7 +1021,7 @@
 
 
                                                                             <a
-                                                                            href="#">Washington</a>
+                                                                            href="{{url('llc')}}">Virginia</a>
 
                                                                         </div>
 
@@ -1044,7 +1032,19 @@
 
 
 
-                                                                            <a href="#">Washington
+                                                                            <a
+                                                                            href="{{url('llc')}}">Washington</a>
+
+                                                                        </div>
+
+                                                                        <div class="state-info-state-item">
+
+
+
+
+
+
+                                                                            <a href="{{url('llc')}}">Washington
                                                                                 DC</a>
 
                                                                         </div>
@@ -1056,7 +1056,7 @@
 
 
 
-                                                                            <a href="#">West
+                                                                            <a href="{{url('llc')}}">West
                                                                                 Virginia</a>
 
                                                                         </div>
@@ -1069,7 +1069,7 @@
 
 
                                                                             <a
-                                                                            href="#">Wisconsin</a>
+                                                                            href="{{url('llc')}}">Wisconsin</a>
 
                                                                         </div>
 
@@ -1081,7 +1081,7 @@
 
 
                                                                             <a
-                                                                            href="#">Wyoming</a>
+                                                                            href="{{url('llc')}}">Wyoming</a>
 
                                                                         </div>
 
