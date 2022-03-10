@@ -51,6 +51,13 @@ Route::get('/coperate', function () {
 Route::get('/llc', function () {
     return view('llc2');
 });
+Route::get('/login_page', function () {
+    return view('login');
+});
+Route::get('/register_page', function () {
+    return view('register');
+});
+
 
 
 
