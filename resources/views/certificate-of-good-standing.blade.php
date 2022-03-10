@@ -8,7 +8,105 @@
 
 <link rel="stylesheet" href="{{asset('hs-fs/hub/3787982/hub_generated/module_assets/41359297094/1620320068261/module_41359297094_Overlay_Icon.min.css')}}">
 <link rel="stylesheet" href="{{asset('hs-fs/hub/3787982/hub_generated/module_assets/1638370530837/module_41216488591_Popup_Video.css')}}">
+<style>
+    .accordion .accordion-item {
+  border-bottom: 1px solid #e5e5e5;
+}
 
+.accordion .accordion-item button[aria-expanded='true'] {
+  border-bottom: 1px solid #03b5d2;
+}
+
+.accordion button {
+  position: relative;
+  display: block;
+  text-align: left;
+  width: 100%;
+  padding: 1em 0;
+  color: #7288a2;
+  font-size: 1.15rem;
+  font-weight: 400;
+  border: none;
+  background: none;
+  outline: none;
+}
+
+.accordion button:hover,
+.accordion button:focus {
+  cursor: pointer;
+  color: #03b5d2;
+}
+
+.accordion button:hover::after,
+.accordion button:focus::after {
+  cursor: pointer;
+  color: #03b5d2;
+  border: 1px solid #03b5d2;
+}
+
+.accordion button .accordion-title {
+  padding: 1em 1.5em 1em 0;
+}
+
+.accordion button .icon {
+  display: inline-block;
+  position: absolute;
+  top: 18px;
+  right: 0;
+  width: 22px;
+  height: 22px;
+  border: 1px solid;
+  border-radius: 22px;
+}
+
+.accordion button .icon::before {
+  display: block;
+  position: absolute;
+  content: '';
+  top: 9px;
+  left: 5px;
+  width: 10px;
+  height: 2px;
+  background: currentColor;
+}
+.accordion button .icon::after {
+  display: block;
+  position: absolute;
+  content: '';
+  top: 5px;
+  left: 9px;
+  width: 2px;
+  height: 10px;
+  background: currentColor;
+}
+
+.accordion button[aria-expanded='true'] {
+  color: #03b5d2;
+}
+.accordion button[aria-expanded='true'] .icon::after {
+  width: 0;
+}
+.accordion button[aria-expanded='true'] + .accordion-content {
+  opacity: 1;
+  max-height: 9em;
+  transition: all 200ms linear;
+  will-change: opacity, max-height;
+}
+.accordion .accordion-content {
+  opacity: 0;
+  max-height: 0;
+  overflow: hidden;
+  transition: opacity 200ms linear, max-height 200ms linear;
+  will-change: opacity, max-height;
+}
+.accordion .accordion-content p {
+  font-size: 1rem;
+  font-weight: 300;
+  margin: 2em 0;
+}
+
+
+</style>
 <style>
   .video-wrapper_widget_1614259236854 {
     position: relative;
@@ -1364,7 +1462,7 @@
                                             </div>
                                             <!--end row-wrapper -->
 
-                                            <div class="row-fluid-wrapper row-depth-1 row-number-9 dnd-row">
+                                            {{-- <div class="row-fluid-wrapper row-depth-1 row-number-9 dnd-row">
                                                 <div class="row-fluid ">
                                                     <div class="span12 widget-span widget-type-custom_widget dnd-module"
                                                         style="" data-widget-type="custom_widget" data-x="0"
@@ -1622,784 +1720,81 @@
                                                     <!--end widget-span -->
                                                 </div>
                                                 <!--end row-->
-                                            </div>
+                                            </div> --}}
+                                            <div class="container pl-md-5 pr-md-5">
+
+                                                <div class="accordion">
+                                                  <div class="accordion-item">
+                                                    <button id="accordion-button-1" aria-expanded="false">
+                                                      <span class="accordion-title">Why is the moon sometimes out during the day?</span>
+                                                      <span class="icon" aria-hidden="true"></span>
+                                                    </button>
+                                                    <div class="accordion-content">
+                                                      <p>
+                                                        Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor
+                                                        incididunt ut labore et dolore magna aliqua. Elementum sagittis vitae et leo duis ut.
+                                                        Ut tortor pretium viverra suspendisse potenti.
+                                                      </p>
+                                                    </div>
+                                                  </div>
+                                                  <div class="accordion-item">
+                                                    <button id="accordion-button-2" aria-expanded="false">
+                                                      <span class="accordion-title">Why is the sky blue?</span>
+                                                      <span class="icon" aria-hidden="true"></span>
+                                                    </button>
+                                                    <div class="accordion-content">
+                                                      <p>
+                                                        Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor
+                                                        incididunt ut labore et dolore magna aliqua. Elementum sagittis vitae et leo duis ut.
+                                                        Ut tortor pretium viverra suspendisse potenti.
+                                                      </p>
+                                                    </div>
+                                                  </div>
+                                                  <div class="accordion-item">
+                                                    <button id="accordion-button-3" aria-expanded="false">
+                                                      <span class="accordion-title">Will we ever discover aliens?</span>
+                                                      <span class="icon" aria-hidden="true"></span>
+                                                    </button>
+                                                    <div class="accordion-content">
+                                                      <p>
+                                                        Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor
+                                                        incididunt ut labore et dolore magna aliqua. Elementum sagittis vitae et leo duis ut.
+                                                        Ut tortor pretium viverra suspendisse potenti.
+                                                      </p>
+                                                    </div>
+                                                  </div>
+                                                  <div class="accordion-item">
+                                                    <button id="accordion-button-4" aria-expanded="false">
+                                                      <span class="accordion-title">How much does the Earth weigh?</span>
+                                                      <span class="icon" aria-hidden="true"></span>
+                                                    </button>
+                                                    <div class="accordion-content">
+                                                      <p>
+                                                        Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor
+                                                        incididunt ut labore et dolore magna aliqua. Elementum sagittis vitae et leo duis ut.
+                                                        Ut tortor pretium viverra suspendisse potenti.
+                                                      </p>
+                                                    </div>
+                                                  </div>
+                                                  <div class="accordion-item">
+                                                    <button id="accordion-button-5" aria-expanded="false">
+                                                      <span class="accordion-title">How do airplanes stay up?</span>
+                                                      <span class="icon" aria-hidden="true"></span>
+                                                    </button>
+                                                    <div class="accordion-content">
+                                                      <p>
+                                                        Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor
+                                                        incididunt ut labore et dolore magna aliqua. Elementum sagittis vitae et leo duis ut.
+                                                        Ut tortor pretium viverra suspendisse potenti.
+                                                      </p>
+                                                    </div>
+                                                  </div>
+                                                </div>
+                                              </div>
+                                            <!--end row-wrapper -->
                                             <!--end row-wrapper -->
 
-                                            <div class="row-fluid-wrapper row-depth-1 row-number-10 dnd-row">
-                                                <div class="row-fluid ">
-                                                    <div class="span12 widget-span widget-type-custom_widget dnd-module widget_1614256647308-padding"
-                                                        style="" data-widget-type="custom_widget" data-x="0"
-                                                        data-w="12">
-                                                        <div id="hs_cos_wrapper_widget_1614256647308"
-                                                            class="hs_cos_wrapper hs_cos_wrapper_widget hs_cos_wrapper_type_module widget-type-rich_text"
-                                                            style="" data-hs-cos-general-type="widget"
-                                                            data-hs-cos-type="module"><span
-                                                                id="hs_cos_wrapper_widget_1614256647308_"
-                                                                class="hs_cos_wrapper hs_cos_wrapper_widget hs_cos_wrapper_type_rich_text"
-                                                                style="" data-hs-cos-general-type="widget"
-                                                                data-hs-cos-type="rich_text">
-                                                                <h3 style="text-align: center; margin-bottom: 24px;">
-                                                                    Providing Everything You Need When You Need It</h3>
-                                                                <p
-                                                                    style="text-align: center; margin-bottom: 48px; max-width: 770px; margin-left: auto; margin-right: auto;">
-                                                                    As your business grows we'll be there every step of
-                                                                    the way to make sure that you have the resources at
-                                                                    hand to service your companies ongoing needs.</p>
-                                                            </span></div>
 
-                                                    </div>
-                                                    <!--end widget-span -->
-                                                </div>
-                                                <!--end row-->
-                                            </div>
-                                            <!--end row-wrapper -->
-
-                                            <div class="row-fluid-wrapper row-depth-1 row-number-11 dnd-row">
-                                                <div class="row-fluid ">
-                                                    <div class="span12 widget-span widget-type-custom_widget dnd-module"
-                                                        style="" data-widget-type="custom_widget" data-x="0"
-                                                        data-w="12">
-                                                        <div id="hs_cos_wrapper_widget_1614256769396"
-                                                            class="hs_cos_wrapper hs_cos_wrapper_widget hs_cos_wrapper_type_module"
-                                                            style="" data-hs-cos-general-type="widget"
-                                                            data-hs-cos-type="module">
-                                                            <div class="benefits-tabber-wrapper"
-                                                                style="margin-top:px; margin-bottom:px;">
-                                                                <div class="benefits-tabber-nav">
-                                                                    <div class="benefits-tabber-nav-inner">
-
-                                                                        <a class="active"
-                                                                            href="#widget_1614256769396tab1">Company
-                                                                            Changes</a>
-
-                                                                        <a
-                                                                            href="#widget_1614256769396tab2">Compliance</a>
-
-                                                                        <a href="#widget_1614256769396tab3">Registered
-                                                                            Agent</a>
-
-                                                                        <a href="#widget_1614256769396tab4">IRS
-                                                                            Filings</a>
-
-                                                                    </div>
-                                                                </div>
-                                                                <div class="benefits-tabber-tabs-container">
-
-                                                                    <div class="benefits-tabber-tab-panal show"
-                                                                        id="widget_1614256769396tab1">
-                                                                        <div class="benefits-tabber-feature-grid">
-
-                                                                            <div class="benefits-tabber-feature-item">
-                                                                                <div
-                                                                                    class="benefits-tabber-feature-item-inner">
-                                                                                    <div class="featute-top"
-                                                                                        style="background-color: rgba(250, 242, 248,1.0);">
-
-                                                                                        <div
-                                                                                            class="feature-icon-holder">
-
-                                                                                            <img src="../hubfs/Incfile_February_2021/images/bc-01.png"
-                                                                                                alt="Amendment"
-                                                                                                loading="lazy">
-                                                                                        </div>
-
-                                                                                    </div>
-                                                                                    <div class="feature-content">
-                                                                                        <div class="content-holder">
-                                                                                            <h3>Amendment</h3>
-                                                                                            <p>Filed if a company
-                                                                                                requires changes to
-                                                                                                membership, addresses or
-                                                                                                company name.</p>
-                                                                                        </div>
-
-
-
-
-
-
-
-
-                                                                                        <a class="feature-button"
-                                                                                            href="#"
-                                                                                            target="_blank"
-                                                                                            rel="noopener">
-                                                                                            <div
-                                                                                                class="arrow">
-                                                                                                <svg width="12"
-                                                                                                    height="11"
-                                                                                                    xmlns="http://www.w3.org/2000/svg">
-                                                                                                    <path
-                                                                                                        d="M5.805.703L5.8.707a1 1 0 00-.003 1.416l2.379 2.379H.998a.998.998 0 000 1.996h7.179L5.798 8.877a1 1 0 00.003 1.416l.004.004a1 1 0 001.412-.003l4.078-4.088a1 1 0 000-1.412L7.217.706A1 1 0 005.805.703z"
-                                                                                                        fill="#1D1D1D"
-                                                                                                        fill-rule="nonzero">
-                                                                                                    </path>
-                                                                                                </svg></div>
-                                                                                            <span>Learn more</span>
-                                                                                        </a>
-
-                                                                                    </div>
-                                                                                </div>
-                                                                            </div>
-
-                                                                            <div class="benefits-tabber-feature-item">
-                                                                                <div
-                                                                                    class="benefits-tabber-feature-item-inner">
-                                                                                    <div class="featute-top"
-                                                                                        style="background-color: rgba(238, 249, 254,1.0);">
-
-                                                                                        <div
-                                                                                            class="feature-icon-holder">
-
-                                                                                            <img src="../hubfs/Incfile_February_2021/images/bc-20.png"
-                                                                                                alt="Dissolution"
-                                                                                                loading="lazy">
-                                                                                        </div>
-
-                                                                                    </div>
-                                                                                    <div class="feature-content">
-                                                                                        <div class="content-holder">
-                                                                                            <h3>Dissolution</h3>
-                                                                                            <p>Used to formally
-                                                                                                terminate the existence
-                                                                                                of a entity.</p>
-                                                                                        </div>
-
-
-
-
-
-
-                                                                                        <a class="feature-button"
-                                                                                            href="#">
-                                                                                            <div
-                                                                                                class="arrow">
-                                                                                                <svg width="12"
-                                                                                                    height="11"
-                                                                                                    xmlns="http://www.w3.org/2000/svg">
-                                                                                                    <path
-                                                                                                        d="M5.805.703L5.8.707a1 1 0 00-.003 1.416l2.379 2.379H.998a.998.998 0 000 1.996h7.179L5.798 8.877a1 1 0 00.003 1.416l.004.004a1 1 0 001.412-.003l4.078-4.088a1 1 0 000-1.412L7.217.706A1 1 0 005.805.703z"
-                                                                                                        fill="#1D1D1D"
-                                                                                                        fill-rule="nonzero">
-                                                                                                    </path>
-                                                                                                </svg></div>
-                                                                                            <span>Learn more</span>
-                                                                                        </a>
-
-                                                                                    </div>
-                                                                                </div>
-                                                                            </div>
-
-                                                                            <div class="benefits-tabber-feature-item">
-                                                                                <div
-                                                                                    class="benefits-tabber-feature-item-inner">
-                                                                                    <div class="featute-top"
-                                                                                        style="background-color: rgba(242, 246, 255,1.0);">
-
-                                                                                        <div
-                                                                                            class="feature-icon-holder">
-
-                                                                                            <img src="../hubfs/Incfile_February_2021/images/bc-03.png"
-                                                                                                alt="Foreign Qualification"
-                                                                                                loading="lazy">
-                                                                                        </div>
-
-                                                                                    </div>
-                                                                                    <div class="feature-content">
-                                                                                        <div class="content-holder">
-                                                                                            <h3>Foreign Qualification
-                                                                                            </h3>
-                                                                                            <p>Filed when you need to
-                                                                                                expand your entity to
-                                                                                                new states.</p>
-                                                                                        </div>
-
-
-
-
-
-
-                                                                                        <a class="feature-button"
-                                                                                            href="#">
-                                                                                            <div
-                                                                                                class="arrow">
-                                                                                                <svg width="12"
-                                                                                                    height="11"
-                                                                                                    xmlns="http://www.w3.org/2000/svg">
-                                                                                                    <path
-                                                                                                        d="M5.805.703L5.8.707a1 1 0 00-.003 1.416l2.379 2.379H.998a.998.998 0 000 1.996h7.179L5.798 8.877a1 1 0 00.003 1.416l.004.004a1 1 0 001.412-.003l4.078-4.088a1 1 0 000-1.412L7.217.706A1 1 0 005.805.703z"
-                                                                                                        fill="#1D1D1D"
-                                                                                                        fill-rule="nonzero">
-                                                                                                    </path>
-                                                                                                </svg></div>
-                                                                                            <span>Learn more</span>
-                                                                                        </a>
-
-                                                                                    </div>
-                                                                                </div>
-                                                                            </div>
-
-                                                                            <div class="benefits-tabber-feature-item">
-                                                                                <div
-                                                                                    class="benefits-tabber-feature-item-inner">
-                                                                                    <div class="featute-top"
-                                                                                        style="background-color: rgba(254, 246, 237,1.0);">
-
-                                                                                        <div
-                                                                                            class="feature-icon-holder">
-
-                                                                                            <img src="../hubfs/Incfile_February_2021/images/bc-19.png"
-                                                                                                alt="Fictitious Business Name"
-                                                                                                loading="lazy">
-                                                                                        </div>
-
-                                                                                    </div>
-                                                                                    <div class="feature-content">
-                                                                                        <div class="content-holder">
-                                                                                            <h3>Fictitious Business Name
-                                                                                            </h3>
-                                                                                            <p>Filed if a company
-                                                                                                requires assumed
-                                                                                                business/fictitious
-                                                                                                name.</p>
-                                                                                        </div>
-
-
-
-
-
-
-                                                                                        <a class="feature-button"
-                                                                                            href="#">
-                                                                                            <div
-                                                                                                class="arrow">
-                                                                                                <svg width="12"
-                                                                                                    height="11"
-                                                                                                    xmlns="http://www.w3.org/2000/svg">
-                                                                                                    <path
-                                                                                                        d="M5.805.703L5.8.707a1 1 0 00-.003 1.416l2.379 2.379H.998a.998.998 0 000 1.996h7.179L5.798 8.877a1 1 0 00.003 1.416l.004.004a1 1 0 001.412-.003l4.078-4.088a1 1 0 000-1.412L7.217.706A1 1 0 005.805.703z"
-                                                                                                        fill="#1D1D1D"
-                                                                                                        fill-rule="nonzero">
-                                                                                                    </path>
-                                                                                                </svg></div>
-                                                                                            <span>Learn more</span>
-                                                                                        </a>
-
-                                                                                    </div>
-                                                                                </div>
-                                                                            </div>
-
-                                                                        </div>
-                                                                    </div>
-
-                                                                    <div class="benefits-tabber-tab-panal "
-                                                                        id="widget_1614256769396tab2">
-                                                                        <div class="benefits-tabber-feature-grid">
-
-                                                                            <div class="benefits-tabber-feature-item">
-                                                                                <div
-                                                                                    class="benefits-tabber-feature-item-inner">
-                                                                                    <div class="featute-top"
-                                                                                        style="background-color: rgba(238, 249, 254,1.0);">
-
-                                                                                        <div
-                                                                                            class="feature-icon-holder">
-
-                                                                                            <img src="../hubfs/Incfile_February_2021/images/bc-05.png"
-                                                                                                alt="File Annual Report"
-                                                                                                loading="lazy">
-                                                                                        </div>
-
-                                                                                    </div>
-                                                                                    <div class="feature-content">
-                                                                                        <div class="content-holder">
-                                                                                            <h3>File Annual Report</h3>
-                                                                                            <p>The majority of states
-                                                                                                require that companies
-                                                                                                file periodic reports
-                                                                                                that affirm the current
-                                                                                                information of the
-                                                                                                companies members,
-                                                                                                directors, and business
-                                                                                                address.</p>
-                                                                                        </div>
-
-
-
-
-
-
-                                                                                        <a class="feature-button"
-                                                                                            href="#">
-                                                                                            <div
-                                                                                                class="arrow">
-                                                                                                <svg width="12"
-                                                                                                    height="11"
-                                                                                                    xmlns="http://www.w3.org/2000/svg">
-                                                                                                    <path
-                                                                                                        d="M5.805.703L5.8.707a1 1 0 00-.003 1.416l2.379 2.379H.998a.998.998 0 000 1.996h7.179L5.798 8.877a1 1 0 00.003 1.416l.004.004a1 1 0 001.412-.003l4.078-4.088a1 1 0 000-1.412L7.217.706A1 1 0 005.805.703z"
-                                                                                                        fill="#1D1D1D"
-                                                                                                        fill-rule="nonzero">
-                                                                                                    </path>
-                                                                                                </svg></div>
-                                                                                            <span>Learn more</span>
-                                                                                        </a>
-
-                                                                                    </div>
-                                                                                </div>
-                                                                            </div>
-
-                                                                            <div class="benefits-tabber-feature-item">
-                                                                                <div
-                                                                                    class="benefits-tabber-feature-item-inner">
-                                                                                    <div class="featute-top"
-                                                                                        style="background-color: rgba(254, 247, 224,1.0);">
-
-                                                                                        <div
-                                                                                            class="feature-icon-holder">
-
-                                                                                            <img src="../hubfs/Incfile_February_2021/images/bc-17.png"
-                                                                                                alt="Business License Search"
-                                                                                                loading="lazy">
-                                                                                        </div>
-
-                                                                                    </div>
-                                                                                    <div class="feature-content">
-                                                                                        <div class="content-holder">
-                                                                                            <h3>Business License Search
-                                                                                            </h3>
-                                                                                            <p>Determine all business
-                                                                                                licenses and permits
-                                                                                                required at the federal,
-                                                                                                state, county, and
-                                                                                                municipal level.</p>
-                                                                                        </div>
-
-
-
-
-
-
-
-
-                                                                                        <a class="feature-button"
-                                                                                            href="#"
-                                                                                            target="_blank"
-                                                                                            rel="noopener">
-                                                                                            <div
-                                                                                                class="arrow">
-                                                                                                <svg width="12"
-                                                                                                    height="11"
-                                                                                                    xmlns="http://www.w3.org/2000/svg">
-                                                                                                    <path
-                                                                                                        d="M5.805.703L5.8.707a1 1 0 00-.003 1.416l2.379 2.379H.998a.998.998 0 000 1.996h7.179L5.798 8.877a1 1 0 00.003 1.416l.004.004a1 1 0 001.412-.003l4.078-4.088a1 1 0 000-1.412L7.217.706A1 1 0 005.805.703z"
-                                                                                                        fill="#1D1D1D"
-                                                                                                        fill-rule="nonzero">
-                                                                                                    </path>
-                                                                                                </svg></div>
-                                                                                            <span>Learn more</span>
-                                                                                        </a>
-
-                                                                                    </div>
-                                                                                </div>
-                                                                            </div>
-
-                                                                            <div class="benefits-tabber-feature-item">
-                                                                                <div
-                                                                                    class="benefits-tabber-feature-item-inner">
-                                                                                    <div class="featute-top"
-                                                                                        style="background-color: rgba(250, 242, 248,1.0);">
-
-                                                                                        <div
-                                                                                            class="feature-icon-holder">
-
-                                                                                            <img src="../hubfs/Incfile_February_2021/images/bc-07.png"
-                                                                                                alt="Trademark Name Search"
-                                                                                                loading="lazy">
-                                                                                        </div>
-
-                                                                                    </div>
-                                                                                    <div class="feature-content">
-                                                                                        <div class="content-holder">
-                                                                                            <h3>Trademark Name Search
-                                                                                            </h3>
-                                                                                            <p>Take steps to protect
-                                                                                                your brand and valuable
-                                                                                                company assets such as
-                                                                                                your name, logo, and
-                                                                                                tagline.</p>
-                                                                                        </div>
-
-
-
-
-
-
-
-
-                                                                                        <a class="feature-button"
-                                                                                            href="#"
-                                                                                            target="_blank"
-                                                                                            rel="noopener">
-                                                                                            <div
-                                                                                                class="arrow">
-                                                                                                <svg width="12"
-                                                                                                    height="11"
-                                                                                                    xmlns="http://www.w3.org/2000/svg">
-                                                                                                    <path
-                                                                                                        d="M5.805.703L5.8.707a1 1 0 00-.003 1.416l2.379 2.379H.998a.998.998 0 000 1.996h7.179L5.798 8.877a1 1 0 00.003 1.416l.004.004a1 1 0 001.412-.003l4.078-4.088a1 1 0 000-1.412L7.217.706A1 1 0 005.805.703z"
-                                                                                                        fill="#1D1D1D"
-                                                                                                        fill-rule="nonzero">
-                                                                                                    </path>
-                                                                                                </svg></div>
-                                                                                            <span>Learn more</span>
-                                                                                        </a>
-
-                                                                                    </div>
-                                                                                </div>
-                                                                            </div>
-
-                                                                        </div>
-                                                                    </div>
-
-                                                                    <div class="benefits-tabber-tab-panal "
-                                                                        id="widget_1614256769396tab3">
-                                                                        <div class="benefits-tabber-feature-grid">
-
-                                                                            <div class="benefits-tabber-feature-item">
-                                                                                <div
-                                                                                    class="benefits-tabber-feature-item-inner">
-                                                                                    <div class="featute-top"
-                                                                                        style="background-color: rgba(254, 246, 237,1.0);">
-
-                                                                                        <div
-                                                                                            class="feature-icon-holder">
-
-                                                                                            <img src="../hubfs/Incfile_February_2021/images/bc-11.png"
-                                                                                                alt="Order Registered Agent"
-                                                                                                loading="lazy">
-                                                                                        </div>
-
-                                                                                    </div>
-                                                                                    <div class="feature-content">
-                                                                                        <div class="content-holder">
-                                                                                            <h3>Order Registered Agent
-                                                                                            </h3>
-                                                                                            <p>Order registered agent
-                                                                                                service and receive your
-                                                                                                new registered agent
-                                                                                                information immediately.
-                                                                                            </p>
-                                                                                        </div>
-
-
-
-
-
-
-
-
-                                                                                        <a class="feature-button"
-                                                                                            href="#"
-                                                                                            target="_blank"
-                                                                                            rel="noopener">
-                                                                                            <div
-                                                                                                class="arrow">
-                                                                                                <svg width="12"
-                                                                                                    height="11"
-                                                                                                    xmlns="http://www.w3.org/2000/svg">
-                                                                                                    <path
-                                                                                                        d="M5.805.703L5.8.707a1 1 0 00-.003 1.416l2.379 2.379H.998a.998.998 0 000 1.996h7.179L5.798 8.877a1 1 0 00.003 1.416l.004.004a1 1 0 001.412-.003l4.078-4.088a1 1 0 000-1.412L7.217.706A1 1 0 005.805.703z"
-                                                                                                        fill="#1D1D1D"
-                                                                                                        fill-rule="nonzero">
-                                                                                                    </path>
-                                                                                                </svg></div>
-                                                                                            <span>Learn more</span>
-                                                                                        </a>
-
-                                                                                    </div>
-                                                                                </div>
-                                                                            </div>
-
-                                                                            <div class="benefits-tabber-feature-item">
-                                                                                <div
-                                                                                    class="benefits-tabber-feature-item-inner">
-                                                                                    <div class="featute-top"
-                                                                                        style="background-color: rgba(242, 248, 243,1.0);">
-
-                                                                                        <div
-                                                                                            class="feature-icon-holder">
-
-                                                                                            <img src="../hubfs/Incfile_February_2021/images/bc-18.png"
-                                                                                                alt="Renew Registered Agent"
-                                                                                                loading="lazy">
-                                                                                        </div>
-
-                                                                                    </div>
-                                                                                    <div class="feature-content">
-                                                                                        <div class="content-holder">
-                                                                                            <h3>Renew Registered Agent
-                                                                                            </h3>
-                                                                                            <p>Click here if you have
-                                                                                                existing registered
-                                                                                                agent service and would
-                                                                                                like to renew it.</p>
-                                                                                        </div>
-
-
-
-
-
-
-
-
-                                                                                        <a class="feature-button"
-                                                                                            href="#"
-                                                                                            target="_blank"
-                                                                                            rel="noopener">
-                                                                                            <div
-                                                                                                class="arrow">
-                                                                                                <svg width="12"
-                                                                                                    height="11"
-                                                                                                    xmlns="http://www.w3.org/2000/svg">
-                                                                                                    <path
-                                                                                                        d="M5.805.703L5.8.707a1 1 0 00-.003 1.416l2.379 2.379H.998a.998.998 0 000 1.996h7.179L5.798 8.877a1 1 0 00.003 1.416l.004.004a1 1 0 001.412-.003l4.078-4.088a1 1 0 000-1.412L7.217.706A1 1 0 005.805.703z"
-                                                                                                        fill="#1D1D1D"
-                                                                                                        fill-rule="nonzero">
-                                                                                                    </path>
-                                                                                                </svg></div>
-                                                                                            <span>Learn more</span>
-                                                                                        </a>
-
-                                                                                    </div>
-                                                                                </div>
-                                                                            </div>
-
-                                                                            <div class="benefits-tabber-feature-item">
-                                                                                <div
-                                                                                    class="benefits-tabber-feature-item-inner">
-                                                                                    <div class="featute-top"
-                                                                                        style="background-color: rgba(242, 246, 255,1.0);">
-
-                                                                                        <div
-                                                                                            class="feature-icon-holder">
-
-                                                                                            <img src="../hubfs/Incfile_February_2021/images/bc-16.png"
-                                                                                                alt="Change Registered Agent"
-                                                                                                loading="lazy">
-                                                                                        </div>
-
-                                                                                    </div>
-                                                                                    <div class="feature-content">
-                                                                                        <div class="content-holder">
-                                                                                            <h3>Change Registered Agent
-                                                                                            </h3>
-                                                                                            <p>Use to update the
-                                                                                                registered agent on file
-                                                                                                with the state of
-                                                                                                formation.</p>
-                                                                                        </div>
-
-
-
-
-
-
-
-
-                                                                                        <a class="feature-button"
-                                                                                            href="#"
-                                                                                            target="_blank"
-                                                                                            rel="noopener">
-                                                                                            <div
-                                                                                                class="arrow">
-                                                                                                <svg width="12"
-                                                                                                    height="11"
-                                                                                                    xmlns="http://www.w3.org/2000/svg">
-                                                                                                    <path
-                                                                                                        d="M5.805.703L5.8.707a1 1 0 00-.003 1.416l2.379 2.379H.998a.998.998 0 000 1.996h7.179L5.798 8.877a1 1 0 00.003 1.416l.004.004a1 1 0 001.412-.003l4.078-4.088a1 1 0 000-1.412L7.217.706A1 1 0 005.805.703z"
-                                                                                                        fill="#1D1D1D"
-                                                                                                        fill-rule="nonzero">
-                                                                                                    </path>
-                                                                                                </svg></div>
-                                                                                            <span>Learn more</span>
-                                                                                        </a>
-
-                                                                                    </div>
-                                                                                </div>
-                                                                            </div>
-
-                                                                        </div>
-                                                                    </div>
-
-                                                                    <div class="benefits-tabber-tab-panal "
-                                                                        id="widget_1614256769396tab4">
-                                                                        <div class="benefits-tabber-feature-grid">
-
-                                                                            <div class="benefits-tabber-feature-item">
-                                                                                <div
-                                                                                    class="benefits-tabber-feature-item-inner">
-                                                                                    <div class="featute-top"
-                                                                                        style="background-color: rgba(252, 239, 239,1.0);">
-
-                                                                                        <div
-                                                                                            class="feature-icon-holder">
-
-                                                                                            <img src="../hubfs/Incfile_February_2021/images/bc-12.png"
-                                                                                                alt="EIN / Tax ID #"
-                                                                                                loading="lazy">
-                                                                                        </div>
-
-                                                                                    </div>
-                                                                                    <div class="feature-content">
-                                                                                        <div class="content-holder">
-                                                                                            <h3>EIN / Tax ID #</h3>
-                                                                                            <p>An EIN is required to
-                                                                                                open a bank account,
-                                                                                                file taxes and submit
-                                                                                                payroll taxes.</p>
-                                                                                        </div>
-
-
-
-
-
-
-
-
-                                                                                        <a class="feature-button"
-                                                                                            href="#"
-                                                                                            target="_blank"
-                                                                                            rel="noopener">
-                                                                                            <div
-                                                                                                class="arrow">
-                                                                                                <svg width="12"
-                                                                                                    height="11"
-                                                                                                    xmlns="http://www.w3.org/2000/svg">
-                                                                                                    <path
-                                                                                                        d="M5.805.703L5.8.707a1 1 0 00-.003 1.416l2.379 2.379H.998a.998.998 0 000 1.996h7.179L5.798 8.877a1 1 0 00.003 1.416l.004.004a1 1 0 001.412-.003l4.078-4.088a1 1 0 000-1.412L7.217.706A1 1 0 005.805.703z"
-                                                                                                        fill="#1D1D1D"
-                                                                                                        fill-rule="nonzero">
-                                                                                                    </path>
-                                                                                                </svg></div>
-                                                                                            <span>Learn more</span>
-                                                                                        </a>
-
-                                                                                    </div>
-                                                                                </div>
-                                                                            </div>
-
-                                                                            <div class="benefits-tabber-feature-item">
-                                                                                <div
-                                                                                    class="benefits-tabber-feature-item-inner">
-                                                                                    <div class="featute-top"
-                                                                                        style="background-color: rgba(242, 246, 255,1.0);">
-
-                                                                                        <div
-                                                                                            class="feature-icon-holder">
-
-                                                                                            <img src="../hubfs/Incfile_February_2021/images/bc-13.png"
-                                                                                                alt="File Business Taxes"
-                                                                                                loading="lazy">
-                                                                                        </div>
-
-                                                                                    </div>
-                                                                                    <div class="feature-content">
-                                                                                        <div class="content-holder">
-                                                                                            <h3>File Business Taxes</h3>
-                                                                                            <p>Work with a tax
-                                                                                                professional to file
-                                                                                                your federal business
-                                                                                                tax return.</p>
-                                                                                        </div>
-
-
-
-
-
-
-                                                                                        <a class="feature-button"
-                                                                                            href="#">
-                                                                                            <div
-                                                                                                class="arrow">
-                                                                                                <svg width="12"
-                                                                                                    height="11"
-                                                                                                    xmlns="http://www.w3.org/2000/svg">
-                                                                                                    <path
-                                                                                                        d="M5.805.703L5.8.707a1 1 0 00-.003 1.416l2.379 2.379H.998a.998.998 0 000 1.996h7.179L5.798 8.877a1 1 0 00.003 1.416l.004.004a1 1 0 001.412-.003l4.078-4.088a1 1 0 000-1.412L7.217.706A1 1 0 005.805.703z"
-                                                                                                        fill="#1D1D1D"
-                                                                                                        fill-rule="nonzero">
-                                                                                                    </path>
-                                                                                                </svg></div>
-                                                                                            <span>Learn more</span>
-                                                                                        </a>
-
-                                                                                    </div>
-                                                                                </div>
-                                                                            </div>
-
-                                                                            <div class="benefits-tabber-feature-item">
-                                                                                <div
-                                                                                    class="benefits-tabber-feature-item-inner">
-                                                                                    <div class="featute-top"
-                                                                                        style="background-color: rgba(238, 249, 254,1.0);">
-
-                                                                                        <div
-                                                                                            class="feature-icon-holder">
-
-                                                                                            <img src="../hubfs/Incfile_February_2021/images/bc-15.png"
-                                                                                                alt="File S Corp Tax Election"
-                                                                                                loading="lazy">
-                                                                                        </div>
-
-                                                                                    </div>
-                                                                                    <div class="feature-content">
-                                                                                        <div class="content-holder">
-                                                                                            <h3>File S Corp Tax Election
-                                                                                            </h3>
-                                                                                            <p>Reduce the Tax You Pay by
-                                                                                                Having Your LLC Treated
-                                                                                                as an S Corp for Tax
-                                                                                                Purposes.</p>
-                                                                                        </div>
-
-
-
-
-
-
-                                                                                        <a class="feature-button"
-                                                                                            href="#">
-                                                                                            <div
-                                                                                                class="arrow">
-                                                                                                <svg width="12"
-                                                                                                    height="11"
-                                                                                                    xmlns="http://www.w3.org/2000/svg">
-                                                                                                    <path
-                                                                                                        d="M5.805.703L5.8.707a1 1 0 00-.003 1.416l2.379 2.379H.998a.998.998 0 000 1.996h7.179L5.798 8.877a1 1 0 00.003 1.416l.004.004a1 1 0 001.412-.003l4.078-4.088a1 1 0 000-1.412L7.217.706A1 1 0 005.805.703z"
-                                                                                                        fill="#1D1D1D"
-                                                                                                        fill-rule="nonzero">
-                                                                                                    </path>
-                                                                                                </svg></div>
-                                                                                            <span>Learn more</span>
-                                                                                        </a>
-
-                                                                                    </div>
-                                                                                </div>
-                                                                            </div>
-
-                                                                        </div>
-                                                                    </div>
-
-                                                                </div>
-                                                            </div>
-                                                        </div>
-
-                                                    </div>
-                                                    <!--end widget-span -->
-                                                </div>
-                                                <!--end row-->
-                                            </div>
                                             <!--end row-wrapper -->
 
                                         </div>
@@ -2741,5 +2136,26 @@
     </script>
     <script
         src="{{asset('hs-fs/hub/3787982/hub_generated/module_assets/41951289498/1620380498784/module_41951289498_Benefits_Tabber.min.js')}}">
+    </script>
+    <script>
+        const items = document.querySelectorAll('.accordion button');
+
+    function toggleAccordion() {
+      const itemToggle = this.getAttribute('aria-expanded');
+
+      for (i = 0; i < items.length; i++) {
+        items[i].setAttribute('aria-expanded', 'false');
+      }
+
+      if (itemToggle == 'false') {
+        this.setAttribute('aria-expanded', 'true');
+      }
+    }
+
+    items.forEach((item) => item.addEventListener('click', toggleAccordion));
+
+
+
+
     </script>
 @endsection
