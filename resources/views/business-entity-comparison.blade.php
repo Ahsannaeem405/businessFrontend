@@ -1427,8 +1427,9 @@ transform: rotate(0deg);
                                                     <div class="page-center">
 
                                                         <div class="rocket__RocketWrapper">
-                                                            <div class=" gatsby-image-wrapper">
-                                                                <div class="get-image-bg" data-background="{{asset('image/whychooseus.png')}}}"></div>
+                                                            <div class=" gatsby-image-wrapper pb-0">
+                                                                {{-- <div class="get-image-bg" data-background="{{asset('image/whychooseus.png')}}}"></div> --}}
+                                                                <img src="{{asset('image/chos.png')}}" class="img-fluid" alt="">
                                                             </div>
                                                         </div>
 
