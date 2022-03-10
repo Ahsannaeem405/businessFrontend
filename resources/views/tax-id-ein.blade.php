@@ -342,8 +342,8 @@
         }
 
     </style>
-    <link rel="stylesheet" href="../hs-fs/hub/3787982/hub_generated/module_assets/44253403272/1620388105317/module_44253403272_EIN_Tax_ID_Number.min.css">
-    <link rel="stylesheet" href="../hs-fs/hub/3787982/hub_generated/module_assets/1643216358498/module_41351299817_Accordion.css">
+    <link rel="stylesheet" href="{{asset('hs-fs/hub/3787982/hub_generated/module_assets/44253403272/1620388105317/module_44253403272_EIN_Tax_ID_Number.min.css')}}">
+    <link rel="stylesheet" href="{{asset('hs-fs/hub/3787982/hub_generated/module_assets/1643216358498/module_41351299817_Accordion.css')}}">
 
       <style>
         #widget_1614260364663.default_bullet .acc_item .acc_body .inner ul {
