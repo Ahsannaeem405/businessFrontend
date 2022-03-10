@@ -1,4 +1,7 @@
 @extends('layout.main')
+{{-- navtab link css --}}
+<link rel="stylesheet" href="{{asset('hs-fs/hub/3787982/hub_generated/module_assets/41951289498/1620380498964/module_41951289498_Benefits_Tabber.min.css')}}">
+
 <style>
     .carousel-inner{
         max-height: 500px;
@@ -243,7 +246,7 @@ transform: rotate(0deg);
                                         <div class="span12 widget-span widget-type-custom_widget dnd-module" style="" data-widget-type="custom_widget" data-x="0" data-w="12">
                                             <div id="hs_cos_wrapper_widget_1613735646530" class="hs_cos_wrapper hs_cos_wrapper_widget hs_cos_wrapper_type_module" style="" data-hs-cos-general-type="widget" data-hs-cos-type="module">
                                                 <div class="ad_tabber widget_1613735646530_ad_tabber ad_tabber_type_tabber">
-                                                    <div class="cycle-tab-container">
+                                                    {{-- <div class="cycle-tab-container">
 
 
                                                         <ul class="nav nav-tabs justify-content-center">
@@ -272,7 +275,106 @@ transform: rotate(0deg);
                                                         <div class="tab-pane fade ex1" id="settings" role="tabpanel" aria-labelledby="settings-tab"> Literally wolf flexitarian snackwave raw denim bitters ut synth kombucha consequat twee polaroid.</div>
                                                       </div>
                                                       </div>
+                                                    </div> --}}
+                                                    <div id="hs_cos_wrapper_widget_1614256769396"
+                                                    class="hs_cos_wrapper hs_cos_wrapper_widget hs_cos_wrapper_type_module"
+                                                    style="" data-hs-cos-general-type="widget"
+                                                    data-hs-cos-type="module">
+                                                    <div class="benefits-tabber-wrapper container"
+                                                        style="margin-top:px; margin-bottom:px;">
+                                                        <div class="benefits-tabber-nav">
+                                                            <div class="benefits-tabber-nav-inner">
+
+                                                                <a class="active"
+                                                                    href="#widget_1614256769396tab1">Lorem Ipsum</a>
+
+                                                                <a
+                                                                    href="#widget_1614256769396tab2">Lorem Ipsum</a>
+
+                                                                <a href="#widget_1614256769396tab3">Lorem Ipsum
+                                                                    </a>
+
+                                                                <a href="#widget_1614256769396tab4">Lorem Ipsum
+                                                                    </a>
+
+                                                            </div>
+                                                        </div>
+                                                        <div class="benefits-tabber-tabs-container">
+
+                                                            <div class="benefits-tabber-tab-panal show"
+                                                                id="widget_1614256769396tab1">
+                                                                <div class="benefits-tabber-feature-grid">
+                                                                    <div class="benefits-tabber-feature-item pl-md-5 pr-md-5 w-100">
+                                                                    <p>Lorem Ipsum is simply dummy text of the printing and
+                                                                        typesetting industry. Lorem Ipsum has been the industry's
+                                                                        standard dummy text ever since the 1500s, when an unknown
+                                                                        printer took a galley of type and scrambled it to make a
+                                                                        type specimen book. It has survived not only five centuries,
+                                                                        but also the leap into electronic typesetting,
+                                                                        remaining essentially unchanged. </p>
+                                                                </div>
+
+
+                                                                </div>
+                                                            </div>
+
+                                                            <div class="benefits-tabber-tab-panal "
+                                                                id="widget_1614256769396tab2">
+                                                                <div class="benefits-tabber-feature-grid">
+
+                                                                    <div class="benefits-tabber-feature-item pr-md-5 pl-md-5 w-100">
+                                                                        <p>2Lorem Ipsum is simply dummy text of the printing and
+                                                                            typesetting industry. Lorem Ipsum has been the industry's
+                                                                            standard dummy text ever since the 1500s, when an unknown
+                                                                            printer took a galley of type and scrambled it to make a
+                                                                            type specimen book. It has survived not only five centuries,
+                                                                            but also the leap into electronic typesetting,
+                                                                            remaining essentially unchanged. </p>
+                                                                    </div>
+
+
+
+                                                                </div>
+                                                            </div>
+
+                                                            <div class="benefits-tabber-tab-panal "
+                                                                id="widget_1614256769396tab3">
+                                                                <div class="benefits-tabber-feature-grid">
+
+                                                                    <div class="benefits-tabber-feature-item pl-md-5 pr-md-5 w-100">
+                                                                        <p>3Lorem Ipsum is simply dummy text of the printing and
+                                                                            typesetting industry. Lorem Ipsum has been the industry's
+                                                                            standard dummy text ever since the 1500s, when an unknown
+                                                                            printer took a galley of type and scrambled it to make a
+                                                                            type specimen book. It has survived not only five centuries,
+                                                                            but also the leap into electronic typesetting,
+                                                                            remaining essentially unchanged. </p>
+                                                                    </div>
+
+
+
+                                                                </div>
+                                                            </div>
+
+                                                            <div class="benefits-tabber-tab-panal "
+                                                                id="widget_1614256769396tab4">
+                                                                <div class="benefits-tabber-feature-grid">
+                                                                    <div class="benefits-tabber-feature-item pl-md-5 pr-md-5 w-100">
+                                                                        <p>4Lorem Ipsum is simply dummy text of the printing and
+                                                                            typesetting industry. Lorem Ipsum has been the industry's
+                                                                            standard dummy text ever since the 1500s, when an unknown
+                                                                            printer took a galley of type and scrambled it to make a
+                                                                            type specimen book. It has survived not only five centuries,
+                                                                            but also the leap into electronic typesetting,
+                                                                            remaining essentially unchanged. </p>
+                                                                    </div>
+
+                                                                </div>
+                                                            </div>
+
+                                                        </div>
                                                     </div>
+                                                </div>
 
 
                                             </div>
@@ -1457,7 +1559,9 @@ transform: rotate(0deg);
 
     </div>
 </main>
-
+{{-- navtab js --}}
+<script src="{{asset('hs-fs/hub/3787982/hub_generated/module_assets/41951289498/1620380498784/module_41951289498_Benefits_Tabber.min.js')}}"></script>
+{{-- end navtab js --}}
 
 <script>
     // Tab-Pane change function
