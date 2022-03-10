@@ -1,8 +1,379 @@
 @extends('layout.main')
 {{-- navtab link css --}}
 <link rel="stylesheet" href="{{asset('hs-fs/hub/3787982/hub_generated/module_assets/41951289498/1620380498964/module_41951289498_Benefits_Tabber.min.css')}}">
-
+<link rel="stylesheet" href="https://unicons.iconscout.com/release/v3.0.6/css/line.css">
 <style>
+    .accordion .accordion-item {
+  border-bottom: 1px solid #e5e5e5;
+}
+
+.accordion .accordion-item button[aria-expanded='true'] {
+  border-bottom: 1px solid #03b5d2;
+}
+
+.accordion button {
+  position: relative;
+  display: block;
+  text-align: left;
+  width: 100%;
+  padding: 1em 0;
+  color: #7288a2;
+  font-size: 1.15rem;
+  font-weight: 400;
+  border: none;
+  background: none;
+  outline: none;
+}
+
+.accordion button:hover,
+.accordion button:focus {
+  cursor: pointer;
+  color: #03b5d2;
+}
+
+.accordion button:hover::after,
+.accordion button:focus::after {
+  cursor: pointer;
+  color: #03b5d2;
+  border: 1px solid #03b5d2;
+}
+
+.accordion button .accordion-title {
+  padding: 1em 1.5em 1em 0;
+}
+
+.accordion button .icon {
+  display: inline-block;
+  position: absolute;
+  top: 18px;
+  right: 0;
+  width: 22px;
+  height: 22px;
+  border: 1px solid;
+  border-radius: 22px;
+}
+
+.accordion button .icon::before {
+  display: block;
+  position: absolute;
+  content: '';
+  top: 9px;
+  left: 5px;
+  width: 10px;
+  height: 2px;
+  background: currentColor;
+}
+.accordion button .icon::after {
+  display: block;
+  position: absolute;
+  content: '';
+  top: 5px;
+  left: 9px;
+  width: 2px;
+  height: 10px;
+  background: currentColor;
+}
+
+.accordion button[aria-expanded='true'] {
+  color: #03b5d2;
+}
+.accordion button[aria-expanded='true'] .icon::after {
+  width: 0;
+}
+.accordion button[aria-expanded='true'] + .accordion-content {
+  opacity: 1;
+  max-height: 9em;
+  transition: all 200ms linear;
+  will-change: opacity, max-height;
+}
+.accordion .accordion-content {
+  opacity: 0;
+  max-height: 0;
+  overflow: hidden;
+  transition: opacity 200ms linear, max-height 200ms linear;
+  will-change: opacity, max-height;
+}
+.accordion .accordion-content p {
+  font-size: 1rem;
+  font-weight: 300;
+  margin: 2em 0;
+}
+
+
+</style>
+<style>
+    @import url("https://fonts.googleapis.com/css2?family=Lato:wght@400;700&family=Rubik&display=swap");
+
+/*==================== VARIABLES CSS ====================*/
+:root {
+  /*========== Colors ==========*/
+  /* Change favorite color - Blue 210 - Purple 250 - Green 142 - Pink 340*/
+  --hue-color: 210;
+
+  /* HSL color mode */
+  --first-color: hsl(var(--hue-color), 96%, 54%);
+  --first-color-light: hsl(var(--hue-color), 96%, 69%);
+  --first-color-alt: hsl(var(--hue-color), 96%, 37%);
+  --first-color-lighter: hsl(var(--hue-color), 14%, 96%);
+  --title-color: hsl(var(--hue-color), 12%, 15%);
+  --text-color: hsl(var(--hue-color), 12%, 35%);
+  --text-color-light: hsl(var(--hue-color), 12%, 65%);
+  --white-color: #FFF;
+  --body-color: hsl(var(--hue-color), 100%, 99%);
+  --container-color: #FFF;
+
+  /*========== Font and typography ==========*/
+  --body-font: 'Lato', sans-serif;
+  --pricing-font: 'Rubik', sans-serif;
+  --biggest-font-size: 1.75rem;
+  --normal-font-size: .938rem;
+  --h2-font-size: 1.25rem;
+  --small-font-size: .813rem;
+  --smaller-font-size: .75rem;
+  --tiny-font-size: .625rem;
+
+  /*========== Margenes Bottom ==========*/
+  --mb-0-25: .25rem;
+  --mb-0-5: .5rem;
+  --mb-1: 1rem;
+  --mb-1-25: 1.25rem;
+  --mb-1-5: 1.5rem;
+  --mb-2: 2rem;
+}
+
+@media screen and (min-width: 968px) {
+  :root {
+    --biggest-font-size: 2.125rem;
+    --h2-font-size: 1.5rem;
+    --normal-font-size: 1rem;
+    --small-font-size: .875rem;
+    --smaller-font-size: .813rem;
+    --tiny-font-size: .688rem;
+  }
+}
+
+/*==================== BASE ====================*/
+
+
+
+
+ul {
+  list-style: none;
+}
+
+img {
+  max-width: 100%;
+  height: auto;
+}
+
+/*==================== REUSABLE CSS CLASSES ====================*/
+.container {
+  max-width: 1024px;
+  margin-left: var(--mb-1-5);
+  margin-right: var(--mb-1-5);
+}
+
+.grid {
+  display: grid;
+}
+
+/*==================== CARD PRICING ====================*/
+.card {
+  padding: 3rem 0;
+  border:none !important;
+}
+.card:hover{
+    box-shadow: none !important;
+}
+
+.card__container {
+  gap: 3rem 1.25rem;
+}
+
+.card__content {
+  position: relative;
+  background-color: var(--container-color);
+  padding: 2rem 1.5rem 2.5rem;
+  border-radius: 1.75rem;
+  /* box-shadow: 0 12px 24px hsla(var(--hue-color), 61%, 16%, 0.1); */
+  transition: .4s;
+}
+
+.card__content:hover {
+  box-shadow: 0 16px 24px hsla(var(--hue-color), 61%, 16%, 0.15);
+}
+
+.card__header-img {
+  width: 30px;
+  height: 30px;
+}
+
+.card__header-circle {
+  width: 40px;
+  height: 40px;
+  background-color: var(--first-color-lighter);
+  border-radius: 50%;
+  margin-bottom: var(--mb-1);
+  place-items: center;
+}
+
+.card__header-subtitle {
+  display: block;
+  font-size: var(--smaller-font-size);
+  color: var(--text-color-light);
+  text-transform: uppercase;
+  margin-bottom: var(--mb-0-25);
+}
+
+.card__header-title {
+  font-size: var(--biggest-font-size);
+  color: var(--title-color);
+  margin-bottom: var(--mb-1);
+}
+
+.card__pricing {
+  position: absolute;
+  background: linear-gradient(157deg, var(--first-color-light) -12%, var(--first-color) 109%);
+  width: 60px;
+  height: 88px;
+  right: 1.5rem;
+  top: -1rem;
+  padding-top: 1.25rem;
+  text-align: center;
+}
+
+.card__pricing-number {
+  font-family: var(--pricing-font);
+}
+
+.card__pricing-symbol {
+  font-size: var(--smaller-font-size);
+}
+
+.card__pricing-number {
+  font-size: var(--h2-font-size);
+}
+
+.card__pricing-month {
+  display: block;
+  font-size: var(--tiny-font-size);
+}
+
+.card__pricing-number,
+.card__pricing-month {
+  color: var(--white-color);
+}
+
+.card__pricing::after,
+.card__pricing::before {
+  content: '';
+  position: absolute;
+}
+
+.card__pricing::after {
+  width: 100%;
+  height: 14px;
+  background-color: var(--white-color);
+  left: 0;
+  bottom: 0;
+  clip-path: polygon(0 100%, 50% 0, 100% 100%);
+}
+
+.card__pricing::before {
+  width: 14px;
+  height: 16px;
+  background-color: var(--first-color-alt);
+  top: 0;
+  left: -14px;
+  clip-path: polygon(0 100%, 100% 0, 100% 100%);
+}
+
+.card__list {
+  row-gap: .5rem;
+  margin-bottom: var(--mb-2);
+}
+
+.card__list-item {
+  display: flex;
+  align-items: center;
+}
+
+.card__list-icon {
+  font-size: 1.5rem;
+  color: var(--first-color);
+  margin-right: var(--mb-0-5);
+}
+
+.card__button {
+  padding: 1.25rem;
+  border: none;
+  font-size: var(--normal-font-size);
+  border-radius: .5rem;
+  background: linear-gradient(157deg, var(--first-color-light) -12%, var(--first-color) 109%);
+  color: var(--white-color);
+  cursor: pointer;
+  transition: .4s;
+}
+
+.card__button:hover {
+  box-shadow: 0 12px 24px hsla(var(--hue-color), 97%, 54%, 0.2);
+}
+
+/*==================== MEDIA QUERIES ====================*/
+/* For small devices */
+@media screen and (max-width: 320px) {
+  .container {
+    margin-left: var(--mb-1);
+    margin-right: var(--mb-1);
+  }
+  .card__content {
+    padding: 2rem 1.25rem;
+    border-radius: 1rem;
+  }
+}
+
+/* For medium devices */
+@media screen and (min-width: 568px) {
+  .card__container {
+    grid-template-columns: repeat(2, 1fr);
+  }
+  .card__content {
+    grid-template-rows: repeat(2, max-content);
+  }
+  .card__button {
+    align-self: flex-end;
+  }
+}
+
+/* For large devices */
+@media screen and (min-width: 968px) {
+  .container {
+    margin-left: auto;
+    margin-right: auto;
+  }
+  .card {
+    height: 100vh;
+    align-items: center;
+  }
+  .card__container {
+    grid-template-columns: repeat(3, 1fr);
+  }
+  .card__header-circle {
+    margin-bottom: var(--mb-1-25);
+  }
+  .card__header-subtitle {
+    font-size: var(--small-font-size);
+  }
+}
+</style>
+<style>
+    .text-dark{
+        color: black !important;
+    }
+    .box{
+        border-radius: 10px;
+        box-shadow: rgba(100, 100, 111, 0.2) 0px 7px 29px 0px;
+    }
     .carousel-inner{
         max-height: 500px;
     }
@@ -435,231 +806,94 @@ transform: rotate(0deg);
                                     <!--end row-->
                                 </div>
                                 <!--end row-wrapper -->
-
-                                <div class="row-fluid-wrapper row-depth-1 row-number-5 dnd-row">
-                                    <div class="row-fluid ">
-                                        <div class="span12 widget-span widget-type-custom_widget dnd-module" style="" data-widget-type="custom_widget" data-x="0" data-w="12">
-                                            <div id="hs_cos_wrapper_widget_1615204488269" class="hs_cos_wrapper hs_cos_wrapper_widget hs_cos_wrapper_type_module" style="" data-hs-cos-general-type="widget" data-hs-cos-type="module">
-                                                <div class="get-started-right-business-wrapper">
-                                                    <div class="page-center clearfix">
-                                                        <div class="get-started-right-business-top-content">
-                                                            <h2>Get started with the right type of business entity</h2>
-                                                        </div>
-
-                                                        <div class="get-started-right-business-features-container">
-
-                                                            <div class="get-started-right-business-features">
-                                                                <div class="curve__Wrapper">
-                                                                    <svg width="29" height="25" xmlns="http://www.w3.org/2000/svg"><path d="M29 1.389c0 .746-.599 1.349-1.354 1.384a26.869 26.869 0 00-12.317 3.66C8.575 10.388 4.231 16.836 2.785 23.885A1.4 1.4 0 011.408 25c-.89 0-1.556-.806-1.38-1.666 1.599-7.79 6.398-14.916 13.863-19.286A29.704 29.704 0 0127.54.002C28.337-.036 29 .602 29 1.387v.002z" fill="#FD8550" fill-rule="evenodd"></path></svg>
-                                                                </div>
-
-
-                                                                <div class="get-started-right-business-features-item">
-
-
-
-
-
-                                                                    <a href="#">
-                                                                        {{-- <div class="get-started-right-business-features-card">
-                                                                            <div class="icon-and-title-column">
-
-                                                                                <div class="boxed__ImageWrapper" style="background-color: rgba(238, 249, 254,1.0);">
-
-                                                                                    <img src="hubfs/Incfile_February_2021/images/cert-llc-232.png" alt="LLC" loading="lazy">
-                                                                                </div>
-
-                                                                                <span class="boxed__Imagetitle">LLC</span>
-                                                                            </div>
-                                                                            <span class="circle__IconWrapper">
-        <svg width="12" height="11" xmlns="http://www.w3.org/2000/svg"><path d="M5.805.703L5.8.707a1 1 0 00-.003 1.416l2.379 2.379H.998a.998.998 0 000 1.996h7.179L5.798 8.877a1 1 0 00.003 1.416l.004.004a1 1 0 001.412-.003l4.078-4.088a1 1 0 000-1.412L7.217.706A1 1 0 005.805.703z" fill="#1D1D1D" fill-rule="nonzero"></path></svg>
-      </span>
-                                                                        </div> --}}
-                                                                        <div class="card pt-3 text-center" style="width:100%;">
-
-
-
-                                                                            <img class="card-img-top" src="{{asset('hubfs/Incfile_February_2021/images/cert-llc-232.png')}}" style="width: 30%;"  alt="Card image cap">
-
-                                                                            <div class="card-body">
-                                                                                <div class="d-flex justify-content-between">
-                                                                                    <h5 class="card-title">LLC</h5>
-
-                                                                                    <a href="#" class="float-right"> <span class="circle__IconWrapper">
-                                                                                      <svg width="12" height="11" xmlns="http://www.w3.org/2000/svg"><path d="M5.805.703L5.8.707a1 1 0 00-.003 1.416l2.379 2.379H.998a.998.998 0 000 1.996h7.179L5.798 8.877a1 1 0 00.003 1.416l.004.004a1 1 0 001.412-.003l4.078-4.088a1 1 0 000-1.412L7.217.706A1 1 0 005.805.703z" fill="#1D1D1D" fill-rule="nonzero"></path></svg>
-                                                                                    </span></a>
-                                                                                </div>
-
-                                                                            </div>
-                                                                          </div>
-                                                                    </a>
-                                                                </div>
-
-
-
-                                                                <div class="get-started-right-business-features-item">
-
-
-
-
-
-
-
-                                                                    <a href="#" target="_blank" rel="noopener">
-                                                                        {{-- <div class="get-started-right-business-features-card">
-                                                                            <div class="icon-and-title-column">
-
-                                                                                <div class="boxed__ImageWrapper" style="background-color: rgba(250, 242, 248,1.0);">
-
-                                                                                    <img src="hubfs/Incfile_February_2021/images/cert-s-433.png" alt="S Corporation" loading="lazy">
-                                                                                </div>
-
-                                                                                <span class="boxed__Imagetitle">S Corporation</span>
-                                                                            </div>
-                                                                            <span class="circle__IconWrapper">
-        <svg width="12" height="11" xmlns="http://www.w3.org/2000/svg"><path d="M5.805.703L5.8.707a1 1 0 00-.003 1.416l2.379 2.379H.998a.998.998 0 000 1.996h7.179L5.798 8.877a1 1 0 00.003 1.416l.004.004a1 1 0 001.412-.003l4.078-4.088a1 1 0 000-1.412L7.217.706A1 1 0 005.805.703z" fill="#1D1D1D" fill-rule="nonzero"></path></svg>
-      </span>
-                                                                        </div> --}}
-                                                                        <div class="card pt-3 text-center" style="width:100%;">
-
-
-
-                                                                            <img class="card-img-top " src="{{asset('hubfs/Incfile_February_2021/images/cert-s-433.png')}}" style="width: 30%"  alt="Card image cap">
-
-                                                                            <div class="card-body">
-                                                                                <div class="d-flex justify-content-between">
-                                                                                    <h5 class="card-title">S Corporation</h5>
-
-                                                                                    <a href="#" class="float-right"> <span class="circle__IconWrapper">
-                                                                                      <svg width="12" height="11" xmlns="http://www.w3.org/2000/svg"><path d="M5.805.703L5.8.707a1 1 0 00-.003 1.416l2.379 2.379H.998a.998.998 0 000 1.996h7.179L5.798 8.877a1 1 0 00.003 1.416l.004.004a1 1 0 001.412-.003l4.078-4.088a1 1 0 000-1.412L7.217.706A1 1 0 005.805.703z" fill="#1D1D1D" fill-rule="nonzero"></path></svg>
-                                                                                    </span></a>
-                                                                                </div>
-
-                                                                            </div>
-                                                                          </div>
-                                                                    </a>
-                                                                </div>
-
-
-
-                                                                <div class="get-started-right-business-features-item">
-
-
-
-
-
-                                                                    <a href="#">
-                                                                        {{-- <div class="get-started-right-business-features-card">
-                                                                            <div class="icon-and-title-column">
-
-                                                                                <div class="boxed__ImageWrapper" style="background-color: rgba(242, 248, 243,1.0);">
-
-                                                                                    <img src="hubfs/Incfile_February_2021/images/cert-n-826.png" alt="Nonprofit" loading="lazy">
-                                                                                </div>
-
-                                                                                <span class="boxed__Imagetitle">Nonprofit</span>
-                                                                            </div>
-                                                                            <span class="circle__IconWrapper">
-        <svg width="12" height="11" xmlns="http://www.w3.org/2000/svg"><path d="M5.805.703L5.8.707a1 1 0 00-.003 1.416l2.379 2.379H.998a.998.998 0 000 1.996h7.179L5.798 8.877a1 1 0 00.003 1.416l.004.004a1 1 0 001.412-.003l4.078-4.088a1 1 0 000-1.412L7.217.706A1 1 0 005.805.703z" fill="#1D1D1D" fill-rule="nonzero"></path></svg>
-      </span>
-                                                                        </div> --}}
-                                                                        <div class="card pt-3 text-center" style="width:100%;">
-
-
-
-                                                                            <img class="card-img-top " src="{{asset('hubfs/Incfile_February_2021/images/cert-n-826.png')}}"  style="width: 30%"  alt="Card image cap">
-
-                                                                            <div class="card-body">
-                                                                                <div class="d-flex justify-content-between">
-                                                                                    <h5 class="card-title">Nonprofit</h5>
-
-                                                                                    <a href="#" class="float-right"> <span class="circle__IconWrapper">
-                                                                                      <svg width="12" height="11" xmlns="http://www.w3.org/2000/svg"><path d="M5.805.703L5.8.707a1 1 0 00-.003 1.416l2.379 2.379H.998a.998.998 0 000 1.996h7.179L5.798 8.877a1 1 0 00.003 1.416l.004.004a1 1 0 001.412-.003l4.078-4.088a1 1 0 000-1.412L7.217.706A1 1 0 005.805.703z" fill="#1D1D1D" fill-rule="nonzero"></path></svg>
-                                                                                    </span></a>
-                                                                                </div>
-
-                                                                            </div>
-                                                                          </div>
-                                                                    </a>
-                                                                </div>
-
-
-
-                                                                <div class="get-started-right-business-features-item">
-
-
-
-
-
-                                                                    <a href="#">
-                                                                        {{-- <div class="get-started-right-business-features-card">
-                                                                            <div class="icon-and-title-column">
-
-                                                                                <div class="boxed__ImageWrapper" style="background-color: rgba(254, 246, 237,1.0);">
-
-                                                                                    <img src="hubfs/Incfile_February_2021/images/cert-c-831.png" alt="C Corporation" loading="lazy">
-                                                                                </div>
-
-                                                                                <span class="boxed__Imagetitle">C Corporation</span>
-                                                                            </div>
-                                                                            <span class="circle__IconWrapper">
-        <svg width="12" height="11" xmlns="http://www.w3.org/2000/svg"><path d="M5.805.703L5.8.707a1 1 0 00-.003 1.416l2.379 2.379H.998a.998.998 0 000 1.996h7.179L5.798 8.877a1 1 0 00.003 1.416l.004.004a1 1 0 001.412-.003l4.078-4.088a1 1 0 000-1.412L7.217.706A1 1 0 005.805.703z" fill="#1D1D1D" fill-rule="nonzero"></path></svg>
-      </span>
-                                                                        </div> --}}
-                                                                        <div class="card pt-3 text-center" style="width:100%;">
-
-
-
-                                                                            <img class="card-img-top " src="{{asset('hubfs/Incfile_February_2021/images/cert-c-831.png')}}"  style="width: 30%"  alt="Card image cap">
-
-                                                                            <div class="card-body">
-                                                                                <div class="d-flex justify-content-between">
-                                                                                    <h5 class="card-title">C Corporation</h5>
-
-                                                                                    <a href="#" class="float-right"> <span class="circle__IconWrapper">
-                                                                                      <svg width="12" height="11" xmlns="http://www.w3.org/2000/svg"><path d="M5.805.703L5.8.707a1 1 0 00-.003 1.416l2.379 2.379H.998a.998.998 0 000 1.996h7.179L5.798 8.877a1 1 0 00.003 1.416l.004.004a1 1 0 001.412-.003l4.078-4.088a1 1 0 000-1.412L7.217.706A1 1 0 005.805.703z" fill="#1D1D1D" fill-rule="nonzero"></path></svg>
-                                                                                    </span></a>
-                                                                                </div>
-
-                                                                            </div>
-                                                                          </div>
-                                                                    </a>
-                                                                </div>
-
-
-                                                            </div>
-                                                        </div>
-
-
-                                                        <div class="get-started-right-business-bottom-btn">
-
-
-
-
-
-
-
-
-                                                            <a class="hs-button" href="#" target="_blank" rel="noopener">
-                                                                <span>Get started</span>
-                                                                <div class="button__Arrow">
-                                                                    <svg width="12" height="11" xmlns="http://www.w3.org/2000/svg"><path d="M5.805.703L5.8.707a1 1 0 00-.003 1.416l2.379 2.379H.998a.998.998 0 000 1.996h7.179L5.798 8.877a1 1 0 00.003 1.416l.004.004a1 1 0 001.412-.003l4.078-4.088a1 1 0 000-1.412L7.217.706A1 1 0 005.805.703z" fill="#1D1D1D" fill-rule="nonzero"></path></svg>
-                                                                </div>
-                                                            </a>
-
-                                                        </div>
-
-
-                                                    </div>
+                                <div class="container">
+                                    <div class="row p-2 pl-md-5 pr-md-5">
+                                        <div class="col-12 text-center">
+                                            <h3>Learn more about incorporating in North Dakota</h3>
+                                        </div>
+                                        <div class="col-12 mt-3">
+                                            <h5>North Dakota Filing Time & Price</h5>
+                                        </div>
+                                        <div class="col-12">
+                                            <div class="row box">
+                                                <div class="col-md-4 col-6 mt-2 p-2 border-right">
+                                                    <p class="text-dark">State Fee</p>
+                                                </div>
+                                                <div class="col-md-8 col-6 mt-2 p-2">
+                                                    <p>$200</p>
                                                 </div>
                                             </div>
-
                                         </div>
-                                        <!--end widget-span -->
+
+                                        <div class="col-12 mt-3">
+                                            <div class="row box">
+                                                <div class="col-md-4 col-6 mt-2 p-2 border-right">
+                                                    <p class="text-dark">State Filing Time</p>
+                                                </div>
+                                                <div class="col-md-8 col-6 mt-2 p-2">
+                                                    <p>3 Weeks</p>
+                                                </div>
+                                            </div>
+                                        </div>
+
+                                        <div class="col-12 mt-3">
+                                            <div class="row box">
+                                                <div class="col-md-4 col-6 mt-2 p-2 border-right">
+                                                    <p class="text-dark">Expedited Filing Time</p>
+                                                </div>
+                                                <div class="col-md-8 col-6 mt-2 p-2">
+                                                    <p>5 Business Days</p>
+                                                </div>
+                                            </div>
+                                        </div>
+
+
                                     </div>
-                                    <!--end row-->
+
+                                    <div class="row p-2 pl-md-5 pr-md-5">
+                                        <div class="col-12 text-center">
+                                            <h3>North Dakota Compliance Requirements</h3>
+                                        </div>
+                                        <div class="col-12 mt-3">
+                                            <h5>Annual Report</h5>
+                                        </div>
+                                        <div class="col-12">
+                                            <div class="row box">
+                                                <div class="col-md-4 col-6 mt-2 p-2 border-right">
+                                                    <p class="text-dark">Frequency: </p>
+                                                </div>
+                                                <div class="col-md-8 col-6 mt-2 p-2">
+                                                    <p>Annually</p>
+                                                </div>
+                                            </div>
+                                        </div>
+
+                                        <div class="col-12 mt-3">
+                                            <div class="row box">
+                                                <div class="col-md-4 col-6 mt-2 p-2 border-right">
+                                                    <p class="text-dark">Due Date : </p>
+                                                </div>
+                                                <div class="col-md-8 col-6 mt-2 p-2">
+                                                    <p>August 1st</p>
+                                                </div>
+                                            </div>
+                                        </div>
+
+                                        <div class="col-12 mt-3">
+                                            <div class="row box">
+                                                <div class="col-md-4 col-6 mt-2 p-2 border-right">
+                                                    <p class="text-dark">Filing Fee:</p>
+                                                </div>
+                                                <div class="col-md-8 col-6 mt-2 p-2">
+                                                    <p>$25</p>
+                                                </div>
+                                            </div>
+                                        </div>
+
+
+                                    </div>
                                 </div>
-                                <!--end row-wrapper -->
+
 
                             </div>
                             <!--end widget-span -->
@@ -668,170 +902,194 @@ transform: rotate(0deg);
                     </div>
                     <!--end row-wrapper -->
 
-                    <div class="row-fluid-wrapper row-depth-1 row-number-6 dnd_area-row-2-force-full-width-section dnd_area-row-2-padding dnd-section">
-                        <div class="row-fluid ">
-                            <div class="span12 widget-span widget-type-cell dnd-column" style="" data-widget-type="cell" data-x="0" data-w="12">
-
-                                <div class="row-fluid-wrapper row-depth-1 row-number-7 dnd-row">
-                                    <div class="row-fluid ">
-                                        <div class="span12 widget-span widget-type-custom_widget dnd-module" style="overflow:hidden" data-widget-type="custom_widget" data-x="0" data-w="12">
-                                            <div id="hs_cos_wrapper_widget_1615204963342" class="hs_cos_wrapper hs_cos_wrapper_widget hs_cos_wrapper_type_module" style="" data-hs-cos-general-type="widget" data-hs-cos-type="module">
-                                                <div class="get-started-banner widget_1615204963342_banner">
-                                                    <div class="rocket__Oval">
-                                                        <svg viewbox="0 0 370 460" xmlns="http://www.w3.org/2000/svg">
-<defs>
-<radialgradient cx="16.614%" cy="100%" fx="16.614%" fy="100%" r="96.459%" id="oval-yellow-3_inline_svg__a">
-  <stop stop-color="#FFF7EA" offset="0%"></stop>
-  <stop stop-color="#FFBA8C" offset="100%"></stop>
-</radialgradient>
-</defs>
-<path d="M470 0v470H0C0 210.426 210.426 0 470 0z" transform="translate(0 -10)" fill="url(#oval-yellow-3_inline_svg__a)" fill-rule="evenodd" opacity="0.1"></path>
-</svg>
-                                                    </div>
-                                                    <div class="rocket__Curve">
-                                                        <svg width="81" height="97" xmlns="http://www.w3.org/2000/svg">
-<path d="M115 1.61c0 3.014-2.375 5.45-5.37 5.594-16.722.82-33.478 5.622-48.842 14.788-26.784 15.971-44.01 42.02-49.744 70.5-.523 2.62-2.8 4.508-5.462 4.508-3.53 0-6.17-3.255-5.469-6.73 6.337-31.475 25.37-60.26 54.971-77.917C72.11 2.2 90.683-3.111 109.215-3.994c3.157-.15 5.785 2.425 5.785 5.6v.005z" fill="#FFE0A3" fill-rule="evenodd"></path>
-</svg>
-                                                    </div>
-
-                                                    {{-- <div class="rocket__Moon">
-                                                        <div class="gatsby-image-wrapper" style="position:relative;overflow:hidden">
-                                                            <div class="moon-image" data-background="../f.hubspotusercontent30.net/hubfs/3787982/Incfile_February_2021/images/moon.png"></div>
-                                                        </div>
-                                                    </div> --}}
-
-                                                    <div class="page-center">
-
-                                                        <div class="rocket__RocketWrapper">
-                                                            <div class=" gatsby-image-wrapper pb-0">
-                                                                {{-- <div class="get-image-bg" data-background="{{asset('image/whychooseus.png')}}}"></div> --}}
-                                                                <img src="{{asset('image/chos.png')}}" class="img-fluid" alt="">
-                                                            </div>
-                                                        </div>
-
-                                                        <div class="rocket__Content">
-                                                            <div>
-                                                                <h2>lorem <br>Lorem ipsum dolor sit amet.</h2>
-                                                                <p>Lorem ipsum dolor sit amet. <br>Lorem ipsum dolor sit amet.</p>
-
-
-
-
-
-
-
-
-                                                                <a href="#" target="_blank" rel="noopener" class="hs-button btn-with-icon">
-    Lorem, ipsum dolor.
-    <div class="external-link__Arrow">
-      <svg width="12" height="11" xmlns="http://www.w3.org/2000/svg">
-        <path d="M5.805.703L5.8.707a1 1 0 00-.003 1.416l2.379 2.379H.998a.998.998 0 000 1.996h7.179L5.798 8.877a1 1 0 00.003 1.416l.004.004a1 1 0 001.412-.003l4.078-4.088a1 1 0 000-1.412L7.217.706A1 1 0 005.805.703z" fill="#1D1D1D" fill-rule="nonzero"></path>
-      </svg>
-    </div>
-  </a>
-
-                                                            </div>
-                                                        </div>
-                                                    </div>
+                     <section class="card container grid mt-3 mb-3">
+                                    <div class="card__container grid">
+                                        <!--==================== CARD 1 ====================-->
+                                        <article class="card__content grid">
+                                            <div class="card__pricing">
+                                                <div class="card__pricing-number">
+                                                    <span class="card__pricing-symbol">$</span>0
                                                 </div>
-
+                                                <span class="card__pricing-month">/month</span>
                                             </div>
 
-                                        </div>
-                                        <!--end widget-span -->
-                                    </div>
-                                    <!--end row-->
-                                </div>
-                                <!--end row-wrapper -->
+                                            <header class="card__header">
+                                                {{-- <div class="card__header-circle grid">
+                                                    <img src="assets/img/free-coin.png" alt="" class="card__header-img">
+                                                </div> --}}
 
-                            </div>
-                            <!--end widget-span -->
-                        </div>
-                        <!--end row-->
-                    </div>
-                    <!--end row-wrapper -->
+                                                {{-- <span class="card__header-subtitle">Free plan</span> --}}
+                                                <h1 class="card__header-title">Silver</h1>
+                                            </header>
 
-                    <div class="row-fluid-wrapper row-depth-1 row-number-8 dnd-section dnd_area-row-3-padding dnd_area-row-3-force-full-width-section">
-                        <div class="row-fluid ">
-                            <div class="span12 widget-span widget-type-cell dnd-column" style="" data-widget-type="cell" data-x="0" data-w="12">
+                                            <ul class="card__list grid">
+                                                <li class="card__list-item">
+                                                    <i class="uil uil-check card__list-icon"></i>
+                                                    <p class="card__list-description">3 user request</p>
+                                                </li>
 
-                                <div class="row-fluid-wrapper row-depth-1 row-number-9 dnd-row">
-                                    <div class="row-fluid ">
-                                        <div class="span12 widget-span widget-type-custom_widget dnd-module" style="" data-widget-type="custom_widget" data-x="0" data-w="12">
-                                            <div id="hs_cos_wrapper_widget_1615205073177" class="hs_cos_wrapper hs_cos_wrapper_widget hs_cos_wrapper_type_module" style="" data-hs-cos-general-type="widget" data-hs-cos-type="module">
-                                                <div class="download-guide-form-md-wrapper" id="downloadForm" style="padding-top:104px; padding-bottom:104px; border-radius: 0px;">
+                                            </ul>
 
-                                                    <div class="curve__Wrapper_large">
-                                                        <svg xmlns="http://www.w3.org/2000/svg" width="115" height="115"><path fill="#E0F4FD" fill-rule="evenodd" d="M0 19.61c0 3.014 2.375 5.45 5.37 5.594 16.722.82 33.478 5.622 48.842 14.788 26.784 15.971 44.01 42.02 49.744 70.5.523 2.62 2.8 4.508 5.462 4.508 3.53 0 6.17-3.255 5.469-6.73-6.337-31.475-25.37-60.26-54.971-77.917C42.89 20.2 24.317 14.889 5.785 14.006 2.628 13.856 0 16.431 0 19.606v.005z"></path></svg>
-                                                    </div>
+                                            <button class="card__button">Choose this plan</button>
+                                        </article>
 
-                                                    <div class="page-center clearfix">
-                                                        <div class="download-guide-form-sec-header">
-                                                            <h2>Lorem, ipsum dolor sit amet consectetur adipisicing elit. Tenetur, aliquid. &amp; Lorem, ipsum..</h2>
-                                                            <p>Lorem ipsum dolor, sit amet consectetur adipisicing elit. Consectetur, incidunt!</p>
-                                                        </div>
-                                                        <div class="download-guide-form-box">
-
-                                                            <div class="curve__Wrapper">
-                                                                <svg width="29" height="25" xmlns="http://www.w3.org/2000/svg"><path d="M0 1.389c0 .746.599 1.349 1.354 1.384a26.869 26.869 0 0112.317 3.66c6.754 3.954 11.098 10.402 12.544 17.451A1.4 1.4 0 0027.592 25c.89 0 1.556-.806 1.38-1.666-1.599-7.79-6.398-14.916-13.863-19.286A29.704 29.704 0 001.46.002 1.393 1.393 0 000 1.387v.002z" fill="#C9A3EE" fill-rule="evenodd"></path></svg>
-                                                            </div>
-
-
-                                                            <div class="download-guide-form-box-inner">
-
-                                                                <h3 id="boxTitle">Lorem ipsum dolor sit amet.</h3>
-                                                                <label for="" class="label">Email</label>
-                                                                <input type="email" class="form-control">
-                                                                <label for="" class="label">First Name</label>
-                                                                <input type="text" class="form-control">
-                                                                <label for="" class="label">I'd Like to...</label>
-                                                                <select name="select" id="" class="form-control">
-                                                                    <option value="1">Start a Bussiness Soon</option>
-                                                                    <option value="2">Start a Bussiness Now</option>
-                                                                    <option value="3">Grow a Bussiness </option>
-
-
-                                                                </select>
-                                                                <button class="btn btn-primary mt-3 float-right">Submit</button><br>
-
-                                                                <span id="hs_cos_wrapper_widget_1615205073177_" class="hs_cos_wrapper hs_cos_wrapper_widget hs_cos_wrapper_type_form" style="" data-hs-cos-general-type="widget" data-hs-cos-type="form"><h3 id="hs_cos_wrapper_form_303890057_title" class="hs_cos_wrapper form-title" data-hs-cos-general-type="widget_field" data-hs-cos-type="text"></h3>
-
-<div id="hs_form_target_form_303890057"></div>
-
-
-
-
-
-
-
-
-
-</span>
-                                                            </div>
-                                                        </div>
-                                                    </div>
+                                        <!--==================== CARD 2 ====================-->
+                                        <article class="card__content grid">
+                                            <div class="card__pricing">
+                                                <div class="card__pricing-number">
+                                                    <span class="card__pricing-symbol">$</span>19
                                                 </div>
-
-                                                <style>
-                                                    .download-guide-form-md-wrapper {
-                                                        background-color: rgba(242, 246, 255, 1.0);
-                                                    }
-                                                </style>
+                                                <span class="card__pricing-month">/month</span>
                                             </div>
 
-                                        </div>
-                                        <!--end widget-span -->
-                                    </div>
-                                    <!--end row-->
-                                </div>
-                                <!--end row-wrapper -->
+                                            <header class="card__header">
+                                                {{-- <div class="card__header-circle grid">
+                                                    <img src="assets/img/pro-coin.png" alt="" class="card__header-img">
+                                                </div> --}}
 
-                            </div>
-                            <!--end widget-span -->
-                        </div>
-                        <!--end row-->
-                    </div>
-                    <!--end row-wrapper -->
+                                                <span class="card__header-subtitle">Everything from silver+</span>
+                                                <h1 class="card__header-title">Gold</h1>
+                                            </header>
+
+                                            <ul class="card__list grid">
+                                                <li class="card__list-item">
+                                                    <i class="uil uil-check card__list-icon"></i>
+                                                    <p class="card__list-description">100 user request</p>
+                                                </li>
+                                                <li class="card__list-item">
+                                                    <i class="uil uil-check card__list-icon"></i>
+                                                    <p class="card__list-description">Unlimited downloads</p>
+                                                </li>
+
+                                            </ul>
+
+                                            <button class="card__button">Choose this plan</button>
+                                        </article>
+
+                                        <!--==================== CARD 3 ====================-->
+                                        <article class="card__content grid">
+                                            <div class="card__pricing">
+                                                <div class="card__pricing-number">
+                                                    <span class="card__pricing-symbol">$</span>29
+                                                </div>
+                                                <span class="card__pricing-month">/month</span>
+                                            </div>
+
+                                            <header class="card__header">
+                                                {{-- <div class="card__header-circle grid">
+                                                    <img src="assets/img/enterprise-coin.png" alt="" class="card__header-img">
+                                                </div> --}}
+
+                                                <span class="card__header-subtitle">Everything from silver & gold+</span>
+                                                <h5 class="card__header-title">Platinum</h5>
+                                            </header>
+
+                                            <ul class="card__list grid">
+                                                <li class="card__list-item">
+                                                    <i class="uil uil-check card__list-icon"></i>
+                                                    <p class="card__list-description">Unlimited  user request</p>
+                                                </li>
+                                                <li class="card__list-item">
+                                                    <i class="uil uil-check card__list-icon"></i>
+                                                    <p class="card__list-description">Unlimited downloads</p>
+                                                </li>
+
+                                            </ul>
+
+                                            <button class="card__button">Choose this plan</button>
+                                        </article>
+                                    </div>
+                                </section>
+                                <div class="container pl-md-5 pr-md-5">
+
+                                    <div class="accordion">
+                                      <div class="accordion-item">
+                                        <button id="accordion-button-1" aria-expanded="false">
+                                          <span class="accordion-title">Why is the moon sometimes out during the day?</span>
+                                          <span class="icon" aria-hidden="true"></span>
+                                        </button>
+                                        <div class="accordion-content">
+                                          <p>
+                                            Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor
+                                            incididunt ut labore et dolore magna aliqua. Elementum sagittis vitae et leo duis ut.
+                                            Ut tortor pretium viverra suspendisse potenti.
+                                          </p>
+                                        </div>
+                                      </div>
+                                      <div class="accordion-item">
+                                        <button id="accordion-button-2" aria-expanded="false">
+                                          <span class="accordion-title">Why is the sky blue?</span>
+                                          <span class="icon" aria-hidden="true"></span>
+                                        </button>
+                                        <div class="accordion-content">
+                                          <p>
+                                            Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor
+                                            incididunt ut labore et dolore magna aliqua. Elementum sagittis vitae et leo duis ut.
+                                            Ut tortor pretium viverra suspendisse potenti.
+                                          </p>
+                                        </div>
+                                      </div>
+                                      <div class="accordion-item">
+                                        <button id="accordion-button-3" aria-expanded="false">
+                                          <span class="accordion-title">Will we ever discover aliens?</span>
+                                          <span class="icon" aria-hidden="true"></span>
+                                        </button>
+                                        <div class="accordion-content">
+                                          <p>
+                                            Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor
+                                            incididunt ut labore et dolore magna aliqua. Elementum sagittis vitae et leo duis ut.
+                                            Ut tortor pretium viverra suspendisse potenti.
+                                          </p>
+                                        </div>
+                                      </div>
+                                      <div class="accordion-item">
+                                        <button id="accordion-button-4" aria-expanded="false">
+                                          <span class="accordion-title">How much does the Earth weigh?</span>
+                                          <span class="icon" aria-hidden="true"></span>
+                                        </button>
+                                        <div class="accordion-content">
+                                          <p>
+                                            Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor
+                                            incididunt ut labore et dolore magna aliqua. Elementum sagittis vitae et leo duis ut.
+                                            Ut tortor pretium viverra suspendisse potenti.
+                                          </p>
+                                        </div>
+                                      </div>
+                                      <div class="accordion-item">
+                                        <button id="accordion-button-5" aria-expanded="false">
+                                          <span class="accordion-title">How do airplanes stay up?</span>
+                                          <span class="icon" aria-hidden="true"></span>
+                                        </button>
+                                        <div class="accordion-content">
+                                          <p>
+                                            Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor
+                                            incididunt ut labore et dolore magna aliqua. Elementum sagittis vitae et leo duis ut.
+                                            Ut tortor pretium viverra suspendisse potenti.
+                                          </p>
+                                        </div>
+                                      </div>
+                                    </div>
+                                  </div>
+                                  <div class="container pt-5">
+                                      <div class="row">
+                                          <div class="col-md-6 col-12 pt-2">
+                                            <img src="{{asset('image/whychooseus.png')}}" class="img-fluid" alt="">
+                                          </div>
+                                          <div class="col-md-6 col-12 pt-2 pt-md-5">
+                                            <h3 class="text-dark mt-md-5">
+                                                Launch Your Business with Incfile
+                                            </h3>
+                                            <p>No contracts. No surprises.
+                                                Only $0 + state fee to launch your business.</p>
+                                                <a class="hs-button" href="#" target="_blank" rel="noopener" aria-label="This link will open in a new tab.">
+                                                    <span>Get started</span>
+
+                                                </a>
+                                          </div>
+                                      </div>
+                                  </div>
+
+
 
 
     </div>
@@ -868,6 +1126,29 @@ $(function(){
         tabCycle = setInterval(tabChange, 5000);
     });
 });
+
+
+</script>
+
+
+<script>
+    const items = document.querySelectorAll('.accordion button');
+
+function toggleAccordion() {
+  const itemToggle = this.getAttribute('aria-expanded');
+
+  for (i = 0; i < items.length; i++) {
+    items[i].setAttribute('aria-expanded', 'false');
+  }
+
+  if (itemToggle == 'false') {
+    this.setAttribute('aria-expanded', 'true');
+  }
+}
+
+items.forEach((item) => item.addEventListener('click', toggleAccordion));
+
+
 
 
 </script>
