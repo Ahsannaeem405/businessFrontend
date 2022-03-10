@@ -58,6 +58,22 @@ Route::get('/register_page', function () {
     return view('register');
 });
 
+Route::prefix('admin')->group(function () {
+    Route::get('/index', function () {
+        return view('Admin_asstes.index');
+    });
+    Route::get('/slider', function () {
+        return view('Admin_asstes.slider');
+    });
+    Route::get('/navtab', function () {
+        return view('Admin_asstes.navtabs');
+    });
+
+    Route::get('/table', function () {
+        return view('Admin_asstes.table');
+    });
+
+});
 
 
 
