@@ -1,15 +1,103 @@
 @extends('layout.main')
-<link rel="stylesheet"
-    href="{{ asset('hs-fs/hub/3787982/hub_generated/module_assets/1628597401941/module_41218342583_Boxed_Content.css') }}">
+<style>
+    .accordion .accordion-item {
+  border-bottom: 1px solid #e5e5e5;
+}
+
+.accordion .accordion-item button[aria-expanded='true'] {
+  border-bottom: 1px solid #03b5d2;
+}
+
+.accordion button {
+  position: relative;
+  display: block;
+  text-align: left;
+  width: 100%;
+  padding: 1em 0;
+  color: #7288a2;
+  font-size: 1.15rem;
+  font-weight: 400;
+  border: none;
+  background: none;
+  outline: none;
+}
+
+.accordion button:hover,
+.accordion button:focus {
+  cursor: pointer;
+  color: #03b5d2;
+}
+
+.accordion button:hover::after,
+.accordion button:focus::after {
+  cursor: pointer;
+  color: #03b5d2;
+  border: 1px solid #03b5d2;
+}
+
+.accordion button .accordion-title {
+  padding: 1em 1.5em 1em 0;
+}
+
+.accordion button .icon {
+  display: inline-block;
+  position: absolute;
+  top: 18px;
+  right: 0;
+  width: 22px;
+  height: 22px;
+  border: 1px solid;
+  border-radius: 22px;
+}
+
+.accordion button .icon::before {
+  display: block;
+  position: absolute;
+  content: '';
+  top: 9px;
+  left: 5px;
+  width: 10px;
+  height: 2px;
+  background: currentColor;
+}
+.accordion button .icon::after {
+  display: block;
+  position: absolute;
+  content: '';
+  top: 5px;
+  left: 9px;
+  width: 2px;
+  height: 10px;
+  background: currentColor;
+}
+
+.accordion button[aria-expanded='true'] {
+  color: #03b5d2;
+}
+.accordion button[aria-expanded='true'] .icon::after {
+  width: 0;
+}
+.accordion button[aria-expanded='true'] + .accordion-content {
+  opacity: 1;
+  max-height: 9em;
+  transition: all 200ms linear;
+  will-change: opacity, max-height;
+}
+.accordion .accordion-content {
+  opacity: 0;
+  max-height: 0;
+  overflow: hidden;
+  transition: opacity 200ms linear, max-height 200ms linear;
+  will-change: opacity, max-height;
+}
+.accordion .accordion-content p {
+  font-size: 1rem;
+  font-weight: 300;
+  margin: 2em 0;
+}
 
 
-
-<link rel="stylesheet"
-    href="{{ asset('hs-fs/hub/3787982/hub_generated/module_assets/45526294337/1622430602926/module_45526294337_Help_File_My_Amendment.min.css') }}">
-<link rel="stylesheet"
-    href="{{ asset('hs-fs/hub/3787982/hub_generated/module_assets/48024845617/1622195496363/module_48024845617_Misc_Order_Form.min.css') }}">
-<link rel="stylesheet"
-    href="{{ asset('hs-fs/hub/3787982/hub_generated/module_assets/1643216358498/module_41351299817_Accordion.css') }}">
+</style>
 
 <style>
     .two-col_main-section {
@@ -1396,325 +1484,76 @@
                                                 </div>
                                                 <!--end row-->
                                             </div> --}}
-                                            <div class="row-fluid-wrapper row-depth-1 row-number-10 dnd-row">
-                                                <div class="row-fluid ">
-                                                    <div class="span12 widget-span widget-type-custom_widget dnd-module"
-                                                        style="" data-widget-type="custom_widget" data-x="0" data-w="12">
-                                                        <div id="hs_cos_wrapper_widget_1614260364663"
-                                                            class="hs_cos_wrapper hs_cos_wrapper_widget hs_cos_wrapper_type_module"
-                                                            style="" data-hs-cos-general-type="widget"
-                                                            data-hs-cos-type="module">
-                                                            <div id="widget_1614260364663"
-                                                                class=" acc_wrapper acc_mod_wrapper ic_widOutIcon  acc_allToggle">
-                                                                <div class="inner">
-
-
-
-
-                                                                    <div class="acc_item acc1">
-
-                                                                        <div class="acc_header trigger"
-                                                                            data-id="widget_1614260364663-whatbusinesschangescanbereportedinanarticlesofamendmentform1">
-                                                                            <div class="inner">
-
-                                                                                <div class="arr_icon first_pos">
-                                                                                    <svg width="32" height="32"
-                                                                                        xmlns="http://www.w3.org/2000/svg">
-                                                                                        <g fill="none" fill-rule="evenodd">
-                                                                                            <circle fill="#FEF6ED" cx="16"
-                                                                                                cy="16" r="16">
-                                                                                            </circle>
-                                                                                            <path
-                                                                                                d="M20.297 16.195l-.004.004a1 1 0 01-1.416.003l-2.379-2.379v7.179a.998.998 0 01-1.996 0v-7.179l-2.379 2.379a1 1 0 01-1.416-.003l-.004-.004a1 1 0 01.003-1.412l4.088-4.078a1 1 0 011.412 0l4.088 4.078a1 1 0 01.003 1.412z"
-                                                                                                fill="#0000FF"></path>
-                                                                                        </g>
-                                                                                    </svg>
-                                                                                </div>
-
-
-
-                                                                                <div class="title">
-                                                                                    <span>Lorem ipsum dolor sit amet.</span>
-                                                                                </div>
-
-                                                                            </div>
-                                                                        </div>
-
-                                                                        <div class="acc_body"
-                                                                            data-id="widget_1614260364663-whatbusinesschangescanbereportedinanarticlesofamendmentform1">
-                                                                            <div class="inner">
-                                                                                <p>Lorem ipsum dolor sit amet consectetur, adipisicing elit. Aliquam, nihil?</p>
-                                                                                <ul>
-                                                                                    <li>Lorem ipsum dolor sit amet.</li>
-                                                                                    <li>Lorem ipsum dolor sit amet.</li>
-                                                                                    <li>Lorem ipsum dolor sit amet.
-                                                                                    </li>
-                                                                                    <li>Lorem, ipsum dolor.
-                                                                                    </li>
-                                                                                    <li>Lorem, ipsum dolor.</li>
-                                                                                    <li>Lorem, ipsum dolor.
-                                                                                    </li>
-                                                                                </ul>
-                                                                                <p style="margin-bottom: 32px;">Lorem ipsum dolor sit amet consectetur adipisicing elit. Accusamus, deserunt?</p>
-
-
-                                                                            </div>
-                                                                        </div>
-                                                                    </div>
-
-                                                                    <div class="acc_item acc2">
-
-                                                                        <div class="acc_header trigger"
-                                                                            data-id="widget_1614260364663-whatinformationisrequiredtofileanarticlesofamendment2">
-                                                                            <div class="inner">
-
-                                                                                <div class="arr_icon first_pos">
-                                                                                    <svg width="32" height="32"
-                                                                                        xmlns="http://www.w3.org/2000/svg">
-                                                                                        <g fill="none" fill-rule="evenodd">
-                                                                                            <circle fill="#FEF6ED" cx="16"
-                                                                                                cy="16" r="16">
-                                                                                            </circle>
-                                                                                            <path
-                                                                                                d="M20.297 16.195l-.004.004a1 1 0 01-1.416.003l-2.379-2.379v7.179a.998.998 0 01-1.996 0v-7.179l-2.379 2.379a1 1 0 01-1.416-.003l-.004-.004a1 1 0 01.003-1.412l4.088-4.078a1 1 0 011.412 0l4.088 4.078a1 1 0 01.003 1.412z"
-                                                                                                fill="#0000FF"></path>
-                                                                                        </g>
-                                                                                    </svg>
-                                                                                </div>
-
-
-
-                                                                                <div class="title">
-                                                                                    <span>Lorem ipsum dolor sit amet.</span>
-                                                                                </div>
-
-                                                                            </div>
-                                                                        </div>
-
-                                                                        <div class="acc_body"
-                                                                            data-id="widget_1614260364663-whatinformationisrequiredtofileanarticlesofamendment2">
-                                                                            <div class="inner">
-                                                                                <p>Lorem ipsum dolor sit amet.</p>
-                                                                                <ul style="margin-bottom: 24px;">
-                                                                                    <li>Lorem ipsum dolor sit.</li>
-                                                                                    <li>Lorem ipsum dolor sit.</li>
-                                                                                    <li>Lorem ipsum dolor sit.</li>
-                                                                                    <li>Lorem ipsum dolor sit amet consectetur, adipisicing elit. Ratione nemo labore doloremque voluptates accusantium. Vel ullam laborum quisquam dolore at..</li>
-                                                                                </ul>
-
-
-                                                                            </div>
-                                                                        </div>
-                                                                    </div>
-
-                                                                    <div class="acc_item acc3">
-
-                                                                        <div class="acc_header trigger"
-                                                                            data-id="widget_1614260364663-whydoineedtofileanarticlesofamendment3">
-                                                                            <div class="inner">
-
-                                                                                <div class="arr_icon first_pos">
-                                                                                    <svg width="32" height="32"
-                                                                                        xmlns="http://www.w3.org/2000/svg">
-                                                                                        <g fill="none" fill-rule="evenodd">
-                                                                                            <circle fill="#FEF6ED" cx="16"
-                                                                                                cy="16" r="16">
-                                                                                            </circle>
-                                                                                            <path
-                                                                                                d="M20.297 16.195l-.004.004a1 1 0 01-1.416.003l-2.379-2.379v7.179a.998.998 0 01-1.996 0v-7.179l-2.379 2.379a1 1 0 01-1.416-.003l-.004-.004a1 1 0 01.003-1.412l4.088-4.078a1 1 0 011.412 0l4.088 4.078a1 1 0 01.003 1.412z"
-                                                                                                fill="#0000FF"></path>
-                                                                                        </g>
-                                                                                    </svg>
-                                                                                </div>
-
-
-
-                                                                                <div class="title">
-                                                                                    <span>Lorem ipsum dolor, sit amet consectetur adipisicing elit.</span>
-                                                                                </div>
-
-                                                                            </div>
-                                                                        </div>
-
-                                                                        <div class="acc_body"
-                                                                            data-id="widget_1614260364663-whydoineedtofileanarticlesofamendment3">
-                                                                            <div class="inner">
-                                                                                <p style="margin-bottom: 32px;">
-                                                                                   Lorem ipsum dolor sit amet consectetur, adipisicing elit. Aut minima culpa temporibus amet nemo reprehenderit et earum dolores nostrum ex.
-                                                                                </p>
-
-
-                                                                            </div>
-                                                                        </div>
-                                                                    </div>
-
-                                                                    <div class="acc_item acc4">
-
-                                                                        <div class="acc_header trigger"
-                                                                            data-id="widget_1614260364663-howdoisubmitmyarticlesofamendment4">
-                                                                            <div class="inner">
-
-                                                                                <div class="arr_icon first_pos">
-                                                                                    <svg width="32" height="32"
-                                                                                        xmlns="http://www.w3.org/2000/svg">
-                                                                                        <g fill="none" fill-rule="evenodd">
-                                                                                            <circle fill="#FEF6ED" cx="16"
-                                                                                                cy="16" r="16">
-                                                                                            </circle>
-                                                                                            <path
-                                                                                                d="M20.297 16.195l-.004.004a1 1 0 01-1.416.003l-2.379-2.379v7.179a.998.998 0 01-1.996 0v-7.179l-2.379 2.379a1 1 0 01-1.416-.003l-.004-.004a1 1 0 01.003-1.412l4.088-4.078a1 1 0 011.412 0l4.088 4.078a1 1 0 01.003 1.412z"
-                                                                                                fill="#0000FF"></path>
-                                                                                        </g>
-                                                                                    </svg>
-                                                                                </div>
-
-
-
-                                                                                <div class="title">
-                                                                                    <span>Lorem ipsum dolor sit amet.</span>
-                                                                                </div>
-
-                                                                            </div>
-                                                                        </div>
-
-                                                                        <div class="acc_body"
-                                                                            data-id="widget_1614260364663-howdoisubmitmyarticlesofamendment4">
-                                                                            <div class="inner">
-                                                                                <p style="margin-bottom: 32px;">Lorem ipsum dolor, sit amet consectetur adipisicing elit. Enim odio temporibus ducimus similique ipsum repudiandae ratione, ipsam laudantium accusamus suscipit.</p>
-
-
-                                                                            </div>
-                                                                        </div>
-                                                                    </div>
-
-                                                                    <div class="acc_item acc5">
-
-                                                                        <div class="acc_header trigger"
-                                                                            data-id="widget_1614260364663-howmuchdoesitcosttofilearticlesofamendment5">
-                                                                            <div class="inner">
-
-                                                                                <div class="arr_icon first_pos">
-                                                                                    <svg width="32" height="32"
-                                                                                        xmlns="http://www.w3.org/2000/svg">
-                                                                                        <g fill="none" fill-rule="evenodd">
-                                                                                            <circle fill="#FEF6ED" cx="16"
-                                                                                                cy="16" r="16">
-                                                                                            </circle>
-                                                                                            <path
-                                                                                                d="M20.297 16.195l-.004.004a1 1 0 01-1.416.003l-2.379-2.379v7.179a.998.998 0 01-1.996 0v-7.179l-2.379 2.379a1 1 0 01-1.416-.003l-.004-.004a1 1 0 01.003-1.412l4.088-4.078a1 1 0 011.412 0l4.088 4.078a1 1 0 01.003 1.412z"
-                                                                                                fill="#0000FF"></path>
-                                                                                        </g>
-                                                                                    </svg>
-                                                                                </div>
-
-
-
-                                                                                <div class="title">
-                                                                                    <span>Lorem ipsum dolor sit amet consectetur adipisicing elit. Perspiciatis, odit.</span>
-                                                                                </div>
-
-                                                                            </div>
-                                                                        </div>
-
-                                                                        <div class="acc_body"
-                                                                            data-id="widget_1614260364663-howmuchdoesitcosttofilearticlesofamendment5">
-                                                                            <div class="inner">
-                                                                                <p style="margin-bottom: 32px;">Lorem ipsum dolor sit amet consectetur adipisicing elit. Commodi accusamus quod fugiat adipisci, architecto delectus aliquam enim est consequatur?</p>
-
-
-                                                                            </div>
-                                                                        </div>
-                                                                    </div>
-
-                                                                    <div class="acc_item acc6">
-
-                                                                        <div class="acc_header trigger"
-                                                                            data-id="widget_1614260364663-howlongdoesittaketofilearticlesofamendment6">
-                                                                            <div class="inner">
-
-                                                                                <div class="arr_icon first_pos">
-                                                                                    <svg width="32" height="32"
-                                                                                        xmlns="http://www.w3.org/2000/svg">
-                                                                                        <g fill="none" fill-rule="evenodd">
-                                                                                            <circle fill="#FEF6ED" cx="16"
-                                                                                                cy="16" r="16">
-                                                                                            </circle>
-                                                                                            <path
-                                                                                                d="M20.297 16.195l-.004.004a1 1 0 01-1.416.003l-2.379-2.379v7.179a.998.998 0 01-1.996 0v-7.179l-2.379 2.379a1 1 0 01-1.416-.003l-.004-.004a1 1 0 01.003-1.412l4.088-4.078a1 1 0 011.412 0l4.088 4.078a1 1 0 01.003 1.412z"
-                                                                                                fill="#0000FF"></path>
-                                                                                        </g>
-                                                                                    </svg>
-                                                                                </div>
-
-
-
-                                                                                <div class="title">
-                                                                                    <span>Lorem ipsum dolor sit amet consectetur adipisicing elit. Veritatis, illum!</span>
-                                                                                </div>
-
-                                                                            </div>
-                                                                        </div>
-
-                                                                        <div class="acc_body"
-                                                                            data-id="widget_1614260364663-howlongdoesittaketofilearticlesofamendment6">
-                                                                            <div class="inner">
-                                                                                <p style="margin-bottom: 32px;">Lorem ipsum dolor sit amet consectetur adipisicing elit. Eos, quis?</p>
-
-
-                                                                            </div>
-                                                                        </div>
-                                                                    </div>
-
-                                                                    <div class="acc_item acc7">
-
-                                                                        <div class="acc_header trigger"
-                                                                            data-id="widget_1614260364663-whatwillireceivewhenthearticlesofamendmentarefiled7">
-                                                                            <div class="inner">
-
-                                                                                <div class="arr_icon first_pos">
-                                                                                    <svg width="32" height="32"
-                                                                                        xmlns="http://www.w3.org/2000/svg">
-                                                                                        <g fill="none" fill-rule="evenodd">
-                                                                                            <circle fill="#FEF6ED" cx="16"
-                                                                                                cy="16" r="16">
-                                                                                            </circle>
-                                                                                            <path
-                                                                                                d="M20.297 16.195l-.004.004a1 1 0 01-1.416.003l-2.379-2.379v7.179a.998.998 0 01-1.996 0v-7.179l-2.379 2.379a1 1 0 01-1.416-.003l-.004-.004a1 1 0 01.003-1.412l4.088-4.078a1 1 0 011.412 0l4.088 4.078a1 1 0 01.003 1.412z"
-                                                                                                fill="#0000FF"></path>
-                                                                                        </g>
-                                                                                    </svg>
-                                                                                </div>
-
-
-
-                                                                                <div class="title">
-                                                                                    <span>Lorem ipsum dolor sit, amet consectetur adipisicing elit. Ut, aliquam.</span>
-                                                                                </div>
-
-                                                                            </div>
-                                                                        </div>
-
-                                                                        <div class="acc_body"
-                                                                            data-id="widget_1614260364663-whatwillireceivewhenthearticlesofamendmentarefiled7">
-                                                                            <div class="inner">
-                                                                                <p style="margin-bottom: 32px;">Lorem ipsum dolor sit amet consectetur adipisicing elit. Nesciunt, incidunt..</p>
-
-
-                                                                            </div>
-                                                                        </div>
-                                                                    </div>
-
-                                                                </div>
-
-
-                                                            </div>
-                                                        </div>
-
+                                            <div class="container pl-md-5 pr-md-5">
+
+                                                <div class="accordion">
+                                                  <div class="accordion-item">
+                                                    <button id="accordion-button-1" aria-expanded="false">
+                                                      <span class="accordion-title">Why is the moon sometimes out during the day?</span>
+                                                      <span class="icon" aria-hidden="true"></span>
+                                                    </button>
+                                                    <div class="accordion-content">
+                                                      <p>
+                                                        Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor
+                                                        incididunt ut labore et dolore magna aliqua. Elementum sagittis vitae et leo duis ut.
+                                                        Ut tortor pretium viverra suspendisse potenti.
+                                                      </p>
                                                     </div>
-                                                    <!--end widget-span -->
+                                                  </div>
+                                                  <div class="accordion-item">
+                                                    <button id="accordion-button-2" aria-expanded="false">
+                                                      <span class="accordion-title">Why is the sky blue?</span>
+                                                      <span class="icon" aria-hidden="true"></span>
+                                                    </button>
+                                                    <div class="accordion-content">
+                                                      <p>
+                                                        Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor
+                                                        incididunt ut labore et dolore magna aliqua. Elementum sagittis vitae et leo duis ut.
+                                                        Ut tortor pretium viverra suspendisse potenti.
+                                                      </p>
+                                                    </div>
+                                                  </div>
+                                                  <div class="accordion-item">
+                                                    <button id="accordion-button-3" aria-expanded="false">
+                                                      <span class="accordion-title">Will we ever discover aliens?</span>
+                                                      <span class="icon" aria-hidden="true"></span>
+                                                    </button>
+                                                    <div class="accordion-content">
+                                                      <p>
+                                                        Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor
+                                                        incididunt ut labore et dolore magna aliqua. Elementum sagittis vitae et leo duis ut.
+                                                        Ut tortor pretium viverra suspendisse potenti.
+                                                      </p>
+                                                    </div>
+                                                  </div>
+                                                  <div class="accordion-item">
+                                                    <button id="accordion-button-4" aria-expanded="false">
+                                                      <span class="accordion-title">How much does the Earth weigh?</span>
+                                                      <span class="icon" aria-hidden="true"></span>
+                                                    </button>
+                                                    <div class="accordion-content">
+                                                      <p>
+                                                        Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor
+                                                        incididunt ut labore et dolore magna aliqua. Elementum sagittis vitae et leo duis ut.
+                                                        Ut tortor pretium viverra suspendisse potenti.
+                                                      </p>
+                                                    </div>
+                                                  </div>
+                                                  <div class="accordion-item">
+                                                    <button id="accordion-button-5" aria-expanded="false">
+                                                      <span class="accordion-title">How do airplanes stay up?</span>
+                                                      <span class="icon" aria-hidden="true"></span>
+                                                    </button>
+                                                    <div class="accordion-content">
+                                                      <p>
+                                                        Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor
+                                                        incididunt ut labore et dolore magna aliqua. Elementum sagittis vitae et leo duis ut.
+                                                        Ut tortor pretium viverra suspendisse potenti.
+                                                      </p>
+                                                    </div>
+                                                  </div>
                                                 </div>
-                                                <!--end row-->
-                                            </div>
+                                              </div>
                                             <!--end row-wrapper -->
 
                                             <div class="row-fluid-wrapper row-depth-1 row-number-8 dnd-row">
@@ -2712,7 +2551,27 @@ type specimen book.</p>
     </script>
 
 
+<script>
+    const items = document.querySelectorAll('.accordion button');
 
+function toggleAccordion() {
+  const itemToggle = this.getAttribute('aria-expanded');
+
+  for (i = 0; i < items.length; i++) {
+    items[i].setAttribute('aria-expanded', 'false');
+  }
+
+  if (itemToggle == 'false') {
+    this.setAttribute('aria-expanded', 'true');
+  }
+}
+
+items.forEach((item) => item.addEventListener('click', toggleAccordion));
+
+
+
+
+</script>
 
 
 @endsection
