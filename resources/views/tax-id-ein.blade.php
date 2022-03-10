@@ -2364,7 +2364,7 @@ type specimen book.</p>
 
 
 
-
+        <script defer src="{{ asset('hs/hsstatic/HubspotToolsMenu/static-1.119/js/index.js') }}"></script>
     <script
         src="{{asset('hs-fs/hub/3787982/hub_generated/module_assets/41143153380/1636114335499/module_41143153380_Button.min.js')}}">
     </script>
