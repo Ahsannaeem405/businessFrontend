@@ -72,6 +72,9 @@ Route::prefix('admin')->group(function () {
     Route::get('/table', function () {
         return view('Admin_asstes.table');
     });
+    Route::get('/card', function () {
+        return view('Admin_asstes.card');
+    });
 
 });
 

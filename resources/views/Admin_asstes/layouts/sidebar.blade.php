@@ -27,7 +27,7 @@
                     </li>
                     <li><a href="{{url('admin/table')}}"><i class="feather icon-circle"></i><span class="menu-item" data-i18n="Details">Table</span></a>
                     </li>
-                    <li><a href="{{url('#')}}"><i class="feather icon-circle"></i><span class="menu-item" data-i18n="Details">Cards</span></a>
+                    <li><a href="{{url('admin/card')}}"><i class="feather icon-circle"></i><span class="menu-item" data-i18n="Details">Cards</span></a>
                     </li>
                     <li><a href="{{url('#')}}"><i class="feather icon-circle"></i><span class="menu-item" data-i18n="Details">Image Div</span></a>
                     </li>
