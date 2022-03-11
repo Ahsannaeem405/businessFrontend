@@ -84,6 +84,27 @@ Route::prefix('admin')->group(function () {
     Route::get('/serviceworks', function () {
         return view('Admin_asstes.serviceworks');
     });
+    Route::get('/annual_def', function () {
+        return view('Admin_asstes.annual_def');
+    });
+    Route::get('/Formal', function () {
+        return view('Admin_asstes.Formal');
+    });
+    Route::get('/llc', function () {
+        return view('Admin_asstes.AnnualLLC');
+    });
+    Route::get('/File', function () {
+        return view('Admin_asstes.File');
+    });
+    Route::get('/duedate', function () {
+        return view('Admin_asstes.duedate');
+    });
+    Route::get('/Business&Financial', function () {
+        return view('Admin_asstes.Business&Financial');
+    });
+
+
+
 
 
 

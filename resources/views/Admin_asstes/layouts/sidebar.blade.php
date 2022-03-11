@@ -41,6 +41,38 @@
             </li>
 
 
+            <li class="nav-item has-sub"><a href="#"><i class="feather icon-airplay"></i><span class="menu-title" data-i18n="Ecommerce">Manage</span></a>
+                    <ul class="menu-content">
+                        <li class="nav-item has-sub"><a href="#"><i class="feather icon-airplay"></i><span class="menu-title" data-i18n="Ecommerce">Annual Report</span></a>
+                            <ul class="menu-content">
+
+                                <li><a href="{{url('admin/annual_def')}}"><i class="feather icon-circle"></i><span class="menu-item" data-i18n="Details">Annual Report Detail</span></a>
+                                </li>
+                                <li><a href="{{url('admin/Formal')}}"><i class="feather icon-circle"></i><span class="menu-item" data-i18n="Details">  Formal & Corporate </span></a>
+                                </li>
+                                <li><a href="{{url('admin/llc')}}"><i class="feather icon-circle"></i><span class="menu-item" data-i18n="Details"> Annual LLC </span></a>
+                                </li>
+                                <li><a href="{{url('admin/File')}}"><i class="feather icon-circle"></i><span class="menu-item" data-i18n="Details">How to File</span></a>
+                                </li>
+                                <li><a href="{{url('admin/duedate')}}"><i class="feather icon-circle"></i><span class="menu-item" data-i18n="Details">Due Dates</span></a>
+                                </li>
+                                <li><a href="{{url('admin/Business&Financial')}}"><i class="feather icon-circle"></i><span class="menu-item" data-i18n="Details">Business and Financial</span></a>
+                                </li>
+
+
+
+
+
+                            </ul>
+                    </li>
+
+
+
+
+                    </ul>
+            </li>
+
+
 
 
 
