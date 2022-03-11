@@ -10,7 +10,7 @@
         <div class="row">
             <div class="col-lg-12">
                 <button type="button" class="btn btn-primary" style="float: right;" data-toggle="modal" data-target="#exampleModal">
-                    Add Table
+                    Add Comparison Chart
                   </button>
             </div>
         </div>
@@ -27,7 +27,7 @@
             @endif
 
             <div class="card-header">
-                <h4>Table</h4>
+                <h4>Comparison Chart</h4>
             </div>
             <div class="card-content p-3">
                 {{-- <form action="#">
@@ -140,7 +140,7 @@
       <div class="modal-content">
 
         <div class="modal-header">
-          <h5 class="modal-title" id="exampleModalLabel">Add Table</h5>
+          <h5 class="modal-title" id="exampleModalLabel">Add Comparison Chart</h5>
           <button type="button" class="close" data-dismiss="modal" aria-label="Close">
             <span aria-hidden="true">&times;</span>
           </button>
@@ -199,7 +199,7 @@
         </div>
         <div class="modal-footer">
           {{-- <button type="button" class="btn btn-secondary" data-dismiss="modal">Close</button> --}}
-          <button type="submit" class="btn btn-primary">Add Table</button>
+          <button type="submit" class="btn btn-primary">Add Comparison Chart</button>
 
         </div>
     </form>

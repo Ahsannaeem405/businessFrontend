@@ -75,6 +75,17 @@ Route::prefix('admin')->group(function () {
     Route::get('/card', function () {
         return view('Admin_asstes.card');
     });
+    Route::get('/launch', function () {
+        return view('Admin_asstes.imagediv');
+    });
+    Route::get('/Corporations', function () {
+        return view('Admin_asstes.Corporations');
+    });
+    Route::get('/serviceworks', function () {
+        return view('Admin_asstes.serviceworks');
+    });
+
+
 
 });
 

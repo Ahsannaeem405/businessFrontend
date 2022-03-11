@@ -10,7 +10,7 @@
         <div class="row">
             <div class="col-lg-12">
                 <button type="button" class="btn btn-primary" style="float: right;" data-toggle="modal" data-target="#exampleModal">
-                    Add Card
+                    Add Business Entity
                   </button>
             </div>
         </div>
@@ -27,7 +27,7 @@
             @endif
 
             <div class="card-header">
-                <h4>Card</h4>
+                <h4>Business Entity</h4>
             </div>
             <div class="card-content p-3">
                 {{-- <form action="#">
@@ -130,7 +130,7 @@
       <div class="modal-content">
 
         <div class="modal-header">
-          <h5 class="modal-title" id="exampleModalLabel">Add Card</h5>
+          <h5 class="modal-title" id="exampleModalLabel">Add Business Entity</h5>
           <button type="button" class="close" data-dismiss="modal" aria-label="Close">
             <span aria-hidden="true">&times;</span>
           </button>
@@ -142,7 +142,7 @@
                 <div class="row p-3">
 
                    <div class="col-lg-12 col-12 mt-2">
-                       <label for=""><b>Card Image</b></label>
+                       <label for=""><b>Business Entity Image</b></label>
                        <input name="file1" type="file" class="dropify" data-height="100" required/>
                    </div>
                     <div class="col-lg-12 col-12 mt-2">
@@ -166,7 +166,7 @@
         </div>
         <div class="modal-footer">
           {{-- <button type="button" class="btn btn-secondary" data-dismiss="modal">Close</button> --}}
-          <button type="submit" class="btn btn-primary">Add Card</button>
+          <button type="submit" class="btn btn-primary">Add Business Entity</button>
 
         </div>
     </form>

@@ -10,7 +10,7 @@
         <div class="row">
             <div class="col-lg-12">
                 <button type="button" class="btn btn-primary" style="float: right;" data-toggle="modal" data-target="#exampleModal">
-                    Add Banner
+                    Add  ServiceWorks
                   </button>
             </div>
         </div>
@@ -27,7 +27,7 @@
             @endif
 
             <div class="card-header">
-                <h4>Banner</h4>
+                <h4> ServiceWorks</h4>
             </div>
             <div class="card-content p-3">
                 {{-- <form action="#">
@@ -54,8 +54,8 @@
                         <thead>
                             <tr>
                                 <th>No</th>
-                                <th>Image</th>
                                 <th>Heading</th>
+
 
 
                                 <th>Action</th>
@@ -72,7 +72,6 @@
                             @endphp --}}
                             <tr>
                                 <td>1</td>
-                                <td><img src="{{asset('image/avatar.png')}}" style="max-height:100px;" alt=""></td>
                                 <td>Demo</td>
                                 <td>
 
@@ -109,7 +108,6 @@
                         <tfoot>
                             <tr>
                                 <th>No</th>
-                                <th>Image</th>
                                 <th>Heading</th>
 
 
@@ -130,7 +128,7 @@
       <div class="modal-content">
 
         <div class="modal-header">
-          <h5 class="modal-title" id="exampleModalLabel">Add Banner</h5>
+          <h5 class="modal-title" id="exampleModalLabel">Add  ServiceWorks</h5>
           <button type="button" class="close" data-dismiss="modal" aria-label="Close">
             <span aria-hidden="true">&times;</span>
           </button>
@@ -141,27 +139,20 @@
 
                 <div class="row p-3">
 
-                   <div class="col-lg-12 col-12 mt-2">
-                       <label for=""><b>Banner Image</b></label>
-                       <input name="file1" type="file" class="dropify" data-height="100" required/>
-                   </div>
+
                     <div class="col-lg-12 col-12 mt-2">
                        <label><b>Heading</b></label><br>
                         <input type="text" class="form-control mt-1" name="heading1"  required>
                     </div>
-                    <div class="col-lg-12 col-12 mt-2">
-                        <label><b>Sub Heading</b></label><br>
-                         <textarea name="text1" id="" cols="5" class="form-control" required></textarea>
-                     </div>
 
                      <div class="col-lg-12 col-12 mt-2">
-                        <label><b>Button text</b></label><br>
-                         <input type="text" class="form-control mt-1" name="heading2" required>
-                     </div>
-                     <div class="col-lg-12 col-12 mt-2">
-                         <label><b>Button Link</b></label><br>
+                         <label><b>Detail</b></label><br>
                           <textarea name="text2" id="" cols="5" class="form-control" required></textarea>
                       </div>
+                      <div class="col-lg-12 col-12 mt-2">
+                        <label><b>Video Link</b></label><br>
+                        <input type="text" name="link" class="form-control">
+                     </div>
 
 
 
@@ -172,7 +163,7 @@
         </div>
         <div class="modal-footer">
           {{-- <button type="button" class="btn btn-secondary" data-dismiss="modal">Close</button> --}}
-          <button type="submit" class="btn btn-primary">Add Banner</button>
+          <button type="submit" class="btn btn-primary">Add  ServiceWorks</button>
 
         </div>
     </form>

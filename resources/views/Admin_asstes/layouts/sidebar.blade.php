@@ -21,17 +21,19 @@
             </li>
             <li class="nav-item has-sub"><a href="#"><i class="feather icon-airplay"></i><span class="menu-title" data-i18n="Ecommerce">Home</span></a>
                 <ul class="menu-content">
-                    <li><a href="{{url('admin/slider')}}"><i class="feather icon-circle"></i><span class="menu-item" data-i18n="Details">Slider</span></a>
+                    <li><a href="{{url('admin/slider')}}"><i class="feather icon-circle"></i><span class="menu-item" data-i18n="Details">Banner</span></a>
                     </li>
-                    <li><a href="{{url('admin/navtab')}}"><i class="feather icon-circle"></i><span class="menu-item" data-i18n="Shop">Nav Tabs</span></a>
+                    <li><a href="{{url('admin/navtab')}}"><i class="feather icon-circle"></i><span class="menu-item" data-i18n="Shop">Corporate Structures</span></a>
                     </li>
-                    <li><a href="{{url('admin/table')}}"><i class="feather icon-circle"></i><span class="menu-item" data-i18n="Details">Table</span></a>
+                    <li><a href="{{url('admin/table')}}"><i class="feather icon-circle"></i><span class="menu-item" data-i18n="Details">Comparison Chart</span></a>
                     </li>
-                    <li><a href="{{url('admin/card')}}"><i class="feather icon-circle"></i><span class="menu-item" data-i18n="Details">Cards</span></a>
+                    <li><a href="{{url('admin/card')}}"><i class="feather icon-circle"></i><span class="menu-item" data-i18n="Details">Business Entity</span></a>
                     </li>
-                    <li><a href="{{url('#')}}"><i class="feather icon-circle"></i><span class="menu-item" data-i18n="Details">Image Div</span></a>
+                    <li><a href="{{url('admin/launch')}}"><i class="feather icon-circle"></i><span class="menu-item" data-i18n="Details">Launch Business</span></a>
                     </li>
-                    <li><a href="{{url('#')}}"><i class="feather icon-circle"></i><span class="menu-item" data-i18n="Details">Form Div</span></a>
+                    <li><a href="{{url('admin/Corporations')}}"><i class="feather icon-circle"></i><span class="menu-item" data-i18n="Details">Types of Corporations</span></a>
+                    </li>
+                    <li><a href="{{url('admin/serviceworks')}}"><i class="feather icon-circle"></i><span class="menu-item" data-i18n="Details">Service Works</span></a>
                     </li>
 
 
