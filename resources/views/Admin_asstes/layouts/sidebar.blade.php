@@ -107,7 +107,8 @@
                         <li><a href="{{url('admin/HelpFile_amendment')}}"><i class="feather icon-circle"></i><span class="menu-item" data-i18n="Details">Help File</span></a>
                         </li>
 
-
+                        <li><a href="{{url('admin/faq_amendment')}}"><i class="feather icon-circle"></i><span class="menu-item" data-i18n="Details">FAQ</span></a>
+                        </li>
 
 
 

@@ -137,7 +137,9 @@ Route::prefix('admin')->group(function () {
     Route::get('/HelpFile_amendment', function () {
         return view('Admin_asstes.HelpFile_amendment');
     });
-
+    Route::get('/faq_amendment', function () {
+        return view('Admin_asstes.faq_amendment');
+    });
 
 
 
