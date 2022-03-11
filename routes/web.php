@@ -140,6 +140,22 @@ Route::prefix('admin')->group(function () {
     Route::get('/faq_amendment', function () {
         return view('Admin_asstes.faq_amendment');
     });
+    Route::get('/desc_disolution', function () {
+        return view('Admin_asstes.desc_disolution');
+    });
+    Route::get('/CloseLLC', function () {
+        return view('Admin_asstes.CloseLLC');
+    });
+    Route::get('/step_dissolving', function () {
+        return view('Admin_asstes.step_dissolving');
+    });
+    Route::get('/requirement_dissolution', function () {
+        return view('Admin_asstes.requirement_dissolution');
+    });
+    Route::get('/faq_dissolution', function () {
+        return view('Admin_asstes.faq_dissolution');
+    });
+
 
 
 

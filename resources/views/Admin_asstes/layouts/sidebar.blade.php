@@ -116,6 +116,32 @@
                     </ul>
             </li>
 
+            <li class="nav-item has-sub"><a href="#"><i class="feather icon-airplay"></i><span class="menu-title" data-i18n="Ecommerce">Dissolution</span></a>
+                <ul class="menu-content">
+
+                    <li><a href="{{url('admin/desc_disolution')}}"><i class="feather icon-circle"></i><span class="menu-item" data-i18n="Details">Dissolution Description</span></a>
+                    </li>
+                    <li><a href="{{url('admin/CloseLLC')}}"><i class="feather icon-circle"></i><span class="menu-item" data-i18n="Details">Close an LLC</span></a>
+                    </li>
+                    <li><a href="{{url('admin/step_dissolving')}}"><i class="feather icon-circle"></i><span class="menu-item" data-i18n="Details">Steps to Dissolving</span></a>
+                    </li>
+                    <li><a href="{{url('admin/requirement_dissolution')}}"><i class="feather icon-circle"></i><span class="menu-item" data-i18n="Details">Requirements</span></a>
+                    </li>
+
+                    <li><a href="{{url('admin/faq_dissolution')}}"><i class="feather icon-circle"></i><span class="menu-item" data-i18n="Details">FAQ</span></a>
+                    </li>
+
+
+
+
+
+
+
+                </ul>
+        </li>
+
+
+
 
 
                     </ul>
