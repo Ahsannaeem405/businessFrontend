@@ -37,6 +37,7 @@
                     </li>
 
 
+
                                    </ul>
             </li>
 
@@ -58,6 +59,12 @@
                                 </li>
                                 <li><a href="{{url('admin/Business&Financial')}}"><i class="feather icon-circle"></i><span class="menu-item" data-i18n="Details">Business and Financial</span></a>
                                 </li>
+                                <li><a href="{{url('admin/OtherBusinessReports')}}"><i class="feather icon-circle"></i><span class="menu-item" data-i18n="Details">Other Business Reports</span></a>
+                                </li>
+                                <li><a href="{{url('admin/HelpFile')}}"><i class="feather icon-circle"></i><span class="menu-item" data-i18n="Details">HelpFile</span></a>
+                                </li>
+
+
 
 
 
@@ -65,7 +72,48 @@
 
                             </ul>
                     </li>
+                    <li class="nav-item has-sub"><a href="#"><i class="feather icon-airplay"></i><span class="menu-title" data-i18n="Ecommerce">Tax</span></a>
+                        <ul class="menu-content">
 
+                            <li><a href="{{url('admin/tax_description')}}"><i class="feather icon-circle"></i><span class="menu-item" data-i18n="Details">Tax Description</span></a>
+                            </li>
+                            <li><a href="{{url('admin/Employer')}}"><i class="feather icon-circle"></i><span class="menu-item" data-i18n="Details">Employer Identification</span></a>
+                            </li>
+                            <li><a href="{{url('admin/FederalEIN')}}"><i class="feather icon-circle"></i><span class="menu-item" data-i18n="Details">Federal EIN</span></a>
+                            </li>
+                            <li><a href="{{url('admin/UseanEIN')}}"><i class="feather icon-circle"></i><span class="menu-item" data-i18n="Details">Use an EIN</span></a>
+                            </li>
+                            <li><a href="{{url('admin/ObtainEIN')}}"><i class="feather icon-circle"></i><span class="menu-item" data-i18n="Details"> Obtain a EIN</span></a>
+                            </li>
+                            <li><a href="{{url('admin/taxfaq')}}"><i class="feather icon-circle"></i><span class="menu-item" data-i18n="Details">FAQ</span></a>
+                            </li>
+                            <li><a href="{{url('admin/tax_card')}}"><i class="feather icon-circle"></i><span class="menu-item" data-i18n="Details">Bussiness Entity</span></a>
+                            </li>
+
+
+
+
+
+
+
+                        </ul>
+                </li>
+
+                <li class="nav-item has-sub"><a href="#"><i class="feather icon-airplay"></i><span class="menu-title" data-i18n="Ecommerce">Amendment</span></a>
+                    <ul class="menu-content">
+
+                        <li><a href="{{url('admin/ChangeLLC')}}"><i class="feather icon-circle"></i><span class="menu-item" data-i18n="Details">Change your LLC </span></a>
+                        </li>
+                        <li><a href="{{url('admin/HelpFile_amendment')}}"><i class="feather icon-circle"></i><span class="menu-item" data-i18n="Details">Help File</span></a>
+                        </li>
+
+
+
+
+
+
+                    </ul>
+            </li>
 
 
 

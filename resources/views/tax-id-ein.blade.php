@@ -983,25 +983,7 @@
 
 
 
-                                                                                    <a href="https://orders.incfile.com/ein-form.php"
-                                                                                        class="button-link btn_widthauto"
-                                                                                        target="_blank">
 
-                                                                                        <div
-                                                                                            class="text__Arrow-z6idrg-2 iCMTqb">
-                                                                                            <svg width="12" height="11"
-                                                                                                xmlns="http://www.w3.org/2000/svg">
-                                                                                                <path
-                                                                                                    d="M5.805.703L5.8.707a1 1 0 00-.003 1.416l2.379 2.379H.998a.998.998 0 000 1.996h7.179L5.798 8.877a1 1 0 00.003 1.416l.004.004a1 1 0 001.412-.003l4.078-4.088a1 1 0 000-1.412L7.217.706A1 1 0 005.805.703z"
-                                                                                                    fill="#1D1D1D"
-                                                                                                    fill-rule="nonzero">
-                                                                                                </path>
-                                                                                            </svg>
-                                                                                        </div>
-
-                                                                                        <span>Apply for an Lorem Ipsum?</span>
-
-                                                                                    </a>
 
                                                                                 </div>
 
@@ -1556,36 +1538,7 @@
                                               </div>
                                             <!--end row-wrapper -->
 
-                                            <div class="row-fluid-wrapper row-depth-1 row-number-8 dnd-row">
-                                                <div class="row-fluid ">
-                                                    <div class="span12 widget-span widget-type-custom_widget dnd-module widget_1614256647308-padding"
-                                                        style="" data-widget-type="custom_widget" data-x="0"
-                                                        data-w="12">
-                                                        <div id="hs_cos_wrapper_widget_1614256647308"
-                                                            class="hs_cos_wrapper hs_cos_wrapper_widget hs_cos_wrapper_type_module widget-type-rich_text"
-                                                            style="" data-hs-cos-general-type="widget"
-                                                            data-hs-cos-type="module"><span
-                                                                id="hs_cos_wrapper_widget_1614256647308_"
-                                                                class="hs_cos_wrapper hs_cos_wrapper_widget hs_cos_wrapper_type_rich_text"
-                                                                style="" data-hs-cos-general-type="widget"
-                                                                data-hs-cos-type="rich_text">
-                                                                <h3 style="text-align: center; margin-bottom: 24px;">
-                                                                    Lorem Ipsum is simply dummy text of the printing and
-                                                                    typesetting industry.</h3>
-                                                                <p
-                                                                    style="text-align: center; margin-bottom: 48px; max-width: 770px; margin-left: auto; margin-right: auto;">
-                                                                    Lorem Ipsum is simply dummy text of the printing and
-typesetting industry. Lorem Ipsum has been the industry's
-standard dummy text ever since the 1500s, when an unknown
-printer took a galley of type and scrambled it to make a
-type specimen book.</p>
-                                                            </span></div>
 
-                                                    </div>
-                                                    <!--end widget-span -->
-                                                </div>
-                                                <!--end row-->
-                                            </div>
                                             <!--end row-wrapper -->
                                             <div class="row-fluid-wrapper row-depth-1 row-number-5 dnd-row">
                                                 <div class="row-fluid ">

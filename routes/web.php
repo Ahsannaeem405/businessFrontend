@@ -102,6 +102,45 @@ Route::prefix('admin')->group(function () {
     Route::get('/Business&Financial', function () {
         return view('Admin_asstes.Business&Financial');
     });
+    Route::get('/OtherBusinessReports', function () {
+        return view('Admin_asstes.OtherBusinessReports');
+    });
+    Route::get('/HelpFile', function () {
+        return view('Admin_asstes.HelpFile');
+    });
+    Route::get('/tax_description', function () {
+        return view('Admin_asstes.tax_description');
+    });
+    Route::get('/Employer', function () {
+        return view('Admin_asstes.Employer');
+    });
+    Route::get('/FederalEIN', function () {
+        return view('Admin_asstes.FederalEIN');
+    });
+
+    Route::get('/UseanEIN', function () {
+        return view('Admin_asstes.UseanEIN');
+    });
+
+    Route::get('/ObtainEIN', function () {
+        return view('Admin_asstes.ObtainEIN');
+    });
+    Route::get('/taxfaq', function () {
+        return view('Admin_asstes.taxfaq');
+    });
+    Route::get('/tax_card', function () {
+        return view('Admin_asstes.tax_card');
+    });
+    Route::get('/ChangeLLC', function () {
+        return view('Admin_asstes.ChangeLLC');
+    });
+    Route::get('/HelpFile_amendment', function () {
+        return view('Admin_asstes.HelpFile_amendment');
+    });
+
+
+
+
 
 
 
