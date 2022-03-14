@@ -72,9 +72,15 @@ class DatabaseSeeder extends Seeder
         //     'button_link'=>'#',
 
         // ]);
-        DB::table('corporations')->insert([
-            'heading' =>'lorem',
-            'text' => 'Lorem Ipsum is simply dummy text of the printing and typesetting industry.',
+        // DB::table('corporations')->insert([
+        //     'heading' =>'lorem',
+        //     'text' => 'Lorem Ipsum is simply dummy text of the printing and typesetting industry.',
+
+
+        // ]);
+        DB::table('logos')->insert([
+            'image' =>'logo.png',
+
 
 
         ]);

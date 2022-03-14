@@ -19,6 +19,17 @@
             </li>
             <li class="{{ Request::is('adminn')? 'active' : '' }}"><a href="{{url('admin/index')}}"><i class="feather icon-home"></i><span class="menu-title" data-i18n="Dashboard">Dashboard</span></a>
             </li>
+            <li class="nav-item has-sub"><a href="#"><i class="feather icon-airplay"></i><span class="menu-title" data-i18n="Ecommerce">Logo</span></a>
+                <ul class="menu-content">
+                    <li><a href="{{url('admin/logo')}}"><i class="feather icon-circle"></i><span class="menu-item" data-i18n="Details">Logo</span></a>
+                    </li>
+
+
+
+
+                                   </ul>
+            </li>
+
             <li class="nav-item has-sub"><a href="#"><i class="feather icon-airplay"></i><span class="menu-title" data-i18n="Ecommerce">Home</span></a>
                 <ul class="menu-content">
                     <li><a href="{{url('admin/slider')}}"><i class="feather icon-circle"></i><span class="menu-item" data-i18n="Details">Banner</span></a>

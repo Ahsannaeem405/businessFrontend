@@ -7,6 +7,8 @@ use App\Models\Banner;
 use App\Models\Home_card;
 use App\Models\Launch_bussiness;
 use App\Models\Corporation;
+use App\Models\Logo;
+
 
 
 
@@ -121,5 +123,27 @@ $header->text=$request->text;
 $header->save();
 return back()->with('success','Successfully Updated');
 
+    }
+    function logo(){
+        $headers=Logo::all();
+        return view('Admin_asstes.logo' ,compact('headers'));
+    }
+    function edit_logo($id){
+        $header=Logo::find($id);
+        return view('Admin_asstes.edit_logo',compact('header'));
+    }
+    function update_logo(Request $request){
+        $header=Logo::find($request->id);
+        if($request->hasFile('file'))
+        {
+        $file=$request->file('file');
+        $extension=$request->file->extension();
+        $fileName=rand(11111,99999)."_.".$extension;
+        $request->file->move('Upload/logo/',$fileName);
+        $header->image =$fileName;
+        }
+
+        $header->save();
+return back()->with('success','Successfully Updated');
     }
 }

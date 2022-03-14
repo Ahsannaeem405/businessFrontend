@@ -26,6 +26,8 @@ Route::get('/dissolution',[FrontController::class,'dissolution']);
 Route::get('/certificate',[FrontController::class,'certificate']);
 Route::get('/corporation',[FrontController::class,'corporation']);
 Route::get('/llc-state-information',[FrontController::class,'llc_state_information']);
+Route::get('/coperate',[FrontController::class,'coperate']);
+Route::get('/llc',[FrontController::class,'llc']);
 
 
 
@@ -45,12 +47,9 @@ Route::get('/llc-state-information',[FrontController::class,'llc_state_informati
 
 
 
-Route::get('/coperate', function () {
-    return view('coperate2');
-});
-Route::get('/llc', function () {
-    return view('llc2');
-});
+
+
+
 Route::get('/login_page', function () {
     return view('login');
 });
@@ -74,6 +73,9 @@ Route::prefix('admin')->group(function () {
     Route::get('Corporations',[AdminController::class,'Corporations']);
     Route::get('edit_corp/{id}',[AdminController::class,'edit_corp']);
     Route::post('/update_corp',[AdminController::class,'update_corp']);
+    Route::get('/logo',[AdminController::class,'logo']);
+    Route::get('/edit_logo/{id}',[AdminController::class,'edit_logo']);
+    Route::post('update_logo',[AdminController::class,'update_logo']);
 
 
 
