@@ -1030,7 +1030,8 @@
                                     class="hs_cos_wrapper hs_cos_wrapper_widget hs_cos_wrapper_type_rich_text" style=""
                                     data-hs-cos-general-type="widget" data-hs-cos-type="rich_text">
                                     <img src="{{asset('Upload/logo/'.$logo->image)}}"
-                                        width="80" alt=""></span></div>
+                                        width="80" alt=""></span>
+                                    </div>
                         </div>
                         <div class="footer-news-form">
 

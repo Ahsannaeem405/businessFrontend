@@ -52,6 +52,7 @@ Route::get('/llc',[FrontController::class,'llc']);
 
 Route::get('/login_page', function () {
     return view('login');
+
 });
 Route::get('/register_page', function () {
     return view('register');
