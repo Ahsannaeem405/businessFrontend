@@ -8,11 +8,11 @@
 @section('content')
 
         <div class="row">
-            <div class="col-lg-12">
+            {{-- <div class="col-lg-12">
                 <button type="button" class="btn btn-primary" style="float: right;" data-toggle="modal" data-target="#exampleModal">
                     Add Banner
                   </button>
-            </div>
+            </div> --}}
         </div>
         <div class="card mt-2">
             @if (session()->has('success'))
@@ -63,29 +63,29 @@
                             </tr>
                         </thead>
                         <tbody>
-                            {{-- @php
+                            @php
                                 $x=0;
                             @endphp
-                            @foreach ($abouts as $header)
+                            @foreach ($banners as $header)
                             @php
                                 $x++;
-                            @endphp --}}
+                            @endphp
                             <tr>
-                                <td>1</td>
-                                <td><img src="{{asset('image/avatar.png')}}" style="max-height:100px;" alt=""></td>
-                                <td>Demo</td>
+                                <td>{{$x}}</td>
+                                <td><img src="{{asset('Upload/header/'.$header->image)}}" style="max-height:100px;" alt=""></td>
+                                <td>{{$header->heading}}</td>
                                 <td>
 
 
-                                    <a href="{{url('#')}}"  class="btn btn-primary ml-lg-1 ml-md-1 mt-1">Edit</a>
+                                    <a href="{{url('admin/editheader/'.$header->id)}}"  class="btn btn-primary ml-lg-1 ml-md-1 mt-1">Edit</a>
 
-                                    <a href="{{url('#')}}" class="btn btn-danger ml-lg-1 ml-md-1 mt-1">Delete</a>
+                                    {{-- <a href="{{url('#')}}" class="btn btn-danger ml-lg-1 ml-md-1 mt-1">Delete</a> --}}
 
 
                                 </td>
                             </tr>
-{{--
-                            @endforeach --}}
+
+                             @endforeach
 
 
 

@@ -1,6 +1,9 @@
 <?php
 
 use Illuminate\Support\Facades\Route;
+use App\Http\Controllers\AdminController;
+use App\Http\Controllers\FrontController;
+
 
 /*
 |--------------------------------------------------------------------------
@@ -13,9 +16,7 @@ use Illuminate\Support\Facades\Route;
 |
 */
 
-Route::get('/', function () {
-    return view('business-entity-comparison');
-});
+Route::get('/',[FrontController::class,'home']);
 Route::get('/state', function () {
     return view('state-filing-fees');
 });
@@ -62,9 +63,9 @@ Route::prefix('admin')->group(function () {
     Route::get('/index', function () {
         return view('Admin_asstes.index');
     });
-    Route::get('/slider', function () {
-        return view('Admin_asstes.slider');
-    });
+    Route::get('/slider',[AdminController::class,'slider']);
+    Route::get('/editheader/{id}',[AdminController::class,'edit_header']);
+    Route::post('/update_header',[AdminController::class,'update_header']);
     Route::get('/navtab', function () {
         return view('Admin_asstes.navtabs');
     });
