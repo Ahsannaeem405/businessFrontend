@@ -17,35 +17,34 @@ use App\Http\Controllers\FrontController;
 */
 
 Route::get('/',[FrontController::class,'home']);
-Route::get('/state', function () {
-    return view('state-filing-fees');
-});
-Route::get('/annual', function () {
-    return view('annual-report');
-});
-Route::get('/tax', function () {
-    return view('tax-id-ein');
-});
-Route::get('/why_chose', function () {
-    return view('why-choose');
-});
+Route::get('/state',[FrontController::class,'state']);
+Route::get('/annual',[FrontController::class,'annual']);
+Route::get('/tax',[FrontController::class,'tax']);
+Route::get('/why_chose',[FrontController::class,'why_chose']);
+Route::get('/amendment',[FrontController::class,'amendment']);
+Route::get('/dissolution',[FrontController::class,'dissolution']);
+Route::get('/certificate',[FrontController::class,'certificate']);
+Route::get('/corporation',[FrontController::class,'corporation']);
+Route::get('/llc-state-information',[FrontController::class,'llc_state_information']);
 
-Route::get('/amendment', function () {
-    return view('amendment');
-});
 
-Route::get('/dissolution', function () {
-    return view('dissolution');
-});
-Route::get('/certificate', function () {
-    return view('certificate-of-good-standing');
-});
-Route::get('/corporation', function () {
-    return view('corporation-state-information');
-});
-Route::get('/llc-state-information', function () {
-    return view('llc-state-information');
-});
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 Route::get('/coperate', function () {
     return view('coperate2');
 });
