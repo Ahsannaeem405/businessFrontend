@@ -4,12 +4,14 @@ namespace App\Http\Controllers;
 
 use Illuminate\Http\Request;
 use App\Models\Banner;
+use App\Models\Home_card;
 
 class FrontController extends Controller
 {
     function home(){
         $banners=Banner::all();
-        return view('business-entity-comparison',compact('banners'));
+        $cards=Home_card::all();
+        return view('business-entity-comparison',compact('banners','cards'));
 
     }
     function state(){

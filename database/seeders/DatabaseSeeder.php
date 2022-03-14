@@ -15,28 +15,52 @@ class DatabaseSeeder extends Seeder
     public function run()
     {
         // \App\Models\User::factory(10)->create();
-        DB::table('banners')->insert([
-            'image' =>'1.jpg',
-            'heading' =>'Welcome to LOREM IPSUM',
-            'sub_heading'=>'Risk-taking is the cornerstone of empires.',
-            'button_name'=>'Get Started',
-            'button_link'=>'#',
+        // DB::table('banners')->insert([
+        //     'image' =>'1.jpg',
+        //     'heading' =>'Welcome to LOREM IPSUM',
+        //     'sub_heading'=>'Risk-taking is the cornerstone of empires.',
+        //     'button_name'=>'Get Started',
+        //     'button_link'=>'#',
+
+        // ]);
+        // DB::table('banners')->insert([
+        //     'image' =>'2.jpg',
+        //     'heading' =>'Welcome to LOREM IPSUM',
+        //     'sub_heading'=>'Risk-taking is the cornerstone of empires.',
+        //     'button_name'=>'Get Started',
+        //     'button_link'=>'#',
+
+        // ]);
+        // DB::table('banners')->insert([
+        //     'image' =>'3.jpg',
+        //     'heading' =>'Welcome to LOREM IPSUM',
+        //     'sub_heading'=>'Risk-taking is the cornerstone of empires.',
+        //     'button_name'=>'Get Started',
+        //     'button_link'=>'#',
+
+        // ]);
+        DB::table('home_cards')->insert([
+            'image' =>'1.png',
+            'heading' =>'LLC',
+            'link'=>'#',
 
         ]);
-        DB::table('banners')->insert([
-            'image' =>'2.jpg',
-            'heading' =>'Welcome to LOREM IPSUM',
-            'sub_heading'=>'Risk-taking is the cornerstone of empires.',
-            'button_name'=>'Get Started',
-            'button_link'=>'#',
+        DB::table('home_cards')->insert([
+            'image' =>'1.png',
+            'heading' =>'LLC',
+            'link'=>'#',
 
         ]);
-        DB::table('banners')->insert([
-            'image' =>'3.jpg',
-            'heading' =>'Welcome to LOREM IPSUM',
-            'sub_heading'=>'Risk-taking is the cornerstone of empires.',
-            'button_name'=>'Get Started',
-            'button_link'=>'#',
+        DB::table('home_cards')->insert([
+            'image' =>'1.png',
+            'heading' =>'LLC',
+            'link'=>'#',
+
+        ]);
+        DB::table('home_cards')->insert([
+            'image' =>'1.png',
+            'heading' =>'LLC',
+            'link'=>'#',
 
         ]);
     }

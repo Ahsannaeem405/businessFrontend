@@ -1854,38 +1854,24 @@ transform: rotate(0deg);
                                                                 <div class="curve__Wrapper">
                                                                     <svg width="29" height="25" xmlns="http://www.w3.org/2000/svg"><path d="M29 1.389c0 .746-.599 1.349-1.354 1.384a26.869 26.869 0 00-12.317 3.66C8.575 10.388 4.231 16.836 2.785 23.885A1.4 1.4 0 011.408 25c-.89 0-1.556-.806-1.38-1.666 1.599-7.79 6.398-14.916 13.863-19.286A29.704 29.704 0 0127.54.002C28.337-.036 29 .602 29 1.387v.002z" fill="#FD8550" fill-rule="evenodd"></path></svg>
                                                                 </div>
-
-
+                                                                @foreach ($cards as $card )
                                                                 <div class="get-started-right-business-features-item">
 
 
 
 
 
-                                                                    <a href="#">
-                                                                        {{-- <div class="get-started-right-business-features-card">
-                                                                            <div class="icon-and-title-column">
+                                                                    <a href="{{$card->link}}">
 
-                                                                                <div class="boxed__ImageWrapper" style="background-color: rgba(238, 249, 254,1.0);">
-
-                                                                                    <img src="hubfs/Incfile_February_2021/images/cert-llc-232.png" alt="LLC" loading="lazy">
-                                                                                </div>
-
-                                                                                <span class="boxed__Imagetitle">LLC</span>
-                                                                            </div>
-                                                                            <span class="circle__IconWrapper">
-        <svg width="12" height="11" xmlns="http://www.w3.org/2000/svg"><path d="M5.805.703L5.8.707a1 1 0 00-.003 1.416l2.379 2.379H.998a.998.998 0 000 1.996h7.179L5.798 8.877a1 1 0 00.003 1.416l.004.004a1 1 0 001.412-.003l4.078-4.088a1 1 0 000-1.412L7.217.706A1 1 0 005.805.703z" fill="#1D1D1D" fill-rule="nonzero"></path></svg>
-      </span>
-                                                                        </div> --}}
                                                                         <div class="card pt-3 text-center" style="width:100%;">
 
 
 
-                                                                            <img class="card-img-top" src="{{asset('hubfs/Incfile_February_2021/images/cert-llc-232.png')}}" style="width: 30%;"  alt="Card image cap">
+                                                                            <img class="card-img-top" src="{{asset('Upload/cards/'.$card->image)}}" style="width: 30%;"  alt="Card image cap">
 
                                                                             <div class="card-body">
                                                                                 <div class="d-flex justify-content-between">
-                                                                                    <h5 class="card-title">LLC</h5>
+                                                                                    <h5 class="card-title">{{$card->heading}}</h5>
 
                                                                                     <a href="#" class="float-right"> <span class="circle__IconWrapper">
                                                                                       <svg width="12" height="11" xmlns="http://www.w3.org/2000/svg"><path d="M5.805.703L5.8.707a1 1 0 00-.003 1.416l2.379 2.379H.998a.998.998 0 000 1.996h7.179L5.798 8.877a1 1 0 00.003 1.416l.004.004a1 1 0 001.412-.003l4.078-4.088a1 1 0 000-1.412L7.217.706A1 1 0 005.805.703z" fill="#1D1D1D" fill-rule="nonzero"></path></svg>
@@ -1896,10 +1882,13 @@ transform: rotate(0deg);
                                                                           </div>
                                                                     </a>
                                                                 </div>
+                                                                @endforeach
 
 
 
-                                                                <div class="get-started-right-business-features-item">
+
+
+                                                                {{-- <div class="get-started-right-business-features-item">
 
 
 
@@ -1908,20 +1897,7 @@ transform: rotate(0deg);
 
 
                                                                     <a href="#" target="_blank" rel="noopener">
-                                                                        {{-- <div class="get-started-right-business-features-card">
-                                                                            <div class="icon-and-title-column">
 
-                                                                                <div class="boxed__ImageWrapper" style="background-color: rgba(250, 242, 248,1.0);">
-
-                                                                                    <img src="hubfs/Incfile_February_2021/images/cert-s-433.png" alt="S Corporation" loading="lazy">
-                                                                                </div>
-
-                                                                                <span class="boxed__Imagetitle">S Corporation</span>
-                                                                            </div>
-                                                                            <span class="circle__IconWrapper">
-        <svg width="12" height="11" xmlns="http://www.w3.org/2000/svg"><path d="M5.805.703L5.8.707a1 1 0 00-.003 1.416l2.379 2.379H.998a.998.998 0 000 1.996h7.179L5.798 8.877a1 1 0 00.003 1.416l.004.004a1 1 0 001.412-.003l4.078-4.088a1 1 0 000-1.412L7.217.706A1 1 0 005.805.703z" fill="#1D1D1D" fill-rule="nonzero"></path></svg>
-      </span>
-                                                                        </div> --}}
                                                                         <div class="card pt-3 text-center" style="width:100%;">
 
 
@@ -1951,20 +1927,7 @@ transform: rotate(0deg);
 
 
                                                                     <a href="#">
-                                                                        {{-- <div class="get-started-right-business-features-card">
-                                                                            <div class="icon-and-title-column">
 
-                                                                                <div class="boxed__ImageWrapper" style="background-color: rgba(242, 248, 243,1.0);">
-
-                                                                                    <img src="hubfs/Incfile_February_2021/images/cert-n-826.png" alt="Nonprofit" loading="lazy">
-                                                                                </div>
-
-                                                                                <span class="boxed__Imagetitle">Nonprofit</span>
-                                                                            </div>
-                                                                            <span class="circle__IconWrapper">
-        <svg width="12" height="11" xmlns="http://www.w3.org/2000/svg"><path d="M5.805.703L5.8.707a1 1 0 00-.003 1.416l2.379 2.379H.998a.998.998 0 000 1.996h7.179L5.798 8.877a1 1 0 00.003 1.416l.004.004a1 1 0 001.412-.003l4.078-4.088a1 1 0 000-1.412L7.217.706A1 1 0 005.805.703z" fill="#1D1D1D" fill-rule="nonzero"></path></svg>
-      </span>
-                                                                        </div> --}}
                                                                         <div class="card pt-3 text-center" style="width:100%;">
 
 
@@ -1994,20 +1957,7 @@ transform: rotate(0deg);
 
 
                                                                     <a href="#">
-                                                                        {{-- <div class="get-started-right-business-features-card">
-                                                                            <div class="icon-and-title-column">
 
-                                                                                <div class="boxed__ImageWrapper" style="background-color: rgba(254, 246, 237,1.0);">
-
-                                                                                    <img src="hubfs/Incfile_February_2021/images/cert-c-831.png" alt="C Corporation" loading="lazy">
-                                                                                </div>
-
-                                                                                <span class="boxed__Imagetitle">C Corporation</span>
-                                                                            </div>
-                                                                            <span class="circle__IconWrapper">
-        <svg width="12" height="11" xmlns="http://www.w3.org/2000/svg"><path d="M5.805.703L5.8.707a1 1 0 00-.003 1.416l2.379 2.379H.998a.998.998 0 000 1.996h7.179L5.798 8.877a1 1 0 00.003 1.416l.004.004a1 1 0 001.412-.003l4.078-4.088a1 1 0 000-1.412L7.217.706A1 1 0 005.805.703z" fill="#1D1D1D" fill-rule="nonzero"></path></svg>
-      </span>
-                                                                        </div> --}}
                                                                         <div class="card pt-3 text-center" style="width:100%;">
 
 
@@ -2026,14 +1976,14 @@ transform: rotate(0deg);
                                                                             </div>
                                                                           </div>
                                                                     </a>
-                                                                </div>
+                                                                </div> --}}
 
 
                                                             </div>
                                                         </div>
 
 
-                                                        <div class="get-started-right-business-bottom-btn">
+                                                        {{-- <div class="get-started-right-business-bottom-btn">
 
 
 
@@ -2049,7 +1999,7 @@ transform: rotate(0deg);
                                                                 </div>
                                                             </a>
 
-                                                        </div>
+                                                        </div> --}}
 
 
                                                     </div>
