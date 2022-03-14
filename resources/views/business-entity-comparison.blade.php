@@ -2057,14 +2057,14 @@ transform: rotate(0deg);
                                                         <div class="rocket__RocketWrapper">
                                                             <div class=" gatsby-image-wrapper pb-0">
                                                                 {{-- <div class="get-image-bg" data-background="{{asset('image/whychooseus.png')}}}"></div> --}}
-                                                                <img src="{{asset('image/chos.png')}}" class="img-fluid" alt="">
+                                                                <img src="{{asset('Upload/launch/'.$launch->image)}}" class="img-fluid" alt="">
                                                             </div>
                                                         </div>
 
                                                         <div class="rocket__Content">
                                                             <div>
-                                                                <h2>lorem <br>Lorem ipsum dolor sit amet.</h2>
-                                                                <p>Lorem ipsum dolor sit amet. <br>Lorem ipsum dolor sit amet.</p>
+                                                                <h2>{{$launch->heading}}</h2>
+                                                                <p>{{$launch->text}}</p>
 
 
 
@@ -2073,8 +2073,8 @@ transform: rotate(0deg);
 
 
 
-                                                                <a href="#" target="_blank" rel="noopener" class="hs-button btn-with-icon">
-    Lorem, ipsum dolor.
+                                                                <a href="{{$launch->button_link}}" target="_blank" rel="noopener" class="hs-button btn-with-icon">
+    {{$launch->button_name}}
     <div class="external-link__Arrow">
       <svg width="12" height="11" xmlns="http://www.w3.org/2000/svg">
         <path d="M5.805.703L5.8.707a1 1 0 00-.003 1.416l2.379 2.379H.998a.998.998 0 000 1.996h7.179L5.798 8.877a1 1 0 00.003 1.416l.004.004a1 1 0 001.412-.003l4.078-4.088a1 1 0 000-1.412L7.217.706A1 1 0 005.805.703z" fill="#1D1D1D" fill-rule="nonzero"></path>

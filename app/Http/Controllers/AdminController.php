@@ -5,6 +5,8 @@ namespace App\Http\Controllers;
 use Illuminate\Http\Request;
 use App\Models\Banner;
 use App\Models\Home_card;
+use App\Models\Launch_bussiness;
+
 
 class AdminController extends Controller
 {
@@ -66,5 +68,36 @@ class AdminController extends Controller
 
         $header->save();
         return back()->with('success','Successfully Updated');
+    }
+    function launch(){
+        $headers=Launch_bussiness::all();
+        return view('Admin_asstes.imagediv',compact('headers'));
+
+    }
+    function edit_launch($id){
+        $header=Launch_bussiness::find($id);
+        return view('Admin_asstes.edit_launch',compact('header'));
+    }
+    function update_launch(Request $request){
+        $header=Launch_bussiness::find($request->id);
+        if($request->hasFile('file'))
+        {
+        $file=$request->file('file');
+        $extension=$request->file->extension();
+        $fileName=rand(11111,99999)."_.".$extension;
+        $request->file->move('Upload/launch/',$fileName);
+        $header->image =$fileName;
+        }
+        $header->heading =$request->heading;
+        $header->button_name =$request->button_name;
+        $header->button_link =$request->button_link;
+        $header->text =$request->text;
+
+
+
+
+        $header->save();
+        return back()->with('success','Successfully Updated');
+
     }
 }

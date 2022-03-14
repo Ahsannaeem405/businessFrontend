@@ -68,6 +68,11 @@ Route::prefix('admin')->group(function () {
     Route::get('/card',[AdminController::class,'card']);
     route::get('/edit_cards/{id}',[AdminController::class,'edit_cards']);
     Route::post('/update_card',[AdminController::class,'update_card']);
+    route::get('/launch',[AdminController::class,'launch']);
+    Route::get('edit_launch/{id}',[AdminController::class,'edit_launch']);
+    Route::post('/update_launch',[AdminController::class,'update_launch']);
+
+
 
 
     Route::get('/navtab', function () {
@@ -78,9 +83,7 @@ Route::prefix('admin')->group(function () {
         return view('Admin_asstes.table');
     });
 
-    Route::get('/launch', function () {
-        return view('Admin_asstes.imagediv');
-    });
+
     Route::get('/Corporations', function () {
         return view('Admin_asstes.Corporations');
     });
