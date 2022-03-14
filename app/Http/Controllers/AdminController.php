@@ -6,6 +6,8 @@ use Illuminate\Http\Request;
 use App\Models\Banner;
 use App\Models\Home_card;
 use App\Models\Launch_bussiness;
+use App\Models\Corporation;
+
 
 
 class AdminController extends Controller
@@ -98,6 +100,26 @@ class AdminController extends Controller
 
         $header->save();
         return back()->with('success','Successfully Updated');
+
+    }
+    function Corporations(){
+$headers=Corporation::all();
+        return view('Admin_asstes.Corporations',compact('headers'));
+
+    }
+    function edit_corp($id){
+$header=Corporation::find($id);
+return view('Admin_asstes.edit_corp',compact('header'));
+
+    }
+    function update_corp(Request $request){
+$header=Corporation::find($request->id);
+
+$header->heading=$request->heading;
+$header->text=$request->text;
+
+$header->save();
+return back()->with('success','Successfully Updated');
 
     }
 }

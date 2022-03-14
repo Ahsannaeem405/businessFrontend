@@ -71,6 +71,10 @@ Route::prefix('admin')->group(function () {
     route::get('/launch',[AdminController::class,'launch']);
     Route::get('edit_launch/{id}',[AdminController::class,'edit_launch']);
     Route::post('/update_launch',[AdminController::class,'update_launch']);
+    Route::get('Corporations',[AdminController::class,'Corporations']);
+    Route::get('edit_corp/{id}',[AdminController::class,'edit_corp']);
+    Route::post('/update_corp',[AdminController::class,'update_corp']);
+
 
 
 
@@ -84,9 +88,7 @@ Route::prefix('admin')->group(function () {
     });
 
 
-    Route::get('/Corporations', function () {
-        return view('Admin_asstes.Corporations');
-    });
+
     Route::get('/serviceworks', function () {
         return view('Admin_asstes.serviceworks');
     });

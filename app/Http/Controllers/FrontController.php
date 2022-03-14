@@ -6,15 +6,18 @@ use Illuminate\Http\Request;
 use App\Models\Banner;
 use App\Models\Home_card;
 use App\Models\Launch_bussiness;
+use App\Models\Corporation;
+
 
 
 class FrontController extends Controller
 {
     function home(){
+        $corp=Corporation::first();
         $banners=Banner::all();
         $cards=Home_card::all();
         $launch=Launch_bussiness::first();
-        return view('business-entity-comparison',compact('banners','cards','launch'));
+        return view('business-entity-comparison',compact('banners','cards','launch','corp'));
 
     }
     function state(){

@@ -2119,8 +2119,8 @@ transform: rotate(0deg);
 
                                                     <div class="page-center clearfix">
                                                         <div class="download-guide-form-sec-header">
-                                                            <h2>Lorem, ipsum dolor sit amet consectetur adipisicing elit. Tenetur, aliquid. &amp; Lorem, ipsum..</h2>
-                                                            <p>Lorem ipsum dolor, sit amet consectetur adipisicing elit. Consectetur, incidunt!</p>
+                                                            <h2>{{$corp->heading}}</h2>
+                                                            <p>{{$corp->text}}</p>
                                                         </div>
                                                         <div class="download-guide-form-box">
 
@@ -2131,7 +2131,7 @@ transform: rotate(0deg);
 
                                                             <div class="download-guide-form-box-inner">
 
-                                                                <h3 id="boxTitle">Lorem ipsum dolor sit amet.</h3>
+
                                                                 <label for="" class="label">Email</label>
                                                                 <input type="email" class="form-control">
                                                                 <label for="" class="label">First Name</label>
