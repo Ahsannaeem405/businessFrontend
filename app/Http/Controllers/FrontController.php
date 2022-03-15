@@ -9,6 +9,7 @@ use App\Models\Launch_bussiness;
 use App\Models\Corporation;
 use App\Models\F_row;
 use App\Models\Logo;
+use App\Models\S_row;
 use App\Models\Table_heading;
 
 
@@ -39,7 +40,9 @@ class FrontController extends Controller
         $launch=Launch_bussiness::first();
         $logo=Logo::first();
         $row1=F_row::first();
-        return view('business-entity-comparison',compact('banners','cards','launch','corp','logo','table','row1'));
+        $row2=S_row::first();
+
+        return view('business-entity-comparison',compact('banners','cards','launch','corp','logo','table','row1','row2'));
 
     }
     function state(){

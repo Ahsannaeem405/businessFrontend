@@ -9,6 +9,7 @@ use App\Models\Launch_bussiness;
 use App\Models\Corporation;
 use App\Models\F_row;
 use App\Models\Logo;
+use App\Models\S_row;
 use App\Models\Table_heading;
 
 
@@ -211,5 +212,50 @@ class AdminController extends Controller
 
 
 
+    }
+    function row2(){
+        $headers=S_row::all();
+        return view('Admin_asstes.row2',compact('headers'));
+    }
+    function edit_row2($id){
+        $header=S_row::find($id);
+        return view('Admin_asstes.edit_row2',compact('header'));
+    }
+    function update_row2(Request $request){
+        $header=  S_row::find($request->id);
+        $header->Title=$request->Title;
+        $header->Sub_heading=$request->Sub_heading;
+        $header->Sub_heading2=$request->Sub_heading2;
+        $header->status1=$request->status1;
+        $header->status2=$request->status2;
+        $header->status3=$request->status3;
+        $header->status4=$request->status4;
+
+        $header->status5=$request->status5;
+          $header->status6=$request->status6;
+            $header->status7=$request->status7;
+              $header->status8=$request->status8;
+
+
+
+        $header->heading1=$request->heading1;
+        $header->heading2=$request->heading2;
+        $header->heading3=$request->heading3;
+        $header->heading4=$request->heading4;
+        $header->heading5=$request->heading5;
+         $header->heading6=$request->heading6;
+          $header->heading7=$request->heading7;
+           $header->heading8=$request->heading8;
+
+        $header->detail1=$request->detail1;
+        $header->detail2=$request->detail2;
+        $header->detail3=$request->detail3;
+        $header->detail4=$request->detail4;
+        $header->detail5=$request->detail5;
+           $header->detail6=$request->detail6;
+            $header->detail7=$request->detail7;
+              $header->detail8=$request->detail8;
+        $header->save();
+        return back()->with('success', 'Successfully Updated');
     }
 }

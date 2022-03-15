@@ -42,6 +42,8 @@
                             </li>
                             <li><a href="{{url('admin/row1')}}"><i class="feather icon-circle"></i><span class="menu-item" data-i18n="Details">Chart Row 1</span></a>
                             </li>
+                            <li><a href="{{url('admin/row2')}}"><i class="feather icon-circle"></i><span class="menu-item" data-i18n="Details">Chart Row 2</span></a>
+                            </li>
                         </ul>
                     </li>
 
