@@ -872,31 +872,27 @@
                                                                                                 allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture"
                                                                                                 allowfullscreen
                                                                                                 style="position: absolute; top: 0px; left: 0px; width: 100%; height: 100%; border: none;"></iframe> --}}
-                                                                                                <iframe width="1161" height="653" src="https://www.youtube.com/embed/yIj2lu8Rv0M" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen style="position: absolute; top: 0px; left: 0px; width: 100%; height: 100%; border: none;"></iframe>
+                                                                                                @if ($annual->link!='#')
+                                                                                                    {{$annual->link}}
+                                                                                                    @else
+                                                                                                    <iframe width="1161" height="653" src="https://www.youtube.com/embed/yIj2lu8Rv0M" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen style="position: absolute; top: 0px; left: 0px; width: 100%; height: 100%; border: none;"></iframe>
+                                                                                                @endif
+
                                                                                         </div>
                                                                                     </div>
                                                                                 </div>
                                                                                 <p
                                                                                     style="font-size: 24px; line-height: 32px; font-weight: bold; margin-bottom: 24px; color: #757575;">
                                                                                     <span
-                                                                                        style="color: #000000;"><br>What
-                                                                                        is an annual report?</span></p>
+                                                                                        style="color: #000000;"><br>{{$annual->heading}}</span></p>
                                                                                 <p style="margin-bottom: 40px;">An
-                                                                                    Lorem Ipsum is simply dummy text of the printing and
-                                                                                    typesetting industry.</p>
-                                                                                <p style="margin-bottom: 40px;">Lorem Ipsum is simply dummy text of the printing and
-                                                                                    typesetting industry.</p>
-                                                                                <p style="margin-bottom: 72px;">Lorem Ipsum is simply dummy text of the printing and
-                                                                                    typesetting industry.</p>
-                                                                                <h3 style="margin-bottom: 24px;">Formal  &amp; Corporate Annual Reports —
-                                                                                    Required by Your Secretary of State
+                                                                                   {{$annual->detail}}</p>
+
+                                                                                <h3 style="margin-bottom: 24px;">{{$formal->heading}}
                                                                                 </h3>
-                                                                                <p style="margin-bottom: 72px;">Lorem Ipsum is simply dummy text of the printing and
-                                                                                    typesetting industry.</p>
-                                                                                <h3 style="margin-bottom: 40px;">Lorem Ipsum is simply dummy text of the printing and
-                                                                                    typesetting industry.</h3>
-                                                                                <p style="margin-bottom: 40px;">Lorem Ipsum is simply dummy text of the printing and
-                                                                                    typesetting industry.</p>
+                                                                                <p style="margin-bottom: 72px;">{{$formal->detail}}</p>
+                                                                                <h3 style="margin-bottom: 40px;">{{$llc->heading}}</h3>
+                                                                                <p style="margin-bottom: 40px;">{{$llc->detail}}</p>
                                                                             </span></div>
 
                                                                     </div>
@@ -906,46 +902,6 @@
                                                             </div>
                                                             <!--end row-wrapper -->
 
-                                                            <div
-                                                                class="row-fluid-wrapper row-depth-1 row-number-3 dnd-row">
-                                                                <div class="row-fluid ">
-                                                                    <div class="span12 widget-span widget-type-custom_widget dnd-module"
-                                                                        style="" data-widget-type="custom_widget"
-                                                                        data-x="0" data-w="12">
-                                                                        <div id="hs_cos_wrapper_widget_1614249199581"
-                                                                            class="hs_cos_wrapper hs_cos_wrapper_widget hs_cos_wrapper_type_module"
-                                                                            style="" data-hs-cos-general-type="widget"
-                                                                            data-hs-cos-type="module">
-                                                                            <div
-                                                                                class="widget_1614249199581 boxed-content-container">
-
-                                                                                <div class="boxed-color-box">
-
-                                                                                    <ul>
-                                                                                        <li>Lorem Ipsum is simply dummy text of the printing and
-                                                                                            typesetting industry.</li>
-                                                                                            <li>Lorem Ipsum is simply dummy text of the printing and
-                                                                                                typesetting industry.</li>
-                                                                                                <li>Lorem Ipsum is simply dummy text of the printing and
-                                                                                                    typesetting industry.</li>
-                                                                                                    <li>Lorem Ipsum is simply dummy text of the printing and
-                                                                                                        typesetting industry.</li>
-                                                                                                        <li>Lorem Ipsum is simply dummy text of the printing and
-                                                                                                            typesetting industry.</li>
-                                                                                    </ul>
-                                                                                    <div class="boxed-content-buttons">
-
-                                                                                    </div>
-                                                                                </div>
-                                                                            </div>
-                                                                        </div>
-
-                                                                    </div>
-                                                                    <!--end widget-span -->
-                                                                </div>
-                                                                <!--end row-->
-                                                            </div>
-                                                            <!--end row-wrapper -->
 
                                                             <div
                                                                 class="row-fluid-wrapper row-depth-1 row-number-4 dnd-row">
@@ -962,16 +918,14 @@
                                                                                 style=""
                                                                                 data-hs-cos-general-type="widget"
                                                                                 data-hs-cos-type="rich_text">
-                                                                                <p style="margin-bottom: 72px;">Lorem Ipsum is simply dummy text of the printing and
+                                                                                {{-- <p style="margin-bottom: 72px;">Lorem Ipsum is simply dummy text of the printing and
                                                                                     typesetting industry.
+                                                                                </p> --}}
+                                                                                <h3 style="margin-bottom: 24px;">{{$file->heading}}</h3>
+                                                                                <p style="margin-bottom: 48px;">{{$file->detail}}
                                                                                 </p>
-                                                                                <h3 style="margin-bottom: 24px;">Lorem Ipsum is simply dummy text</h3>
-                                                                                <p style="margin-bottom: 48px;">Lorem Ipsum is simply dummy text of the printing and
-                                                                                    typesetting industry.
-                                                                                </p>
-                                                                                <h3 style="margin-bottom: 24px;">Lorem Ipsum is simply dummy text.</h3>
-                                                                                <p style="margin-bottom: 40px;">Lorem Ipsum is simply dummy text of the printing and
-                                                                                    typesetting industry.</p>
+                                                                                <h3 style="margin-bottom: 24px;">{{$duedate->heading}}</h3>
+                                                                                <p style="margin-bottom: 40px;">{{$duedate->detail}}</p>
                                                                             </span></div>
 
                                                                     </div>
@@ -997,15 +951,12 @@
                                                                                 <div class="boxed-color-box">
 
                                                                                     <h4 style="margin-bottom: 24px;">
-                                                                                        Lorem Ipsum is simply dummy text.</h4>
+                                                                                        {{$duedate->Sub_heading}}</h4>
                                                                                     <ul>
-                                                                                        <li>Lorem Ipsum is simply dummy text of the printing and
-                                                                                            typesetting industry.</li>
-                                                                                        <li>Lorem Ipsum is simply dummy text of the printing and
-                                                                                            typesetting industry.
+                                                                                        <li>{{$duedate->point1}}</li>
+                                                                                        <li>{{$duedate->point2}}
                                                                                         </li>
-                                                                                        <li>Lorem Ipsum is simply dummy text of the printing and
-                                                                                            typesetting industry.</li>
+                                                                                        <li>{{$duedate->point3}}</li>
                                                                                     </ul>
                                                                                     <div class="boxed-content-buttons">
 
@@ -1037,13 +988,11 @@
                                                                                 data-hs-cos-general-type="widget"
                                                                                 data-hs-cos-type="rich_text">
                                                                                 <h3 style="margin-bottom: 24px;">
-                                                                                    Lorem Ipsum is simply dummy text</h3>
-                                                                                <p style="margin-bottom: 48px;">Lorem Ipsum is simply dummy text of the printing and
-                                                                                    typesetting industry.</p>
+                                                                                    {{$bussiness->heading1}}</h3>
+                                                                                <p style="margin-bottom: 48px;">  {{$bussiness->detail1}}</p>
                                                                                 <h3 style="margin-bottom: 24px;">
-                                                                                    Lorem Ipsum is simply dummy text</h3>
-                                                                                <p style="margin-bottom: 40px;">Lorem Ipsum is simply dummy text of the printing and
-                                                                                    typesetting industry.
+                                                                                    {{$bussiness->heading2}}</h3>
+                                                                                <p style="margin-bottom: 40px;">  {{$bussiness->detail2}}
                                                                                 </p>
                                                                             </span></div>
 
@@ -1070,22 +1019,11 @@
                                                                                 <div class="boxed-color-box">
 
                                                                                     <ul>
-                                                                                        <li><strong>Balance
-                                                                                                sheet:</strong>
-                                                                                                Lorem Ipsum is simply dummy text of the printing and
-                                                                                                typesetting industry.
+                                                                                        <li>  {{$bussiness->point1}}
                                                                                         </li>
-                                                                                        <li><strong>Profit and Loss
-                                                                                                (P&amp;L):</strong> Lorem Ipsum is simply dummy text of the printing and
-                                                                                                typesetting industry.</li>
-                                                                                        <li><strong>Shares and stock
-                                                                                                issued:</strong>Lorem Ipsum is simply dummy text of the printing and
-                                                                                                typesetting industry.</li>
-                                                                                        <li><strong>Financial
-                                                                                                projections and
-                                                                                                forecasts:</strong>
-                                                                                                Lorem Ipsum is simply dummy text of the printing and
-                                                                                                typesetting industry.</li>
+                                                                                        <li>  {{$bussiness->point2}}</li>
+                                                                                        <li>  {{$bussiness->point3}}</li>
+                                                                                        <li>  {{$bussiness->point4}}</li>
                                                                                     </ul>
                                                                                     <div class="boxed-content-buttons">
 
@@ -1101,31 +1039,7 @@
                                                             </div>
                                                             <!--end row-wrapper -->
 
-                                                            <div
-                                                                class="row-fluid-wrapper row-depth-1 row-number-8 dnd-row">
-                                                                <div class="row-fluid ">
-                                                                    <div class="span12 widget-span widget-type-custom_widget dnd-module"
-                                                                        style="" data-widget-type="custom_widget"
-                                                                        data-x="0" data-w="12">
-                                                                        <div id="hs_cos_wrapper_widget_1614250667556"
-                                                                            class="hs_cos_wrapper hs_cos_wrapper_widget hs_cos_wrapper_type_module widget-type-rich_text"
-                                                                            style="" data-hs-cos-general-type="widget"
-                                                                            data-hs-cos-type="module"><span
-                                                                                id="hs_cos_wrapper_widget_1614250667556_"
-                                                                                class="hs_cos_wrapper hs_cos_wrapper_widget hs_cos_wrapper_type_rich_text"
-                                                                                style=""
-                                                                                data-hs-cos-general-type="widget"
-                                                                                data-hs-cos-type="rich_text">
-                                                                                <h3>Lorem Ipsum is simply dummy text</h3>
-                                                                                <p style="margin-bottom: 40px;">Lorem Ipsum is simply dummy text of the printing and
-                                                                                    typesetting industry.</p>
-                                                                            </span></div>
 
-                                                                    </div>
-                                                                    <!--end widget-span -->
-                                                                </div>
-                                                                <!--end row-->
-                                                            </div>
                                                             <!--end row-wrapper -->
 
                                                             <div
@@ -1186,8 +1100,7 @@
                                                                                 style=""
                                                                                 data-hs-cos-general-type="widget"
                                                                                 data-hs-cos-type="rich_text">
-                                                                                <p style="margin: 0;">Lorem Ipsum is simply dummy text of the printing and
-                                                                                    typesetting industry.</p>
+
                                                                             </span></div>
 
                                                                     </div>

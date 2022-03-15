@@ -2,13 +2,19 @@
 
 namespace App\Http\Controllers;
 
+use App\Models\Annualllc;
+use App\Models\Annualreport;
 use Illuminate\Http\Request;
 use App\Models\Banner;
+use App\Models\Bussiness;
 use App\Models\Home_card;
 use App\Models\Launch_bussiness;
 use App\Models\Corporation;
+use App\Models\Duedate;
 use App\Models\F_row;
+use App\Models\Formal;
 use App\Models\Four_row;
+use App\Models\Howtofile;
 use App\Models\Logo;
 use App\Models\S_row;
 use App\Models\Table_heading;
@@ -402,6 +408,133 @@ class AdminController extends Controller
 
         $header->save();
         return back()->with('success', 'Successfully Updated');
+
+    }
+    function annual_def(){
+        $headers=Annualreport::all();
+        return view('Admin_asstes.annual_def',compact('headers'));
+    }
+    function edit_annual($id){
+        $header=Annualreport::find($id);
+        return view('Admin_asstes.edit_annual',compact('header'));
+    }
+    function update_annual(Request $request){
+        $header=Annualreport::find($request->id);
+        $header->link=$request->link;
+        $header->heading=$request->heading;
+        $header->detail=$request->detail;
+$header->save();
+return back()->with('success', 'Successfully Updated');
+
+
+
+    }
+    function Formal(){
+        $headers=Formal::all();
+        return view('Admin_asstes.Formal',compact('headers'));
+
+    }
+    function edit_formal($id){
+        $header=Formal::find($id);
+        return view('Admin_asstes.edit_formal',compact('header'));
+    }
+    function update_formal(Request $request){
+        $header=Formal::find($request->id);
+        $header->heading=$request->heading;
+        $header->detail=$request->detail;
+$header->save();
+return back()->with('success', 'Successfully Updated');
+    }
+    function llc(){
+        $headers=Annualllc::all();
+
+    return view('Admin_asstes.AnnualLLC',compact('headers'));
+
+    }
+    function edit_llc($id){
+        $header=Annualllc::find($id);
+        return view('Admin_asstes.edit_llc',compact('header'));
+    }
+    function update_llc(Request $request){
+        $header=Annualllc::find($request->id);
+        $header->heading=$request->heading;
+        $header->detail=$request->detail;
+$header->save();
+return back()->with('success', 'Successfully Updated');
+    }
+    function File(){
+        $headers=Howtofile::all();
+
+        return view('Admin_asstes.File',compact('headers'));
+
+    }
+    function edit_file($id){
+        $header=Howtofile::find($id);
+        return view('Admin_asstes.edit_file',compact('header'));
+    }
+    function update_file(Request $request){
+        $header=Howtofile::find($request->id);
+        $header->heading=$request->heading;
+        $header->detail=$request->detail;
+$header->save();
+return back()->with('success', 'Successfully Updated');
+
+    }
+    function duedate(){
+        $headers=Duedate::all();
+    return view('Admin_asstes.duedate',compact('headers'));
+
+    }
+    function edit_duedate($id){
+        $header=Duedate::find($id);
+        return view('Admin_asstes.edit_duedate',compact('header'));
+    }
+    function update_duedate(Request $request){
+        $header=Duedate::find($request->id);
+        $header->heading=$request->heading;
+        $header->Sub_heading=$request->Sub_heading;
+
+        $header->detail=$request->detail;
+        $header->point1=$request->point1;
+        $header->point2=$request->point2;
+        $header->point3=$request->point3;
+
+
+
+$header->save();
+return back()->with('success', 'Successfully Updated');
+
+    }
+    function Business(){
+        $headers=Bussiness::all();
+
+        return view('Admin_asstes.Business&Financial',compact('headers'));
+
+    }
+    function edit_bussiness($id){
+        $header=Bussiness::find($id);
+        return view('Admin_asstes.edit_bussness',compact('header'));
+    }
+    function update_bussiness(Request $request){
+        $header=Bussiness::find($request->id);
+        $header->heading1=$request->heading1;
+        $header->heading2=$request->heading2;
+
+
+
+        $header->detail1=$request->detail1;
+        $header->detail2=$request->detail2;
+
+        $header->point1=$request->point1;
+        $header->point2=$request->point2;
+        $header->point3=$request->point3;
+        $header->point4=$request->point4;
+
+
+
+
+$header->save();
+return back()->with('success', 'Successfully Updated');
 
     }
 }

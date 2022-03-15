@@ -92,6 +92,28 @@ Route::post('update_row3',[AdminController::class,'update_row3']);
 Route::get('/row4',[AdminController::class,'row4']);
 Route::get('edit_row4/{id}',[AdminController::class,'edit_row4']);
 Route::post('update_row4',[AdminController::class,'update_row4']);
+Route::get('annual_def',[AdminController::class,'annual_def']);
+Route::get('edit_annual/{id}',[AdminController::class,'edit_annual']);
+Route::post('update_annual',[AdminController::class,'update_annual']);
+Route::get('Formal',[AdminController::class,'Formal']);
+Route::get('edit_formal/{id}',[AdminController::class,'edit_formal']);
+Route::post('update_formal',[AdminController::class,'update_formal']);
+Route::get('llc',[AdminController::class,'llc']);
+Route::get('edit_llc/{id}',[AdminController::class,'edit_llc']);
+Route::post('update_llc',[AdminController::class,'update_llc']);
+
+Route::get('File',[AdminController::class,'File']);
+Route::get('edit_file/{id}',[AdminController::class,'edit_file']);
+Route::post('update_file',[AdminController::class,'update_file']);
+
+Route::get('duedate',[AdminController::class,'duedate']);
+Route::get('edit_duedate/{id}',[AdminController::class,'edit_duedate']);
+Route::post('update_duedate',[AdminController::class,'update_duedate']);
+
+Route::get('Business&Financial',[AdminController::class,'Business']);
+Route::get('edit_bussiness/{id}',[AdminController::class,'edit_bussiness']);
+Route::post('update_bussiness',[AdminController::class,'update_bussiness']);
+
 
 
 
@@ -110,24 +132,12 @@ Route::post('update_row4',[AdminController::class,'update_row4']);
     Route::get('/serviceworks', function () {
         return view('Admin_asstes.serviceworks');
     });
-    Route::get('/annual_def', function () {
-        return view('Admin_asstes.annual_def');
-    });
-    Route::get('/Formal', function () {
-        return view('Admin_asstes.Formal');
-    });
-    Route::get('/llc', function () {
-        return view('Admin_asstes.AnnualLLC');
-    });
-    Route::get('/File', function () {
-        return view('Admin_asstes.File');
-    });
-    Route::get('/duedate', function () {
-        return view('Admin_asstes.duedate');
-    });
-    Route::get('/Business&Financial', function () {
-        return view('Admin_asstes.Business&Financial');
-    });
+
+
+
+
+
+
     Route::get('/OtherBusinessReports', function () {
         return view('Admin_asstes.OtherBusinessReports');
     });

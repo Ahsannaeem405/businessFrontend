@@ -2,13 +2,19 @@
 
 namespace App\Http\Controllers;
 
+use App\Models\Annualllc;
+use App\Models\Annualreport;
 use Illuminate\Http\Request;
 use App\Models\Banner;
+use App\Models\Bussiness;
 use App\Models\Home_card;
 use App\Models\Launch_bussiness;
 use App\Models\Corporation;
+use App\Models\Duedate;
 use App\Models\F_row;
+use App\Models\Formal;
 use App\Models\Four_row;
+use App\Models\Howtofile;
 use App\Models\Logo;
 use App\Models\S_row;
 use App\Models\Table_heading;
@@ -54,8 +60,19 @@ class FrontController extends Controller
     }
     function annual(){
         $banners=Banner::all();
+        $annual=Annualreport::first();
+        $formal=Formal::first();
+        $llc=Annualllc::first();
+        $file=Howtofile::first();
+        $duedate=Duedate::first();
+        $bussiness=Bussiness::first();
+
+
+
+
+
         $logo=Logo::first();
-        return view('annual-report',compact('banners','logo'));
+        return view('annual-report',compact('banners','logo','annual','formal','llc','file','duedate','bussiness'));
     }
     function tax(){
         $banners=Banner::all();

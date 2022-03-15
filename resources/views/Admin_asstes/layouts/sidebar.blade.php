@@ -85,8 +85,8 @@
                                 </li>
                                 <li><a href="{{url('admin/Business&Financial')}}"><i class="feather icon-circle"></i><span class="menu-item" data-i18n="Details">Business and Financial</span></a>
                                 </li>
-                                <li><a href="{{url('admin/OtherBusinessReports')}}"><i class="feather icon-circle"></i><span class="menu-item" data-i18n="Details">Other Business Reports</span></a>
-                                </li>
+                                {{-- <li><a href="{{url('admin/OtherBusinessReports')}}"><i class="feather icon-circle"></i><span class="menu-item" data-i18n="Details">Other Business Reports</span></a>
+                                </li> --}}
                                 <li><a href="{{url('admin/HelpFile')}}"><i class="feather icon-circle"></i><span class="menu-item" data-i18n="Details">HelpFile</span></a>
                                 </li>
 
