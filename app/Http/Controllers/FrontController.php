@@ -8,6 +8,7 @@ use App\Models\Home_card;
 use App\Models\Launch_bussiness;
 use App\Models\Corporation;
 use App\Models\F_row;
+use App\Models\Four_row;
 use App\Models\Logo;
 use App\Models\S_row;
 use App\Models\Table_heading;
@@ -38,10 +39,12 @@ class FrontController extends Controller
         $row1=F_row::first();
         $row2=S_row::first();
         $row3=Trow::first();
+        $row4=Four_row::first();
 
 
 
-        return view('business-entity-comparison',compact('banners','cards','launch','corp','logo','table','row1','row2','row3'));
+
+        return view('business-entity-comparison',compact('banners','cards','launch','corp','logo','table','row1','row2','row3','row4'));
 
     }
     function state(){

@@ -1666,7 +1666,7 @@ transform: rotate(0deg);
                                                                         <div class="comparison-chart-table__TabBox ">
 
                                                                             <div class="comparison-chart-table__Separator">
-                                                                                <span>TAX</span>
+                                                                                <span>{{$row4->Title}}</span>
                                                                             </div>
 
                                                                             <button class="comparison-chart-table__Button" data-id="widget_1615203080926-tax8">
@@ -1681,27 +1681,37 @@ transform: rotate(0deg);
         <div class="comparison-chart-table__Content">
           <div class="white-box__Wrappergrid-table-row">
             <div class="grid-table-row__Cell">
-              <p class="paragraph__StyledParagraph">Lorem, ipsum.</p>
+              <p class="paragraph__StyledParagraph">{{$row4->Sub_heading}}</p>
+            </div>
+            <div class="grid-table-row__Cell">
+                @if ($row4->status1==1)
+                <svg width="32" height="32" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink"><defs><path d="M10.328 15.84a.784.784 0 00-1.1 0 .763.763 0 000 1.089l3.889 3.846c.303.3.796.3 1.1 0l8.555-8.462a.763.763 0 000-1.088.784.784 0 00-1.1 0l-8.005 7.918-3.34-3.302z" id="circle-status-check_inline_svg__a"></path></defs><g fill="none" fill-rule="evenodd"><circle fill="#97E0C7" cx="16" cy="16" r="16"></circle><use stroke="#FFF" fill="#FFF" fill-rule="nonzero" xlink:href="#circle-status-check_inline_svg__a"></use></g></svg>
+               @else
+               <svg width="32" height="32" xmlns="http://www.w3.org/2000/svg"><g fill="none" fill-rule="evenodd"><circle fill="#F1A0A0" cx="16" cy="16" r="16"></circle><path d="M11.78 10.263L16 14.484l4.22-4.221a1 1 0 011.415 0l.102.102a1 1 0 010 1.414L17.516 16l4.221 4.22a1 1 0 010 1.415l-.102.102a1 1 0 01-1.414 0L16 17.516l-4.22 4.221a1 1 0 01-1.415 0l-.102-.102a1 1 0 010-1.414L14.484 16l-4.221-4.22a1 1 0 010-1.415l.102-.102a1 1 0 011.414 0z" fill="#FFF"></path></g></svg>
+                @endif
+            </div>
+            <div class="grid-table-row__Cell">
+                @if ($row4->status2==1)
+                <svg width="32" height="32" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink"><defs><path d="M10.328 15.84a.784.784 0 00-1.1 0 .763.763 0 000 1.089l3.889 3.846c.303.3.796.3 1.1 0l8.555-8.462a.763.763 0 000-1.088.784.784 0 00-1.1 0l-8.005 7.918-3.34-3.302z" id="circle-status-check_inline_svg__a"></path></defs><g fill="none" fill-rule="evenodd"><circle fill="#97E0C7" cx="16" cy="16" r="16"></circle><use stroke="#FFF" fill="#FFF" fill-rule="nonzero" xlink:href="#circle-status-check_inline_svg__a"></use></g></svg>
+               @else
+               <svg width="32" height="32" xmlns="http://www.w3.org/2000/svg"><g fill="none" fill-rule="evenodd"><circle fill="#F1A0A0" cx="16" cy="16" r="16"></circle><path d="M11.78 10.263L16 14.484l4.22-4.221a1 1 0 011.415 0l.102.102a1 1 0 010 1.414L17.516 16l4.221 4.22a1 1 0 010 1.415l-.102.102a1 1 0 01-1.414 0L16 17.516l-4.22 4.221a1 1 0 01-1.415 0l-.102-.102a1 1 0 010-1.414L14.484 16l-4.221-4.22a1 1 0 010-1.415l.102-.102a1 1 0 011.414 0z" fill="#FFF"></path></g></svg>
+                @endif
+
+            </div>
+            <div class="grid-table-row__Cell">
+                @if ($row4->status3==1)
+                <svg width="32" height="32" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink"><defs><path d="M10.328 15.84a.784.784 0 00-1.1 0 .763.763 0 000 1.089l3.889 3.846c.303.3.796.3 1.1 0l8.555-8.462a.763.763 0 000-1.088.784.784 0 00-1.1 0l-8.005 7.918-3.34-3.302z" id="circle-status-check_inline_svg__a"></path></defs><g fill="none" fill-rule="evenodd"><circle fill="#97E0C7" cx="16" cy="16" r="16"></circle><use stroke="#FFF" fill="#FFF" fill-rule="nonzero" xlink:href="#circle-status-check_inline_svg__a"></use></g></svg>
+               @else
+               <svg width="32" height="32" xmlns="http://www.w3.org/2000/svg"><g fill="none" fill-rule="evenodd"><circle fill="#F1A0A0" cx="16" cy="16" r="16"></circle><path d="M11.78 10.263L16 14.484l4.22-4.221a1 1 0 011.415 0l.102.102a1 1 0 010 1.414L17.516 16l4.221 4.22a1 1 0 010 1.415l-.102.102a1 1 0 01-1.414 0L16 17.516l-4.22 4.221a1 1 0 01-1.415 0l-.102-.102a1 1 0 010-1.414L14.484 16l-4.221-4.22a1 1 0 010-1.415l.102-.102a1 1 0 011.414 0z" fill="#FFF"></path></g></svg>
+                @endif
             </div>
             <div class="grid-table-row__Cell">
 
-              <svg width="32" height="32" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink"><defs><path d="M10.328 15.84a.784.784 0 00-1.1 0 .763.763 0 000 1.089l3.889 3.846c.303.3.796.3 1.1 0l8.555-8.462a.763.763 0 000-1.088.784.784 0 00-1.1 0l-8.005 7.918-3.34-3.302z" id="circle-status-check_inline_svg__a"></path></defs><g fill="none" fill-rule="evenodd"><circle fill="#97E0C7" cx="16" cy="16" r="16"></circle><use stroke="#FFF" fill="#FFF" fill-rule="nonzero" xlink:href="#circle-status-check_inline_svg__a"></use></g></svg>
-
-            </div>
-            <div class="grid-table-row__Cell">
-
-              <span class="circle__Wrapper-sc"></span>
-
-            </div>
-            <div class="grid-table-row__Cell">
-
-              <svg width="32" height="32" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink"><defs><path d="M10.328 15.84a.784.784 0 00-1.1 0 .763.763 0 000 1.089l3.889 3.846c.303.3.796.3 1.1 0l8.555-8.462a.763.763 0 000-1.088.784.784 0 00-1.1 0l-8.005 7.918-3.34-3.302z" id="circle-status-check_inline_svg__a"></path></defs><g fill="none" fill-rule="evenodd"><circle fill="#97E0C7" cx="16" cy="16" r="16"></circle><use stroke="#FFF" fill="#FFF" fill-rule="nonzero" xlink:href="#circle-status-check_inline_svg__a"></use></g></svg>
-
-            </div>
-            <div class="grid-table-row__Cell">
-
-              <svg width="32" height="32" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink"><defs><path d="M10.328 15.84a.784.784 0 00-1.1 0 .763.763 0 000 1.089l3.889 3.846c.303.3.796.3 1.1 0l8.555-8.462a.763.763 0 000-1.088.784.784 0 00-1.1 0l-8.005 7.918-3.34-3.302z" id="circle-status-check_inline_svg__a"></path></defs><g fill="none" fill-rule="evenodd"><circle fill="#97E0C7" cx="16" cy="16" r="16"></circle><use stroke="#FFF" fill="#FFF" fill-rule="nonzero" xlink:href="#circle-status-check_inline_svg__a"></use></g></svg>
-
+                @if ($row4->status4==1)
+                <svg width="32" height="32" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink"><defs><path d="M10.328 15.84a.784.784 0 00-1.1 0 .763.763 0 000 1.089l3.889 3.846c.303.3.796.3 1.1 0l8.555-8.462a.763.763 0 000-1.088.784.784 0 00-1.1 0l-8.005 7.918-3.34-3.302z" id="circle-status-check_inline_svg__a"></path></defs><g fill="none" fill-rule="evenodd"><circle fill="#97E0C7" cx="16" cy="16" r="16"></circle><use stroke="#FFF" fill="#FFF" fill-rule="nonzero" xlink:href="#circle-status-check_inline_svg__a"></use></g></svg>
+               @else
+               <svg width="32" height="32" xmlns="http://www.w3.org/2000/svg"><g fill="none" fill-rule="evenodd"><circle fill="#F1A0A0" cx="16" cy="16" r="16"></circle><path d="M11.78 10.263L16 14.484l4.22-4.221a1 1 0 011.415 0l.102.102a1 1 0 010 1.414L17.516 16l4.221 4.22a1 1 0 010 1.415l-.102.102a1 1 0 01-1.414 0L16 17.516l-4.22 4.221a1 1 0 01-1.415 0l-.102-.102a1 1 0 010-1.414L14.484 16l-4.221-4.22a1 1 0 010-1.415l.102-.102a1 1 0 011.414 0z" fill="#FFF"></path></g></svg>
+                @endif
             </div>
           </div>
         </div>
@@ -1710,20 +1720,20 @@ transform: rotate(0deg);
                                                                                 <div class="comparison-chart-table__PanelWrapper">
                                                                                     <div class="comparison-chart-table__Grid-sc">
                                                                                         <div class="comparison-chart-table__Column">
-                                                                                            <p class="p-to-heading__HeadingWrapper">lorem</p>
-                                                                                            <p class="paragraph__StyledParagraph">Lorem ipsum dolor sit, amet consectetur adipisicing elit. Animi quaerat ipsa eveniet nesciunt, tempore temporibus error veniam consequuntur ratione illo!</p>
+                                                                                            <p class="p-to-heading__HeadingWrapper">{{$row4->heading1}}</p>
+                                                                                            <p class="paragraph__StyledParagraph">{{$row4->detail1}}</p>
                                                                                         </div>
                                                                                         <div class="comparison-chart-table__Column">
-                                                                                            <p class="p-to-heading__HeadingWrapper">lorem</p>
-                                                                                            <p class="paragraph__StyledParagraph">Lorem ipsum dolor sit amet consectetur adipisicing elit. Velit similique earum nisi harum consequuntur ratione voluptas impedit obcaecati commodi. Error commodi aliquid, officia nostrum quos non dignissimos quidem quas ipsum.</p>
+                                                                                            <p class="p-to-heading__HeadingWrapper">{{$row4->heading2}}</p>
+                                                                                            <p class="paragraph__StyledParagraph">{{$row4->detail2}}</p>
                                                                                         </div>
                                                                                         <div class="comparison-chart-table__Column">
-                                                                                            <p class="p-to-heading__HeadingWrapper">lorem</p>
-                                                                                            <p class="paragraph__StyledParagraph">Lorem ipsum dolor sit amet consectetur adipisicing elit. Optio, exercitationem! Qui, laudantium eaque. Provident, quibusdam quas. Facere eius illo ea!.</p>
+                                                                                            <p class="p-to-heading__HeadingWrapper">{{$row4->heading3}}</p>
+                                                                                            <p class="paragraph__StyledParagraph">{{$row4->detail3}}</p>
                                                                                         </div>
                                                                                         <div class="comparison-chart-table__Column">
-                                                                                            <p class="p-to-heading__HeadingWrapper">lorem</p>
-                                                                                            <p class="paragraph__StyledParagraph">Lorem ipsum dolor sit amet consectetur adipisicing elit. Officia minima aliquid laborum perferendis aperiam nihil soluta tempora architecto alias quo.</p>
+                                                                                            <p class="p-to-heading__HeadingWrapper">{{$row4->heading4}}</p>
+                                                                                            <p class="paragraph__StyledParagraph">{{$row2->detail4}}</p>
                                                                                         </div>
                                                                                     </div>
                                                                                 </div>
@@ -1744,52 +1754,61 @@ transform: rotate(0deg);
         <div class="comparison-chart-table__Content">
           <div class="white-box__Wrappergrid-table-row">
             <div class="grid-table-row__Cell">
-              <p class="paragraph__StyledParagraph">Lorem, ipsum.</p>
+              <p class="paragraph__StyledParagraph">{{$row4->Sub_heading2}}</p>
+            </div>
+            <div class="grid-table-row__Cell">
+                @if ($row4->status5==1)
+                <svg width="32" height="32" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink"><defs><path d="M10.328 15.84a.784.784 0 00-1.1 0 .763.763 0 000 1.089l3.889 3.846c.303.3.796.3 1.1 0l8.555-8.462a.763.763 0 000-1.088.784.784 0 00-1.1 0l-8.005 7.918-3.34-3.302z" id="circle-status-check_inline_svg__a"></path></defs><g fill="none" fill-rule="evenodd"><circle fill="#97E0C7" cx="16" cy="16" r="16"></circle><use stroke="#FFF" fill="#FFF" fill-rule="nonzero" xlink:href="#circle-status-check_inline_svg__a"></use></g></svg>
+               @else
+               <svg width="32" height="32" xmlns="http://www.w3.org/2000/svg"><g fill="none" fill-rule="evenodd"><circle fill="#F1A0A0" cx="16" cy="16" r="16"></circle><path d="M11.78 10.263L16 14.484l4.22-4.221a1 1 0 011.415 0l.102.102a1 1 0 010 1.414L17.516 16l4.221 4.22a1 1 0 010 1.415l-.102.102a1 1 0 01-1.414 0L16 17.516l-4.22 4.221a1 1 0 01-1.415 0l-.102-.102a1 1 0 010-1.414L14.484 16l-4.221-4.22a1 1 0 010-1.415l.102-.102a1 1 0 011.414 0z" fill="#FFF"></path></g></svg>
+                @endif
+            </div>
+            <div class="grid-table-row__Cell">
+                @if ($row4->status6==1)
+                <svg width="32" height="32" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink"><defs><path d="M10.328 15.84a.784.784 0 00-1.1 0 .763.763 0 000 1.089l3.889 3.846c.303.3.796.3 1.1 0l8.555-8.462a.763.763 0 000-1.088.784.784 0 00-1.1 0l-8.005 7.918-3.34-3.302z" id="circle-status-check_inline_svg__a"></path></defs><g fill="none" fill-rule="evenodd"><circle fill="#97E0C7" cx="16" cy="16" r="16"></circle><use stroke="#FFF" fill="#FFF" fill-rule="nonzero" xlink:href="#circle-status-check_inline_svg__a"></use></g></svg>
+               @else
+               <svg width="32" height="32" xmlns="http://www.w3.org/2000/svg"><g fill="none" fill-rule="evenodd"><circle fill="#F1A0A0" cx="16" cy="16" r="16"></circle><path d="M11.78 10.263L16 14.484l4.22-4.221a1 1 0 011.415 0l.102.102a1 1 0 010 1.414L17.516 16l4.221 4.22a1 1 0 010 1.415l-.102.102a1 1 0 01-1.414 0L16 17.516l-4.22 4.221a1 1 0 01-1.415 0l-.102-.102a1 1 0 010-1.414L14.484 16l-4.221-4.22a1 1 0 010-1.415l.102-.102a1 1 0 011.414 0z" fill="#FFF"></path></g></svg>
+                @endif
             </div>
             <div class="grid-table-row__Cell">
 
-              <svg width="32" height="32" xmlns="http://www.w3.org/2000/svg"><g fill="none" fill-rule="evenodd"><circle fill="#F1A0A0" cx="16" cy="16" r="16"></circle><path d="M11.78 10.263L16 14.484l4.22-4.221a1 1 0 011.415 0l.102.102a1 1 0 010 1.414L17.516 16l4.221 4.22a1 1 0 010 1.415l-.102.102a1 1 0 01-1.414 0L16 17.516l-4.22 4.221a1 1 0 01-1.415 0l-.102-.102a1 1 0 010-1.414L14.484 16l-4.221-4.22a1 1 0 010-1.415l.102-.102a1 1 0 011.414 0z" fill="#FFF"></path></g></svg>
-
+                @if ($row4->status7==1)
+                <svg width="32" height="32" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink"><defs><path d="M10.328 15.84a.784.784 0 00-1.1 0 .763.763 0 000 1.089l3.889 3.846c.303.3.796.3 1.1 0l8.555-8.462a.763.763 0 000-1.088.784.784 0 00-1.1 0l-8.005 7.918-3.34-3.302z" id="circle-status-check_inline_svg__a"></path></defs><g fill="none" fill-rule="evenodd"><circle fill="#97E0C7" cx="16" cy="16" r="16"></circle><use stroke="#FFF" fill="#FFF" fill-rule="nonzero" xlink:href="#circle-status-check_inline_svg__a"></use></g></svg>
+               @else
+               <svg width="32" height="32" xmlns="http://www.w3.org/2000/svg"><g fill="none" fill-rule="evenodd"><circle fill="#F1A0A0" cx="16" cy="16" r="16"></circle><path d="M11.78 10.263L16 14.484l4.22-4.221a1 1 0 011.415 0l.102.102a1 1 0 010 1.414L17.516 16l4.221 4.22a1 1 0 010 1.415l-.102.102a1 1 0 01-1.414 0L16 17.516l-4.22 4.221a1 1 0 01-1.415 0l-.102-.102a1 1 0 010-1.414L14.484 16l-4.221-4.22a1 1 0 010-1.415l.102-.102a1 1 0 011.414 0z" fill="#FFF"></path></g></svg>
+                @endif
             </div>
             <div class="grid-table-row__Cell">
 
-              <svg width="32" height="32" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink"><defs><path d="M10.328 15.84a.784.784 0 00-1.1 0 .763.763 0 000 1.089l3.889 3.846c.303.3.796.3 1.1 0l8.555-8.462a.763.763 0 000-1.088.784.784 0 00-1.1 0l-8.005 7.918-3.34-3.302z" id="circle-status-check_inline_svg__a"></path></defs><g fill="none" fill-rule="evenodd"><circle fill="#97E0C7" cx="16" cy="16" r="16"></circle><use stroke="#FFF" fill="#FFF" fill-rule="nonzero" xlink:href="#circle-status-check_inline_svg__a"></use></g></svg>
-
-            </div>
-            <div class="grid-table-row__Cell">
-
-              <svg width="32" height="32" xmlns="http://www.w3.org/2000/svg"><g fill="none" fill-rule="evenodd"><circle fill="#F1A0A0" cx="16" cy="16" r="16"></circle><path d="M11.78 10.263L16 14.484l4.22-4.221a1 1 0 011.415 0l.102.102a1 1 0 010 1.414L17.516 16l4.221 4.22a1 1 0 010 1.415l-.102.102a1 1 0 01-1.414 0L16 17.516l-4.22 4.221a1 1 0 01-1.415 0l-.102-.102a1 1 0 010-1.414L14.484 16l-4.221-4.22a1 1 0 010-1.415l.102-.102a1 1 0 011.414 0z" fill="#FFF"></path></g></svg>
-
-            </div>
-            <div class="grid-table-row__Cell">
-
-              <svg width="32" height="32" xmlns="http://www.w3.org/2000/svg"><g fill="none" fill-rule="evenodd"><circle fill="#F1A0A0" cx="16" cy="16" r="16"></circle><path d="M11.78 10.263L16 14.484l4.22-4.221a1 1 0 011.415 0l.102.102a1 1 0 010 1.414L17.516 16l4.221 4.22a1 1 0 010 1.415l-.102.102a1 1 0 01-1.414 0L16 17.516l-4.22 4.221a1 1 0 01-1.415 0l-.102-.102a1 1 0 010-1.414L14.484 16l-4.221-4.22a1 1 0 010-1.415l.102-.102a1 1 0 011.414 0z" fill="#FFF"></path></g></svg>
-
+                @if ($row4->status8==1)
+                <svg width="32" height="32" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink"><defs><path d="M10.328 15.84a.784.784 0 00-1.1 0 .763.763 0 000 1.089l3.889 3.846c.303.3.796.3 1.1 0l8.555-8.462a.763.763 0 000-1.088.784.784 0 00-1.1 0l-8.005 7.918-3.34-3.302z" id="circle-status-check_inline_svg__a"></path></defs><g fill="none" fill-rule="evenodd"><circle fill="#97E0C7" cx="16" cy="16" r="16"></circle><use stroke="#FFF" fill="#FFF" fill-rule="nonzero" xlink:href="#circle-status-check_inline_svg__a"></use></g></svg>
+               @else
+               <svg width="32" height="32" xmlns="http://www.w3.org/2000/svg"><g fill="none" fill-rule="evenodd"><circle fill="#F1A0A0" cx="16" cy="16" r="16"></circle><path d="M11.78 10.263L16 14.484l4.22-4.221a1 1 0 011.415 0l.102.102a1 1 0 010 1.414L17.516 16l4.221 4.22a1 1 0 010 1.415l-.102.102a1 1 0 01-1.414 0L16 17.516l-4.22 4.221a1 1 0 01-1.415 0l-.102-.102a1 1 0 010-1.414L14.484 16l-4.221-4.22a1 1 0 010-1.415l.102-.102a1 1 0 011.414 0z" fill="#FFF"></path></g></svg>
+                @endif
             </div>
           </div>
         </div>
       </button>
                                                                             <div class="accordion-panel " data-id="widget_1615203080926-9">
-                                                                                <div class="comparison-chart-table__PanelWrapper">
-                                                                                    <div class="comparison-chart-table__Grid-sc">
-                                                                                        <div class="comparison-chart-table__Column">
-                                                                                            <p class="p-to-heading__HeadingWrapper">lorem</p>
-                                                                                            <p class="paragraph__StyledParagraph">Lorem ipsum dolor sit amet.</p>
-                                                                                        </div>
-                                                                                        <div class="comparison-chart-table__Column">
-                                                                                            <p class="p-to-heading__HeadingWrapper">lorem</p>
-                                                                                            <p class="paragraph__StyledParagraph">Lorem ipsum dolor sit amet consectetur adipisicing elit. Inventore, expedita.</p>
-                                                                                        </div>
-                                                                                        <div class="comparison-chart-table__Column">
-                                                                                            <p class="p-to-heading__HeadingWrapper">lorem</p>
-                                                                                            <p class="paragraph__StyledParagraph">Lorem ipsum dolor sit amet consectetur adipisicing elit. Distinctio, eaque?</p>
-                                                                                        </div>
-                                                                                        <div class="comparison-chart-table__Column">
-                                                                                            <p class="p-to-heading__HeadingWrapper">lorem</p>
-                                                                                            <p class="paragraph__StyledParagraph">Lorem ipsum dolor sit, amet consectetur adipisicing elit. Iste maiores ipsum accusantium sint necessitatibus quae vero porro eius dolores sit!</p>
-                                                                                        </div>
+                                                                                <div class="comparison-chart-table__Grid-sc">
+                                                                                    <div class="comparison-chart-table__Column">
+                                                                                        <p class="p-to-heading__HeadingWrapper">{{$row4->heading5}}</p>
+                                                                                        <p class="paragraph__StyledParagraph">{{$row4->detail5}}</p>
+                                                                                    </div>
+                                                                                    <div class="comparison-chart-table__Column">
+                                                                                        <p class="p-to-heading__HeadingWrapper">{{$row4->heading6}}</p>
+                                                                                        <p class="paragraph__StyledParagraph">{{$row4->detail6}}</p>
+                                                                                    </div>
+                                                                                    <div class="comparison-chart-table__Column">
+                                                                                        <p class="p-to-heading__HeadingWrapper">{{$row4->heading7}}</p>
+                                                                                        <p class="paragraph__StyledParagraph">{{$row4->detail7}}</p>
+                                                                                    </div>
+                                                                                    <div class="comparison-chart-table__Column">
+                                                                                        <p class="p-to-heading__HeadingWrapper">{{$row4->heading8}}</p>
+                                                                                        <p class="paragraph__StyledParagraph">{{$row2->detail8}}</p>
                                                                                     </div>
                                                                                 </div>
+                                                                            </div>
                                                                             </div>
                                                                         </div>
 
@@ -1807,52 +1826,59 @@ transform: rotate(0deg);
         <div class="comparison-chart-table__Content">
           <div class="white-box__Wrappergrid-table-row">
             <div class="grid-table-row__Cell">
-              <p class="paragraph__StyledParagraph">Tax Exempt</p>
+              <p class="paragraph__StyledParagraph">{{$row4->Sub_heading3}}</p>
             </div>
             <div class="grid-table-row__Cell">
-
-              <svg width="32" height="32" xmlns="http://www.w3.org/2000/svg"><g fill="none" fill-rule="evenodd"><circle fill="#F1A0A0" cx="16" cy="16" r="16"></circle><path d="M11.78 10.263L16 14.484l4.22-4.221a1 1 0 011.415 0l.102.102a1 1 0 010 1.414L17.516 16l4.221 4.22a1 1 0 010 1.415l-.102.102a1 1 0 01-1.414 0L16 17.516l-4.22 4.221a1 1 0 01-1.415 0l-.102-.102a1 1 0 010-1.414L14.484 16l-4.221-4.22a1 1 0 010-1.415l.102-.102a1 1 0 011.414 0z" fill="#FFF"></path></g></svg>
-
+                @if ($row4->status9==1)
+                <svg width="32" height="32" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink"><defs><path d="M10.328 15.84a.784.784 0 00-1.1 0 .763.763 0 000 1.089l3.889 3.846c.303.3.796.3 1.1 0l8.555-8.462a.763.763 0 000-1.088.784.784 0 00-1.1 0l-8.005 7.918-3.34-3.302z" id="circle-status-check_inline_svg__a"></path></defs><g fill="none" fill-rule="evenodd"><circle fill="#97E0C7" cx="16" cy="16" r="16"></circle><use stroke="#FFF" fill="#FFF" fill-rule="nonzero" xlink:href="#circle-status-check_inline_svg__a"></use></g></svg>
+               @else
+               <svg width="32" height="32" xmlns="http://www.w3.org/2000/svg"><g fill="none" fill-rule="evenodd"><circle fill="#F1A0A0" cx="16" cy="16" r="16"></circle><path d="M11.78 10.263L16 14.484l4.22-4.221a1 1 0 011.415 0l.102.102a1 1 0 010 1.414L17.516 16l4.221 4.22a1 1 0 010 1.415l-.102.102a1 1 0 01-1.414 0L16 17.516l-4.22 4.221a1 1 0 01-1.415 0l-.102-.102a1 1 0 010-1.414L14.484 16l-4.221-4.22a1 1 0 010-1.415l.102-.102a1 1 0 011.414 0z" fill="#FFF"></path></g></svg>
+                @endif
             </div>
             <div class="grid-table-row__Cell">
-
-              <svg width="32" height="32" xmlns="http://www.w3.org/2000/svg"><g fill="none" fill-rule="evenodd"><circle fill="#F1A0A0" cx="16" cy="16" r="16"></circle><path d="M11.78 10.263L16 14.484l4.22-4.221a1 1 0 011.415 0l.102.102a1 1 0 010 1.414L17.516 16l4.221 4.22a1 1 0 010 1.415l-.102.102a1 1 0 01-1.414 0L16 17.516l-4.22 4.221a1 1 0 01-1.415 0l-.102-.102a1 1 0 010-1.414L14.484 16l-4.221-4.22a1 1 0 010-1.415l.102-.102a1 1 0 011.414 0z" fill="#FFF"></path></g></svg>
-
+                @if ($row4->status10==1)
+                <svg width="32" height="32" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink"><defs><path d="M10.328 15.84a.784.784 0 00-1.1 0 .763.763 0 000 1.089l3.889 3.846c.303.3.796.3 1.1 0l8.555-8.462a.763.763 0 000-1.088.784.784 0 00-1.1 0l-8.005 7.918-3.34-3.302z" id="circle-status-check_inline_svg__a"></path></defs><g fill="none" fill-rule="evenodd"><circle fill="#97E0C7" cx="16" cy="16" r="16"></circle><use stroke="#FFF" fill="#FFF" fill-rule="nonzero" xlink:href="#circle-status-check_inline_svg__a"></use></g></svg>
+               @else
+               <svg width="32" height="32" xmlns="http://www.w3.org/2000/svg"><g fill="none" fill-rule="evenodd"><circle fill="#F1A0A0" cx="16" cy="16" r="16"></circle><path d="M11.78 10.263L16 14.484l4.22-4.221a1 1 0 011.415 0l.102.102a1 1 0 010 1.414L17.516 16l4.221 4.22a1 1 0 010 1.415l-.102.102a1 1 0 01-1.414 0L16 17.516l-4.22 4.221a1 1 0 01-1.415 0l-.102-.102a1 1 0 010-1.414L14.484 16l-4.221-4.22a1 1 0 010-1.415l.102-.102a1 1 0 011.414 0z" fill="#FFF"></path></g></svg>
+                @endif
             </div>
             <div class="grid-table-row__Cell">
-
-              <svg width="32" height="32" xmlns="http://www.w3.org/2000/svg"><g fill="none" fill-rule="evenodd"><circle fill="#F1A0A0" cx="16" cy="16" r="16"></circle><path d="M11.78 10.263L16 14.484l4.22-4.221a1 1 0 011.415 0l.102.102a1 1 0 010 1.414L17.516 16l4.221 4.22a1 1 0 010 1.415l-.102.102a1 1 0 01-1.414 0L16 17.516l-4.22 4.221a1 1 0 01-1.415 0l-.102-.102a1 1 0 010-1.414L14.484 16l-4.221-4.22a1 1 0 010-1.415l.102-.102a1 1 0 011.414 0z" fill="#FFF"></path></g></svg>
-
+                @if ($row4->status11==1)
+                <svg width="32" height="32" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink"><defs><path d="M10.328 15.84a.784.784 0 00-1.1 0 .763.763 0 000 1.089l3.889 3.846c.303.3.796.3 1.1 0l8.555-8.462a.763.763 0 000-1.088.784.784 0 00-1.1 0l-8.005 7.918-3.34-3.302z" id="circle-status-check_inline_svg__a"></path></defs><g fill="none" fill-rule="evenodd"><circle fill="#97E0C7" cx="16" cy="16" r="16"></circle><use stroke="#FFF" fill="#FFF" fill-rule="nonzero" xlink:href="#circle-status-check_inline_svg__a"></use></g></svg>
+               @else
+               <svg width="32" height="32" xmlns="http://www.w3.org/2000/svg"><g fill="none" fill-rule="evenodd"><circle fill="#F1A0A0" cx="16" cy="16" r="16"></circle><path d="M11.78 10.263L16 14.484l4.22-4.221a1 1 0 011.415 0l.102.102a1 1 0 010 1.414L17.516 16l4.221 4.22a1 1 0 010 1.415l-.102.102a1 1 0 01-1.414 0L16 17.516l-4.22 4.221a1 1 0 01-1.415 0l-.102-.102a1 1 0 010-1.414L14.484 16l-4.221-4.22a1 1 0 010-1.415l.102-.102a1 1 0 011.414 0z" fill="#FFF"></path></g></svg>
+                @endif
             </div>
             <div class="grid-table-row__Cell">
-
-              <svg width="32" height="32" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink"><defs><path d="M10.328 15.84a.784.784 0 00-1.1 0 .763.763 0 000 1.089l3.889 3.846c.303.3.796.3 1.1 0l8.555-8.462a.763.763 0 000-1.088.784.784 0 00-1.1 0l-8.005 7.918-3.34-3.302z" id="circle-status-check_inline_svg__a"></path></defs><g fill="none" fill-rule="evenodd"><circle fill="#97E0C7" cx="16" cy="16" r="16"></circle><use stroke="#FFF" fill="#FFF" fill-rule="nonzero" xlink:href="#circle-status-check_inline_svg__a"></use></g></svg>
-
+                @if ($row4->status12==1)
+                <svg width="32" height="32" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink"><defs><path d="M10.328 15.84a.784.784 0 00-1.1 0 .763.763 0 000 1.089l3.889 3.846c.303.3.796.3 1.1 0l8.555-8.462a.763.763 0 000-1.088.784.784 0 00-1.1 0l-8.005 7.918-3.34-3.302z" id="circle-status-check_inline_svg__a"></path></defs><g fill="none" fill-rule="evenodd"><circle fill="#97E0C7" cx="16" cy="16" r="16"></circle><use stroke="#FFF" fill="#FFF" fill-rule="nonzero" xlink:href="#circle-status-check_inline_svg__a"></use></g></svg>
+               @else
+               <svg width="32" height="32" xmlns="http://www.w3.org/2000/svg"><g fill="none" fill-rule="evenodd"><circle fill="#F1A0A0" cx="16" cy="16" r="16"></circle><path d="M11.78 10.263L16 14.484l4.22-4.221a1 1 0 011.415 0l.102.102a1 1 0 010 1.414L17.516 16l4.221 4.22a1 1 0 010 1.415l-.102.102a1 1 0 01-1.414 0L16 17.516l-4.22 4.221a1 1 0 01-1.415 0l-.102-.102a1 1 0 010-1.414L14.484 16l-4.221-4.22a1 1 0 010-1.415l.102-.102a1 1 0 011.414 0z" fill="#FFF"></path></g></svg>
+                @endif
             </div>
           </div>
         </div>
       </button>
                                                                             <div class="accordion-panel " data-id="widget_1615203080926-10">
-                                                                                <div class="comparison-chart-table__PanelWrapper">
-                                                                                    <div class="comparison-chart-table__Grid-sc">
-                                                                                        <div class="comparison-chart-table__Column">
-                                                                                            <p class="p-to-heading__HeadingWrapper">lorem</p>
-                                                                                            <p class="paragraph__StyledParagraph">Lorem ipsum dolor sit amet consectetur, adipisicing elit. Ea, nulla.</p>
-                                                                                        </div>
-                                                                                        <div class="comparison-chart-table__Column">
-                                                                                            <p class="p-to-heading__HeadingWrapper">lorem</p>
-                                                                                            <p class="paragraph__StyledParagraph">Lorem ipsum dolor, sit amet consectetur adipisicing elit. Alias, tempora.</p>
-                                                                                        </div>
-                                                                                        <div class="comparison-chart-table__Column">
-                                                                                            <p class="p-to-heading__HeadingWrapper">lorem</p>
-                                                                                            <p class="paragraph__StyledParagraph">Lorem ipsum dolor sit amet, consectetur adipisicing elit. Atque, magni!.</p>
-                                                                                        </div>
-                                                                                        <div class="comparison-chart-table__Column">
-                                                                                            <p class="p-to-heading__HeadingWrapper">lorem</p>
-                                                                                            <p class="paragraph__StyledParagraph">Lorem ipsum, dolor sit amet consectetur adipisicing elit. Debitis, itaque..</p>
-                                                                                        </div>
+                                                                                <div class="comparison-chart-table__Grid-sc">
+                                                                                    <div class="comparison-chart-table__Column">
+                                                                                        <p class="p-to-heading__HeadingWrapper">{{$row4->heading9}}</p>
+                                                                                        <p class="paragraph__StyledParagraph">{{$row4->detail9}}</p>
+                                                                                    </div>
+                                                                                    <div class="comparison-chart-table__Column">
+                                                                                        <p class="p-to-heading__HeadingWrapper">{{$row4->heading10}}</p>
+                                                                                        <p class="paragraph__StyledParagraph">{{$row4->detail10}}</p>
+                                                                                    </div>
+                                                                                    <div class="comparison-chart-table__Column">
+                                                                                        <p class="p-to-heading__HeadingWrapper">{{$row4->heading11}}</p>
+                                                                                        <p class="paragraph__StyledParagraph">{{$row4->detail11}}</p>
+                                                                                    </div>
+                                                                                    <div class="comparison-chart-table__Column">
+                                                                                        <p class="p-to-heading__HeadingWrapper">{{$row4->heading12}}</p>
+                                                                                        <p class="paragraph__StyledParagraph">{{$row2->detail12}}</p>
                                                                                     </div>
                                                                                 </div>
+                                                                            </div>
                                                                             </div>
                                                                         </div>
 
