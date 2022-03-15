@@ -78,12 +78,26 @@ class DatabaseSeeder extends Seeder
 
 
         // ]);
-        DB::table('logos')->insert([
-            'image' =>'logo.png',
+        // DB::table('logos')->insert([
+        //     'image' =>'logo.png',
+
+
+
+        // ]);
+        DB::table('table_headings')->insert([
+            'Heading' =>'Lorem ipsum dolor sit amet.',
+            'Heading1' =>'Lorem ipsum',
+            'Heading2' =>'Lorem ipsum',
+            'Heading3' =>'Lorem ipsum',
+            'Heading4' =>'Lorem ipsum',
+            'Heading5' =>'Lorem ipsum',
+
+
 
 
 
         ]);
+
 
     }
 }

@@ -36,8 +36,15 @@
                     </li>
                     <li><a href="{{url('admin/navtab')}}"><i class="feather icon-circle"></i><span class="menu-item" data-i18n="Shop">Corporate Structures</span></a>
                     </li>
-                    <li><a href="{{url('admin/table')}}"><i class="feather icon-circle"></i><span class="menu-item" data-i18n="Details">Comparison Chart</span></a>
+                    <li class="nav-item has-sub"><a href="#"><i class="feather icon-airplay"></i><span class="menu-title" data-i18n="Ecommerce">Comparison Chart</span></a>
+                        <ul class="menu-content">
+                            <li><a href="{{url('admin/chart_heading')}}"><i class="feather icon-circle"></i><span class="menu-item" data-i18n="Details">Chart Main Heading</span></a>
+                            </li>
+                        </ul>
                     </li>
+
+                    {{-- <li><a href="{{url('admin/table')}}"><i class="feather icon-circle"></i><span class="menu-item" data-i18n="Details">Comparison Chart</span></a>
+                    </li> --}}
                     <li><a href="{{url('admin/card')}}"><i class="feather icon-circle"></i><span class="menu-item" data-i18n="Details">Business Entity</span></a>
                     </li>
                     <li><a href="{{url('admin/launch')}}"><i class="feather icon-circle"></i><span class="menu-item" data-i18n="Details">Launch Business</span></a>

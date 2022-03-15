@@ -8,6 +8,9 @@ use App\Models\Home_card;
 use App\Models\Launch_bussiness;
 use App\Models\Corporation;
 use App\Models\Logo;
+use App\Models\Table_heading;
+
+
 
 
 
@@ -145,5 +148,29 @@ return back()->with('success','Successfully Updated');
 
         $header->save();
 return back()->with('success','Successfully Updated');
+    }
+    function chart_heading (){
+        $headers=Table_heading::all();
+            return view('Admin_asstes.chart_heading',compact('headers'));
+
+    }
+    function edit_tableheading($id){
+        $header=Table_heading::find($id);
+        return view('Admin_asstes.edit_tableheading',compact('header'));
+    }
+    function update_tableheading(Request $request){
+        $header=Table_heading::find($request->id);
+        $header->Heading=$request->Heading;
+        $header->Heading1=$request->Heading1;
+        $header->Heading2=$request->Heading2;
+        $header->Heading3=$request->Heading3;
+        $header->Heading4=$request->Heading4;
+        $header->Heading5=$request->Heading5;
+        $header->save();
+return back()->with('success','Successfully Updated');
+
+
+
+
     }
 }

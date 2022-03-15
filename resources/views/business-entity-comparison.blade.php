@@ -112,6 +112,7 @@
 @section('content')
 
 @include('slider')
+
 <div class="banner-section corporation-filing-banner">
     <div class="container-fluid banner-area">
         <div class="row-fluid-wrapper">
@@ -1107,7 +1108,7 @@ transform: rotate(0deg);
                                                         <div class="page-center">
                                                             <div class="content-center__Wrapper">
                                                                 <div class="content-center__Content">
-                                                                    <h2 class="heading__HeadingWrapper">Lorem ipsum dolor sit amet.</h2>
+                                                                    <h2 class="heading__HeadingWrapper">{{$table->Heading}}</h2>
 
                                                                 </div>
                                                             </div>
@@ -1124,19 +1125,19 @@ transform: rotate(0deg);
                                                                     </div>
                                                                     <div class="white-box__Wrapper">
                                                                         <div class="grid-table-row__Cell">
-                                                                            <span class="span-as-heading__HeadingWrapper-sc">Lorem, ipsum dolor.</span>
+                                                                            <span class="span-as-heading__HeadingWrapper-sc">{{$table->Heading1}}</span>
                                                                         </div>
                                                                         <div class="grid-table-row__Cell">
-                                                                            <span class="span-as-heading__HeadingWrapper-sc">lorem</span>
+                                                                            <span class="span-as-heading__HeadingWrapper-sc">{{$table->Heading2}}</span>
                                                                         </div>
                                                                         <div class="grid-table-row__Cell">
-                                                                            <span class="span-as-heading__HeadingWrapper-sc">lorem</span>
+                                                                            <span class="span-as-heading__HeadingWrapper-sc">{{$table->Heading3}}</span>
                                                                         </div>
                                                                         <div class="grid-table-row__Cell">
-                                                                            <span class="span-as-heading__HeadingWrapper-sc">loerm</span>
+                                                                            <span class="span-as-heading__HeadingWrapper-sc">{{$table->Heading4}}</span>
                                                                         </div>
                                                                         <div class="grid-table-row__Cell">
-                                                                            <span class="span-as-heading__HeadingWrapper-sc">lorem</span>
+                                                                            <span class="span-as-heading__HeadingWrapper-sc">{{$table->Heading5}}</span>
                                                                         </div>
                                                                     </div>
                                                                     <div class="comparison-chart-table__TabsWrapper ">

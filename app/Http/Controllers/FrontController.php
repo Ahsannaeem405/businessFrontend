@@ -8,6 +8,9 @@ use App\Models\Home_card;
 use App\Models\Launch_bussiness;
 use App\Models\Corporation;
 use App\Models\Logo;
+use App\Models\Table_heading;
+
+
 
 
 
@@ -28,11 +31,13 @@ class FrontController extends Controller
     }
     function home(){
         $corp=Corporation::first();
+        $table=Table_heading::first();
+
         $banners=Banner::all();
         $cards=Home_card::all();
         $launch=Launch_bussiness::first();
         $logo=Logo::first();
-        return view('business-entity-comparison',compact('banners','cards','launch','corp','logo'));
+        return view('business-entity-comparison',compact('banners','cards','launch','corp','logo','table'));
 
     }
     function state(){
@@ -86,4 +91,5 @@ class FrontController extends Controller
         return view('llc-state-information',compact('banners','logo'));
 
     }
+
 }

@@ -77,6 +77,9 @@ Route::prefix('admin')->group(function () {
     Route::get('/logo',[AdminController::class,'logo']);
     Route::get('/edit_logo/{id}',[AdminController::class,'edit_logo']);
     Route::post('update_logo',[AdminController::class,'update_logo']);
+Route::get('/chart_heading',[AdminController::class,'chart_heading']);
+Route::get('/edit_tableheading/{id}',[AdminController::class,'edit_tableheading']);
+Route::post('/update_tableheading',[AdminController::class,'update_tableheading']);
 
 
 
