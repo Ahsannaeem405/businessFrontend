@@ -80,6 +80,9 @@ Route::prefix('admin')->group(function () {
 Route::get('/chart_heading',[AdminController::class,'chart_heading']);
 Route::get('/edit_tableheading/{id}',[AdminController::class,'edit_tableheading']);
 Route::post('/update_tableheading',[AdminController::class,'update_tableheading']);
+Route::get('/row1',[AdminController::class,'row1']);
+Route::get('edit_row1/{id}',[AdminController::class,'edit_row1']);
+Route::post('update_row1',[AdminController::class,'update_row1']);
 
 
 

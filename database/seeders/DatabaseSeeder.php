@@ -84,19 +84,46 @@ class DatabaseSeeder extends Seeder
 
 
         // ]);
-        DB::table('table_headings')->insert([
-            'Heading' =>'Lorem ipsum dolor sit amet.',
-            'Heading1' =>'Lorem ipsum',
-            'Heading2' =>'Lorem ipsum',
-            'Heading3' =>'Lorem ipsum',
-            'Heading4' =>'Lorem ipsum',
-            'Heading5' =>'Lorem ipsum',
+        // DB::table('table_headings')->insert([
+        //     'Heading' =>'Lorem ipsum dolor sit amet.',
+        //     'Heading1' =>'Lorem ipsum',
+        //     'Heading2' =>'Lorem ipsum',
+        //     'Heading3' =>'Lorem ipsum',
+        //     'Heading4' =>'Lorem ipsum',
+        //     'Heading5' =>'Lorem ipsum',
 
 
 
+
+
+        // ]);
+        DB::table('f_rows')->insert([
+            'Title' =>'LOREM',
+            'Sub_heading' =>'Lorem ipsum',
+            'status1' =>'1',
+            'status2' =>'1',
+            'status3' =>'1',
+            'status4' =>'1',
+
+
+            'heading1' =>'LOREM',
+            'detail1' =>'Lorem Ipsum is simply dummy text of the printing and
+            typesetting industry. Lorem Ipsum has been the industry',
+            'heading2' =>'LOREM',
+            'detail2' =>'Lorem Ipsum is simply dummy text of the printing and
+            typesetting industry. Lorem Ipsum has been the industry',
+
+            'heading3' =>'LOREM',
+            'detail3' =>'Lorem Ipsum is simply dummy text of the printing and
+            typesetting industry. Lorem Ipsum has been the industry',
+            'heading4' =>'LOREM',
+            'detail4' =>'Lorem Ipsum is simply dummy text of the printing and
+            typesetting industry. Lorem Ipsum has been the industry',
 
 
         ]);
+
+
 
 
     }

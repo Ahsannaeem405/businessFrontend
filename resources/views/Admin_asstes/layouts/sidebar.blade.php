@@ -40,6 +40,8 @@
                         <ul class="menu-content">
                             <li><a href="{{url('admin/chart_heading')}}"><i class="feather icon-circle"></i><span class="menu-item" data-i18n="Details">Chart Main Heading</span></a>
                             </li>
+                            <li><a href="{{url('admin/row1')}}"><i class="feather icon-circle"></i><span class="menu-item" data-i18n="Details">Chart Row 1</span></a>
+                            </li>
                         </ul>
                     </li>
 
