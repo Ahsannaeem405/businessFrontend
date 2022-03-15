@@ -11,11 +11,7 @@ use App\Models\F_row;
 use App\Models\Logo;
 use App\Models\S_row;
 use App\Models\Table_heading;
-
-
-
-
-
+use App\Models\Trow;
 
 class AdminController extends Controller
 {
@@ -255,6 +251,75 @@ class AdminController extends Controller
            $header->detail6=$request->detail6;
             $header->detail7=$request->detail7;
               $header->detail8=$request->detail8;
+        $header->save();
+        return back()->with('success', 'Successfully Updated');
+    }
+    function row3(){
+        $headers=Trow::all();
+        return view('Admin_asstes.row3',compact('headers'));
+    }
+    function edit_row3($id){
+        $header=Trow::find($id);
+        return view('Admin_asstes.edit_row3',compact('header'));
+    }
+    function update_row3(Request $request){
+        $header=  Trow::find($request->id);
+        $header->Title=$request->Title;
+        $header->Sub_heading=$request->Sub_heading;
+        $header->Sub_heading2=$request->Sub_heading2;
+        $header->Sub_heading3=$request->Sub_heading3;
+        $header->Sub_heading4=$request->Sub_heading4;
+        $header->status1=$request->status1;
+        $header->status2=$request->status2;
+        $header->status3=$request->status3;
+        $header->status4=$request->status4;
+
+        $header->status5=$request->status5;
+          $header->status6=$request->status6;
+            $header->status7=$request->status7;
+              $header->status8=$request->status8;
+
+              $header->status9=$request->status9;
+              $header->status10=$request->status10;
+                $header->status11=$request->status11;
+                  $header->status12=$request->status12;
+
+
+                  $header->status13=$request->status13;
+                  $header->status14=$request->status14;
+                    $header->status15=$request->status15;
+                      $header->status16=$request->status16;
+
+
+
+        $header->heading1=$request->heading1;
+        $header->heading2=$request->heading2;
+        $header->heading3=$request->heading3;
+        $header->heading4=$request->heading4;
+        $header->heading5=$request->heading5;
+         $header->heading6=$request->heading6;
+          $header->heading7=$request->heading7;
+           $header->heading8=$request->heading8;
+
+        $header->detail1=$request->detail1;
+        $header->detail2=$request->detail2;
+        $header->detail3=$request->detail3;
+        $header->detail4=$request->detail4;
+        $header->detail5=$request->detail5;
+           $header->detail6=$request->detail6;
+            $header->detail7=$request->detail7;
+              $header->detail8=$request->detail8;
+
+              $header->detail9=$request->detail9;
+              $header->detail10=$request->detail10;
+               $header->detail11=$request->detail11;
+                 $header->detail12=$request->detail12;
+
+
+                 $header->detail13=$request->detail13;
+                 $header->detail14=$request->detail14;
+                  $header->detail15=$request->detail15;
+                    $header->detail16=$request->detail16;
         $header->save();
         return back()->with('success', 'Successfully Updated');
     }

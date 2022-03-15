@@ -86,6 +86,9 @@ Route::post('update_row1',[AdminController::class,'update_row1']);
 Route::get('row2',[AdminController::class,'row2']);
 Route::get('edit_row2/{id}',[AdminController::class,'edit_row2']);
 Route::post('update_row2',[AdminController::class,'update_row2']);
+Route::get('/row3',[AdminController::class,'row3']);
+Route::get('edit_row3/{id}',[AdminController::class,'edit_row3']);
+Route::post('update_row3',[AdminController::class,'update_row3']);
 
 
 

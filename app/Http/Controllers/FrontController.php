@@ -11,11 +11,7 @@ use App\Models\F_row;
 use App\Models\Logo;
 use App\Models\S_row;
 use App\Models\Table_heading;
-
-
-
-
-
+use App\Models\Trow;
 
 class FrontController extends Controller
 {
@@ -41,8 +37,11 @@ class FrontController extends Controller
         $logo=Logo::first();
         $row1=F_row::first();
         $row2=S_row::first();
+        $row3=Trow::first();
 
-        return view('business-entity-comparison',compact('banners','cards','launch','corp','logo','table','row1','row2'));
+
+
+        return view('business-entity-comparison',compact('banners','cards','launch','corp','logo','table','row1','row2','row3'));
 
     }
     function state(){
