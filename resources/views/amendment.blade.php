@@ -243,20 +243,10 @@
                                                                             class="hs_cos_wrapper hs_cos_wrapper_widget hs_cos_wrapper_type_rich_text"
                                                                             style="" data-hs-cos-general-type="widget"
                                                                             data-hs-cos-type="rich_text">
-                                                                            <h3>Lorem ipsum dolor sit amet.</h3>
-                                                                            <p style="margin-bottom: 40px;">Lorem ipsum dolor sit amet.<a
-                                                                                    href="#">Lorem ipsum dolor sit amet consectetur, adipisicing elit. Odit, dignissimos. <a
-                                                                                    href="#">LLC</a>,
-                                                                                <a
-                                                                                    href="#">S
-                                                                                    Corporation</a>, <a
-                                                                                    href="#">C
-                                                                                    Corporation</a> or a <a
-                                                                                    href="#">Nonprofit
-                                                                                    Corporation</a>), the appointed
-                                                                                <a href="#">Lorem, ipsum.s</a> Lorem ipsum dolor sit amet consectetur adipisicing elit. Excepturi, aperiam.
+                                                                            <h3>{{$changellc->heading}}</h3>
+                                                                            <p style="margin-bottom: 40px;">{{$changellc->detail}}
                                                                             </p>
-                                                                            <p style="margin-bottom: 72px;">Lorem ipsum dolor sit amet consectetur adipisicing elit. Adipisci nulla rem neque debitis nemo error dicta officia blanditiis, minima quas.</p>
+
                                                                         </span></div>
 
                                                                 </div>
@@ -294,7 +284,7 @@
 
                                                                                 </div>
 
-                                                                                <p style="margin: 0;">Lorem, ipsum dolor sit amet consectetur adipisicing elit. Quisquam deserunt architecto, nam aspernatur ex natus accusamus exercitationem cupiditate labore nulla!</p>
+
                                                                                 <div class="boxed-content-buttons">
 
                                                                                 </div>
@@ -469,15 +459,15 @@
                                                                                 </path>
                                                                             </svg>
                                                                         </div>
-                                                                        <h2>Lorem, ipsum dolor.</h2>
-                                                                        <h4>Lorem ipsum dolor sit amet..</h4>
-                                                                        <p style="margin-bottom: 0;">Lorem, ipsum dolor sit amet consectetur adipisicing elit. Fugit, excepturi!</p>
+                                                                        <h2>{{$helpfile->heading}}</h2>
+                                                                        <h4>{{$helpfile->Sub_heading}}</h4>
+                                                                        <p style="margin-bottom: 0;">{{$helpfile->detail}}</p>
                                                                         <ul>
-                                                                            <li>Lorem ipsum dolor sit, amet consectetur adipisicing elit. A, totam?
+                                                                            <li>{{$helpfile->point1}}
                                                                             </li>
-                                                                            <li>Lorem ipsum dolor sit amet consectetur adipisicing elit. Id, ex.</li>
-                                                                            <li>Lorem ipsum dolor sit, amet consectetur adipisicing elit. Illum, quas.</li>
-                                                                            <li>Lorem ipsum, dolor sit amet consectetur adipisicing elit. Voluptatem, excepturi.
+                                                                            <li>{{$helpfile->point2}}</li>
+                                                                            <li>{{$helpfile->point3}}</li>
+                                                                            <li>{{$helpfile->point4}}
                                                                             </li>
                                                                         </ul>
                                                                     </div>
@@ -662,10 +652,10 @@
                                                             class="hs_cos_wrapper hs_cos_wrapper_widget hs_cos_wrapper_type_rich_text"
                                                             style="" data-hs-cos-general-type="widget"
                                                             data-hs-cos-type="rich_text">
-                                                            <blockquote>
+                                                            {{-- <blockquote>
                                                                 <h2 style="max-width: 640px; margin: 0px auto 24px;">
                                                                   Lorem ipsum dolor sit amet consectetur.</h2>
-                                                            </blockquote>
+                                                            </blockquote> --}}
                                                         </span></div>
 
                                                 </div>
@@ -713,7 +703,7 @@
 
 
                                                                             <div class="title">
-                                                                                <span>Lorem ipsum dolor sit amet.</span>
+                                                                                <span>{{$faq->q1}}</span>
                                                                             </div>
 
                                                                         </div>
@@ -722,19 +712,7 @@
                                                                     <div class="acc_body"
                                                                         data-id="widget_1614260364663-whatbusinesschangescanbereportedinanarticlesofamendmentform1">
                                                                         <div class="inner">
-                                                                            <p>Lorem ipsum dolor sit amet consectetur, adipisicing elit. Aliquam, nihil?</p>
-                                                                            <ul>
-                                                                                <li>Lorem ipsum dolor sit amet.</li>
-                                                                                <li>Lorem ipsum dolor sit amet.</li>
-                                                                                <li>Lorem ipsum dolor sit amet.
-                                                                                </li>
-                                                                                <li>Lorem, ipsum dolor.
-                                                                                </li>
-                                                                                <li>Lorem, ipsum dolor.</li>
-                                                                                <li>Lorem, ipsum dolor.
-                                                                                </li>
-                                                                            </ul>
-                                                                            <p style="margin-bottom: 32px;">Lorem ipsum dolor sit amet consectetur adipisicing elit. Accusamus, deserunt?</p>
+                                                                            <p>{{$faq->a1}}</p>
 
 
                                                                         </div>
@@ -764,7 +742,7 @@
 
 
                                                                             <div class="title">
-                                                                                <span>Lorem ipsum dolor sit amet.</span>
+                                                                                <span>{{$faq->q2}}</span>
                                                                             </div>
 
                                                                         </div>
@@ -773,13 +751,8 @@
                                                                     <div class="acc_body"
                                                                         data-id="widget_1614260364663-whatinformationisrequiredtofileanarticlesofamendment2">
                                                                         <div class="inner">
-                                                                            <p>Lorem ipsum dolor sit amet.</p>
-                                                                            <ul style="margin-bottom: 24px;">
-                                                                                <li>Lorem ipsum dolor sit.</li>
-                                                                                <li>Lorem ipsum dolor sit.</li>
-                                                                                <li>Lorem ipsum dolor sit.</li>
-                                                                                <li>Lorem ipsum dolor sit amet consectetur, adipisicing elit. Ratione nemo labore doloremque voluptates accusantium. Vel ullam laborum quisquam dolore at..</li>
-                                                                            </ul>
+                                                                            <p>{{$faq->a2}}</p>
+
 
 
                                                                         </div>
@@ -809,7 +782,7 @@
 
 
                                                                             <div class="title">
-                                                                                <span>Lorem ipsum dolor, sit amet consectetur adipisicing elit.</span>
+                                                                                <span>{{$faq->q3}}</span>
                                                                             </div>
 
                                                                         </div>
@@ -819,7 +792,7 @@
                                                                         data-id="widget_1614260364663-whydoineedtofileanarticlesofamendment3">
                                                                         <div class="inner">
                                                                             <p style="margin-bottom: 32px;">
-                                                                               Lorem ipsum dolor sit amet consectetur, adipisicing elit. Aut minima culpa temporibus amet nemo reprehenderit et earum dolores nostrum ex.
+                                                                                {{$faq->a3}}
                                                                             </p>
 
 
@@ -850,7 +823,7 @@
 
 
                                                                             <div class="title">
-                                                                                <span>Lorem ipsum dolor sit amet.</span>
+                                                                                <span>{{$faq->q4}}</span>
                                                                             </div>
 
                                                                         </div>
@@ -859,7 +832,7 @@
                                                                     <div class="acc_body"
                                                                         data-id="widget_1614260364663-howdoisubmitmyarticlesofamendment4">
                                                                         <div class="inner">
-                                                                            <p style="margin-bottom: 32px;">Lorem ipsum dolor, sit amet consectetur adipisicing elit. Enim odio temporibus ducimus similique ipsum repudiandae ratione, ipsam laudantium accusamus suscipit.</p>
+                                                                            <p style="margin-bottom: 32px;">{{$faq->a4}}</p>
 
 
                                                                         </div>
@@ -889,7 +862,7 @@
 
 
                                                                             <div class="title">
-                                                                                <span>Lorem ipsum dolor sit amet consectetur adipisicing elit. Perspiciatis, odit.</span>
+                                                                                <span>{{$faq->q5}}</span>
                                                                             </div>
 
                                                                         </div>
@@ -898,90 +871,14 @@
                                                                     <div class="acc_body"
                                                                         data-id="widget_1614260364663-howmuchdoesitcosttofilearticlesofamendment5">
                                                                         <div class="inner">
-                                                                            <p style="margin-bottom: 32px;">Lorem ipsum dolor sit amet consectetur adipisicing elit. Commodi accusamus quod fugiat adipisci, architecto delectus aliquam enim est consequatur?</p>
+                                                                            <p style="margin-bottom: 32px;">{{$faq->a5}}</p>
 
 
                                                                         </div>
                                                                     </div>
                                                                 </div>
 
-                                                                <div class="acc_item acc6">
 
-                                                                    <div class="acc_header trigger"
-                                                                        data-id="widget_1614260364663-howlongdoesittaketofilearticlesofamendment6">
-                                                                        <div class="inner">
-
-                                                                            <div class="arr_icon first_pos">
-                                                                                <svg width="32" height="32"
-                                                                                    xmlns="http://www.w3.org/2000/svg">
-                                                                                    <g fill="none" fill-rule="evenodd">
-                                                                                        <circle fill="#FEF6ED" cx="16"
-                                                                                            cy="16" r="16">
-                                                                                        </circle>
-                                                                                        <path
-                                                                                            d="M20.297 16.195l-.004.004a1 1 0 01-1.416.003l-2.379-2.379v7.179a.998.998 0 01-1.996 0v-7.179l-2.379 2.379a1 1 0 01-1.416-.003l-.004-.004a1 1 0 01.003-1.412l4.088-4.078a1 1 0 011.412 0l4.088 4.078a1 1 0 01.003 1.412z"
-                                                                                            fill="#0000FF"></path>
-                                                                                    </g>
-                                                                                </svg>
-                                                                            </div>
-
-
-
-                                                                            <div class="title">
-                                                                                <span>Lorem ipsum dolor sit amet consectetur adipisicing elit. Veritatis, illum!</span>
-                                                                            </div>
-
-                                                                        </div>
-                                                                    </div>
-
-                                                                    <div class="acc_body"
-                                                                        data-id="widget_1614260364663-howlongdoesittaketofilearticlesofamendment6">
-                                                                        <div class="inner">
-                                                                            <p style="margin-bottom: 32px;">Lorem ipsum dolor sit amet consectetur adipisicing elit. Eos, quis?</p>
-
-
-                                                                        </div>
-                                                                    </div>
-                                                                </div>
-
-                                                                <div class="acc_item acc7">
-
-                                                                    <div class="acc_header trigger"
-                                                                        data-id="widget_1614260364663-whatwillireceivewhenthearticlesofamendmentarefiled7">
-                                                                        <div class="inner">
-
-                                                                            <div class="arr_icon first_pos">
-                                                                                <svg width="32" height="32"
-                                                                                    xmlns="http://www.w3.org/2000/svg">
-                                                                                    <g fill="none" fill-rule="evenodd">
-                                                                                        <circle fill="#FEF6ED" cx="16"
-                                                                                            cy="16" r="16">
-                                                                                        </circle>
-                                                                                        <path
-                                                                                            d="M20.297 16.195l-.004.004a1 1 0 01-1.416.003l-2.379-2.379v7.179a.998.998 0 01-1.996 0v-7.179l-2.379 2.379a1 1 0 01-1.416-.003l-.004-.004a1 1 0 01.003-1.412l4.088-4.078a1 1 0 011.412 0l4.088 4.078a1 1 0 01.003 1.412z"
-                                                                                            fill="#0000FF"></path>
-                                                                                    </g>
-                                                                                </svg>
-                                                                            </div>
-
-
-
-                                                                            <div class="title">
-                                                                                <span>Lorem ipsum dolor sit, amet consectetur adipisicing elit. Ut, aliquam.</span>
-                                                                            </div>
-
-                                                                        </div>
-                                                                    </div>
-
-                                                                    <div class="acc_body"
-                                                                        data-id="widget_1614260364663-whatwillireceivewhenthearticlesofamendmentarefiled7">
-                                                                        <div class="inner">
-                                                                            <p style="margin-bottom: 32px;">Lorem ipsum dolor sit amet consectetur adipisicing elit. Nesciunt, incidunt..</p>
-
-
-                                                                        </div>
-                                                                    </div>
-                                                                </div>
 
                                                             </div>
 

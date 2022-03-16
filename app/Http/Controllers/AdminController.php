@@ -7,13 +7,17 @@ use App\Models\Annualreport;
 use Illuminate\Http\Request;
 use App\Models\Banner;
 use App\Models\Bussiness;
+use App\Models\Changellc;
 use App\Models\Home_card;
 use App\Models\Launch_bussiness;
 use App\Models\Corporation;
 use App\Models\Duedate;
 use App\Models\F_row;
+use App\Models\Faq_amendment;
 use App\Models\Formal;
 use App\Models\Four_row;
+use App\Models\Help_line;
+use App\Models\Helpfile_amendment;
 use App\Models\Howtofile;
 use App\Models\Logo;
 use App\Models\S_row;
@@ -535,6 +539,99 @@ return back()->with('success', 'Successfully Updated');
 
 $header->save();
 return back()->with('success', 'Successfully Updated');
+
+    }
+    function HelpFile(){
+        $headers=Help_line::all();
+        return view('Admin_asstes.HelpFile',compact('headers'));
+
+    }
+    function edit_helpfile($id){
+       $header= Help_line::find($id);
+       return view('Admin_asstes.edit_helpfile',compact('header'));
+    }
+    function update_helpfile(Request $request){
+        $header=Help_line::find($request->id);
+        $header->heading=$request->heading;
+        $header->Sub_heading=$request->Sub_heading;
+        $header->detail=$request->detail;
+        $header->save();
+return back()->with('success', 'Successfully Updated');
+
+
+
+    }
+    function ChangeLLC(){
+        $headers=Changellc::all();
+        return view('Admin_asstes.ChangeLLC',compact('headers'));
+
+    }
+    function edit_changellc($id){
+        $header=Changellc::find($id);
+       return view('Admin_asstes.edit_changellc',compact('header'));
+
+
+    }
+    function update_changellc(Request $request){
+        $header=Changellc::find($request->id);
+        $header->heading=$request->heading;
+
+        $header->detail=$request->detail;
+        $header->save();
+return back()->with('success', 'Successfully Updated');
+    }
+    function HelpFile_amendment(){
+        $headers=Helpfile_amendment::all();
+
+        return view('Admin_asstes.HelpFile_amendment',compact('headers'));
+
+    }
+    function edit_helpfile_amendment($id){
+        $header= Helpfile_amendment::find($id);
+        return view('Admin_asstes.edit_helpfile_amendment',compact('header'));
+    }
+    function update_helpfile_amendment(Request $request){
+        $header=Helpfile_amendment::find($request->id);
+        $header->heading=$request->heading;
+        $header->Sub_heading=$request->Sub_heading;
+        $header->detail=$request->detail;
+        $header->point1=$request->point1;
+        $header->point2=$request->point2;
+        $header->point3=$request->point3;
+        $header->point4=$request->point4;
+
+
+        $header->save();
+return back()->with('success', 'Successfully Updated');
+
+    }
+    function faq_amendment(){
+        $headers=Faq_amendment::all();
+        return view('Admin_asstes.faq_amendment',compact('headers'));
+
+    }
+    function edit_faq_amendment($id){
+        // dd("helloo");
+        $header=Faq_amendment::find($id);
+        return view('Admin_asstes.edit_faq_amendment',compact('header'));
+    }
+    function  update_FAQ_amendment(Request $request){
+        $header=Faq_amendment::find($request->id);
+        $header->q1=$request->q1;
+        $header->q2=$request->q2;
+        $header->q3=$request->q3;
+        $header->q4=$request->q4;
+        $header->q5=$request->q5;
+
+        $header->a1=$request->a1;
+        $header->a2=$request->a2;
+        $header->a3=$request->a3;
+        $header->a4=$request->a4;
+        $header->a5=$request->a5;
+$header->save();
+return back()->with('success', 'Successfully Updated');
+
+
 
     }
 }

@@ -1219,11 +1219,10 @@
                                                                                             </svg>
                                                                                         </div>
 
-                                                                                        <h2>Lorem Ipsum
+                                                                                        <h2>{{$help_line->heading}}
                                                                                         </h2>
-                                                                                        <h4>Lorem Ipsum is simply dummy text </h4>
-                                                                                        <p>Lorem Ipsum is simply dummy text of the printing and
-                                                                                            typesetting industry.</p>
+                                                                                        <h4>{{$help_line->Sub_heading}}</h4>
+                                                                                        <p>{{$help_line->detail}}</p>
                                                                                     </div>
                                                                                 </div>
 

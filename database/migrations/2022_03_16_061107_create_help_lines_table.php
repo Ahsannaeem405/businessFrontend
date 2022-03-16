@@ -4,7 +4,7 @@ use Illuminate\Database\Migrations\Migration;
 use Illuminate\Database\Schema\Blueprint;
 use Illuminate\Support\Facades\Schema;
 
-class CreateAnnualLLCSTable extends Migration
+class CreateHelpLinesTable extends Migration
 {
     /**
      * Run the migrations.
@@ -13,8 +13,14 @@ class CreateAnnualLLCSTable extends Migration
      */
     public function up()
     {
-        Schema::create('annual_l_l_c_s', function (Blueprint $table) {
+        Schema::create('help_lines', function (Blueprint $table) {
             $table->id();
+            $table->string('heading')->nullable();
+            $table->string('Sub_heading')->nullable();
+            $table->text('detail')->nullable();
+
+
+
             $table->timestamps();
         });
     }
@@ -26,6 +32,6 @@ class CreateAnnualLLCSTable extends Migration
      */
     public function down()
     {
-        Schema::dropIfExists('annual_l_l_c_s');
+        Schema::dropIfExists('help_lines');
     }
 }

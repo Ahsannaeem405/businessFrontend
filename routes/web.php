@@ -113,6 +113,24 @@ Route::post('update_duedate',[AdminController::class,'update_duedate']);
 Route::get('Business&Financial',[AdminController::class,'Business']);
 Route::get('edit_bussiness/{id}',[AdminController::class,'edit_bussiness']);
 Route::post('update_bussiness',[AdminController::class,'update_bussiness']);
+Route::get('HelpFile',[AdminController::class,'HelpFile']);
+Route::get('edit_helpfile/{id}',[AdminController::class,'edit_helpfile']);
+Route::post('update_helpfile',[AdminController::class,'update_helpfile']);
+
+Route::get('ChangeLLC',[AdminController::class,'ChangeLLC']);
+Route::get('edit_changellc/{id}',[AdminController::class,'edit_changellc']);
+Route::post('update_changellc',[AdminController::class,'update_changellc']);
+
+Route::get('HelpFile_amendment',[AdminController::class,'HelpFile_amendment']);
+Route::get('edit_helpfile_amendment/{id}',[AdminController::class,'edit_helpfile_amendment']);
+Route::post('update_helpfile_amendment',[AdminController::class,'update_helpfile_amendment']);
+
+Route::get('faq_amendment',[AdminController::class,'faq_amendment']);
+Route::get('edit_faq_amendment/{id}',[AdminController::class,'edit_faq_amendment']);
+Route::post('update_FAQ_amendment',[AdminController::class,'update_FAQ_amendment']);
+
+
+
 
 
 
@@ -141,9 +159,7 @@ Route::post('update_bussiness',[AdminController::class,'update_bussiness']);
     Route::get('/OtherBusinessReports', function () {
         return view('Admin_asstes.OtherBusinessReports');
     });
-    Route::get('/HelpFile', function () {
-        return view('Admin_asstes.HelpFile');
-    });
+
     Route::get('/tax_description', function () {
         return view('Admin_asstes.tax_description');
     });
@@ -167,15 +183,9 @@ Route::post('update_bussiness',[AdminController::class,'update_bussiness']);
     Route::get('/tax_card', function () {
         return view('Admin_asstes.tax_card');
     });
-    Route::get('/ChangeLLC', function () {
-        return view('Admin_asstes.ChangeLLC');
-    });
-    Route::get('/HelpFile_amendment', function () {
-        return view('Admin_asstes.HelpFile_amendment');
-    });
-    Route::get('/faq_amendment', function () {
-        return view('Admin_asstes.faq_amendment');
-    });
+
+
+
     Route::get('/desc_disolution', function () {
         return view('Admin_asstes.desc_disolution');
     });

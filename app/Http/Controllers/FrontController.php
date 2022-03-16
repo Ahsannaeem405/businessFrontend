@@ -7,13 +7,17 @@ use App\Models\Annualreport;
 use Illuminate\Http\Request;
 use App\Models\Banner;
 use App\Models\Bussiness;
+use App\Models\Changellc;
 use App\Models\Home_card;
 use App\Models\Launch_bussiness;
 use App\Models\Corporation;
 use App\Models\Duedate;
 use App\Models\F_row;
+use App\Models\Faq_amendment;
 use App\Models\Formal;
 use App\Models\Four_row;
+use App\Models\Help_line;
+use App\Models\Helpfile_amendment;
 use App\Models\Howtofile;
 use App\Models\Logo;
 use App\Models\S_row;
@@ -50,6 +54,7 @@ class FrontController extends Controller
 
 
 
+
         return view('business-entity-comparison',compact('banners','cards','launch','corp','logo','table','row1','row2','row3','row4'));
 
     }
@@ -66,13 +71,14 @@ class FrontController extends Controller
         $file=Howtofile::first();
         $duedate=Duedate::first();
         $bussiness=Bussiness::first();
+        $help_line=Help_line::first();
 
 
 
 
 
         $logo=Logo::first();
-        return view('annual-report',compact('banners','logo','annual','formal','llc','file','duedate','bussiness'));
+        return view('annual-report',compact('banners','logo','annual','formal','llc','file','duedate','bussiness','help_line'));
     }
     function tax(){
         $banners=Banner::all();
@@ -89,7 +95,11 @@ class FrontController extends Controller
     function amendment(){
         $banners=Banner::all();
         $logo=Logo::first();
-        return view('amendment',compact('banners','logo'));
+        $changellc=Changellc::first();
+        $helpfile=Helpfile_amendment::first();
+        $faq=Faq_amendment::first();
+
+        return view('amendment',compact('banners','logo','changellc','helpfile','faq'));
 
     }
     function dissolution(){
