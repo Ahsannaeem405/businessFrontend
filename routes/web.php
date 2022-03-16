@@ -141,6 +141,26 @@ Route::get('edit_closellc/{id}',[AdminController::class,'edit_closellc']);
 Route::post('update_closurellc',[AdminController::class,'update_closurellc']);
 
 
+Route::get('/step_dissolving',[AdminController::class,'step_dissolving']);
+Route::get('edit_step_dissolution/{id}',[AdminController::class,'edit_step_dissolution']);
+Route::post('update_steps_diss',[AdminController::class,'update_steps_diss']);
+
+
+Route::get('/requirement_dissolution',[AdminController::class,'requirement_dissolution']);
+Route::get('edit_helpfile_dissolution/{id}',[AdminController::class,'edit_helpfile_dissolution']);
+Route::post('update_helpfile_dissolution',[AdminController::class,'update_helpfile_dissolution']);
+
+
+Route::get('/faq_dissolution',[AdminController::class,'faq_dissolution']);
+Route::get('edit_faq_dissolution/{id}',[AdminController::class,'edit_faq_dissolution']);
+Route::post('update_FAQ_dissolution',[AdminController::class,'update_FAQ_dissolution']);
+
+
+
+
+
+
+
 
 
     Route::get('/navtab', function () {
@@ -194,15 +214,9 @@ Route::post('update_closurellc',[AdminController::class,'update_closurellc']);
 
 
 
-    Route::get('/step_dissolving', function () {
-        return view('Admin_asstes.step_dissolving');
-    });
-    Route::get('/requirement_dissolution', function () {
-        return view('Admin_asstes.requirement_dissolution');
-    });
-    Route::get('/faq_dissolution', function () {
-        return view('Admin_asstes.faq_dissolution');
-    });
+
+
+
 
 
 

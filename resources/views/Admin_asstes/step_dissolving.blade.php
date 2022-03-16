@@ -7,13 +7,13 @@
 
 @section('content')
 
-        <div class="row">
+        {{-- <div class="row">
             <div class="col-lg-12">
                 <button type="button" class="btn btn-primary" style="float: right;" data-toggle="modal" data-target="#exampleModal">
-                  Add Steps
+                    Add AnnualLLC
                   </button>
             </div>
-        </div>
+        </div> --}}
         <div class="card mt-2">
             @if (session()->has('success'))
             <div class="alert alert-success">
@@ -27,7 +27,7 @@
             @endif
 
             <div class="card-header">
-                <h4>Steps to Dissolving LLC</h4>
+                <h4>Steps Of Dissolution</h4>
             </div>
             <div class="card-content p-3">
                 {{-- <form action="#">
@@ -54,8 +54,9 @@
                         <thead>
                             <tr>
                                 <th>No</th>
-                                <th>Link</th>
-
+                                <th>Heading1</th>
+                                <th>Heading2</th>
+                                <th>Heading3</th>
 
 
 
@@ -66,29 +67,31 @@
                             </tr>
                         </thead>
                         <tbody>
-                            {{-- @php
+                            @php
                                 $x=0;
                             @endphp
-                            @foreach ($abouts as $header)
+                            @foreach ($headers as $header)
                             @php
                                 $x++;
-                            @endphp --}}
+                            @endphp
                             <tr>
-                                <td>1</td>
-                                <td>Lorem Ipsum</td>
+                                <td>{{$x}}</td>
+                                <td>{{$header->heading1}}</td>
+                                <td>{{$header->heading2}}</td>
+                                <td>{{$header->heading3}}</td>
 
                                 <td>
 
 
-                                    <a href="{{url('#')}}"  class="btn btn-primary ml-lg-1 ml-md-1 mt-1">Edit</a>
+                                    <a href="{{url('admin/edit_step_dissolution/'.$header->id)}}"  class="btn btn-primary ml-lg-1 ml-md-1 mt-1">Edit</a>
 
-                                    <a href="{{url('#')}}" class="btn btn-danger ml-lg-1 ml-md-1 mt-1">Delete</a>
+
 
 
                                 </td>
                             </tr>
-{{--
-                            @endforeach --}}
+
+                            @endforeach
 
 
 
@@ -112,9 +115,9 @@
                         <tfoot>
                             <tr>
                                 <th>No</th>
-                                <th>Link</th>
-
-
+                                <th>Heading1</th>
+                                <th>Heading2</th>
+                                <th>Heading3</th>
 
 
                                 <th>Action</th>
@@ -134,7 +137,7 @@
       <div class="modal-content">
 
         <div class="modal-header">
-          <h5 class="modal-title" id="exampleModalLabel">Steps to Dissolving LLC</h5>
+          <h5 class="modal-title" id="exampleModalLabel">Add AnnualLLC</h5>
           <button type="button" class="close" data-dismiss="modal" aria-label="Close">
             <span aria-hidden="true">&times;</span>
           </button>
@@ -145,45 +148,17 @@
 
                 <div class="row p-3">
 
-                    <div class="col-lg-6 col-12 mt-2">
-                        <label><b>Heading</b></label><br>
-                     <input type="text" class="form-control" name="heading">
-                     </div>
-                     <div class="col-lg-6 col-12 mt-2">
-                        <label><b>Link</b></label><br>
-                     <input type="text" class="form-control" name="link">
-                     </div>
 
+                    <div class="col-lg-12 col-12 mt-2">
+                        <label><b>Question</b></label><br>
+                        <input type="text" name="question" class="form-control">
+                     </div>
 
                      <div class="col-lg-12 col-12 mt-2">
-                         <label><b>Description</b></label><br>
-                          <textarea name="decription" id=""  rows="5" class="form-control" required></textarea>
+                         <label><b>Detail</b></label><br>
+                          <textarea name="detail" id=""  rows="5" class="form-control" required></textarea>
                       </div>
-                      <div class="col-lg-12 col-12 mt-2">
-                        <label><b>Step Heading</b></label><br>
-                     <input type="text" class="form-control" name="link">
-                     </div>
-                      <div class="col-lg-12 col-12 mt-2">
-                        <label><b>Step Discription</b></label><br>
-                        <textarea name="decription" id=""  rows="5" class="form-control" required></textarea>
-                     </div>
 
-                     <div class="col-lg-12 col-12 mt-2">
-                        <label><b>Step Heading</b></label><br>
-                     <input type="text" class="form-control" name="link">
-                     </div>
-                      <div class="col-lg-12 col-12 mt-2">
-                        <label><b>Step Discription</b></label><br>
-                        <textarea name="decription" id=""  rows="5" class="form-control" required></textarea>
-                     </div>
-                     <div class="col-lg-12 col-12 mt-2">
-                        <label><b>Step Heading</b></label><br>
-                     <input type="text" class="form-control" name="link">
-                     </div>
-                      <div class="col-lg-12 col-12 mt-2">
-                        <label><b>Step Discription</b></label><br>
-                        <textarea name="decription" id=""  rows="5" class="form-control" required></textarea>
-                     </div>
 
 
 
@@ -194,7 +169,7 @@
         </div>
         <div class="modal-footer">
           {{-- <button type="button" class="btn btn-secondary" data-dismiss="modal">Close</button> --}}
-          <button type="submit" class="btn btn-primary">Add Steps</button>
+          <button type="submit" class="btn btn-primary">Add AnnualLLC</button>
 
         </div>
     </form>

@@ -569,7 +569,7 @@
                                                                             class="hs_cos_wrapper hs_cos_wrapper_widget hs_cos_wrapper_type_rich_text"
                                                                             style="" data-hs-cos-general-type="widget"
                                                                             data-hs-cos-type="rich_text">
-                                                                            <p style="margin-bottom: 40px;">Lorem, ipsum dolor sit amet consectetur adipisicing elit. Quam impedit quis quas quia ipsum eveniet similique doloribus dicta, porro minima.</p>
+
                                                                         </span></div>
 
                                                                 </div>
@@ -599,8 +599,8 @@
                                                                                 <div class="content-list-icon-content">
                                                                                     <h5
                                                                                         style="padding-top: 4px; margin-bottom: 16px;">
-                                                                                       Lorem ipsum dolor sit amet.</h5>
-                                                                                    <p style="margin: 0;">Lorem, ipsum dolor sit amet consectetur adipisicing elit. Ipsam facere quae odio quo doloribus iste officiis cum nam quia voluptatibus.
+                                                                                       {{$Step_dissolution->heading1}}</h5>
+                                                                                    <p style="margin: 0;">{{$Step_dissolution->detail1}}
                                                                                     </p>
 
                                                                                 </div>
@@ -612,11 +612,8 @@
                                                                                 <span class="circle__Wrapper">2</span>
 
                                                                                 <div class="content-list-icon-content">
-                                                                                    <h5>Lorem ipsum dolor sit amet.</h5>
-                                                                                    <p style="margin: 0;">Lorem ipsum dolor sit amet consectetur adipisicing elit. Ipsam, aspernatur.<span>&nbsp;</span><a
-                                                                                            href="#"
-                                                                                            target="_blank"
-                                                                                            rel="noopener">Lorem, ipsum.</a><span>&nbsp;</span>Lorem ipsum dolor sit amet consectetur adipisicing elit. Ipsam quasi nam pariatur laudantium dolor nisi dignissimos itaque necessitatibus deserunt praesentium?
+                                                                                    <h5>{{$Step_dissolution->heading2}}</h5>
+                                                                                    <p style="margin: 0;">{{$Step_dissolution->detail2}}
                                                                                     </p>
 
                                                                                 </div>
@@ -630,8 +627,8 @@
                                                                                 <div class="content-list-icon-content">
                                                                                     <h5
                                                                                         style="padding-top: 4px; margin-bottom: 16px;">
-                                                                                       Lorem, ipsum dolor.</h5>
-                                                                                    <p style="margin: 0;">Lorem ipsum dolor sit amet consectetur, adipisicing elit. Nisi, nam.</p>
+                                                                                        {{$Step_dissolution->heading3}}</h5>
+                                                                                    <p style="margin: 0;">{{$Step_dissolution->detail3}}</p>
 
                                                                                 </div>
                                                                             </div>
@@ -659,7 +656,7 @@
                                                                             class="hs_cos_wrapper hs_cos_wrapper_widget hs_cos_wrapper_type_rich_text"
                                                                             style="" data-hs-cos-general-type="widget"
                                                                             data-hs-cos-type="rich_text">
-                                                                            <p style="margin: 0;">Lorem ipsum dolor sit amet consectetur adipisicing elit. Enim, amet. Error facere eligendi nostrum dicta. Nulla dicta sequi nemo molestiae?</p>
+
                                                                         </span></div>
 
                                                                 </div>
@@ -843,14 +840,11 @@
 
                                                                                     <h2
                                                                                         style="margin-bottom: 56px; max-width: 460px;">
-                                                                                       Lorem ipsum dolor sit amet.</h2>
+                                                                                       {{$helpfile->heading}}</h2>
                                                                                     <h4 style="margin-bottom: 24px;">
-                                                                                       Lorem ipsum dolor sit amet.
+                                                                                       {{$helpfile->Sub_heading}}
                                                                                     </h4>
-                                                                                    <p style="margin: 0;">The
-                                                                                        lorem<a
-                                                                                            style="font-weight: 900;"
-                                                                                            href="#">Lorem, ipsum.</a>Lorem ipsum dolor sit amet.</p>
+                                                                                    <p style="margin: 0;">{{$helpfile->detail}}</p>
                                                                                 </div>
                                                                             </div>
 
@@ -1067,7 +1061,7 @@
                                                             data-hs-cos-type="rich_text">
                                                             <blockquote>
                                                                 <h2 style="max-width: 640px; margin: 0px auto 24px;">
-                                                                    Lorem ipsum dolor sit.</h2>
+                                                                {{$faq->heading}}</h2>
                                                             </blockquote>
                                                         </span></div>
 
@@ -1116,7 +1110,7 @@
 
 
                                                                             <div class="title">
-                                                                                <span>Lorem ipsum dolor sit.</span>
+                                                                                <span>{{$faq->q1}}</span>
                                                                             </div>
 
                                                                         </div>
@@ -1125,7 +1119,7 @@
                                                                     <div class="acc_body"
                                                                         data-id="widget_1614260364663-whatarearticlesofdistributionexactly1">
                                                                         <div class="inner">
-                                                                            <p><span>Lorem ipsum dolor sit amet consectetur adipisicing elit. Veniam, ipsum..</span></p>
+                                                                            <p><span>{{$faq->a1}}</span></p>
 
 
                                                                         </div>
@@ -1155,7 +1149,7 @@
 
 
                                                                             <div class="title">
-                                                                                <span>Lorem ipsum dolor sit amet.</span>
+                                                                                <span>{{$faq->q2}}</span>
                                                                             </div>
 
                                                                         </div>
@@ -1164,7 +1158,7 @@
                                                                     <div class="acc_body"
                                                                         data-id="widget_1614260364663-howmuchwillitcosttofilearticlesofdissolution2">
                                                                         <div class="inner">
-                                                                            <p><span>Lorem ipsum dolor sit amet consectetur adipisicing elit. Possimus, ea.</span></p>
+                                                                            <p><span>{{$faq->a2}}</span></p>
 
 
                                                                         </div>
@@ -1194,7 +1188,7 @@
 
 
                                                                             <div class="title">
-                                                                                <span>Lorem ipsum dolor sit amet consectetur, adipisicing elit. Ex, dolorem.</span>
+                                                                                <span>{{$faq->q3}}</span>
                                                                             </div>
 
                                                                         </div>
@@ -1203,7 +1197,7 @@
                                                                     <div class="acc_body"
                                                                         data-id="widget_1614260364663-whatcontingencieswouldprohibitmefromfilingadissolution3">
                                                                         <div class="inner">
-                                                                            <p><span>Lorem, ipsum dolor sit amet consectetur adipisicing elit. Tempora, debitis.</span></p>
+                                                                            <p><span>{{$faq->a3}}</span></p>
 
 
                                                                         </div>
@@ -1233,7 +1227,7 @@
 
 
                                                                             <div class="title">
-                                                                                <span>Lorem ipsum dolor, sit amet consectetur adipisicing elit. Accusantium, fugit.</span>
+                                                                                <span>{{$faq->q4}}</span>
                                                                             </div>
 
                                                                         </div>
@@ -1242,7 +1236,7 @@
                                                                     <div class="acc_body"
                                                                         data-id="widget_1614260364663-howlongwillittaketohavethearticlesofdissolutionfiled4">
                                                                         <div class="inner">
-                                                                            <p><span>Lorem ipsum dolor sit amet consectetur adipisicing elit. Minus, fuga..</span></p>
+                                                                            <p><span>{{$faq->a4}}</span></p>
 
 
                                                                         </div>
@@ -1272,7 +1266,7 @@
 
 
                                                                             <div class="title">
-                                                                                <span>Lorem ipsum dolor sit amet consectetur adipisicing elit. Recusandae, perspiciatis.</span>
+                                                                                <span>{{$faq->q5}}</span>
                                                                             </div>
 
                                                                         </div>
@@ -1281,7 +1275,7 @@
                                                                     <div class="acc_body"
                                                                         data-id="widget_1614260364663-whatwillireceivewhenthearticlesofdissolutionarefiled5">
                                                                         <div class="inner">
-                                                                            <p><span>Lorem ipsum dolor sit amet consectetur adipisicing elit. Distinctio, ipsam.</span></p>
+                                                                            <p><span>{{$faq->a5}}</span></p>
 
 
                                                                         </div>

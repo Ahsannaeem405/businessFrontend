@@ -7,13 +7,13 @@
 
 @section('content')
 
-        <div class="row">
+        {{-- <div class="row">
             <div class="col-lg-12">
                 <button type="button" class="btn btn-primary" style="float: right;" data-toggle="modal" data-target="#exampleModal">
-                  Add FAQ
+                    Add AnnualLLC
                   </button>
             </div>
-        </div>
+        </div> --}}
         <div class="card mt-2">
             @if (session()->has('success'))
             <div class="alert alert-success">
@@ -55,8 +55,6 @@
                             <tr>
                                 <th>No</th>
                                 <th>Heading</th>
-                            <th>Question</th>
-
 
 
 
@@ -65,30 +63,28 @@
                             </tr>
                         </thead>
                         <tbody>
-                            {{-- @php
+                            @php
                                 $x=0;
                             @endphp
-                            @foreach ($abouts as $header)
+                            @foreach ($headers as $header)
                             @php
                                 $x++;
-                            @endphp --}}
+                            @endphp
                             <tr>
-                                <td>1</td>
-                                <td>Lorem Ipsum</td>
-                                <td>What is Lorem Ipsum?</td>
-
+                                <td>{{$x}}</td>
+                                <td>{{$header->heading}}</td>
                                 <td>
 
 
-                                    <a href="{{url('#')}}"  class="btn btn-primary ml-lg-1 ml-md-1 mt-1">Edit</a>
+                                    <a href="{{url('admin/edit_faq_dissolution/'.$header->id)}}"  class="btn btn-primary ml-lg-1 ml-md-1 mt-1">Edit</a>
 
-                                    <a href="{{url('#')}}" class="btn btn-danger ml-lg-1 ml-md-1 mt-1">Delete</a>
+
 
 
                                 </td>
                             </tr>
-{{--
-                            @endforeach --}}
+
+                            @endforeach
 
 
 
@@ -113,8 +109,6 @@
                             <tr>
                                 <th>No</th>
                                 <th>Heading</th>
-                                <th>Question</th>
-
 
 
                                 <th>Action</th>
@@ -134,7 +128,7 @@
       <div class="modal-content">
 
         <div class="modal-header">
-          <h5 class="modal-title" id="exampleModalLabel">FAQ</h5>
+          <h5 class="modal-title" id="exampleModalLabel">Add AnnualLLC</h5>
           <button type="button" class="close" data-dismiss="modal" aria-label="Close">
             <span aria-hidden="true">&times;</span>
           </button>
@@ -146,51 +140,15 @@
                 <div class="row p-3">
 
 
-
                     <div class="col-lg-12 col-12 mt-2">
-                        <label><b>Heading</b></label><br>
-                        <input type="text" name="heading" class="form-control">
+                        <label><b>Question</b></label><br>
+                        <input type="text" name="question" class="form-control">
                      </div>
-                     <div class="col-lg-6 col-12 mt-2">
-                         <label><b>Question 1</b></label><br>
-                          <textarea name="q1" id=""  rows="5" class="form-control" required></textarea>
+
+                     <div class="col-lg-12 col-12 mt-2">
+                         <label><b>Detail</b></label><br>
+                          <textarea name="detail" id=""  rows="5" class="form-control" required></textarea>
                       </div>
-                      <div class="col-lg-6 col-12 mt-2">
-                        <label><b>Answer 1</b></label><br>
-                         <textarea name="a1" id=""  rows="5" class="form-control" required></textarea>
-                     </div>
-                     <div class="col-lg-6 col-12 mt-2">
-                        <label><b>Question 2</b></label><br>
-                         <textarea name="q2" id=""  rows="5" class="form-control" required></textarea>
-                     </div>
-                     <div class="col-lg-6 col-12 mt-2">
-                        <label><b>Answer 2</b></label><br>
-                         <textarea name="a2" id=""  rows="5" class="form-control" required></textarea>
-                     </div>
-                     <div class="col-lg-6 col-12 mt-2">
-                        <label><b>Question 3</b></label><br>
-                         <textarea name="q3" id=""  rows="5" class="form-control" required></textarea>
-                     </div>
-                     <div class="col-lg-6 col-12 mt-2">
-                        <label><b>Answer 3</b></label><br>
-                         <textarea name="a3" id=""  rows="5" class="form-control" required></textarea>
-                     </div>
-                     <div class="col-lg-6 col-12 mt-2">
-                        <label><b>Question 4</b></label><br>
-                         <textarea name="q4" id=""  rows="5" class="form-control" required></textarea>
-                     </div>
-                     <div class="col-lg-6 col-12 mt-2">
-                        <label><b>Answer 4</b></label><br>
-                         <textarea name="a4" id=""  rows="5" class="form-control" required></textarea>
-                     </div>
-                     <div class="col-lg-6 col-12 mt-2">
-                        <label><b>Question 5</b></label><br>
-                         <textarea name="q5" id=""  rows="5" class="form-control" required></textarea>
-                     </div>
-                     <div class="col-lg-6 col-12 mt-2">
-                        <label><b>Answer 5</b></label><br>
-                         <textarea name="a5" id=""  rows="5" class="form-control" required></textarea>
-                     </div>
 
 
 
@@ -202,7 +160,7 @@
         </div>
         <div class="modal-footer">
           {{-- <button type="button" class="btn btn-secondary" data-dismiss="modal">Close</button> --}}
-          <button type="submit" class="btn btn-primary">Add FAQ</button>
+          <button type="submit" class="btn btn-primary">Add AnnualLLC</button>
 
         </div>
     </form>

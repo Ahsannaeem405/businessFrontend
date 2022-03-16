@@ -584,16 +584,27 @@ class DatabaseSeeder extends Seeder
             // ]);
 
 
-            DB::table('closellcs')->insert([
+            DB::table('faq_dissolutions')->insert([
+'heading' =>'Lorem Ipsum',
+                'q1' =>'An Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum is simply dummy text of the printing and typesetting industry. ',
 
-                'heading' =>'What is an annual report?',
-                'detail' =>'What is an annual report?',
+                    'q2' =>'An Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum is simply dummy text of the printing and typesetting industry. ',
 
-                'video_heading' =>'What is an annual report?',
+                    'q3' =>'An Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum is simply dummy text of the printing and typesetting industry. ',
 
+                    'q4' =>'An Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum is simply dummy text of the printing and typesetting industry. ',
 
-                'video_link' =>'<iframe width="560" height="315" src="https://www.youtube.com/embed/yIj2lu8Rv0M" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>',
+                    'q5' =>'An Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum is simply dummy text of the printing and typesetting industry. ',
 
+                    'a1' =>'An Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum is simply dummy text of the printing and typesetting industry. ',
+
+                    'a2' =>'An Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum is simply dummy text of the printing and typesetting industry. ',
+
+                    'a3' =>'An Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum is simply dummy text of the printing and typesetting industry. ',
+
+                    'a4' =>'An Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum is simply dummy text of the printing and typesetting industry. ',
+
+                    'a5' =>'An Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum is simply dummy text of the printing and typesetting industry. ',
 
 
 
@@ -603,6 +614,68 @@ class DatabaseSeeder extends Seeder
 
 
             ]);
+
+
+            // DB::table('helpfile_dissolutions')->insert([
+
+            //     'heading' =>'What is an annual report?',
+            // 'Sub_heading' =>'What is an annual report?',
+
+
+            // 'detail' =>'An Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum is simply dummy text of the printing and typesetting industry. ',
+
+
+
+
+
+
+
+
+
+
+
+            // ]);
+
+
+            // DB::table('step_dissolutions')->insert([
+
+            //     'heading1' =>'What is an annual report?',
+            //     'detail1' =>'What is an annual report?',
+            //     'heading2' =>'What is an annual report?',
+            //     'detail2' =>'What is an annual report?',
+            //      'heading3' =>'What is an annual report?',
+            //     'detail3' =>'What is an annual report?',
+
+
+
+
+
+
+
+
+
+            // ]);
+
+
+            // DB::table('closellcs')->insert([
+
+            //     'heading' =>'What is an annual report?',
+            //     'detail' =>'What is an annual report?',
+
+            //     'video_heading' =>'What is an annual report?',
+
+
+            //     'video_link' =>'<iframe width="560" height="315" src="https://www.youtube.com/embed/yIj2lu8Rv0M" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>',
+
+
+
+
+
+
+
+
+
+            // ]);
 
 
 

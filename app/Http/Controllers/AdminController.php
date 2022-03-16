@@ -25,6 +25,9 @@ use App\Models\S_row;
 use App\Models\Table_heading;
 use App\Models\Trow;
 use App\Models\Desc_dissoluton;
+use App\Models\Faq_dissolution;
+use App\Models\Helpfile_dissolution;
+use App\Models\Step_dissolution;
 
 class AdminController extends Controller
 {
@@ -671,6 +674,80 @@ return back()->with('success', 'Successfully Updated');
         $header->video_link=$request->video_link;
         $header->save();
         return back()->with('success', 'Successfully Updated');
+
+
+    }
+    function step_dissolving(){
+        $headers=Step_dissolution::all();
+
+
+        return view('Admin_asstes.step_dissolving',compact('headers'));
+
+    }
+    function edit_step_dissolution($id){
+        $header=Step_dissolution::find($id);
+        return view('Admin_asstes.edit_step_dissolution',compact('header'));
+
+    }
+    function update_steps_diss(Request $request){
+        $header=Step_dissolution::find($request->id);
+        $header->heading1=$request->heading1;
+        $header->detail1=$request->detail1;
+
+        $header->heading2=$request->heading2;
+        $header->detail2=$request->detail2;
+        $header->heading3=$request->heading3;
+        $header->detail3=$request->detail3;
+        $header->save();
+        return back()->with('success', 'Successfully Updated');
+    }
+    function requirement_dissolution(){
+        $headers=Helpfile_dissolution::all();
+
+        return view('Admin_asstes.requirement_dissolution',compact('headers'));
+
+    }
+    function edit_helpfile_dissolution($id){
+        $header=Helpfile_dissolution::find($id);
+        return view('Admin_asstes.edit_helpfile_dissolution',compact('header'));
+    }
+    function update_helpfile_dissolution(Request $request){
+        $header=Helpfile_dissolution::find($request->id);
+        $header->heading=$request->heading;
+        $header->Sub_heading=$request->Sub_heading;
+        $header->detail=$request->detail;
+        $header->save();
+        return back()->with('success', 'Successfully Updated');
+
+    }
+    function faq_dissolution(){
+        $headers=Faq_dissolution::all();
+        return view('Admin_asstes.faq_dissolution',compact('headers'));
+
+    }
+    function edit_faq_dissolution($id){
+        $header=Faq_dissolution::find($id);
+        return view('Admin_asstes.edit_faq_dissolution',compact('header'));
+
+
+    }
+    function update_FAQ_dissolution(Request $request){
+        $header=Faq_dissolution::find($request->id);
+        $header->heading=$request->heading;
+        $header->q1=$request->q1;
+        $header->q2=$request->q2;
+        $header->q3=$request->q3;
+        $header->q4=$request->q4;
+        $header->q5=$request->q5;
+
+        $header->a1=$request->a1;
+        $header->a2=$request->a2;
+        $header->a3=$request->a3;
+        $header->a4=$request->a4;
+        $header->a5=$request->a5;
+        // dd($header);
+$header->save();
+return back()->with('success', 'Successfully Updated');
 
 
     }

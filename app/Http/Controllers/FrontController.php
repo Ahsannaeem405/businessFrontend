@@ -25,6 +25,9 @@ use App\Models\S_row;
 use App\Models\Table_heading;
 use App\Models\Trow;
 use App\Models\Desc_dissoluton;
+use App\Models\Faq_dissolution;
+use App\Models\Helpfile_dissolution;
+use App\Models\Step_dissolution;
 
 
 class FrontController extends Controller
@@ -110,8 +113,13 @@ class FrontController extends Controller
         $logo=Logo::first();
         $desc=Desc_dissoluton::first();
         $close=Closellc::first();
+        $Step_dissolution=Step_dissolution::first();
+        $helpfile=Helpfile_dissolution::first();
+        $faq=Faq_dissolution::first();
 
-        return view('dissolution',compact('banners','logo','desc','close'));
+
+
+        return view('dissolution',compact('banners','logo','desc','close','Step_dissolution','helpfile','faq'));
     }
     function certificate(){
         $banners=Banner::all();

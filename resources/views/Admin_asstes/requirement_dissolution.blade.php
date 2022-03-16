@@ -7,13 +7,13 @@
 
 @section('content')
 
-        <div class="row">
+        {{-- <div class="row">
             <div class="col-lg-12">
                 <button type="button" class="btn btn-primary" style="float: right;" data-toggle="modal" data-target="#exampleModal">
-                  Add Requirement
+                    Add AnnualLLC
                   </button>
             </div>
-        </div>
+        </div> --}}
         <div class="card mt-2">
             @if (session()->has('success'))
             <div class="alert alert-success">
@@ -27,7 +27,7 @@
             @endif
 
             <div class="card-header">
-                <h4>Requirement</h4>
+                <h4>Dissolution Requirements</h4>
             </div>
             <div class="card-content p-3">
                 {{-- <form action="#">
@@ -63,28 +63,28 @@
                             </tr>
                         </thead>
                         <tbody>
-                            {{-- @php
+                            @php
                                 $x=0;
                             @endphp
-                            @foreach ($abouts as $header)
+                            @foreach ($headers as $header)
                             @php
                                 $x++;
-                            @endphp --}}
+                            @endphp
                             <tr>
-                                <td>1</td>
-                                <td>Demo</td>
+                                <td>{{$x}}</td>
+                                <td>{{$header->heading}}</td>
                                 <td>
 
 
-                                    <a href="{{url('#')}}"  class="btn btn-primary ml-lg-1 ml-md-1 mt-1">Edit</a>
+                                    <a href="{{url('admin/edit_helpfile_dissolution/'.$header->id)}}"  class="btn btn-primary ml-lg-1 ml-md-1 mt-1">Edit</a>
 
-                                    <a href="{{url('#')}}" class="btn btn-danger ml-lg-1 ml-md-1 mt-1">Delete</a>
+
 
 
                                 </td>
                             </tr>
-{{--
-                            @endforeach --}}
+
+                            @endforeach
 
 
 
@@ -128,7 +128,7 @@
       <div class="modal-content">
 
         <div class="modal-header">
-          <h5 class="modal-title" id="exampleModalLabel">Requirement</h5>
+          <h5 class="modal-title" id="exampleModalLabel">Add AnnualLLC</h5>
           <button type="button" class="close" data-dismiss="modal" aria-label="Close">
             <span aria-hidden="true">&times;</span>
           </button>
@@ -141,12 +141,8 @@
 
 
                     <div class="col-lg-12 col-12 mt-2">
-                        <label><b>Heading</b></label><br>
+                        <label><b>Question</b></label><br>
                         <input type="text" name="question" class="form-control">
-                     </div>
-                     <div class="col-lg-12 col-12 mt-2">
-                        <label><b>Tag Line</b></label><br>
-                        <input type="text" name="tagline" class="form-control">
                      </div>
 
                      <div class="col-lg-12 col-12 mt-2">
@@ -158,14 +154,13 @@
 
 
 
-
                 </div>
 
 
         </div>
         <div class="modal-footer">
           {{-- <button type="button" class="btn btn-secondary" data-dismiss="modal">Close</button> --}}
-          <button type="submit" class="btn btn-primary">Add Requirment </button>
+          <button type="submit" class="btn btn-primary">Add AnnualLLC</button>
 
         </div>
     </form>
