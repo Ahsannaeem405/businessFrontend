@@ -417,21 +417,11 @@
                                                                             class="hs_cos_wrapper hs_cos_wrapper_widget hs_cos_wrapper_type_rich_text"
                                                                             style="" data-hs-cos-general-type="widget"
                                                                             data-hs-cos-type="rich_text">
-                                                                            <p style="margin-bottom: 32px;">Lorem ipsum dolor sit amet consectetur adipisicing elit. Sapiente consequatur quam inventore, odio hic eum? Reiciendis ipsam excepturi aspernatur repellat..</p>
-                                                                            <p style="margin-bottom: 72px;">Lorem ipsum dolor sit amet. <a
-                                                                                    href="#"
-                                                                                    target="_blank"
-                                                                                    rel="noopener">Lorem ipsum dolor sit amet.</a><a
-                                                                                    href="#"
-                                                                                    target="_blank" rel="noopener"></a><span
-                                                                                    style="color: #999999;"><a
-                                                                                        href="#"
-                                                                                        target="_blank" rel="noopener"
-                                                                                        style="color: #999999;">.</a></span>
-                                                                            </p>
-                                                                            <h3>Lorem ipsum dolor sit amet.
+                                                                            <p style="margin-bottom: 32px;">{{$desc->detail}}</p>
+
+                                                                            <h3>{{$close->heading}}
                                                                             </h3>
-                                                                            <p style="margin-bottom: 40px;">Lorem ipsum dolor sit amet consectetur adipisicing elit. Laudantium facilis nisi labore. Aspernatur nisi voluptates et consequatur, nostrum accusantium error?.</p>
+                                                                            <p style="margin-bottom: 40px;">{{$close->detail}}</p>
                                                                         </span></div>
 
                                                                 </div>
@@ -467,7 +457,7 @@
 
 
 
-                                                                                <p style="margin: 0;">Lorem ipsum dolor, sit amet consectetur adipisicing elit. Blanditiis eos, enim facere maiores mollitia pariatur harum nobis similique quia excepturi.</p>
+
                                                                                 <div class="boxed-content-buttons">
 
                                                                                 </div>
@@ -495,8 +485,8 @@
                                                                             class="hs_cos_wrapper hs_cos_wrapper_widget hs_cos_wrapper_type_rich_text"
                                                                             style="" data-hs-cos-general-type="widget"
                                                                             data-hs-cos-type="rich_text">
-                                                                            <p style="margin-bottom: 72px;">Lorem ipsum dolor sit amet consectetur adipisicing elit. Recusandae, quam!</p>
-                                                                            <h3 style="margin-bottom: 24px;">Lorem ipsum dolor sit amet.</h3>
+
+                                                                            <h3 style="margin-bottom: 24px;">{{$close->video_heading}}</h3>
                                                                         </span></div>
 
                                                                 </div>
@@ -541,12 +531,8 @@
                                                                             <div
                                                                                 class="video-pop-container popup_video_container_widget_1614265578054">
                                                                                 <div class="video-pop-container-inner">
-                                                                                    <iframe class="video-frame"
-                                                                                        title="Incfile Video" src="#"
-                                                                                        width="500" height="349"
-                                                                                        frameborder="0"
-                                                                                        allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture"
-                                                                                        allowfullscreen></iframe>
+
+                                                                                    {{$close->video_link}}
                                                                                     <!--     <div class="LightBox__Control">
             <button>
               <svg

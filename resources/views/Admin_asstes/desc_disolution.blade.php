@@ -7,13 +7,13 @@
 
 @section('content')
 
-        <div class="row">
+        {{-- <div class="row">
             <div class="col-lg-12">
                 <button type="button" class="btn btn-primary" style="float: right;" data-toggle="modal" data-target="#exampleModal">
-                  Add Dissolution Description
+                    Add AnnualLLC
                   </button>
             </div>
-        </div>
+        </div> --}}
         <div class="card mt-2">
             @if (session()->has('success'))
             <div class="alert alert-success">
@@ -27,7 +27,7 @@
             @endif
 
             <div class="card-header">
-                <h4>Dissolution Description</h4>
+                <h4>Description</h4>
             </div>
             <div class="card-content p-3">
                 {{-- <form action="#">
@@ -54,8 +54,6 @@
                         <thead>
                             <tr>
                                 <th>No</th>
-                                <th>Discription</th>
-
 
 
 
@@ -65,29 +63,28 @@
                             </tr>
                         </thead>
                         <tbody>
-                            {{-- @php
+                            @php
                                 $x=0;
                             @endphp
-                            @foreach ($abouts as $header)
+                            @foreach ($headers as $header)
                             @php
                                 $x++;
-                            @endphp --}}
+                            @endphp
                             <tr>
-                                <td>1</td>
-                                <td>What is Lorem Ipsum?</td>
+                                <td>{{$x}}</td>
 
                                 <td>
 
 
-                                    <a href="{{url('#')}}"  class="btn btn-primary ml-lg-1 ml-md-1 mt-1">Edit</a>
+                                    <a href="{{url('admin/edit_decs_diss/'.$header->id)}}"  class="btn btn-primary ml-lg-1 ml-md-1 mt-1">Edit</a>
 
-                                    <a href="{{url('#')}}" class="btn btn-danger ml-lg-1 ml-md-1 mt-1">Delete</a>
+
 
 
                                 </td>
                             </tr>
-{{--
-                            @endforeach --}}
+
+                            @endforeach
 
 
 
@@ -111,8 +108,6 @@
                         <tfoot>
                             <tr>
                                 <th>No</th>
-                                <th>Heading</th>
-                                <th>Question</th>
 
 
 
@@ -133,7 +128,7 @@
       <div class="modal-content">
 
         <div class="modal-header">
-          <h5 class="modal-title" id="exampleModalLabel">Dissolution Description</h5>
+          <h5 class="modal-title" id="exampleModalLabel">Add AnnualLLC</h5>
           <button type="button" class="close" data-dismiss="modal" aria-label="Close">
             <span aria-hidden="true">&times;</span>
           </button>
@@ -145,12 +140,16 @@
                 <div class="row p-3">
 
 
-
+                    <div class="col-lg-12 col-12 mt-2">
+                        <label><b>Question</b></label><br>
+                        <input type="text" name="question" class="form-control">
+                     </div>
 
                      <div class="col-lg-12 col-12 mt-2">
-                         <label><b>Description</b></label><br>
-                          <textarea name="decription" id=""  rows="5" class="form-control" required></textarea>
+                         <label><b>Detail</b></label><br>
+                          <textarea name="detail" id=""  rows="5" class="form-control" required></textarea>
                       </div>
+
 
 
 
@@ -161,7 +160,7 @@
         </div>
         <div class="modal-footer">
           {{-- <button type="button" class="btn btn-secondary" data-dismiss="modal">Close</button> --}}
-          <button type="submit" class="btn btn-primary">Add Description</button>
+          <button type="submit" class="btn btn-primary">Add AnnualLLC</button>
 
         </div>
     </form>

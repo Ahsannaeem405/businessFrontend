@@ -8,6 +8,7 @@ use Illuminate\Http\Request;
 use App\Models\Banner;
 use App\Models\Bussiness;
 use App\Models\Changellc;
+use App\Models\Closellc;
 use App\Models\Home_card;
 use App\Models\Launch_bussiness;
 use App\Models\Corporation;
@@ -23,6 +24,8 @@ use App\Models\Logo;
 use App\Models\S_row;
 use App\Models\Table_heading;
 use App\Models\Trow;
+use App\Models\Desc_dissoluton;
+
 
 class FrontController extends Controller
 {
@@ -105,7 +108,10 @@ class FrontController extends Controller
     function dissolution(){
         $banners=Banner::all();
         $logo=Logo::first();
-        return view('dissolution',compact('banners','logo'));
+        $desc=Desc_dissoluton::first();
+        $close=Closellc::first();
+
+        return view('dissolution',compact('banners','logo','desc','close'));
     }
     function certificate(){
         $banners=Banner::all();

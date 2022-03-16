@@ -530,31 +530,69 @@ class DatabaseSeeder extends Seeder
 
             // ]);
 
-            DB::table('faq_amendments')->insert([
+            // DB::table('faq_amendments')->insert([
 
 
 
 
-                'q1' =>'An Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum is simply dummy text of the printing and typesetting industry. ',
+            //     'q1' =>'An Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum is simply dummy text of the printing and typesetting industry. ',
 
-                'q2' =>'An Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum is simply dummy text of the printing and typesetting industry. ',
+            //     'q2' =>'An Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum is simply dummy text of the printing and typesetting industry. ',
 
-                'q3' =>'An Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum is simply dummy text of the printing and typesetting industry. ',
+            //     'q3' =>'An Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum is simply dummy text of the printing and typesetting industry. ',
 
-                'q4' =>'An Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum is simply dummy text of the printing and typesetting industry. ',
+            //     'q4' =>'An Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum is simply dummy text of the printing and typesetting industry. ',
 
-                'q5' =>'An Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum is simply dummy text of the printing and typesetting industry. ',
+            //     'q5' =>'An Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum is simply dummy text of the printing and typesetting industry. ',
 
-                'a1' =>'An Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum is simply dummy text of the printing and typesetting industry. ',
+            //     'a1' =>'An Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum is simply dummy text of the printing and typesetting industry. ',
 
-                'a2' =>'An Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum is simply dummy text of the printing and typesetting industry. ',
+            //     'a2' =>'An Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum is simply dummy text of the printing and typesetting industry. ',
 
-                'a3' =>'An Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum is simply dummy text of the printing and typesetting industry. ',
+            //     'a3' =>'An Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum is simply dummy text of the printing and typesetting industry. ',
 
-                'a4' =>'An Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum is simply dummy text of the printing and typesetting industry. ',
+            //     'a4' =>'An Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum is simply dummy text of the printing and typesetting industry. ',
 
-                'a5' =>'An Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum is simply dummy text of the printing and typesetting industry. ',
+            //     'a5' =>'An Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum is simply dummy text of the printing and typesetting industry. ',
 
+
+
+
+
+
+
+
+
+
+            // ]);
+
+            // DB::table('desc_dissolutons')->insert([
+
+
+
+
+            //     'detail' =>'An Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum is simply dummy text of the printing and typesetting industry. ',
+
+
+
+
+
+
+
+
+
+            // ]);
+
+
+            DB::table('closellcs')->insert([
+
+                'heading' =>'What is an annual report?',
+                'detail' =>'What is an annual report?',
+
+                'video_heading' =>'What is an annual report?',
+
+
+                'video_link' =>'<iframe width="560" height="315" src="https://www.youtube.com/embed/yIj2lu8Rv0M" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>',
 
 
 
@@ -565,8 +603,6 @@ class DatabaseSeeder extends Seeder
 
 
             ]);
-
-
 
 
 

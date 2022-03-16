@@ -130,9 +130,15 @@ Route::get('edit_faq_amendment/{id}',[AdminController::class,'edit_faq_amendment
 Route::post('update_FAQ_amendment',[AdminController::class,'update_FAQ_amendment']);
 
 
+Route::get('/desc_disolution',[AdminController::class,'desc_disolution']);
 
 
+Route::get('edit_decs_diss/{id}',[AdminController::class,'edit_decs_diss']);
+Route::post('update_disc',[AdminController::class,'update_disc']);
 
+Route::get('/CloseLLC',[AdminController::class,'CloseLLC']);
+Route::get('edit_closellc/{id}',[AdminController::class,'edit_closellc']);
+Route::post('update_closurellc',[AdminController::class,'update_closurellc']);
 
 
 
@@ -186,12 +192,8 @@ Route::post('update_FAQ_amendment',[AdminController::class,'update_FAQ_amendment
 
 
 
-    Route::get('/desc_disolution', function () {
-        return view('Admin_asstes.desc_disolution');
-    });
-    Route::get('/CloseLLC', function () {
-        return view('Admin_asstes.CloseLLC');
-    });
+
+
     Route::get('/step_dissolving', function () {
         return view('Admin_asstes.step_dissolving');
     });

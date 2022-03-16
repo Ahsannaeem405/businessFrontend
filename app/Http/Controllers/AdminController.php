@@ -8,6 +8,7 @@ use Illuminate\Http\Request;
 use App\Models\Banner;
 use App\Models\Bussiness;
 use App\Models\Changellc;
+use App\Models\Closellc;
 use App\Models\Home_card;
 use App\Models\Launch_bussiness;
 use App\Models\Corporation;
@@ -23,6 +24,7 @@ use App\Models\Logo;
 use App\Models\S_row;
 use App\Models\Table_heading;
 use App\Models\Trow;
+use App\Models\Desc_dissoluton;
 
 class AdminController extends Controller
 {
@@ -631,6 +633,44 @@ return back()->with('success', 'Successfully Updated');
 $header->save();
 return back()->with('success', 'Successfully Updated');
 
+
+
+    }
+    function desc_disolution(){
+        $headers=Desc_dissoluton::all();
+        return view('Admin_asstes.desc_disolution',compact('headers'));
+
+    }
+    function edit_decs_diss($id){
+        $header=Desc_dissoluton::find($id);
+        return view('Admin_asstes.edit_decs_diss',compact('header'));
+
+    }
+    function update_disc(Request $request){
+        $header=Desc_dissoluton::find($request->id);
+        $header->detail=$request->detail;
+        $header->save();
+return back()->with('success', 'Successfully Updated');
+    }
+    function CloseLLC(){
+        $headers=Closellc::all();
+     return view('Admin_asstes.CloseLLC',compact('headers'));
+
+    }
+    function edit_closellc($id){
+        $header=Closellc::find($id);
+        return view('Admin_asstes.edit_CloseLLC',compact('header'));
+
+    }
+    function update_closurellc(Request $request){
+        $header=Closellc::find($request->id);
+        $header->heading=$request->heading;
+        $header->detail=$request->detail;
+
+        $header->video_heading=$request->video_heading;
+        $header->video_link=$request->video_link;
+        $header->save();
+        return back()->with('success', 'Successfully Updated');
 
 
     }
