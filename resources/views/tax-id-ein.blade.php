@@ -672,13 +672,7 @@
                                                                                 style=""
                                                                                 data-hs-cos-general-type="widget"
                                                                                 data-hs-cos-type="rich_text">
-                                                                                <p style="margin-bottom: 48px;">Lorem Ipsum is simply dummy text of the printing and
-                                                                                    typesetting industry. Lorem Ipsum has been the industry's
-                                                                                    standard dummy text ever since the 1500s, when an unknown
-                                                                                    printer took a galley of type and scrambled it to make a
-                                                                                    type specimen book. It has survived not only five centuries,
-                                                                                    but also the leap into electronic typesetting,
-                                                                                    remaining essentially unchanged. </p>
+                                                                                <p style="margin-bottom: 48px;">{{$tax_desc->detail}} </p>
                                                                             </span></div>
 
                                                                     </div>
@@ -732,8 +726,8 @@
                                                                                             height="349" frameborder="0"
                                                                                             allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture"
                                                                                             allowfullscreen></iframe> --}}
-                                                                                            <iframe title="Incfile Video" class="video-frame" width="500" height="349" src="https://www.youtube.com/embed/yIj2lu8Rv0M" title="YouTube video player" frameborder="0"  allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture"
-                                                                                            allowfullscreen></iframe>
+
+                                                                                            {{$tax_desc->video_link}}
                                                                                         <!--     <div class="LightBox__Control">
         <button>
           <svg
@@ -826,13 +820,9 @@
                                                                                         </svg>
                                                                                     </div>
 
-                                                                                    <h4>What is Lorem Ipsum?
+                                                                                    <h4>{{$employee->question}}
                                                                                     </h4>
-                                                                                    <p style="margin: 0;">Lorem Ipsum is simply dummy text of the printing and
-                                                                                        typesetting industry. Lorem Ipsum has been the industry's
-                                                                                        standard dummy text ever since the 1500s, when an unknown
-                                                                                        printer took a galley of type and scrambled it to make a
-                                                                                        type specimen book.</p>
+                                                                                    <p style="margin: 0;">{{$employee->answer}}</p>
                                                                                     <div class="boxed-content-buttons">
 
                                                                                     </div>
@@ -862,13 +852,8 @@
                                                                                 style=""
                                                                                 data-hs-cos-general-type="widget"
                                                                                 data-hs-cos-type="rich_text">
-                                                                                <h3>What is Lorem Ipsum?</h3>
-                                                                                <p style="margin-bottom: 40px;">Lorem Ipsum is simply dummy text of the printing and
-                                                                                    typesetting industry. Lorem Ipsum has been the industry's
-                                                                                    standard dummy text ever since the 1500s, when an unknown
-                                                                                    printer took a galley of type and scrambled it to make a
-                                                                                    type specimen book.
-                                                                                </p>
+                                                                                <h3>{{$federal->heading}}</h3>
+                                                                                <p style="margin-bottom: 40px;">{{$federal->detail}}
                                                                             </span></div>
 
                                                                     </div>
@@ -893,26 +878,14 @@
 
                                                                                 <div class="boxed-color-box">
 
-                                                                                    <h4>Lorem Ipsum is simply dummy text of the printing and
-                                                                                        typesetting industry.</h4>
+                                                                                    <h4>{{$federal->point_detail}}</h4>
                                                                                     <ul>
-                                                                                        <li>Lorem Ipsum is simply dummy text of the printing and
-                                                                                            typesetting industry.</li>
-                                                                                        <li>Lorem Ipsum is simply dummy text of the printing and
-                                                                                            typesetting industry.
+                                                                                        <li>{{$federal->p1}}</li>
+                                                                                        <li>{{$federal->p2}}
                                                                                         </li>
-                                                                                        <li>Lorem Ipsum is simply dummy text of the printing and
-                                                                                            typesetting industry.</li>
-                                                                                        <li>Lorem Ipsum is simply dummy text of the printing and
-                                                                                            typesetting industry. Lorem Ipsum has been the industry's
-                                                                                            standard dummy text ever since the 1500s, when an unknown
-                                                                                            printer took a galley of type and scrambled it to make a
-                                                                                            type specimen book.</li>
-                                                                                        <li>Lorem Ipsum is simply dummy text of the printing and
-                                                                                            typesetting industry. Lorem Ipsum has been the industry's
-                                                                                            standard dummy text ever since the 1500s, when an unknown
-                                                                                            printer took a galley of type and scrambled it to make a
-                                                                                            type specimen book.</li>
+                                                                                        <li>{{$federal->p3}}</li>
+                                                                                        <li>{{$federal->p4}}</li>
+                                                                                        <li>{{$federal->p5}}</li>
                                                                                     </ul>
                                                                                     <div class="boxed-content-buttons">
 
@@ -943,19 +916,11 @@
                                                                                 style=""
                                                                                 data-hs-cos-general-type="widget"
                                                                                 data-hs-cos-type="rich_text">
-                                                                                <h3>Where &amp; What is Lorem Ipsum?
+                                                                                <h3>{{$usage->q1}}
                                                                                 </h3>
-                                                                                <p style="margin-bottom: 48px;">Lorem Ipsum is simply dummy text of the printing and
-                                                                                    typesetting industry. Lorem Ipsum has been the industry's
-                                                                                    standard dummy text ever since the 1500s, when an unknown
-                                                                                    printer took a galley of type and scrambled it to make a
-                                                                                    type specimen book.</p>
-                                                                                <h3>What is Lorem Ipsum?</h3>
-                                                                                <p style="margin-bottom: 40px;">Lorem Ipsum is simply dummy text of the printing and
-                                                                                    typesetting industry. Lorem Ipsum has been the industry's
-                                                                                    standard dummy text ever since the 1500s, when an unknown
-                                                                                    printer took a galley of type and scrambled it to make a
-                                                                                    type specimen book.</p>
+                                                                                <p style="margin-bottom: 48px;">{{$usage->a1}}</p>
+                                                                                <h3>{{$usage->q2}}</h3>
+                                                                                <p style="margin-bottom: 40px;">{{$usage->a2}}</p>
                                                                             </span></div>
 
                                                                     </div>
@@ -1160,19 +1125,15 @@
                                                                                         fill-rule="evenodd"></path>
                                                                                 </svg>
                                                                             </div>
-                                                                            <h2>Lorem Ipsum is simply dummy text</h2>
-                                                                            <p>Lorem Ipsum is simply dummy text of the printing and
-                                                                                typesetting industry.</p>
-                                                                            <p>Lorem Ipsum is simply dummy text of the printing and
-                                                                                typesetting industry. Lorem Ipsum has been the industry's
-                                                                                standard dummy text ever since the 1500s, when an unknown
-                                                                                printer took a galley </p>
+                                                                            <h2>{{$obtain->heading}}</h2>
+                                                                            <p>{{$obtain->Sub_heading}}</p>
+                                                                            <p>{{$obtain->detail}}</p>
                                                                         </div>
                                                                     </div>
                                                                     <div class="jydYwh">
                                                                         <div class="crIIZG">
                                                                             <div class="iFaKEV card">
-                                                                                <h3 class="gJQqAX">TAX
+                                                                                <h3 class="gJQqAX">{{$obtain->Sub_heading2}}
                                                                                 </h3>
 
                                                                                 <div class="gatsby-image-wrapper"
@@ -1181,12 +1142,12 @@
                                                                                         style="width:100%;padding-bottom:100%">
                                                                                     </div>
 
-                                                                                    <img src="{{asset('hubfs/Incfile_February_2021/images/entity-comparison-9288.png')}}"
+                                                                                    <img src="{{asset('Upload/obtain/'.$obtain->image)}}"
                                                                                         alt="Entity Comparison"
                                                                                         loading="lazy">
                                                                                 </div>
 
-                                                                                <span class="price">$70
+                                                                                <span class="price">${{$obtain->price}}
                                                                                 </span>
                                                                                 <span class="fee"></span>
 
@@ -1197,9 +1158,8 @@
 
 
                                                                                 <a class="hs-button orange-btn btn-with-icon btn-center"
-                                                                                    href="https://orders.incfile.com/ein-form.php?entityType=LLC&amp;entityState="
-                                                                                    target="_blank" rel="noopener">Go
-                                                                                    Now
+                                                                                    href="{{$obtain->button_link}}"
+                                                                                    target="_blank" rel="noopener">{{$obtain->button_name}}
                                                                                     <div
                                                                                         class="button-action__Arrow-sc-1lf0xj6-1 kPwGuS arrow1">
                                                                                         <svg width="12" height="11"
@@ -1242,7 +1202,7 @@
                                                                 <blockquote>
                                                                     <h2
                                                                         style="max-width: 640px; margin: 0px auto 24px;">
-                                                                        What is Lorem Ipsum?</h2>
+                                                                        {{$faq->heading}}</h2>
                                                                 </blockquote>
                                                             </span></div>
 
@@ -1471,66 +1431,56 @@
                                                 <div class="accordion">
                                                   <div class="accordion-item">
                                                     <button id="accordion-button-1" aria-expanded="false">
-                                                      <span class="accordion-title">Why is the moon sometimes out during the day?</span>
+                                                      <span class="accordion-title">{{$faq->q1}}</span>
                                                       <span class="icon" aria-hidden="true"></span>
                                                     </button>
                                                     <div class="accordion-content">
                                                       <p>
-                                                        Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor
-                                                        incididunt ut labore et dolore magna aliqua. Elementum sagittis vitae et leo duis ut.
-                                                        Ut tortor pretium viverra suspendisse potenti.
+                                                        {{$faq->a1}}
                                                       </p>
                                                     </div>
                                                   </div>
                                                   <div class="accordion-item">
                                                     <button id="accordion-button-2" aria-expanded="false">
-                                                      <span class="accordion-title">Why is the sky blue?</span>
+                                                      <span class="accordion-title">{{$faq->q2}}</span>
                                                       <span class="icon" aria-hidden="true"></span>
                                                     </button>
                                                     <div class="accordion-content">
                                                       <p>
-                                                        Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor
-                                                        incididunt ut labore et dolore magna aliqua. Elementum sagittis vitae et leo duis ut.
-                                                        Ut tortor pretium viverra suspendisse potenti.
+                                                        {{$faq->a2}}
                                                       </p>
                                                     </div>
                                                   </div>
                                                   <div class="accordion-item">
                                                     <button id="accordion-button-3" aria-expanded="false">
-                                                      <span class="accordion-title">Will we ever discover aliens?</span>
+                                                      <span class="accordion-title">{{$faq->q3}}</span>
                                                       <span class="icon" aria-hidden="true"></span>
                                                     </button>
                                                     <div class="accordion-content">
                                                       <p>
-                                                        Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor
-                                                        incididunt ut labore et dolore magna aliqua. Elementum sagittis vitae et leo duis ut.
-                                                        Ut tortor pretium viverra suspendisse potenti.
+                                                        {{$faq->a3}}
                                                       </p>
                                                     </div>
                                                   </div>
                                                   <div class="accordion-item">
                                                     <button id="accordion-button-4" aria-expanded="false">
-                                                      <span class="accordion-title">How much does the Earth weigh?</span>
+                                                      <span class="accordion-title">{{$faq->q4}}</span>
                                                       <span class="icon" aria-hidden="true"></span>
                                                     </button>
                                                     <div class="accordion-content">
                                                       <p>
-                                                        Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor
-                                                        incididunt ut labore et dolore magna aliqua. Elementum sagittis vitae et leo duis ut.
-                                                        Ut tortor pretium viverra suspendisse potenti.
+                                                        {{$faq->a4}}
                                                       </p>
                                                     </div>
                                                   </div>
                                                   <div class="accordion-item">
                                                     <button id="accordion-button-5" aria-expanded="false">
-                                                      <span class="accordion-title">How do airplanes stay up?</span>
+                                                      <span class="accordion-title">{{$faq->q5}}</span>
                                                       <span class="icon" aria-hidden="true"></span>
                                                     </button>
                                                     <div class="accordion-content">
                                                       <p>
-                                                        Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor
-                                                        incididunt ut labore et dolore magna aliqua. Elementum sagittis vitae et leo duis ut.
-                                                        Ut tortor pretium viverra suspendisse potenti.
+                                                        {{$faq->a5}}
                                                       </p>
                                                     </div>
                                                   </div>

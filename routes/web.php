@@ -155,6 +155,52 @@ Route::get('/faq_dissolution',[AdminController::class,'faq_dissolution']);
 Route::get('edit_faq_dissolution/{id}',[AdminController::class,'edit_faq_dissolution']);
 Route::post('update_FAQ_dissolution',[AdminController::class,'update_FAQ_dissolution']);
 
+Route::get('/tax_description',[AdminController::class,'tax_description']);
+
+Route::get('edit_tax_desc/{id}',[AdminController::class,'edit_tax_desc']);
+Route::post('update_tax_desc',[AdminController::class,'update_tax_desc']);
+
+
+Route::get('/Employer',[AdminController::class,'Employer']);
+Route::get('/edit_employee/{id}',[AdminController::class,'edit_employee']);
+Route::post('/update_employee',[AdminController::class,'update_employee']);
+
+Route::get('/FederalEIN',[AdminController::class,'FederalEIN']);
+Route::get('edit_federal/{id}',[AdminController::class,'edit_federal']);
+Route::post('update_federal',[AdminController::class,'update_federal']);
+
+
+Route::get('/UseanEIN',[AdminController::class,'UseanEIN']);
+Route::get('edit_usage/{id}',[AdminController::class,'edit_usage']);
+Route::post('update_usage',[AdminController::class,'update_usage']);
+
+Route::get('/ObtainEIN',[AdminController::class,'ObtainEIN']);
+Route::get('edit_obtain/{id}',[AdminController::class,'edit_obtain']);
+Route::post('update_obtain',[AdminController::class,'update_obtain']);
+
+Route::get('/taxfaq',[AdminController::class,'taxfaq']);
+Route::get('/edit_faq_tax/{id}',[AdminController::class,'edit_faq_tax']);
+Route::post('/update_FAQ_tax',[AdminController::class,'update_FAQ_tax']);
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 
 
 
@@ -186,26 +232,13 @@ Route::post('update_FAQ_dissolution',[AdminController::class,'update_FAQ_dissolu
         return view('Admin_asstes.OtherBusinessReports');
     });
 
-    Route::get('/tax_description', function () {
-        return view('Admin_asstes.tax_description');
-    });
-    Route::get('/Employer', function () {
-        return view('Admin_asstes.Employer');
-    });
-    Route::get('/FederalEIN', function () {
-        return view('Admin_asstes.FederalEIN');
-    });
 
-    Route::get('/UseanEIN', function () {
-        return view('Admin_asstes.UseanEIN');
-    });
 
-    Route::get('/ObtainEIN', function () {
-        return view('Admin_asstes.ObtainEIN');
-    });
-    Route::get('/taxfaq', function () {
-        return view('Admin_asstes.taxfaq');
-    });
+
+
+
+
+
     Route::get('/tax_card', function () {
         return view('Admin_asstes.tax_card');
     });

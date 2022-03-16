@@ -25,10 +25,15 @@ use App\Models\S_row;
 use App\Models\Table_heading;
 use App\Models\Trow;
 use App\Models\Desc_dissoluton;
+use App\Models\Employer;
 use App\Models\Faq_dissolution;
+use App\Models\Faq_tax;
+use App\Models\Federal;
 use App\Models\Helpfile_dissolution;
+use App\Models\Obtain;
 use App\Models\Step_dissolution;
-
+use App\Models\Tax_description;
+use App\Models\Usage;
 
 class FrontController extends Controller
 {
@@ -89,7 +94,16 @@ class FrontController extends Controller
     function tax(){
         $banners=Banner::all();
         $logo=Logo::first();
-    return view('tax-id-ein',compact('banners','logo'));
+        $tax_desc=Tax_description::first();
+        $employee=Employer::first();
+        $federal=Federal::first();
+        $usage=Usage::first();
+        $obtain=Obtain::first();
+        $faq=Faq_tax::first();
+
+
+
+    return view('tax-id-ein',compact('banners','logo','tax_desc','employee','federal','usage','obtain','faq'));
 
     }
     function why_chose(){

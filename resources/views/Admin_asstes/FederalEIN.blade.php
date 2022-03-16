@@ -7,13 +7,13 @@
 
 @section('content')
 
-        <div class="row">
+        {{-- <div class="row">
             <div class="col-lg-12">
                 <button type="button" class="btn btn-primary" style="float: right;" data-toggle="modal" data-target="#exampleModal">
-                  Add Federal EIN
+                    Add AnnualLLC
                   </button>
             </div>
-        </div>
+        </div> --}}
         <div class="card mt-2">
             @if (session()->has('success'))
             <div class="alert alert-success">
@@ -63,28 +63,28 @@
                             </tr>
                         </thead>
                         <tbody>
-                            {{-- @php
+                            @php
                                 $x=0;
                             @endphp
-                            @foreach ($abouts as $header)
+                            @foreach ($headers as $header)
                             @php
                                 $x++;
-                            @endphp --}}
+                            @endphp
                             <tr>
-                                <td>1</td>
-                                <td>Demo</td>
+                                <td>{{$x}}</td>
+                                <td>{{$header->heading}}</td>
                                 <td>
 
 
-                                    <a href="{{url('#')}}"  class="btn btn-primary ml-lg-1 ml-md-1 mt-1">Edit</a>
+                                    <a href="{{url('admin/edit_federal/'.$header->id)}}"  class="btn btn-primary ml-lg-1 ml-md-1 mt-1">Edit</a>
 
-                                    <a href="{{url('#')}}" class="btn btn-danger ml-lg-1 ml-md-1 mt-1">Delete</a>
+
 
 
                                 </td>
                             </tr>
-{{--
-                            @endforeach --}}
+
+                            @endforeach
 
 
 
@@ -108,7 +108,7 @@
                         <tfoot>
                             <tr>
                                 <th>No</th>
-                                <th>Question</th>
+                                <th>Heading</th>
 
 
                                 <th>Action</th>
@@ -128,7 +128,7 @@
       <div class="modal-content">
 
         <div class="modal-header">
-          <h5 class="modal-title" id="exampleModalLabel">Federal EIN</h5>
+          <h5 class="modal-title" id="exampleModalLabel">Add AnnualLLC</h5>
           <button type="button" class="close" data-dismiss="modal" aria-label="Close">
             <span aria-hidden="true">&times;</span>
           </button>
@@ -139,40 +139,18 @@
 
                 <div class="row p-3">
 
+
                     <div class="col-lg-12 col-12 mt-2">
-                        <label><b>Heading</b></label><br>
+                        <label><b>Question</b></label><br>
                         <input type="text" name="question" class="form-control">
                      </div>
-
 
                      <div class="col-lg-12 col-12 mt-2">
                          <label><b>Detail</b></label><br>
                           <textarea name="detail" id=""  rows="5" class="form-control" required></textarea>
                       </div>
-                      <div class="col-lg-12 col-12 mt-2">
-                        <label><b>Points Heading</b></label><br>
-                        <input type="text" name="pheading" class="form-control">
-                     </div>
-                     <div class="col-lg-6 col-12 mt-2">
-                        <label><b>Point 1</b></label><br>
-                         <textarea name="p1" id=""  rows="5" class="form-control" required></textarea>
-                     </div>
-                     <div class="col-lg-6 col-12 mt-2">
-                        <label><b>Point 2</b></label><br>
-                         <textarea name="p2" id=""  rows="5" class="form-control" required></textarea>
-                     </div>
-                     <div class="col-lg-6 col-12 mt-2">
-                        <label><b>Point 3</b></label><br>
-                         <textarea name="p3" id=""  rows="5" class="form-control" required></textarea>
-                     </div>
-                     <div class="col-lg-6 col-12 mt-2">
-                        <label><b>Point 4</b></label><br>
-                         <textarea name="p4" id=""  rows="5" class="form-control" required></textarea>
-                     </div>
-                     <div class="col-lg-12 col-12 mt-2">
-                        <label><b>Point 5</b></label><br>
-                         <textarea name="p5" id=""  rows="5" class="form-control" required></textarea>
-                     </div>
+
+
 
 
 
@@ -182,7 +160,7 @@
         </div>
         <div class="modal-footer">
           {{-- <button type="button" class="btn btn-secondary" data-dismiss="modal">Close</button> --}}
-          <button type="submit" class="btn btn-primary">Add Federal EIN</button>
+          <button type="submit" class="btn btn-primary">Add AnnualLLC</button>
 
         </div>
     </form>

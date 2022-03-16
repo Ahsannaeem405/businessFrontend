@@ -25,9 +25,16 @@ use App\Models\S_row;
 use App\Models\Table_heading;
 use App\Models\Trow;
 use App\Models\Desc_dissoluton;
+use App\Models\Employer;
 use App\Models\Faq_dissolution;
+use App\Models\Faq_tax;
+use App\Models\Federal;
 use App\Models\Helpfile_dissolution;
+use App\Models\Obtain;
 use App\Models\Step_dissolution;
+use App\Models\Tax_description;
+use App\Models\Usage;
+use PDO;
 
 class AdminController extends Controller
 {
@@ -750,5 +757,144 @@ $header->save();
 return back()->with('success', 'Successfully Updated');
 
 
+    }
+    function tax_description(){
+        $headers=Tax_description::all();
+        return view('Admin_asstes.tax_description',compact('headers'));
+
+    }
+    function edit_tax_desc($id){
+        $header=Tax_description::find($id);
+        return view('Admin_asstes.edit_tax_desc',compact('header'));
+    }
+    function update_tax_desc(Request $request){
+        $header=Tax_description::find($request->id);
+        $header->detail=$request->detail;
+        $header->video_link=$request->video_link;
+        $header->save();
+return back()->with('success', 'Successfully Updated');
+
+
+
+    }
+    function Employer(){
+        $headers=Employer::all();
+        return view('Admin_asstes.Employer',compact('headers'));
+
+    }
+    function edit_employee($id){
+        $header=Employer::find($id);
+        return view('Admin_asstes.edit_employee',compact('header'));
+    }
+    function update_employee(Request $request){
+        $header=Employer::find($request->id);
+        $header->question=$request->question;
+        $header->answer=$request->answer;
+        $header->save();
+        return back()->with('success', 'Successfully Updated');
+
+
+    }
+    function FederalEIN(){
+        $headers=Federal::all();
+        return view('Admin_asstes.FederalEIN',compact('headers'));
+
+    }
+    function edit_federal($id){
+        $header=Federal::find($id);
+        return view('Admin_asstes.edit_federal',compact('header'));
+    }
+    function update_federal(Request $request){
+        $header=Federal::find($request->id);
+        $header->heading=$request->heading;
+        $header->detail=$request->detail;
+        $header->point_heading=$request->point_heading;
+        $header->p1=$request->p1;
+        $header->p2=$request->p2;
+        $header->p3=$request->p3;
+        $header->p4=$request->p4;
+        $header->p5=$request->p5;
+        $header->save();
+        return back()->with('success', 'Successfully Updated');
+
+    }
+    function UseanEIN(){
+        $headers=Usage::all();
+        return view('Admin_asstes.UseanEIN',compact('headers'));
+
+    }
+    function edit_usage($id){
+        $header=Usage::find($id);
+        return view('Admin_asstes.edit_UseanEIN',compact('header'));
+    }
+    function update_usage(Request $request){
+        $header=Usage::find($request->id);
+        $header->q1=$request->q1;
+        $header->a1=$request->a1;
+        $header->q2=$request->q2;
+        $header->a2=$request->a2;
+        $header->save();
+        return back()->with('success', 'Successfully Updated');
+
+
+    }
+    function ObtainEIN(){
+        $headers=Obtain::all();
+        return view('Admin_asstes.ObtainEIN',compact('headers'));
+
+    }
+    function edit_obtain($id){
+        $header=Obtain::find($id);
+        return view('Admin_asstes.edit_ObtainEIN',compact('header'));
+    }
+    function update_obtain(Request $request){
+        $header=Obtain::find($request->id);
+        if ($request->hasFile('image')) {
+            $file = $request->file('image');
+            $extension = $request->image->extension();
+            $fileName = rand(11111, 99999) . "_." . $extension;
+            $request->image->move('Upload/obtain/', $fileName);
+            $header->image = $fileName;
+        }
+        $header->heading = $request->heading;
+        $header->Sub_heading = $request->Sub_heading;
+        $header->Sub_heading2 = $request->Sub_heading2;
+        $header->detail = $request->detail;
+        $header->price = $request->price;
+
+
+
+        $header->button_name = $request->button_name;
+        $header->button_link = $request->button_link;
+        $header->save();
+        return back()->with('success', 'Successfully Updated');
+
+    }
+    function taxfaq(){
+        $headers=Faq_tax::all();
+        return view('Admin_asstes.taxfaq',compact('headers'));
+
+    }
+    function edit_faq_tax($id){
+        $header=Faq_tax::find($id);
+        return view('Admin_asstes.edit_faq_tax',compact('header'));
+    }
+    function update_FAQ_tax(Request $request){
+        $header=Faq_tax::find($request->id);
+        $header->heading=$request->heading;
+        $header->q1=$request->q1;
+        $header->q2=$request->q2;
+        $header->q3=$request->q3;
+        $header->q4=$request->q4;
+        $header->q5=$request->q5;
+
+        $header->a1=$request->a1;
+        $header->a2=$request->a2;
+        $header->a3=$request->a3;
+        $header->a4=$request->a4;
+        $header->a5=$request->a5;
+        // dd($header);
+$header->save();
+return back()->with('success', 'Successfully Updated');
     }
 }
