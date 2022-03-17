@@ -1,4 +1,5 @@
 @extends('layout.main')
+
 <style>
     .accordion .accordion-item {
   border-bottom: 1px solid #e5e5e5;
@@ -494,6 +495,7 @@
 @section('content')
 
 @include('slider')
+
         <div class="annual-report-layout">
             <div class="banner-section llc-page-banner">
                 <div class="container-fluid banner-area" style="padding-left: 0px;padding-right:0px;">
@@ -1497,7 +1499,7 @@
                                                             <div class="get-started-right-business-wrapper">
                                                                 <div class="page-center clearfix">
                                                                     <div class="get-started-right-business-top-content">
-                                                                        <h2>Get started with the right type of business entity</h2>
+                                                                        <h2>{{$card->heading}}</h2>
                                                                     </div>
 
                                                                     <div class="get-started-right-business-features-container">
@@ -1533,13 +1535,13 @@
 
 
 
-                                                                                        <img class="card-img-top" src="{{asset('hubfs/Incfile_February_2021/images/cert-llc-232.png')}}" style="width: 30%;"  alt="Card image cap">
+                                                                                        <img class="card-img-top" src="{{asset('Upload/taxcard/'.$card->image1)}}" style="width: 30%;"  alt="Card image cap">
 
                                                                                         <div class="card-body">
                                                                                             <div class="d-flex justify-content-between">
-                                                                                                <h5 class="card-title">LLC</h5>
+                                                                                                <h5 class="card-title">{{$card->title1}}</h5>
 
-                                                                                                <a href="#" class="float-right"> <span class="circle__IconWrapper">
+                                                                                                <a href="{{$card->link1}}" class="float-right"> <span class="circle__IconWrapper">
                                                                                                   <svg width="12" height="11" xmlns="http://www.w3.org/2000/svg"><path d="M5.805.703L5.8.707a1 1 0 00-.003 1.416l2.379 2.379H.998a.998.998 0 000 1.996h7.179L5.798 8.877a1 1 0 00.003 1.416l.004.004a1 1 0 001.412-.003l4.078-4.088a1 1 0 000-1.412L7.217.706A1 1 0 005.805.703z" fill="#1D1D1D" fill-rule="nonzero"></path></svg>
                                                                                                 </span></a>
                                                                                             </div>
@@ -1578,13 +1580,13 @@
 
 
 
-                                                                                        <img class="card-img-top " src="{{asset('hubfs/Incfile_February_2021/images/cert-s-433.png')}}" style="width: 30%"  alt="Card image cap">
+                                                                                        <img class="card-img-top " src="{{asset('Upload/taxcard/'.$card->image2)}}" style="width: 30%"  alt="Card image cap">
 
                                                                                         <div class="card-body">
                                                                                             <div class="d-flex justify-content-between">
-                                                                                                <h5 class="card-title">S Corporation</h5>
+                                                                                                <h5 class="card-title">{{$card->title2}}</h5>
 
-                                                                                                <a href="#" class="float-right"> <span class="circle__IconWrapper">
+                                                                                                <a href="{{$card->link2}}" class="float-right"> <span class="circle__IconWrapper">
                                                                                                   <svg width="12" height="11" xmlns="http://www.w3.org/2000/svg"><path d="M5.805.703L5.8.707a1 1 0 00-.003 1.416l2.379 2.379H.998a.998.998 0 000 1.996h7.179L5.798 8.877a1 1 0 00.003 1.416l.004.004a1 1 0 001.412-.003l4.078-4.088a1 1 0 000-1.412L7.217.706A1 1 0 005.805.703z" fill="#1D1D1D" fill-rule="nonzero"></path></svg>
                                                                                                 </span></a>
                                                                                             </div>
@@ -1621,13 +1623,13 @@
 
 
 
-                                                                                        <img class="card-img-top " src="{{asset('hubfs/Incfile_February_2021/images/cert-n-826.png')}}"  style="width: 30%"  alt="Card image cap">
+                                                                                        <img class="card-img-top " src="{{asset('Upload/taxcard/'.$card->image3)}}"  style="width: 30%"  alt="Card image cap">
 
                                                                                         <div class="card-body">
                                                                                             <div class="d-flex justify-content-between">
-                                                                                                <h5 class="card-title">Nonprofit</h5>
+                                                                                                <h5 class="card-title">{{$card->title3}}</h5>
 
-                                                                                                <a href="#" class="float-right"> <span class="circle__IconWrapper">
+                                                                                                <a href="{{$card->link3}}" class="float-right"> <span class="circle__IconWrapper">
                                                                                                   <svg width="12" height="11" xmlns="http://www.w3.org/2000/svg"><path d="M5.805.703L5.8.707a1 1 0 00-.003 1.416l2.379 2.379H.998a.998.998 0 000 1.996h7.179L5.798 8.877a1 1 0 00.003 1.416l.004.004a1 1 0 001.412-.003l4.078-4.088a1 1 0 000-1.412L7.217.706A1 1 0 005.805.703z" fill="#1D1D1D" fill-rule="nonzero"></path></svg>
                                                                                                 </span></a>
                                                                                             </div>
@@ -1664,13 +1666,13 @@
 
 
 
-                                                                                        <img class="card-img-top " src="{{asset('hubfs/Incfile_February_2021/images/cert-c-831.png')}}"  style="width: 30%"  alt="Card image cap">
+                                                                                        <img class="card-img-top " src="{{asset('Upload/taxcard/'.$card->image4)}}"  style="width: 30%"  alt="Card image cap">
 
                                                                                         <div class="card-body">
                                                                                             <div class="d-flex justify-content-between">
-                                                                                                <h5 class="card-title">C Corporation</h5>
+                                                                                                <h5 class="card-title">{{$card->title4}}</h5>
 
-                                                                                                <a href="#" class="float-right"> <span class="circle__IconWrapper">
+                                                                                                <a href="{{$card->link4}}" class="float-right"> <span class="circle__IconWrapper">
                                                                                                   <svg width="12" height="11" xmlns="http://www.w3.org/2000/svg"><path d="M5.805.703L5.8.707a1 1 0 00-.003 1.416l2.379 2.379H.998a.998.998 0 000 1.996h7.179L5.798 8.877a1 1 0 00.003 1.416l.004.004a1 1 0 001.412-.003l4.078-4.088a1 1 0 000-1.412L7.217.706A1 1 0 005.805.703z" fill="#1D1D1D" fill-rule="nonzero"></path></svg>
                                                                                                 </span></a>
                                                                                             </div>
@@ -1694,8 +1696,8 @@
 
 
 
-                                                                        <a class="hs-button" href="https://orders.incfile.com/form-order-now.php" target="_blank" rel="noopener">
-                                                                            <span>Get started</span>
+                                                                        <a class="hs-button" href="{{$card->Button_link}}" target="_blank" rel="noopener">
+                                                                            <span>{{$card->Button_name}}</span>
                                                                             <div class="button__Arrow">
                                                                                 <svg width="12" height="11" xmlns="http://www.w3.org/2000/svg"><path d="M5.805.703L5.8.707a1 1 0 00-.003 1.416l2.379 2.379H.998a.998.998 0 000 1.996h7.179L5.798 8.877a1 1 0 00.003 1.416l.004.004a1 1 0 001.412-.003l4.078-4.088a1 1 0 000-1.412L7.217.706A1 1 0 005.805.703z" fill="#1D1D1D" fill-rule="nonzero"></path></svg>
                                                                             </div>

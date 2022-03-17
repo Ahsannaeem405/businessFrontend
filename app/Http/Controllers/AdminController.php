@@ -26,6 +26,7 @@ use App\Models\Table_heading;
 use App\Models\Trow;
 use App\Models\Desc_dissoluton;
 use App\Models\Employer;
+use App\Models\Entity;
 use App\Models\Faq_dissolution;
 use App\Models\Faq_tax;
 use App\Models\Federal;
@@ -895,6 +896,64 @@ return back()->with('success', 'Successfully Updated');
         $header->a5=$request->a5;
         // dd($header);
 $header->save();
+return back()->with('success', 'Successfully Updated');
+    }
+    function tax_card(){
+$headers=Entity::all();
+        return view('Admin_asstes.tax_card',compact('headers'));
+
+    }
+    function edit_taxcard($id){
+        $header=Entity::find($id);
+        return view('Admin_asstes.edit_taxcard',compact('header'));
+    }
+    function update_taxcard(Request $request){
+        $header=Entity::find($request->id);
+        if ($request->hasFile('image1')) {
+            $file = $request->file('image1');
+            $extension = $request->image1->extension();
+            $fileName = rand(11111, 99999) . "_." . $extension;
+            $request->image1->move('Upload/taxcard/', $fileName);
+            $header->image1 = $fileName;
+        }
+
+
+        if ($request->hasFile('image2')) {
+            $file = $request->file('image2');
+            $extension = $request->image2->extension();
+            $fileName = rand(11111, 99999) . "_." . $extension;
+            $request->image2->move('Upload/taxcard/', $fileName);
+            $header->image2 = $fileName;
+        }
+
+        if ($request->hasFile('image3')) {
+            $file = $request->file('image3');
+            $extension = $request->image3->extension();
+            $fileName = rand(11111, 99999) . "_." . $extension;
+            $request->image3->move('Upload/taxcard/', $fileName);
+            $header->image3 = $fileName;
+        }
+        if ($request->hasFile('image4')) {
+            $file = $request->file('image4');
+            $extension = $request->image4->extension();
+            $fileName = rand(11111, 99999) . "_." . $extension;
+            $request->image4->move('Upload/taxcard/', $fileName);
+            $header->image4 = $fileName;
+        }
+        $header->heading=$request->heading;
+        $header->title1=$request->title1;
+        $header->title2=$request->title2;
+        $header->title3=$request->title3;
+        $header->title4=$request->title4;
+
+        $header->link1=$request->link1;
+        $header->link2=$request->link2;
+        $header->link3=$request->link3;
+        $header->link4=$request->link4;
+        $header->Button_name=$request->Button_name;
+        $header->Button_link=$request->Button_link;
+
+        $header->save();
 return back()->with('success', 'Successfully Updated');
     }
 }

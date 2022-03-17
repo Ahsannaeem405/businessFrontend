@@ -531,7 +531,7 @@
                                                                             class="hs_cos_wrapper hs_cos_wrapper_widget hs_cos_wrapper_type_module"
                                                                             style="" data-hs-cos-general-type="widget"
                                                                             data-hs-cos-type="module">
-                                                                            <div
+                                                                            {{-- <div
                                                                                 class="video-wrapper_widget_1614259236854">
                                                                                 <div
                                                                                     class="popup-video-container widget_1614259236854 al_left">
@@ -586,7 +586,7 @@
                                                                 </div>
                                                                 <!--end row-->
                                                             </div>
-                                                            <!--end row-wrapper -->
+                                                            <!--end row-wrapper --> --}}
 
                                                             <div
                                                                 class="row-fluid-wrapper row-depth-1 row-number-4 dnd-row">

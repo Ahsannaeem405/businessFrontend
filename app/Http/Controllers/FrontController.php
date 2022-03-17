@@ -26,6 +26,7 @@ use App\Models\Table_heading;
 use App\Models\Trow;
 use App\Models\Desc_dissoluton;
 use App\Models\Employer;
+use App\Models\Entity;
 use App\Models\Faq_dissolution;
 use App\Models\Faq_tax;
 use App\Models\Federal;
@@ -100,10 +101,12 @@ class FrontController extends Controller
         $usage=Usage::first();
         $obtain=Obtain::first();
         $faq=Faq_tax::first();
+        $card=Entity::first();
 
 
 
-    return view('tax-id-ein',compact('banners','logo','tax_desc','employee','federal','usage','obtain','faq'));
+
+    return view('tax-id-ein',compact('banners','logo','tax_desc','employee','federal','usage','obtain','faq','card'));
 
     }
     function why_chose(){

@@ -182,6 +182,14 @@ Route::get('/taxfaq',[AdminController::class,'taxfaq']);
 Route::get('/edit_faq_tax/{id}',[AdminController::class,'edit_faq_tax']);
 Route::post('/update_FAQ_tax',[AdminController::class,'update_FAQ_tax']);
 
+Route::get('/tax_card',[AdminController::class,'tax_card']);
+Route::get('edit_taxcard/{id}',[AdminController::class,'edit_taxcard']);
+Route::post('/update_taxcard',[AdminController::class,'update_taxcard']);
+
+
+
+
+
 
 
 
@@ -239,9 +247,6 @@ Route::post('/update_FAQ_tax',[AdminController::class,'update_FAQ_tax']);
 
 
 
-    Route::get('/tax_card', function () {
-        return view('Admin_asstes.tax_card');
-    });
 
 
 

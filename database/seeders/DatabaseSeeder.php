@@ -764,8 +764,36 @@ class DatabaseSeeder extends Seeder
                             ]);
 
 
+                            DB::table('entities')->insert([
 
 
+                                'heading' =>'Lorem Ipsum',
+                                                'image1' =>'1.png',
+                                                'image2' =>'2.png',
+                                                'image3' =>'3.png',
+                                                'image4' =>'4.png',
+                                                'title1' =>'LLC',
+                                                'title2' =>'LLC',
+                                                'title3' =>'LLC',
+                                                'title4' =>'LLC',
+                                                'link1' =>'#',
+                                                'link2' =>'#',
+                                                'link3' =>'#',
+                                                'link4' =>'#',
+                                                'Button_name'=>'Get Started',
+                                                'Button_link'=>'#',
+
+
+
+
+
+
+
+
+
+
+
+                                            ]);
 
     }
 }
