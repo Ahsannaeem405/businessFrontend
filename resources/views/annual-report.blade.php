@@ -1682,7 +1682,7 @@
                                                             <img src="{{asset('Upload/annual/'.$slider->image1)}}" style="border-radius:10px"/>
                                                             <div style="padding-top: 20px">
 
-                                                                 <a href="{{$slider->link1}}"><i class="fas fa-arrow-right"></i>{{$slider->link_text1}}</a>
+                                                                 <a href="{{$slider->link1}}"><i class="fas fa-arrow-right"></i>&nbsp;{{$slider->link_text1}}</a>
 
                                                             </div>
                                                         </div>
@@ -1693,7 +1693,7 @@
                                                             <img src="{{asset('Upload/annual/'.$slider->image2)}}" style="border-radius:10px"/>
                                                             <div style="padding-top: 20px">
 
-                                                                 <a href="{{$slider->link2}}"><i class="fas fa-arrow-right"></i>{{$slider->link_text2}}</a>
+                                                                 <a href="{{$slider->link2}}"><i class="fas fa-arrow-right"></i>&nbsp;{{$slider->link_text2}}</a>
 
                                                             </div>
                                                         </div>
@@ -1704,7 +1704,7 @@
                                                             <img src="{{asset('Upload/annual/'.$slider->image3)}}" style="border-radius:10px"/>
                                                             <div style="padding-top: 20px">
 
-                                                                 <a href="{{$slider->link3}}"><i class="fas fa-arrow-right"></i>{{$slider->link_text3}}</a>
+                                                                 <a href="{{$slider->link3}}"><i class="fas fa-arrow-right"></i> &nbsp;{{$slider->link_text3}}</a>
 
                                                             </div>
                                                         </div>
@@ -1715,7 +1715,7 @@
                                                             <img src="{{asset('Upload/annual/'.$slider->image4)}}" style="border-radius:10px"/>
                                                             <div style="padding-top: 20px">
 
-                                                                 <a href="{{$slider->link4}}"><i class="fas fa-arrow-right"></i>{{$slider->link_text4}}</a>
+                                                                 <a href="{{$slider->link4}}"><i class="fas fa-arrow-right"></i>&nbsp;{{$slider->link_text4}}</a>
 
                                                             </div>
                                                         </div>
