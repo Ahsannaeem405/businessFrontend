@@ -1662,11 +1662,10 @@
                                                                 style="" data-hs-cos-general-type="widget"
                                                                 data-hs-cos-type="rich_text">
                                                                 <h3 style="text-align: center; margin-bottom: 24px;">
-                                                                    Lorem Ipsum is simply dummy text</h3>
+                                                                    {{$slider->heading}}</h3>
                                                                 <p
                                                                     style="text-align: center; margin-bottom: 48px; max-width: 770px; margin-left: auto; margin-right: auto;">
-                                                                    Lorem Ipsum is simply dummy text of the printing and
-                                                                    typesetting industry.</p>
+                                                                  {{$slider->detail}}</p>
                                                             </span></div>
 
                                                     </div>
@@ -1680,10 +1679,10 @@
                                                 <div class="owl-carousel owl-theme">
                                                     <div class="item" style="padding: 10px;">
                                                         <div style="box-shadow: rgba(100, 100, 111, 0.2) 0px 7px 29px 0px;border-radius:10px;padding:10px">
-                                                            <img src="https://images.unsplash.com/photo-1640622842008-1897f26aafe3?ixlib=rb-1.2.1&ixid=MnwxMjA3fDF8MHxlZGl0b3JpYWwtZmVlZHw2fHx8ZW58MHx8fHw%3D&auto=format&fit=crop&w=500&q=60" style="border-radius:10px"/>
+                                                            <img src="{{asset('Upload/annual/'.$slider->image1)}}" style="border-radius:10px"/>
                                                             <div style="padding-top: 20px">
 
-                                                                 <a href="#"><i class="fas fa-arrow-right"></i> If You're Not a U.S. Citizen, Can You Get an EIN for Your Business?</a>
+                                                                 <a href="{{$slider->link1}}"><i class="fas fa-arrow-right"></i>{{$slider->link_text1}}</a>
 
                                                             </div>
                                                         </div>
@@ -1691,10 +1690,10 @@
                                                     </div>
                                                     <div class="item" style="padding: 10px;">
                                                         <div style="box-shadow: rgba(100, 100, 111, 0.2) 0px 7px 29px 0px;border-radius:10px;padding:10px">
-                                                            <img src="https://images.unsplash.com/photo-1640622842008-1897f26aafe3?ixlib=rb-1.2.1&ixid=MnwxMjA3fDF8MHxlZGl0b3JpYWwtZmVlZHw2fHx8ZW58MHx8fHw%3D&auto=format&fit=crop&w=500&q=60" style="border-radius:10px"/>
+                                                            <img src="{{asset('Upload/annual/'.$slider->image2)}}" style="border-radius:10px"/>
                                                             <div style="padding-top: 20px">
 
-                                                                 <a href="#"><i class="fas fa-arrow-right"></i> If You're Not a U.S. Citizen, Can You Get an EIN for Your Business?</a>
+                                                                 <a href="{{$slider->link2}}"><i class="fas fa-arrow-right"></i>{{$slider->link_text2}}</a>
 
                                                             </div>
                                                         </div>
@@ -1702,10 +1701,21 @@
                                                     </div>
                                                     <div class="item" style="padding: 10px;">
                                                         <div style="box-shadow: rgba(100, 100, 111, 0.2) 0px 7px 29px 0px;border-radius:10px;padding:10px">
-                                                            <img src="https://images.unsplash.com/photo-1640622842008-1897f26aafe3?ixlib=rb-1.2.1&ixid=MnwxMjA3fDF8MHxlZGl0b3JpYWwtZmVlZHw2fHx8ZW58MHx8fHw%3D&auto=format&fit=crop&w=500&q=60" style="border-radius:10px"/>
+                                                            <img src="{{asset('Upload/annual/'.$slider->image3)}}" style="border-radius:10px"/>
                                                             <div style="padding-top: 20px">
 
-                                                                 <a href="#"><i class="fas fa-arrow-right"></i> If You're Not a U.S. Citizen, Can You Get an EIN for Your Business?</a>
+                                                                 <a href="{{$slider->link3}}"><i class="fas fa-arrow-right"></i>{{$slider->link_text3}}</a>
+
+                                                            </div>
+                                                        </div>
+
+                                                    </div>
+                                                    <div class="item" style="padding: 10px;">
+                                                        <div style="box-shadow: rgba(100, 100, 111, 0.2) 0px 7px 29px 0px;border-radius:10px;padding:10px">
+                                                            <img src="{{asset('Upload/annual/'.$slider->image4)}}" style="border-radius:10px"/>
+                                                            <div style="padding-top: 20px">
+
+                                                                 <a href="{{$slider->link4}}"><i class="fas fa-arrow-right"></i>{{$slider->link_text4}}</a>
 
                                                             </div>
                                                         </div>

@@ -922,5 +922,136 @@ class DatabaseSeeder extends Seeder
 
 
         ]);
+
+
+                    DB::table('formations')->insert([
+
+                        'heading' =>'What is an annual report?',
+                        'detail' =>'What is an annual report?',
+
+                        'image' =>'girl.png',
+
+
+
+
+
+
+
+
+
+                    ]);
+
+
+
+                    DB::table('annual_sliders')->insert([
+
+                        'image1' =>'1.jpg',
+                        'image2' =>'1.jpg',
+                        'image3' =>'1.jpg',
+                        'image4' =>'1.jpg',
+
+                        'heading' =>' Lorem Ipsum
+                        is simply dummy text',
+                        'detail' =>'    Lorem Ipsum is simply dummy text
+                        Lorem Ipsum has been the industry standard dummy text ever since the 1500s,',
+
+                        'link1' =>'#',
+                        'link2' =>'#',
+                        'link3' =>'#',
+                        'link4' =>'#',
+
+                        'link_text1' =>'#',
+                        'link_text2' =>'#',
+                        'link_text3' =>'#',
+                        'link_text4' =>'#',
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+                   ]);
+
+
+
+
+                    DB::table('launches')->insert([
+
+                        'image' =>'1.png',
+                        'heading' =>' Lorem Ipsum
+                        is simply dummy text',
+                        'detail' =>'    Lorem Ipsum is simply dummy text
+                        Lorem Ipsum has been the industry standard dummy text ever since the 1500s,',
+                        'button_name' =>'Get Started',
+                        'button_link' =>'#',
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+                   ]);
+
+
+
+
+                    DB::table('faq_whychooses')->insert([
+
+                         'heading' =>'Lorem Ipsum',
+                        'q1' =>'An Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum is simply dummy text of the printing and typesetting industry. ',
+
+                            'q2' =>'An Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum is simply dummy text of the printing and typesetting industry. ',
+
+                            'q3' =>'An Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum is simply dummy text of the printing and typesetting industry. ',
+
+                            'q4' =>'An Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum is simply dummy text of the printing and typesetting industry. ',
+
+
+                            'a1' =>'An Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum is simply dummy text of the printing and typesetting industry. ',
+
+                            'a2' =>'An Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum is simply dummy text of the printing and typesetting industry. ',
+
+                            'a3' =>'An Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum is simply dummy text of the printing and typesetting industry. ',
+
+                            'a4' =>'An Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum is simply dummy text of the printing and typesetting industry. ',
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+                    ]);
+
+
+
     }
 }

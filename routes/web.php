@@ -200,6 +200,25 @@ Route::post('update_helpfile_certificate',[AdminController::class,'update_helpfi
 Route::get('faq_certificate',[AdminController::class,'faq_certificate']);
 Route::get('edit_faq_certificate/{id}',[AdminController::class,'edit_faq_certificate']);
 Route::post('update_FAQ_certificate',[AdminController::class,'update_FAQ_certificate']);
+Route::get('formation',[AdminController::class,'formation']);
+Route::get('edit_formation/{id}',[AdminController::class,'edit_formation']);
+Route::post('update_formation',[AdminController::class,'update_formation']);
+Route::get('faq_whychoose',[AdminController::class,'faq_whychoose']);
+Route::get('edit_faq_whychoose/{id}',[AdminController::class,'edit_faq_whychoose']);
+Route::post('update_FAQ_whychoose',[AdminController::class,'update_FAQ_whychoose']);
+
+Route::get('business_whychoose',[AdminController::class,'business_whychoose']);
+Route::get('edit_launch_whychoose/{id}',[AdminController::class,'edit_launch_whychoose']);
+Route::post('update_whychoose',[AdminController::class,'update_whychoose']);
+
+Route::get('slider_annual',[AdminController::class,'slider_annual']);
+
+Route::get('edit_annualslider/{id}',[AdminController::class,'edit_annualslider']);
+
+
+Route::post('update_annualslider',[AdminController::class,'update_annualslider']);
+
+
 
 
 

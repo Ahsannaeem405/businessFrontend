@@ -2,6 +2,7 @@
 
 namespace App\Http\Controllers;
 
+use App\Models\Annual_slider;
 use App\Models\Annualllc;
 use App\Models\Annualreport;
 use Illuminate\Http\Request;
@@ -30,10 +31,13 @@ use App\Models\Entity;
 use App\Models\Faq_certificate;
 use App\Models\Faq_dissolution;
 use App\Models\Faq_tax;
+use App\Models\Faq_whychoose;
 use App\Models\Federal;
+use App\Models\Formation;
 use App\Models\Good;
 use App\Models\Helpfile_dissolution;
 use App\Models\Helpline_certificate;
+use App\Models\Launch;
 use App\Models\Obtain;
 use App\Models\Reason;
 use App\Models\Step_dissolution;
@@ -88,13 +92,14 @@ class FrontController extends Controller
         $duedate=Duedate::first();
         $bussiness=Bussiness::first();
         $help_line=Help_line::first();
+        $slider=Annual_slider::first();
 
 
 
 
 
         $logo=Logo::first();
-        return view('annual-report',compact('banners','logo','annual','formal','llc','file','duedate','bussiness','help_line'));
+        return view('annual-report',compact('banners','logo','annual','formal','llc','file','duedate','bussiness','help_line','slider'));
     }
     function tax(){
         $banners=Banner::all();
@@ -116,8 +121,14 @@ class FrontController extends Controller
     function why_chose(){
         $banners=Banner::all();
         $logo=Logo::first();
+        $formation=Formation::first();
+        $faq=Faq_whychoose::first();
+        $bussiness=Launch::first();
 
-        return view('why-choose',compact('banners','logo'));
+
+
+
+        return view('why-choose',compact('banners','logo','formation','faq','bussiness'));
     }
     function amendment(){
         $banners=Banner::all();

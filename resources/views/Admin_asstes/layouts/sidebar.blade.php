@@ -90,6 +90,9 @@
                                 <li><a href="{{url('admin/HelpFile')}}"><i class="feather icon-circle"></i><span class="menu-item" data-i18n="Details">HelpFile</span></a>
                                 </li>
 
+                                <li><a href="{{url('admin/slider_annual')}}"><i class="feather icon-circle"></i><span class="menu-item" data-i18n="Details">Annual Slider</span></a>
+                                </li>
+
 
 
 
@@ -195,6 +198,10 @@
 
 
 
+
+
+
+
                     </ul>
             </li>
 
@@ -204,7 +211,26 @@
 
 
 
+            <li class="nav-item has-sub"><a href="#"><i class="feather icon-airplay"></i><span class="menu-title" data-i18n="Ecommerce">Why Choose Us</span></a>
+                <ul class="menu-content">
 
+                    <li><a href="{{url('admin/formation')}}"><i class="feather icon-circle"></i><span class="menu-item" data-i18n="Details">Company Formation</span></a>
+                    </li>
+                    <li><a href="{{url('admin/faq_whychoose')}}"><i class="feather icon-circle"></i><span class="menu-item" data-i18n="Details">FAQ</span></a>
+                    </li>
+                    <li><a href="{{url('admin/business_whychoose')}}"><i class="feather icon-circle"></i><span class="menu-item" data-i18n="Details">Launch Business</span></a>
+                    </li>
+
+
+
+
+
+
+
+
+
+                </ul>
+        </li>
 
 
 
@@ -233,5 +259,6 @@
 
 
         </ul>
+
     </div>
 </div>

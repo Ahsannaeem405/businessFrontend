@@ -2,6 +2,7 @@
 
 namespace App\Http\Controllers;
 
+use App\Models\Annual_slider;
 use App\Models\Annualllc;
 use App\Models\Annualreport;
 use Illuminate\Http\Request;
@@ -30,7 +31,9 @@ use App\Models\Entity;
 use App\Models\Faq_certificate;
 use App\Models\Faq_dissolution;
 use App\Models\Faq_tax;
+use App\Models\Faq_whychoose;
 use App\Models\Federal;
+use App\Models\Formation;
 use App\Models\Helpfile_dissolution;
 use App\Models\Obtain;
 use App\Models\Step_dissolution;
@@ -39,6 +42,7 @@ use App\Models\Usage;
 use App\Models\Good;
 use App\Models\Reason;
 use App\Models\Helpline_certificate;
+use App\Models\Launch;
 
 class AdminController extends Controller
 {
@@ -1069,4 +1073,145 @@ $header->save();
 return back()->with('success', 'Successfully Updated');
 
     }
+    function formation(){
+        $headers=Formation::all();
+        return view('Admin_asstes.formation',compact('headers'));
+    }
+    function edit_formation($id){
+        $header=Formation::find($id);
+        return view('Admin_asstes.edit_formation',compact('header'));
+    }
+    function update_formation(Request $request){
+        $header=Formation::find($request->id);
+        if ($request->hasFile('file')) {
+            $file = $request->file('file');
+            $extension = $request->file->extension();
+            $fileName = rand(11111, 99999) . "_." . $extension;
+            $request->file->move('Upload/whychoose/', $fileName);
+            $header->image = $fileName;
+        }
+        $header->heading=$request->heading;
+        $header->detail=$request->detail;
+        $header->save();
+        return back()->with('success', 'Successfully Updated');
+    }
+    function faq_whychoose(){
+        $headers=Faq_whychoose::all();
+return view('Admin_asstes.faq_whychoose',compact('headers'));
+    }
+    function edit_faq_whychoose($id){
+        $header=Faq_whychoose::find($id);
+        return view('Admin_asstes.edit_faq_whychoose',compact('header'));
+    }
+    function update_FAQ_whychoose(Request $request){
+        $header=Faq_whychoose::find($request->id);
+        $header->heading=$request->heading;
+        $header->q1=$request->q1;
+        $header->q2=$request->q2;
+        $header->q3=$request->q3;
+        $header->q4=$request->q4;
+
+        $header->a1=$request->a1;
+        $header->a2=$request->a2;
+        $header->a3=$request->a3;
+        $header->a4=$request->a4;
+        // dd($header);
+$header->save();
+return back()->with('success', 'Successfully Updated');
+
+    }
+    function business_whychoose(){
+        $headers=Launch::all();
+        return view('Admin_asstes.business_whychoose',compact('headers'));
+    }
+    function edit_launch_whychoose($id){
+        $header=Launch::find($id);
+        return view('Admin_asstes.edit_launch_whychoose',compact('header'));
+    }
+    function update_whychoose(Request $request){
+        $header=Launch::find($request->id);
+        if ($request->hasFile('file')) {
+            $file = $request->file('file');
+            $extension = $request->file->extension();
+            $fileName = rand(11111, 99999) . "_." . $extension;
+            $request->file->move('Upload/whychoose/', $fileName);
+            $header->image = $fileName;
+        }
+        $header->heading=$request->heading;
+        $header->detail=$request->detail;
+        $header->button_name=$request->button_name;
+        $header->button_link=$request->button_link;
+        $header->save();
+return back()->with('success', 'Successfully Updated');
+
+
+
+
+
+
+
+
+    }
+    function slider_annual(){
+        $headers=Annual_slider::all();
+        return view('Admin_asstes.slider_annual',compact('headers'));
+    }
+    function edit_annualslider($id){
+        $header=Annual_slider::find($id);
+        return view('Admin_asstes.edit_slider_annual',compact('header'));
+
+    }
+    function update_annualslider(Request $request){
+        $header=Annual_slider::find($request->id);
+        if ($request->hasFile('image1')) {
+            $file = $request->file('image1');
+            $extension = $request->image1->extension();
+            $fileName = rand(11111, 99999) . "_." . $extension;
+            $request->image1->move('Upload/annual/', $fileName);
+            $header->image1 = $fileName;
+        }
+        if ($request->hasFile('image2')) {
+            $file = $request->file('image2');
+            $extension = $request->image2->extension();
+            $fileName = rand(11111, 99999) . "_." . $extension;
+            $request->image2->move('Upload/annual/', $fileName);
+            $header->image2 = $fileName;
+        }
+        if ($request->hasFile('image3')) {
+            $file = $request->file('image3');
+            $extension = $request->image3->extension();
+            $fileName = rand(11111, 99999) . "_." . $extension;
+            $request->image3->move('Upload/annual/', $fileName);
+            $header->image3 = $fileName;
+        }
+        if ($request->hasFile('image4')) {
+            $file = $request->file('image4');
+            $extension = $request->image4->extension();
+            $fileName = rand(11111, 99999) . "_." . $extension;
+            $request->image4->move('Upload/annual/', $fileName);
+            $header->image4 = $fileName;
+        }
+        $header->heading=$request->heading;
+        $header->detail=$request->detail;
+        $header->link_text1=$request->link_text1;
+        $header->link_text2=$request->link_text2;
+        $header->link_text3=$request->link_text3;
+        $header->link_text4=$request->link_text4;
+
+        $header->link1=$request->link1;
+        $header->link2=$request->link2;
+        $header->link3=$request->link3;
+        $header->link4=$request->link4;
+
+        $header->save();
+        return back()->with('success', 'Successfully Updated');
+
+
+
+
+
+
+
+    }
+
 }

@@ -322,15 +322,8 @@
                                                                         <div class="content-center">
                                                                             <div class="content-center text-center">
                                                                                 <h3 class="heading-headingwrapper">
-                                                                                    Lorem Ipsum is simply dummy text of the printing and
-typesetting industry.</h3>
-                                                                                <p>Lorem Ipsum is simply dummy text of the printing and
-                                                                                    typesetting industry. Lorem Ipsum has been the industry's
-                                                                                    standard dummy text ever since the 1500s, when an unknown
-                                                                                    printer took a galley of type and scrambled it to make a
-                                                                                    type specimen book. It has survived not only five centuries,
-                                                                                    but also the leap into electronic typesetting,
-                                                                                    remaining essentially unchanged. </p>
+                                                                                {{$formation->heading}}</h3>
+                                                                                <p>{{$formation->detail}}</p>
                                                                             </div>
                                                                         </div>
                                                                     </div>
@@ -338,7 +331,7 @@ typesetting industry.</h3>
                                                                 <div class="deciding-imgageBottom text-center">
                                                                     <div class=" gatsby-image-wrapper">
                                                                         <div class="image-wrapper"></div>
-                                                                        <img src="{{asset('image/girl.png')}}"
+                                                                        <img src="{{asset('Upload/whychoose/'.$formation->image)}}"
                                                                            width="50%" alt="mr-bulb-compass-3979">
                                                                     </div>
                                                                 </div>
@@ -438,7 +431,7 @@ typesetting industry.</h3>
                                                             data-hs-cos-type="rich_text">
                                                             <p
                                                                 style="margin: 50px auto 55px; max-width: 670px; color: #1d1d1d; font-size: 24px; line-height: 32px; font-weight: bold;">
-                                                                What is Lorem Ipsum?
+                                                                {{$faq->heading}}
                                                             </p>
                                                         </span></div>
 
@@ -503,7 +496,7 @@ typesetting industry.</h3>
 
 
                                                                             <div class="title">
-                                                                                <span>Lorem Ipsum is simply dummy text</span>
+                                                                                <span>{{$faq->q1}}</span>
                                                                             </div>
 
                                                                             <div class="arr_icon last_pos">
@@ -525,16 +518,8 @@ typesetting industry.</h3>
                                                                     <div class="acc_body" style="display: block;"
                                                                         data-id="widget_1615264138342-valuenobodygivesyoumoreforless1">
                                                                         <div class="inner">
-                                                                            <p style="margin-bottom: 32px;">when an unknown
-                                                                                printer took a galley of type and scrambled it to make a
-                                                                                type specimen book. It has survived not only five centuries,
-                                                                                but also the leap into electronic typesetting,
-                                                                                remaining essentially unchanged. </p>
-                                                                            <p style="margin-bottom: 32px;">when an unknown
-                                                                                printer took a galley of type and scrambled it to make a
-                                                                                type specimen book. It has survived not only five centuries,
-                                                                                but also the leap into electronic typesetting,
-                                                                                remaining essentially unchanged. </p>
+                                                                            <p style="margin-bottom: 32px;">{{$faq->q1}}</p>
+                                                                            <p style="margin-bottom: 32px;">{{$faq->a1}}</p>
 
 
                                                                         </div>
@@ -554,7 +539,7 @@ typesetting industry.</h3>
 
 
                                                                             <div class="title">
-                                                                                <span>Lorem Ipsum is simply dummy text</span>
+                                                                                <span>{{$faq->q2}}</span>
                                                                             </div>
 
                                                                             <div class="arr_icon last_pos">
@@ -576,11 +561,7 @@ typesetting industry.</h3>
                                                                     <div class="acc_body"
                                                                         data-id="widget_1615264138342-registeredagentservicestyearfree2">
                                                                         <div class="inner">
-                                                                            <p style="margin-bottom: 32px;">when an unknown
-                                                                                printer took a galley of type and scrambled it to make a
-                                                                                type specimen book. It has survived not only five centuries,
-                                                                                but also the leap into electronic typesetting,
-                                                                                remaining essentially unchanged. </p>
+                                                                            <p style="margin-bottom: 32px;">{{$faq->a2}}</p>
 
 
 
@@ -601,7 +582,7 @@ typesetting industry.</h3>
 
 
                                                                             <div class="title">
-                                                                                <span>Lorem Ipsum is simply dummy text</span>
+                                                                                <span>{{$faq->q3}}</span>
                                                                             </div>
 
                                                                             <div class="arr_icon last_pos">
@@ -623,20 +604,8 @@ typesetting industry.</h3>
                                                                     <div class="acc_body"
                                                                         data-id="widget_1615264138342-transparency3">
                                                                         <div class="inner">
-                                                                            <p style="margin-bottom: 32px;">Lorem Ipsum is simply dummy text of the printing and
-                                                                                typesetting industry. Lorem Ipsum has been the industry's
-                                                                                standard dummy text ever since the 1500s, when an unknown
-                                                                                printer took a galley of type and scrambled it to make a
-                                                                                type specimen book. It has survived not only five centuries,
-                                                                                but also the leap into electronic typesetting,
-                                                                                remaining essentially unchanged. </p>
-                                                                            <p style="margin-bottom: 32px;">Lorem Ipsum is simply dummy text of the printing and
-                                                                                typesetting industry. Lorem Ipsum has been the industry's
-                                                                                standard dummy text ever since the 1500s, when an unknown
-                                                                                printer took a galley of type and scrambled it to make a
-                                                                                type specimen book. It has survived not only five centuries,
-                                                                                but also the leap into electronic typesetting,
-                                                                                remaining essentially unchanged. </p>
+                                                                            <p style="margin-bottom: 32px;">{{$faq->a3}}</p>
+
 
 
 
@@ -657,7 +626,7 @@ typesetting industry.</h3>
 
 
                                                                             <div class="title">
-                                                                                <span>Lorem Ipsum is simply dummy text</span>
+                                                                                <span>{{$faq->q4}}</span>
                                                                             </div>
 
                                                                             <div class="arr_icon last_pos">
@@ -679,13 +648,7 @@ typesetting industry.</h3>
                                                                     <div class="acc_body"
                                                                         data-id="widget_1615264138342-notifications4">
                                                                         <div class="inner">
-                                                                            <p style="margin-bottom: 32px;">Lorem Ipsum is simply dummy text of the printing and
-                                                                                typesetting industry. Lorem Ipsum has been the industry's
-                                                                                standard dummy text ever since the 1500s, when an unknown
-                                                                                printer took a galley of type and scrambled it to make a
-                                                                                type specimen book. It has survived not only five centuries,
-                                                                                but also the leap into electronic typesetting,
-                                                                                remaining essentially unchanged. </p>
+                                                                            <p style="margin-bottom: 32px;">{{$faq->a4}}</p>
 
 
                                                                         </div>
@@ -1193,16 +1156,16 @@ typesetting industry.</h3>
                                                                 <div class="rocket__RocketWrapper">
                                                                     <div class=" gatsby-image-wrapper">
                                                                         <div class="get-image-bg"
-                                                                            data-background="{{asset('image/whychooseus.png')}}">
+        $faq=Faq_whychoose::first();
+                                                                            data-background="{{asset('Upload/whychoose/'.$bussiness->image)}}">
                                                                         </div>
                                                                     </div>
                                                                 </div>
 
                                                                 <div class="rocket__Content">
                                                                     <div>
-                                                                        <h2>Lorem Ipsum<br> is simply dummy text</h2>
-                                                                        <p>Lorem Ipsum is simply dummy text <br> Lorem Ipsum has been the industry's
-                                                                            standard dummy text ever since the 1500s, </p>
+                                                                        <h2>{{$bussiness->heading}}</h2>
+                                                                        <p>{{$bussiness->detail}}</p>
 
 
 
@@ -1211,10 +1174,10 @@ typesetting industry.</h3>
 
 
 
-                                                                        <a href="https://orders.incfile.com/form-order-now.php"
+                                                                        <a href="{{$bussiness->button_link}}"
                                                                             target="_blank" rel="noopener"
                                                                             class="hs-button btn-with-icon">
-                                                                            See Pricing
+                                                                            {{$bussiness->button_name}}
                                                                             <div class="external-link__Arrow">
                                                                                 <svg width="12" height="11"
                                                                                     xmlns="http://www.w3.org/2000/svg">
