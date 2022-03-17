@@ -496,22 +496,8 @@
                                                                                 style=""
                                                                                 data-hs-cos-general-type="widget"
                                                                                 data-hs-cos-type="rich_text">
-                                                                                <h3>What is a Certificate of Good
-                                                                                    Standing?</h3>
-                                                                                <p style="margin-bottom: 40px;">A
-                                                                                    Certificate of Good Standing is an
-                                                                                    official document issued by your
-                                                                                    state’s secretary of state office to
-                                                                                    verify that your business is
-                                                                                    compliant within the state of
-                                                                                    incorporation and therefore is in
-                                                                                    “good standing.” Just like having a
-                                                                                    driver’s license or other forms of
-                                                                                    personal ID, a Certificate of Good
-                                                                                    Standing proves that your LLC or
-                                                                                    corporation is officially registered
-                                                                                    and authorized to operate in your
-                                                                                    home state.</p>
+                                                                                <h3>{{$goods->heading1}}</h3>
+                                                                                <p style="margin-bottom: 40px;">{{$goods->detail1}}</p>
                                                                             </span></div>
 
                                                                     </div>
@@ -603,9 +589,7 @@
                                                                                 style=""
                                                                                 data-hs-cos-general-type="widget"
                                                                                 data-hs-cos-type="rich_text">
-                                                                                <h3 style="margin-bottom: 32px;">Other
-                                                                                    names for a Certificate of Good
-                                                                                    Standing</h3>
+                                                                                <h3 style="margin-bottom: 32px;">{{$goods->heading2}}</h3>
                                                                             </span></div>
 
                                                                     </div>
@@ -660,7 +644,7 @@
                                                                                     <div
                                                                                         class="content-list-icon-content">
                                                                                         <h4 style="margin: 0;">
-                                                                                            Certificate of Existence
+                                                                                            {{$goods->certificate1}}
                                                                                         </h4>
 
                                                                                     </div>
@@ -702,7 +686,8 @@
                                                                                     <div
                                                                                         class="content-list-icon-content">
                                                                                         <h4 style="margin: 0;">
-                                                                                            Certificate of Authorization
+                                                                                            {{$goods->certificate2}}
+
                                                                                         </h4>
 
                                                                                     </div>
@@ -744,7 +729,8 @@
                                                                                     <div
                                                                                         class="content-list-icon-content">
                                                                                         <h4 style="margin: 0;">
-                                                                                            Certificate of Status</h4>
+                                                                                            {{$goods->certificate3}}
+                                                                                            </h4>
 
                                                                                     </div>
                                                                                 </div>
@@ -774,30 +760,9 @@
                                                                                 style=""
                                                                                 data-hs-cos-general-type="widget"
                                                                                 data-hs-cos-type="rich_text">
-                                                                                <p style="margin-bottom: 72px;">Also
-                                                                                    known as a Certificate of Existence,
-                                                                                    Certificate of Authorization, or a
-                                                                                    Certificate of Status, the Good
-                                                                                    Standing Certificate is a one-page
-                                                                                    document provided by the secretary
-                                                                                    of state and provides conclusive
-                                                                                    evidence of the status of your
-                                                                                    business entity. In many cases it
-                                                                                    can be valid up to three months.</p>
-                                                                                <h3 style="margin-bottom: 24px;">When do
-                                                                                    you need a Certificate of Good
-                                                                                    Standing?</h3>
-                                                                                <p style="margin-bottom: 40px;">In
-                                                                                    certain situations, you may be
-                                                                                    required to prove that your business
-                                                                                    exists and is in compliance with
-                                                                                    relevant laws and regulations. A
-                                                                                    Certificate of Good Standing from
-                                                                                    your state serves as this proof. A
-                                                                                    Certificate of Good Standing is
-                                                                                    often required in order to obtain a
-                                                                                    loan, renew a business license or to
-                                                                                    file your business taxes.</p>
+                                                                                <p style="margin-bottom: 72px;">{{$goods->detail2}}</p>
+                                                                                <h3 style="margin-bottom: 24px;">{{$goods->heading3}}</h3>
+                                                                                <p style="margin-bottom: 40px;">{{$goods->detail3}}</p>
                                                                             </span></div>
 
                                                                     </div>
@@ -823,42 +788,15 @@
                                                                                 <div class="boxed-color-box">
 
                                                                                     <h4 style="margin-bottom: 24px;">
-                                                                                        There are a few key reasons why
-                                                                                        your company might need a
-                                                                                        Certificate of Good Standing:
+                                                                                       {{$reason->heading1}}
                                                                                     </h4>
                                                                                     <ul>
-                                                                                        <li>Other state governments as
-                                                                                            part of the process of
-                                                                                            applying for <a
-                                                                                                href="#">Foreign
-                                                                                                Qualification</a> for
-                                                                                            your business to register to
-                                                                                            do business in states other
-                                                                                            than your home state</li>
-                                                                                        <li>Lenders or banks that want
-                                                                                            to get proof of your
-                                                                                            business’s existence and
-                                                                                            business history as part of
-                                                                                            evaluating your
-                                                                                            creditworthiness for a loan
-                                                                                            or when carrying out certain
-                                                                                            types of transactions</li>
-                                                                                        <li>Investors or business
-                                                                                            partners who want to make
-                                                                                            sure your business is
-                                                                                            legitimate and in compliance
-                                                                                            with laws and regulations
+                                                                                        <li>{{$reason->point1}}</li>
+                                                                                        <li>{{$reason->point2}}</li>
+                                                                                        <li>{{$reason->point3}}
                                                                                         </li>
-                                                                                        <li>Licensing agencies and
-                                                                                            regulators — in order to
-                                                                                            renew or obtain certain
-                                                                                            permits and licenses</li>
-                                                                                        <li>Business brokers or buyers —
-                                                                                            if you are seeking to sell
-                                                                                            your business and need to
-                                                                                            show proof of its existence,
-                                                                                            history and compliance</li>
+                                                                                        <li>{{$reason->point4}}</li>
+                                                                                        <li>{{$reason->point5}}</li>
                                                                                     </ul>
                                                                                     <div class="boxed-content-buttons">
 
@@ -889,36 +827,10 @@
                                                                                 style=""
                                                                                 data-hs-cos-general-type="widget"
                                                                                 data-hs-cos-type="rich_text">
-                                                                                <p style="margin-bottom: 72px;">Simply
-                                                                                    put, the Certificate of Good
-                                                                                    Standing helps you prove that your
-                                                                                    business exists, and that you are a
-                                                                                    law-abiding business owner who
-                                                                                    complies with the rules. It helps
-                                                                                    enhance your trustworthiness and
-                                                                                    credibility with potential partners,
-                                                                                    investors and lenders. Obtaining a
-                                                                                    Certificate of Good Standing is a
-                                                                                    simple but sometimes necessary step
-                                                                                    in maintaining your business’s good
-                                                                                    reputation and branching out your
-                                                                                    business operations into new areas.
+                                                                                <p style="margin-bottom: 72px;">{{$reason->detail1}}
                                                                                 </p>
-                                                                                <h3 style="margin-bottom: 24px;">How do
-                                                                                    I get a Certificate of Good
-                                                                                    Standing?</h3>
-                                                                                <p style="margin-bottom: 40px;">After
-                                                                                    you form your LLC or corporation,
-                                                                                    it’s important to stay up-to-date on
-                                                                                    filing your annual report, biennial
-                                                                                    report, or other required forms and
-                                                                                    compliance paperwork. To stay in
-                                                                                    good standing, your business needs
-                                                                                    to meet a few key requirements,
-                                                                                    depending on your <a
-                                                                                        href="#">company’s
-                                                                                        home state</a>. These typically
-                                                                                    include:</p>
+                                                                                <h3 style="margin-bottom: 24px;">{{$reason->heading2}}</h3>
+                                                                                <p style="margin-bottom: 40px;">{{$reason->detail2}}</p>
                                                                             </span></div>
 
                                                                     </div>
@@ -944,16 +856,9 @@
                                                                                 <div class="boxed-color-box">
 
                                                                                     <ul>
-                                                                                        <li>Being up-to-date on annual
-                                                                                            or biennial fees to the
-                                                                                            secretary of state to
-                                                                                            register or renew your
-                                                                                            business</li>
-                                                                                        <li>Filing annual or biennial
-                                                                                            reports</li>
-                                                                                        <li>Paying any other necessary
-                                                                                            business fees or franchise
-                                                                                            taxes to state regulators
+                                                                                        <li>{{$reason->point6}}</li>
+                                                                                        <li>{{$reason->point7}}</li>
+                                                                                        <li>{{$reason->point8}}
                                                                                         </li>
                                                                                     </ul>
                                                                                     <div class="boxed-content-buttons">
@@ -985,11 +890,7 @@
                                                                                 style=""
                                                                                 data-hs-cos-general-type="widget"
                                                                                 data-hs-cos-type="rich_text">
-                                                                                <p style="margin: 0;">To get a
-                                                                                    Certificate of Good Standing, you’ll
-                                                                                    need to file the appropriate form
-                                                                                    with your state, or you can have
-                                                                                    Incfile file for you.</p>
+
                                                                             </span></div>
 
                                                                     </div>
@@ -1177,24 +1078,14 @@
 
                                                                                         <h2
                                                                                             style="margin-bottom: 80px;">
-                                                                                            Help to Obtain a Certificate
-                                                                                            of Good Standing</h2>
+                                                                                          {{$help->heading}}</h2>
                                                                                         <h4
                                                                                             style="margin-bottom: 24px;">
-                                                                                            Save your time. We'll handle
-                                                                                            the paperwork.</h4>
+                                                                                           {{$help->Sub_heading}}</h4>
                                                                                         <p style="margin-bottom: 32px;">
-                                                                                            To obtain a Good Standing
-                                                                                            Certificate, the business
-                                                                                            entity must be registered as
-                                                                                            a legal entity with the
-                                                                                            secretary of state, and
-                                                                                            cannot be in default of
-                                                                                            corporate regulations,
-                                                                                            suspended or revoked by the
-                                                                                            state.</p>
+                                                                                          {{$help->detail}}</p>
                                                                                         <a style="display: flex; -webkit-box-align: center; align-items: center; text-decoration: none; margin-bottom: 32px;"
-                                                                                            href="#"
+                                                                                            href="{{$help->link}}"
                                                                                             target="_blank"
                                                                                             rel="noopener noreferrer">
                                                                                             <div
@@ -1210,11 +1101,7 @@
                                                                                                         &nbsp;</path>
                                                                                                 </svg></div>
                                                                                             <span
-                                                                                                style="font-weight: 600;">Incfile
-                                                                                                will handle the
-                                                                                                paperwork for your
-                                                                                                Certificate of Good
-                                                                                                Standing</span>
+                                                                                                style="font-weight: 600;">{{$help->link_text}}</span>
                                                                                         </a>
                                                                                     </div>
                                                                                 </div>
@@ -1450,8 +1337,7 @@
                                                                 <blockquote>
                                                                     <h2
                                                                         style="max-width: 640px; margin: 0px auto 24px;">
-                                                                        Common questions about filing a Certificate of
-                                                                        Good Standing</h2>
+                                                                      {{$faq->heading}}</h2>
                                                                 </blockquote>
                                                             </span></div>
 
@@ -1726,66 +1612,56 @@
                                                 <div class="accordion">
                                                   <div class="accordion-item">
                                                     <button id="accordion-button-1" aria-expanded="false">
-                                                      <span class="accordion-title">Why is the moon sometimes out during the day?</span>
+                                                      <span class="accordion-title">{{$faq->q1}}</span>
                                                       <span class="icon" aria-hidden="true"></span>
                                                     </button>
                                                     <div class="accordion-content">
                                                       <p>
-                                                        Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor
-                                                        incididunt ut labore et dolore magna aliqua. Elementum sagittis vitae et leo duis ut.
-                                                        Ut tortor pretium viverra suspendisse potenti.
+                                                        {{$faq->a1}}
                                                       </p>
                                                     </div>
                                                   </div>
                                                   <div class="accordion-item">
                                                     <button id="accordion-button-2" aria-expanded="false">
-                                                      <span class="accordion-title">Why is the sky blue?</span>
+                                                      <span class="accordion-title">{{$faq->q2}}</span>
                                                       <span class="icon" aria-hidden="true"></span>
                                                     </button>
                                                     <div class="accordion-content">
                                                       <p>
-                                                        Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor
-                                                        incididunt ut labore et dolore magna aliqua. Elementum sagittis vitae et leo duis ut.
-                                                        Ut tortor pretium viverra suspendisse potenti.
+                                                        {{$faq->a2}}
                                                       </p>
                                                     </div>
                                                   </div>
                                                   <div class="accordion-item">
                                                     <button id="accordion-button-3" aria-expanded="false">
-                                                      <span class="accordion-title">Will we ever discover aliens?</span>
+                                                      <span class="accordion-title">{{$faq->q3}}</span>
                                                       <span class="icon" aria-hidden="true"></span>
                                                     </button>
                                                     <div class="accordion-content">
                                                       <p>
-                                                        Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor
-                                                        incididunt ut labore et dolore magna aliqua. Elementum sagittis vitae et leo duis ut.
-                                                        Ut tortor pretium viverra suspendisse potenti.
+                                                        {{$faq->a3}}
                                                       </p>
                                                     </div>
                                                   </div>
                                                   <div class="accordion-item">
                                                     <button id="accordion-button-4" aria-expanded="false">
-                                                      <span class="accordion-title">How much does the Earth weigh?</span>
+                                                      <span class="accordion-title">{{$faq->q4}}</span>
                                                       <span class="icon" aria-hidden="true"></span>
                                                     </button>
                                                     <div class="accordion-content">
                                                       <p>
-                                                        Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor
-                                                        incididunt ut labore et dolore magna aliqua. Elementum sagittis vitae et leo duis ut.
-                                                        Ut tortor pretium viverra suspendisse potenti.
+                                                        {{$faq->a4}}
                                                       </p>
                                                     </div>
                                                   </div>
                                                   <div class="accordion-item">
                                                     <button id="accordion-button-5" aria-expanded="false">
-                                                      <span class="accordion-title">How do airplanes stay up?</span>
+                                                      <span class="accordion-title">{{$faq->q5}}</span>
                                                       <span class="icon" aria-hidden="true"></span>
                                                     </button>
                                                     <div class="accordion-content">
                                                       <p>
-                                                        Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor
-                                                        incididunt ut labore et dolore magna aliqua. Elementum sagittis vitae et leo duis ut.
-                                                        Ut tortor pretium viverra suspendisse potenti.
+                                                        {{$faq->a5}}
                                                       </p>
                                                     </div>
                                                   </div>

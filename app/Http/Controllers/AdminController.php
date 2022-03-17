@@ -27,6 +27,7 @@ use App\Models\Trow;
 use App\Models\Desc_dissoluton;
 use App\Models\Employer;
 use App\Models\Entity;
+use App\Models\Faq_certificate;
 use App\Models\Faq_dissolution;
 use App\Models\Faq_tax;
 use App\Models\Federal;
@@ -35,7 +36,9 @@ use App\Models\Obtain;
 use App\Models\Step_dissolution;
 use App\Models\Tax_description;
 use App\Models\Usage;
-use PDO;
+use App\Models\Good;
+use App\Models\Reason;
+use App\Models\Helpline_certificate;
 
 class AdminController extends Controller
 {
@@ -955,5 +958,115 @@ $headers=Entity::all();
 
         $header->save();
 return back()->with('success', 'Successfully Updated');
+    }
+    function goods(){
+        $headers=Good::all();
+        return view('Admin_asstes.Goods',compact('headers'));
+    }
+    function edit_goods($id){
+        $header=Good::find($id);
+        return view('Admin_asstes.edit_goods',compact('header'));
+    }
+    function update_goods(Request $request){
+        $header=Good::find($request->id);
+        $header->heading1=$request->heading1;
+        $header->heading2=$request->heading2;
+        $header->heading3=$request->heading3;
+
+        $header->certificate1=$request->certificate1;
+        $header->certificate2=$request->certificate2;
+        $header->certificate3=$request->certificate3;
+
+        $header->detail1=$request->detail1;
+        $header->detail2=$request->detail2;
+        $header->detail3=$request->detail3;
+
+
+
+
+
+
+
+
+
+        $header->save();
+return back()->with('success', 'Successfully Updated');
+    }
+
+    function reason(){
+        $headers=Reason::all();
+return view('Admin_asstes.reason',compact('headers'));
+    }
+    function edit_reason($id){
+        $header=Reason::find($id);
+        return view('Admin_asstes.edit_reason',compact('header'));
+    }
+    function update_reason(Request $request){
+        $header=Reason::find($request->id);
+        $header->heading1=$request->heading1;
+        $header->heading2=$request->heading2;
+        $header->detail1=$request->detail1;
+        $header->detail2=$request->detail2;
+
+        $header->point1=$request->point1;
+        $header->point2=$request->point2;
+        $header->point3=$request->point3;
+        $header->point4=$request->point4;
+        $header->point5=$request->point5;
+        $header->point6=$request->point6;
+        $header->point7=$request->point7;
+        $header->point8=$request->point8;
+        $header->save();
+return back()->with('success', 'Successfully Updated');
+    }
+    function helpfile_certificate(){
+        $headers=Helpline_certificate::all();
+        return view('Admin_asstes.helpfile_certificate',compact('headers'));
+
+    }
+    function edit_helpfile_certificate($id){
+        $header=Helpline_certificate::find($id);
+        return view('Admin_asstes.edit_helpfile_certificate',compact('header'));
+    }
+    function update_helpfile_certificate(Request $request){
+        $header=Helpline_certificate::find($request->id);
+        $header->heading=$request->heading;
+        $header->link_text=$request->link_text;
+        $header->link=$request->link;
+
+
+        $header->Sub_heading=$request->Sub_heading;
+        $header->detail=$request->detail;
+        $header->save();
+        return back()->with('success', 'Successfully Updated');
+
+
+    }
+    function faq_certificate(){
+        $headers=Faq_certificate::all();
+        return view('Admin_asstes.faq_certificate',compact('headers'));
+    }
+    function edit_faq_certificate($id){
+        $header=Faq_certificate::find($id);
+        return view('Admin_asstes.edit_faq_certificate',compact('header'));
+    }
+    function update_FAQ_certificate(Request $request){
+        $header=Faq_certificate::find($request->id);
+        $header->heading=$request->heading;
+        $header->q1=$request->q1;
+        $header->q2=$request->q2;
+        $header->q3=$request->q3;
+        $header->q4=$request->q4;
+        $header->q5=$request->q5;
+
+        $header->a1=$request->a1;
+        $header->a2=$request->a2;
+        $header->a3=$request->a3;
+        $header->a4=$request->a4;
+        $header->a5=$request->a5;
+        // dd($header);
+$header->save();
+return back()->with('success', 'Successfully Updated');
+
     }
 }

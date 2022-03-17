@@ -27,11 +27,15 @@ use App\Models\Trow;
 use App\Models\Desc_dissoluton;
 use App\Models\Employer;
 use App\Models\Entity;
+use App\Models\Faq_certificate;
 use App\Models\Faq_dissolution;
 use App\Models\Faq_tax;
 use App\Models\Federal;
+use App\Models\Good;
 use App\Models\Helpfile_dissolution;
+use App\Models\Helpline_certificate;
 use App\Models\Obtain;
+use App\Models\Reason;
 use App\Models\Step_dissolution;
 use App\Models\Tax_description;
 use App\Models\Usage;
@@ -141,7 +145,15 @@ class FrontController extends Controller
     function certificate(){
         $banners=Banner::all();
         $logo=Logo::first();
-        return view('certificate-of-good-standing',compact('banners','logo'));
+        $goods=Good::first();
+        $reason=Reason::first();
+        $help=Helpline_certificate::first();
+        $faq=Faq_certificate::first();
+
+
+
+
+        return view('certificate-of-good-standing',compact('banners','logo','goods','reason','help','faq'));
 
     }
     function corporation(){

@@ -186,6 +186,39 @@ Route::get('/tax_card',[AdminController::class,'tax_card']);
 Route::get('edit_taxcard/{id}',[AdminController::class,'edit_taxcard']);
 Route::post('/update_taxcard',[AdminController::class,'update_taxcard']);
 
+Route::get('/goods',[AdminController::class,'goods']);
+Route::get('/edit_goods/{id}',[AdminController::class,'edit_goods']);
+Route::post('/update_goods',[AdminController::class,'update_goods']);
+
+Route::get('/reason',[AdminController::class,'reason']);
+Route::get('/edit_reason/{id}',[AdminController::class,'edit_reason']);
+Route::post('/update_reason',[AdminController::class,'update_reason']);
+Route::get('helpfile_certificate',[AdminController::class,'helpfile_certificate']);
+Route::get('edit_helpfile_certificate/{id}',[AdminController::class,'edit_helpfile_certificate']);
+Route::post('update_helpfile_certificate',[AdminController::class,'update_helpfile_certificate']);
+
+Route::get('faq_certificate',[AdminController::class,'faq_certificate']);
+Route::get('edit_faq_certificate/{id}',[AdminController::class,'edit_faq_certificate']);
+Route::post('update_FAQ_certificate',[AdminController::class,'update_FAQ_certificate']);
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 
 
 

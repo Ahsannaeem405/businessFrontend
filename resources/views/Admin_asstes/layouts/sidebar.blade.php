@@ -165,6 +165,31 @@
 
                 </ul>
         </li>
+        <li class="nav-item has-sub"><a href="#"><i class="feather icon-airplay"></i><span class="menu-title" data-i18n="Ecommerce">Certificate</span></a>
+            <ul class="menu-content">
+
+                <li><a href="{{url('admin/goods')}}"><i class="feather icon-circle"></i><span class="menu-item" data-i18n="Details">Certificate Goods Standing</span></a>
+                </li>
+
+
+                <li><a href="{{url('admin/reason')}}"><i class="feather icon-circle"></i><span class="menu-item" data-i18n="Details">Key Reasons</span></a>
+                </li>
+
+                <li><a href="{{url('admin/helpfile_certificate')}}"><i class="feather icon-circle"></i><span class="menu-item" data-i18n="Details">HelpFile</span></a>
+                </li>
+
+                <li><a href="{{url('admin/faq_certificate')}}"><i class="feather icon-circle"></i><span class="menu-item" data-i18n="Details">FAQ</span></a>
+                </li>
+
+
+
+
+
+
+
+            </ul>
+    </li>
+
 
 
 
