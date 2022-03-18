@@ -231,6 +231,26 @@
 
                 </ul>
         </li>
+         <li class="nav-item has-sub"><a href="#"><i class="feather icon-airplay"></i><span class="menu-title" data-i18n="Ecommerce">States</span></a>
+                    <ul class="menu-content">
+
+                        <li><a href="{{url('admin/state_tab1')}}"><i class="feather icon-circle"></i><span class="menu-item" data-i18n="Details">Tab 1 </span></a>
+                        </li>
+                        <li><a href="{{url('admin/state_tab2')}}"><i class="feather icon-circle"></i><span class="menu-item" data-i18n="Details">Tab 2</span></a>
+                        </li>
+                        <li><a href="{{url('admin/state_tab3')}}"><i class="feather icon-circle"></i><span class="menu-item" data-i18n="Details">Tab 3</span></a>
+                        </li>
+                        <li><a href="{{url('admin/state_tab4')}}"><i class="feather icon-circle"></i><span class="menu-item" data-i18n="Details">Tab 4</span></a>
+                        </li>
+
+                        <li><a href="{{url('admin/state_tab5')}}"><i class="feather icon-circle"></i><span class="menu-item" data-i18n="Details">Tab 5</span></a>
+                        </li>
+
+
+
+
+                    </ul>
+            </li>
 
 
 
