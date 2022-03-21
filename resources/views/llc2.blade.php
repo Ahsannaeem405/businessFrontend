@@ -830,9 +830,14 @@
                                                                                                                     </div>
                                                                                                                     <div
                                                                                                                         class="left-tab-pages__Content-">
+                                                                                                                        @if (isset($data))
+                                                                                                                        <span>{{$data->name}}</span>
+                                                                                                                        @else
                                                                                                                         <span>Limited
                                                                                                                             Liability
                                                                                                                             Company</span>
+                                                                                                                        @endif
+
                                                                                                                         <div
                                                                                                                             class="left-tab-pages__Arrow-sc">
                                                                                                                             <svg width="12"
@@ -891,11 +896,16 @@
                                                                                                                     </div>
                                                                                                                     <div
                                                                                                                         class="left-tab-pages__Content-">
+                                                                                                                        @if (isset($data2))
+                                                                                                                        <span>{{$data2->name}}</span>
+                                                                                                                        @else
                                                                                                                         <span>S
                                                                                                                             Corporation
                                                                                                                             or
                                                                                                                             C
                                                                                                                             Corp</span>
+                                                                                                                        @endif
+
                                                                                                                         <div
                                                                                                                             class="left-tab-pages__Arrow-sc">
                                                                                                                             <svg width="12"
@@ -954,9 +964,14 @@
                                                                                                                     </div>
                                                                                                                     <div
                                                                                                                         class="left-tab-pages__Content-">
+                                                                                                                        @if (isset($data3))
+                                                                                                                        <span>{{$data3->name}}</span>
+                                                                                                                        @else
                                                                                                                         <span>The
                                                                                                                             C
                                                                                                                             Corporation</span>
+                                                                                                                        @endif
+
                                                                                                                         <div
                                                                                                                             class="left-tab-pages__Arrow-sc">
                                                                                                                             <svg width="12"
@@ -1029,9 +1044,14 @@
                                                                                                                     </div>
                                                                                                                     <div
                                                                                                                         class="left-tab-pages__Content-">
+                                                                                                                        @if (isset($data4))
+                                                                                                                        <span>{{$data4->name}}</span>
+                                                                                                                        @else
                                                                                                                         <span>The
                                                                                                                             Nonprofit
                                                                                                                             Corporation</span>
+                                                                                                                        @endif
+
                                                                                                                         <div
                                                                                                                             class="left-tab-pages__Arrow-sc">
                                                                                                                             <svg width="12"
@@ -1090,8 +1110,13 @@
                                                                                                                     </div>
                                                                                                                     <div
                                                                                                                         class="left-tab-pages__Content-">
-                                                                                                                        <span>Sole
-                                                                                                                            Proprietorships</span>
+                                                                                                                        @if (isset($data5))
+                                                                                                                        <span>{{$data5->name}}
+                                                                                                                            </span>
+                                                                                                                            @else <span>Sole
+                                                                                                                                Proprietorships</span>
+                                                                                                                        @endif
+
                                                                                                                         <div
                                                                                                                             class="left-tab-pages__Arrow-sc">
                                                                                                                             <svg width="12"

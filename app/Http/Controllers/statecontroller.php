@@ -304,6 +304,7 @@ function state_tab3_save(Request $request)
         $data3=State3::where('s_id',$id)->first();
 
         $data4=state4::where('s_id',$id)->first();
+        // dd($data4);
 
         $data5=state5::where('s_id',$id)->first();
         $state_info=Stateinfo::where('s_id',$id)->first();
