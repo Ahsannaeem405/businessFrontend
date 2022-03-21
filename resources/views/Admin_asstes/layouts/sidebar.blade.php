@@ -269,7 +269,7 @@
                     <li><a href="{{url('admin/llc_tab5')}}"><i class="feather icon-circle"></i><span class="menu-item" data-i18n="Details">Tab 5</span></a>
                     </li>
 
-                    <li><a href="{{url('admin/llc_info')}}"><i class="feather icon-circle"></i><span class="menu-item" data-i18n="Details">State Information</span></a>
+                    <li><a href="{{url('admin/llc_info')}}"><i class="feather icon-circle"></i><span class="menu-item" data-i18n="Details">FAQ</span></a>
                     </li>
 
 
