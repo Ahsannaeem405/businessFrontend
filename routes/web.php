@@ -265,6 +265,17 @@ Route::prefix('admin')->group(function () {
 
 
 
+    Route::get('llc_tab4',[statecontroller::class,'llc_tab4']);
+    Route::get('get_llcstep_4',[statecontroller::class,'get_llcstep_4']);
+    Route::post('llcstate_tab4_save',[statecontroller::class,'llcstate_tab4_save']);
+
+
+
+
+
+
+
+
 
 
 

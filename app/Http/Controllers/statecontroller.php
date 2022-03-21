@@ -16,6 +16,7 @@ use App\Models\Banner;
 use App\Models\Llc_state2;
 use App\Models\Llcstate1;
 use App\Models\Llcstate3;
+use App\Models\Llcstate4;
 use App\Models\State3;
 use App\Models\Stateinfo;
 
@@ -405,6 +406,40 @@ function state_tab3_save(Request $request)
     }
     function llcstate_tab3_save(Request $request){
         $header =Llcstate3::firstOrNew(array('s_id' => $request->id));
+
+        $header->s_id = $request->id;
+        $header->section1 = $request->section1;
+        $header->save();
+
+
+        return back()->with('success', 'Successfully Updated');
+    }
+    function llc_tab4(){
+        $data=state::all();
+        return view('Admin_asstes.llcstate_tab4',compact('data'));
+
+    }
+    function get_llcstep_4(Request $request)
+    {
+        $id= $request->id;
+        if(Llcstate4::where('s_id',$id)->exists())
+        {
+
+            $data=Llcstate4::where('s_id',$id)->first();
+            $k=1;
+            return view('Admin_asstes.append_llcstate_tab4',compact('id','data','k'));
+
+        }
+        else{
+
+
+            $k=0;
+            return view('Admin_asstes.append_llcstate_tab4',compact('id','k'));
+        }
+
+    }
+    function llcstate_tab4_save(Request $request){
+        $header =Llcstate4::firstOrNew(array('s_id' => $request->id));
 
         $header->s_id = $request->id;
         $header->section1 = $request->section1;
