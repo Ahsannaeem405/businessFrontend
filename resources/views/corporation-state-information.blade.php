@@ -499,7 +499,7 @@
                                                                         </div>
 
                                                                         @endforeach
-                                                                        <div class="state-info-state-item">
+                                                                        {{-- <div class="state-info-state-item">
 
 
 
@@ -508,9 +508,9 @@
 
                                                                             <a href="{{url('coperate')}}">Alaska</a>
 
-                                                                        </div>
+                                                                        </div> --}}
 
-                                                                        
+
 
                                                                     </div>
                                                                 </div>

@@ -13,6 +13,8 @@ use App\Models\state4;
 
 use App\Models\Logo;
 use App\Models\Banner;
+use App\Models\Llc_state2;
+use App\Models\Llcstate1;
 use App\Models\State3;
 use App\Models\Stateinfo;
 
@@ -294,6 +296,105 @@ function state_tab3_save(Request $request)
 
         $banners=Banner::all();
         return view('dyncoperate2',compact('data','data5','data3','data2','data4','logo','banners','state_info'));
+    }
+    function llc_tab1()
+    {
+        $data=state::all();
+        return view('Admin_asstes.llc_tab1',compact('data'));
+    }
+    function get_llcstep_1(Request $request)
+    {
+        $id= $request->id;
+        if(Llcstate1::where('s_id',$id)->exists())
+        {
+            $data=Llcstate1::where('s_id',$id)->first();
+            $k=1;
+            return view('Admin_asstes.append_llc_tab1',compact('id','data','k'));
+
+        }
+        else{
+            $k=0;
+            return view('Admin_asstes.append_llc_tab1',compact('id','k'));
+        }
+
+    }
+
+    function llc_tab1_save(Request $request)
+    {
+
+        $header =Llcstate1::firstOrNew(array('s_id' => $request->id));
+
+        $header->s_id = $request->id;
+        $header->section1 = $request->section1;
+        $header->section2 = $request->section2;
+        $header->video = $request->video;
+        $header->save();
+        // $data=Llcstate1::all();
+        // dd($data);
+        return back()->with('success', 'Successfully Updated');
+
+
+
+
+    }
+    function llc_tab2()
+    {
+        $data=state::all();
+        return view('Admin_asstes.llc_tab2',compact('data'));
+    }
+    function get_llcstep_2(Request $request)
+    {
+        $id= $request->id;
+        if(Llc_state2::where('s_id',$id)->exists())
+        {
+
+            $data=Llc_state2::where('s_id',$id)->first();
+            $k=1;
+            return view('Admin_asstes.append_llcstate_tab2',compact('id','data','k'));
+
+        }
+        else{
+
+
+            $k=0;
+            return view('Admin_asstes.append_llcstate_tab2',compact('id','k'));
+        }
+
+    }
+    function llcstate_tab2_save(Request $request){
+        $header =Llc_state2::firstOrNew(array('s_id' => $request->id));
+
+        $header->s_id = $request->id;
+        $header->section1 = $request->section1;
+        $header->save();
+
+        return back()->with('success', 'Successfully Updated');
+
+
+
+
+
+
+
+
+    }
+    function dyn_llc_info(){
+        $id=$_GET['id'];
+        // dd($data);
+
+        $banners=Banner::all();
+        $logo=Logo::first();
+        $data=Llcstate1::where('s_id',$id)->first();
+        $data2=Llc_state2::where('s_id',$id)->first();
+
+        // $data=Llcstate1::all();
+
+        // $data=Llcstate1::all();
+
+        // dd($data);
+
+        return view('llc2',compact('banners','logo','data','data2'));
+
     }
 
 }

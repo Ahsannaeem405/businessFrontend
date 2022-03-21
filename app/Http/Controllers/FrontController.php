@@ -64,8 +64,8 @@ class FrontController extends Controller
         return view('coperate2',compact('logo','banners'));
 
     }
-    
-    
+
+
     function home(){
         $corp=Corporation::first();
         $table=Table_heading::first();
@@ -186,7 +186,8 @@ class FrontController extends Controller
     function llc_state_information(){
         $banners=Banner::all();
         $logo=Logo::first();
-        return view('llc-state-information',compact('banners','logo'));
+        $state=state::all();
+        return view('llc-state-information',compact('banners','logo','state'));
 
     }
 

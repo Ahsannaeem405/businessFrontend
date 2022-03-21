@@ -30,6 +30,7 @@ Route::get('/llc-state-information',[FrontController::class,'llc_state_informati
 Route::get('/coperate',[FrontController::class,'coperate']);
 Route::get('/llc',[FrontController::class,'llc']);
 Route::get('dyn_coperate/',[statecontroller::class,'dyn_coperate']);
+Route::get('dyn_llc_info/',[statecontroller::class,'dyn_llc_info']);
 
 
 
@@ -246,6 +247,15 @@ Route::prefix('admin')->group(function () {
     Route::post('state_information_save',[statecontroller::class,'state_information_save']);
 
 
+
+    Route::get('llc_tab1',[statecontroller::class,'llc_tab1']);
+    Route::get('get_llcstep_1',[statecontroller::class,'get_llcstep_1']);
+    Route::post('llc_tab1_save',[statecontroller::class,'llc_tab1_save']);
+
+
+    Route::get('llc_tab2',[statecontroller::class,'llc_tab2']);
+    Route::get('get_llcstep_2',[statecontroller::class,'get_llcstep_2']);
+    Route::post('llcstate_tab2_save',[statecontroller::class,'llcstate_tab2_save']);
 
 
 
