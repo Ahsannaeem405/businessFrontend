@@ -227,6 +227,10 @@ Route::prefix('admin')->group(function () {
     Route::get('get_step_2',[statecontroller::class,'get_step_2']);
     Route::post('state_tab2_save',[statecontroller::class,'state_tab2_save']);
 
+    Route::get('state_tab3',[statecontroller::class,'state_tab3']);
+    Route::get('get_step_3',[statecontroller::class,'get_step_3']);
+    Route::post('state_tab3_save',[statecontroller::class,'state_tab3_save']);
+
     Route::get('state_tab4',[statecontroller::class,'state_tab4']);
     Route::get('get_step_4',[statecontroller::class,'get_step_4']);
     Route::post('state_tab4_save',[statecontroller::class,'state_tab4_save']);
@@ -313,7 +317,7 @@ Route::prefix('admin')->group(function () {
         return view('Admin_asstes.OtherBusinessReports');
     });
 
-    
+
 
 
 

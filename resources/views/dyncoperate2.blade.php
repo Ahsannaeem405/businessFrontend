@@ -501,7 +501,7 @@ img {
 
 
 
-                                                
+
                                             </div>
 
                                         </div>
@@ -801,14 +801,14 @@ transform: rotate(0deg);
                                                                                                                 </div>
                                                                                                                 <div class="video-pop-container popup_video_wrapper_widget_1613735646530_1_4">
                                                                                                                     <div class="video-pop-container-inner">
-                                                                                                                        
-                                                                                                                    @if(isset($data) )  
+
+                                                                                                                    @if(isset($data) )
                                                                                                                       @if($data->video ==null)
                                                                                                                         <iframe class="video-frame" src="#" width="500" height="349" frameborder="0" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
                                                                                                                       @else
                                                                                                                       {!!$data->video!!}
-                                                                                                                      @endif 
-                                                                                                                    @endif  
+                                                                                                                      @endif
+                                                                                                                    @endif
                                                                                                                         <!--                       <div class="LightBox__Control">
                                                                                                                         <button>
                                                                                                                           <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 512.001 512.001">
@@ -826,7 +826,7 @@ transform: rotate(0deg);
 
 
                                                                                                     </div>
-                                                                                                    @if(isset($data) )  
+                                                                                                    @if(isset($data) )
 
                                                                                                      {!! $data->section2 !!}
                                                                                                      @endif
@@ -836,7 +836,17 @@ transform: rotate(0deg);
 
                                                                                                      {!! $data2->section1 !!}
                                                                                                      @endif
-                                                                                                     
+
+
+
+
+
+                                                                                                     @if(isset($data3) )
+
+
+
+                                                                                                     {!! $data3->section1 !!}
+                                                                                                     @endif
 
 
 
@@ -850,16 +860,12 @@ transform: rotate(0deg);
 
 
 
-                                                                                                   
 
 
 
 
 
-
-
-
-                                                                                                    <div class="ad_tabber_contents_item widget_1613735646530_3_1" data-id="widget_1613735646530_3" data-scrollid="widget_1613735646530_3">
+                                                                                                    {{-- <div class="ad_tabber_contents_item widget_1613735646530_3_1" data-id="widget_1613735646530_3" data-scrollid="widget_1613735646530_3">
 
 
 
@@ -1004,7 +1010,7 @@ transform: rotate(0deg);
 
 
 
-                                                                                                    </div>
+                                                                                                    </div> --}}
                                                                                                      @if(isset($data4) )
                                                                                                     {!! $data4->section1 !!}
                                                                                                     @endif
@@ -1016,14 +1022,14 @@ transform: rotate(0deg);
 
 
 
-                                                                                                    
 
 
 
 
 
 
-                                                                                                
+
+
                                                                                                     @if(isset($data5) )
                                                                                                     {!! $data5->section1 !!}
                                                                                                     @endif
