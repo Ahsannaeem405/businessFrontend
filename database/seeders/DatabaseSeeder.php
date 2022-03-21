@@ -1018,7 +1018,7 @@ class DatabaseSeeder extends Seeder
 
                     DB::table('faq_whychooses')->insert([
 
-                         'heading' =>'Lorem Ipsum',
+                        'heading' =>'Lorem Ipsum',
                         'q1' =>'An Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum is simply dummy text of the printing and typesetting industry. ',
 
                             'q2' =>'An Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum is simply dummy text of the printing and typesetting industry. ',

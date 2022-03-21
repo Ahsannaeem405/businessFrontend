@@ -43,6 +43,11 @@ use App\Models\Reason;
 use App\Models\Step_dissolution;
 use App\Models\Tax_description;
 use App\Models\Usage;
+use App\Models\state;
+use App\Models\state1;
+
+
+
 
 class FrontController extends Controller
 {
@@ -54,10 +59,13 @@ class FrontController extends Controller
     }
     function coperate(){
         $logo=Logo::first();
+
         $banners=Banner::all();
         return view('coperate2',compact('logo','banners'));
 
     }
+    
+    
     function home(){
         $corp=Corporation::first();
         $table=Table_heading::first();
@@ -170,7 +178,9 @@ class FrontController extends Controller
     function corporation(){
         $banners=Banner::all();
         $logo=Logo::first();
-        return view('corporation-state-information',compact('banners','logo'));
+        $state=state::all();
+
+        return view('corporation-state-information',compact('banners','logo','state'));
 
     }
     function llc_state_information(){
