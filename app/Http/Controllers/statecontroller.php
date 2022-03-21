@@ -17,6 +17,7 @@ use App\Models\Llc_state2;
 use App\Models\Llcstate1;
 use App\Models\Llcstate3;
 use App\Models\Llcstate4;
+use App\Models\Llcstate5;
 use App\Models\State3;
 use App\Models\Stateinfo;
 
@@ -448,6 +449,38 @@ function state_tab3_save(Request $request)
 
         return back()->with('success', 'Successfully Updated');
     }
+    function llc_tab5(){
+        $data=state::all();
+        return view('Admin_asstes.llcstate_tab5',compact('data'));
+    }
+    function get_llcstep_5(Request $request){
+        $id= $request->id;
+        if(Llcstate5::where('s_id',$id)->exists())
+        {
+
+            $data=Llcstate5::where('s_id',$id)->first();
+            $k=1;
+            return view('Admin_asstes.append_llcstate_tab5',compact('id','data','k'));
+
+        }
+        else{
+
+
+            $k=0;
+            return view('Admin_asstes.append_llcstate_tab5',compact('id','k'));
+        }
+
+    }
+    function llcstate_tab5_save(Request $request){
+        $header =Llcstate5::firstOrNew(array('s_id' => $request->id));
+
+        $header->s_id = $request->id;
+        $header->section1 = $request->section1;
+        $header->save();
+
+        return back()->with('success', 'Successfully Updated');
+
+    }
     function dyn_llc_info(){
         $id=$_GET['id'];
         // dd($data);
@@ -457,6 +490,8 @@ function state_tab3_save(Request $request)
         $data=Llcstate1::where('s_id',$id)->first();
         $data2=Llc_state2::where('s_id',$id)->first();
         $data3=Llcstate3::where('s_id',$id)->first();
+        $data5=Llcstate5::where('s_id',$id)->first();
+
 
 
         // $data=Llcstate1::all();
@@ -465,7 +500,7 @@ function state_tab3_save(Request $request)
 
         // dd($data);
 
-        return view('llc2',compact('banners','logo','data','data2','data3'));
+        return view('llc2',compact('banners','logo','data','data2','data3','data5'));
 
     }
 
