@@ -383,6 +383,8 @@ $header->name=$request->name;
         $header =Llc_state2::firstOrNew(array('s_id' => $request->id));
 
         $header->s_id = $request->id;
+        $header->name = $request->name;
+
         $header->section1 = $request->section1;
         $header->save();
 
@@ -424,6 +426,8 @@ $header->name=$request->name;
         $header =Llcstate3::firstOrNew(array('s_id' => $request->id));
 
         $header->s_id = $request->id;
+        $header->name = $request->name;
+
         $header->section1 = $request->section1;
         $header->save();
 
@@ -458,6 +462,8 @@ $header->name=$request->name;
         $header =Llcstate4::firstOrNew(array('s_id' => $request->id));
 
         $header->s_id = $request->id;
+        $header->name = $request->name;
+
         $header->section1 = $request->section1;
         $header->save();
 
@@ -490,6 +496,8 @@ $header->name=$request->name;
         $header =Llcstate5::firstOrNew(array('s_id' => $request->id));
 
         $header->s_id = $request->id;
+        $header->name = $request->name;
+
         $header->section1 = $request->section1;
         $header->save();
 
