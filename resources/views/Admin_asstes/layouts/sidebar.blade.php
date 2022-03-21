@@ -246,6 +246,8 @@
                         <li><a href="{{url('admin/state_tab5')}}"><i class="feather icon-circle"></i><span class="menu-item" data-i18n="Details">Tab 5</span></a>
                         </li>
 
+                        <li><a href="{{url('admin/state_info')}}"><i class="feather icon-circle"></i><span class="menu-item" data-i18n="Details">State Information</span></a>
+                        </li>
 
 
 

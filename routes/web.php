@@ -241,6 +241,11 @@ Route::prefix('admin')->group(function () {
     Route::post('state_tab5_save',[statecontroller::class,'state_tab5_save']);
 
 
+    Route::get('/state_info',[statecontroller::class,'state_info']);
+    Route::get('get_stateinfo',[statecontroller::class,'get_stateinfo']);
+    Route::post('state_information_save',[statecontroller::class,'state_information_save']);
+
+
 
 
 
