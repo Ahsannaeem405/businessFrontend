@@ -8,4 +8,6 @@ use Illuminate\Database\Eloquent\Model;
 class Llcstate5 extends Model
 {
     use HasFactory;
+    protected $fillable = ['s_id'];
+
 }
