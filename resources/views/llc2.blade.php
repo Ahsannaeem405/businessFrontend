@@ -1146,6 +1146,79 @@
 
                                                                                                             @if (isset($data))
                                                                                                                 {!! $data->section1 !!}
+                                                                                                                @else
+                                                                                                                <div class="ad_tabber_contents_item widget_1613735646530_1_1 active" data-id="widget_1613735646530_1" data-scrollid="widget_1613735646530_1">
+
+
+
+
+
+                                                                                                                    <div class="ad_tabber_contents_item_rich_text" style="margin-top: 24px; margin-bottom: 32px;">
+                                                                                                                        <h3 style="margin-bottom: 24px;">Different Types of Corporate Structures</h3>
+                                                                                                                        <p style="margin-bottom: 48px;">You’ll learn about the four main types of business entity below — LLCs, S Corporations, C Corporations and nonprofits, so you can decide which will best meet your
+                                                                                                                            needs.
+                                                                                                                        </p>
+                                                                                                                        <h3 style="margin-bottom: 24px;">Limited Liability Company (LLC)</h3>
+                                                                                                                        <p style="margin-bottom: 40px;">The LLC is one of the most popular types of business entities. It’s ideally suited for smaller organizations and startups, for several reasons:</p>
+                                                                                                                    </div>
+
+
+
+
+                                                                                                                </div>
+
+
+
+
+
+
+                                                                                                                <div class="ad_tabber_contents_item widget_1613735646530_1_2 active" data-id="widget_1613735646530_1">
+
+
+
+
+                                                                                                                    <div class="ad_tabber_contents_item_boxed_content">
+                                                                                                                        <div class="boxed-content-container">
+
+                                                                                                                            <div class="boxed-color-box">
+
+                                                                                                                                <ul>
+                                                                                                                                    <li style="margin-bottom: 16px;">LLCs are fast and easy to setup.</li>
+                                                                                                                                    <li style="margin-bottom: 16px;">LLCs have a simple business structure.</li>
+                                                                                                                                    <li style="margin-bottom: 16px;">Forming an LLC is generally inexpensive.</li>
+                                                                                                                                    <li style="margin-bottom: 16px;">Running an LLC is easier than running a C Corp or S Corp.</li>
+                                                                                                                                    <li style="margin-bottom: 16px;">There are fewer rules, regulations and legal compliance issues for LLCs.</li>
+                                                                                                                                    <li>LLCs are formed and regulated on a state level.</li>
+                                                                                                                                </ul>
+
+                                                                                                                            </div>
+                                                                                                                        </div>
+
+                                                                                                                    </div>
+
+
+
+                                                                                                                </div>
+
+
+
+
+
+                                                                                                                <div class="ad_tabber_contents_item widget_1613735646530_1_3 active" data-id="widget_1613735646530_1">
+
+
+
+
+
+                                                                                                                    <div class="ad_tabber_contents_item_rich_text" style="margin-top: 0px; margin-bottom: 0px;">
+                                                                                                                        <p style="margin-bottom: 48px;">The cost and policies governing an LLC do vary from state to state. Check out our <a style="font-weight: 900;" href="llc-state-information.html" rel="noopener">LLC State Information</a>                                                                                            resource for additional info on your state.</p>
+                                                                                                                        <h3 style="margin-bottom: 24px;">LLC Limited Liability Protection</h3>
+                                                                                                                    </div>
+
+
+
+
+                                                                                                                </div>
                                                                                                             @endif
 
 
@@ -1219,9 +1292,190 @@
                                                                                                             </div>
                                                                                                             @if (isset($data))
                                                                                                                 {!! $data->section2 !!}
+                                                                                                                @else
+                                                                                                                <div class="ad_tabber_contents_item widget_1613735646530_1_5 active" data-id="widget_1613735646530_1">
+
+
+
+
+
+                                                                                                                    <div class="ad_tabber_contents_item_rich_text" style="margin-top: 42px; margin-bottom: 0px;">
+                                                                                                                        <p style="margin-bottom: 48px;">Like C Corps and S Corps, LLCs provide their owners with limited liability protection. This means the business assets are owned separately by the LLC, not by the owners.
+                                                                                                                            Any liability the business has (e.g. monies owed, equipment, depreciation, lawsuits, etc.) are purely the liability of the business, and do not (generally) have
+                                                                                                                            any impact on the individual owner’s personal assets.</p>
+                                                                                                                        <h3 style="margin-bottom: 24px;">LLC Taxes and Tax Returns</h3>
+                                                                                                                        <p style="margin-bottom: 72px;">An LLC does not pay federal income tax itself. Instead, any net profit or loss is “passed through” to the personal tax returns of the owners or members. It is then
+                                                                                                                            taxed as personal income by the IRS. In this sense, taxation of an LLC is very similar to taxation of a sole-proprietorship or partnership.</p>
+                                                                                                                        <h3 style="margin-bottom: 24px;">Types of Tax an LLC is Liable For</h3>
+                                                                                                                        <p style="margin-bottom: 40px;">It’s important to note that an LLC will be liable for certain types of tax, for example:</p>
+                                                                                                                    </div>
+
+
+
+
+                                                                                                                </div>
+
+
+
+
+
+                                                                                                                <div class="ad_tabber_contents_item widget_1613735646530_1_6 active last-item" data-id="widget_1613735646530_1">
+
+
+
+
+                                                                                                                    <div class="ad_tabber_contents_item_boxed_content">
+                                                                                                                        <div class="boxed-content-container">
+
+                                                                                                                            <div class="boxed-color-box">
+
+                                                                                                                                <ul>
+                                                                                                                                    <li style="margin-bottom: 16px;">Payroll tax on salaries paid to employees (but not to members or owners — they will pay self-employment tax on their personal tax returns).</li>
+                                                                                                                                    <li style="margin-bottom: 16px;">Sales tax on goods purchased by and for the business.</li>
+                                                                                                                                    <li style="margin-bottom: 16px;">Property taxes on owned business property.</li>
+                                                                                                                                    <li style="margin-bottom: 16px;">In certain cases, other types of tax or tariffs may need to be paid by an LLC.</li>
+                                                                                                                                    <li>Generally, these taxes can be subtracted as business expenses and do not flow through to individual owner’s tax returns.</li>
+                                                                                                                                </ul>
+
+                                                                                                                            </div>
+                                                                                                                        </div>
+
+                                                                                                                    </div>
+
+
+
+                                                                                                                </div>
                                                                                                             @endif
                                                                                                             @if (isset($data2))
                                                                                                                 {!! $data2->section1 !!}
+                                                                                                                @else
+                                                                                                                <div class="ad_tabber_contents_item widget_1613735646530_2_1" data-id="widget_1613735646530_2" data-scrollid="widget_1613735646530_2">
+
+
+
+
+
+                                                                                                                    <div class="ad_tabber_contents_item_rich_text" style="margin-top: 24px; margin-bottom: 0px;">
+                                                                                                                        <h3 style="margin-bottom: 24px;">Subchapter or Small Business Corporation (S Corporation or S Corp)</h3>
+                                                                                                                        <p style="margin-bottom: 40px;">The S Corporation, or S Corp, is a business entity that was created and enacted into law by Congress in 1958. It was created to encourage small and family business
+                                                                                                                            creation, while eliminating the double taxation that conventional corporations (C Corps) had to pay. Key factors for S Corps include:</p>
+                                                                                                                    </div>
+
+
+
+
+                                                                                                                </div>
+
+
+
+
+
+                                                                                                                <div class="ad_tabber_contents_item widget_1613735646530_2_2" data-id="widget_1613735646530_2">
+
+
+
+
+                                                                                                                    <div class="ad_tabber_contents_item_boxed_content">
+                                                                                                                        <div class="boxed-content-container">
+
+                                                                                                                            <div class="boxed-color-box">
+
+                                                                                                                                <ul>
+                                                                                                                                    <li style="margin-bottom: 16px;">S Corps are formed and regulated on a state level.</li>
+                                                                                                                                    <li style="margin-bottom: 16px;">The liability of the S Corp and the personal liability of the owners and investors are separate.</li>
+                                                                                                                                    <li style="margin-bottom: 16px;">The liability of the owners and investors in an S Corp is limited only to the value of their investment.</li>
+                                                                                                                                    <li style="margin-bottom: 16px;">The owners of a corporation are not personally liable for business debts, claims, or other liabilities.</li>
+                                                                                                                                    <li style="margin-bottom: 16px;">There are some more legalities, rules, and compliance for an S Corp than an LLC.</li>
+                                                                                                                                    <li style="margin-bottom: 16px;">An S Corp has a slightly more complex corporate structure.</li>
+                                                                                                                                    <li style="margin-bottom: 16px;">S Corps are limited to having 100 shareholders.</li>
+                                                                                                                                    <li>Running an S Corp is simpler and easier than running a C Corp.</li>
+                                                                                                                                </ul>
+
+                                                                                                                            </div>
+                                                                                                                        </div>
+
+                                                                                                                    </div>
+
+
+
+                                                                                                                </div>
+
+
+
+
+
+                                                                                                                <div class="ad_tabber_contents_item widget_1613735646530_2_3" data-id="widget_1613735646530_2">
+
+
+
+
+
+                                                                                                                    <div class="ad_tabber_contents_item_rich_text" style="margin-top: 0px; margin-bottom: 0px;">
+                                                                                                                        <p style="margin-bottom: 48px;">The cost and policies governing an LLC do vary from state to state. Check out our <a href="llc-state-information.html" rel="noopener">LLC State Information</a> resource
+                                                                                                                            for additional info on your state.</p>
+                                                                                                                        <h3 style="margin-bottom: 24px;">S Corporation Taxes and Tax Returns</h3>
+                                                                                                                        <p style="margin-bottom: 32px;">Unlike traditional C Corporations, the S Corporation does not need to pay corporate income tax. The S Corporation is a separate tax designation recognized by the IRS.
+                                                                                                                            Similar to the LLC, the net profit or loss generated by an S Corporation will flow through to the personal income tax returns of the shareholders and owners, and
+                                                                                                                            be subject to tax there.</p>
+                                                                                                                        <p style="margin-bottom: 48px;">As with LLCs, an S Corp will have to pay certain other types of taxes like payroll, property and sales tax on business purchases.</p>
+                                                                                                                        <h3 style="margin-bottom: 24px;">Forming an LLC but Paying Tax as an S Corp</h3>
+                                                                                                                        <p style="margin-bottom: 40px;">When you create an LLC, you may have the option to choose to be treated as an S Corp for taxation purposes. This takes advantage of both business types, as follows:</p>
+                                                                                                                    </div>
+
+
+
+
+                                                                                                                </div>
+
+
+
+
+
+                                                                                                                <div class="ad_tabber_contents_item widget_1613735646530_2_4" data-id="widget_1613735646530_2">
+
+
+
+
+                                                                                                                    <div class="ad_tabber_contents_item_boxed_content">
+                                                                                                                        <div class="boxed-content-container">
+
+                                                                                                                            <div class="boxed-color-box">
+
+                                                                                                                                <ul>
+                                                                                                                                    <li style="margin-bottom: 16px;">The rules and regulations for running an LLC are less onerous than running an S Corp.</li>
+                                                                                                                                    <li style="margin-bottom: 16px;">There may be tax advantages to being taxed as an S Corp, specifically around owners and members taking money out of the business.</li>
+                                                                                                                                    <li>You can choose to pay yourself a “reasonable” salary and deduct monies above that as share dividend income. That additional income would not be subject
+                                                                                                                                        to self-employment tax, although it would still be subject to personal income tax.</li>
+                                                                                                                                </ul>
+
+                                                                                                                            </div>
+                                                                                                                        </div>
+
+                                                                                                                    </div>
+
+
+
+                                                                                                                </div>
+
+
+
+
+
+                                                                                                                <div class="ad_tabber_contents_item widget_1613735646530_2_5 last-item" data-id="widget_1613735646530_2">
+
+
+
+
+
+                                                                                                                    <div class="ad_tabber_contents_item_rich_text" style="margin-top: 0px; margin-bottom: 0px;">
+                                                                                                                        <p style="margin: 0;">If you're interested in how to save additional money on taxes by filing your business as an S Corporation,<a style="font-weight: 900;" href="s-corporation-tax-calculator/index.html"
+                                                                                                                                target="_blank" rel="noopener"> check out our S Corporation Tax Calculator. </a></p>
+                                                                                                                    </div>
+
+
+
+
+                                                                                                                </div>
                                                                                                             @endif
 
 
@@ -1230,6 +1484,153 @@
 
                                                                                                             @if (isset($data3))
                                                                                                                 {!! $data3->section1 !!}
+                                                                                                                @else
+                                                                                                                <div class="ad_tabber_contents_item widget_1613735646530_3_1" data-id="widget_1613735646530_3" data-scrollid="widget_1613735646530_3">
+
+
+
+
+
+                                                                                                                    <div class="ad_tabber_contents_item_rich_text" style="margin-top: 24px; margin-bottom: 0px;">
+                                                                                                                        <h3 style="margin-bottom: 24px;">The C Corporation</h3>
+                                                                                                                        <p style="margin-bottom: 40px;">A <a style="font-weight: 900;" href="what-is-c-corporation/index.html">C Corp, also known as a C Corporation</a>, is a type of business entity that is formed and regulated
+                                                                                                                            on a state level. It is created by filing “Articles of Incorporation” with the secretary of state within the state of incorporation. It is the most formal type
+                                                                                                                            of company and a corporate structure. The policies and cost of creating a C Corp vary from state to state. Factors affecting whether you would want to create a
+                                                                                                                            C Corp include:</p>
+                                                                                                                    </div>
+
+
+
+
+                                                                                                                </div>
+
+
+
+
+
+                                                                                                                <div class="ad_tabber_contents_item widget_1613735646530_3_2" data-id="widget_1613735646530_3">
+
+
+
+
+                                                                                                                    <div class="ad_tabber_contents_item_boxed_content">
+                                                                                                                        <div class="boxed-content-container">
+
+                                                                                                                            <div class="boxed-color-box">
+
+                                                                                                                                <ul>
+                                                                                                                                    <li style="margin-bottom: 16px;">A C Corp has limited liability, so the investors and owners of a C Corp are not generally liable for business debts and other liabilities.</li>
+                                                                                                                                    <li style="margin-bottom: 16px;">Ownership of a C Corp is determined by who owns stock in the company.</li>
+                                                                                                                                    <li style="margin-bottom: 16px;">A C Corporation must issue stock.</li>
+                                                                                                                                    <li style="margin-bottom: 16px;">A C Corporation must hold an Annual General Meeting.</li>
+                                                                                                                                    <li style="margin-bottom: 16px;">The ownership of a C Corp can be fluid and transferred, depending on who holds stock at a particular moment in time.</li>
+                                                                                                                                    <li style="margin-bottom: 16px;">Stocks in a C Corp can be bought and sold on a public stock market if the C Corp holds an “Initial Public Offering (IPO)” where it makes it stocks available
+                                                                                                                                        to the public.</li>
+                                                                                                                                    <li style="margin-bottom: 16px;">A C Corp is required to have a board of directors.</li>
+                                                                                                                                    <li style="margin-bottom: 16px;">A C Corp can raise more finances by issuing stock.</li>
+                                                                                                                                    <li style="margin-bottom: 16px;">A C Corp is required to meet numerous rules and regulations.</li>
+                                                                                                                                    <li>Money earned by a C Corp may be subject to “double taxation.”</li>
+                                                                                                                                </ul>
+
+                                                                                                                            </div>
+                                                                                                                        </div>
+
+                                                                                                                    </div>
+
+
+
+                                                                                                                </div>
+
+
+
+
+
+                                                                                                                <div class="ad_tabber_contents_item widget_1613735646530_3_3 last-item" data-id="widget_1613735646530_3">
+
+
+
+
+
+                                                                                                                    <div class="ad_tabber_contents_item_rich_text" style="margin-top: 0px; margin-bottom: 0px;">
+                                                                                                                        <h3 style="margin-bottom: 24px;">How Taxes Work In A C Corp</h3>
+                                                                                                                        <p style="margin-bottom: 48px;">Unlike the the Limited Liability Company and the S Corporation, a corporation is required to file a corporate tax return and pay corporation taxes on any profits.
+                                                                                                                            When those taxes are paid to shareholders as dividends, they will also be subjected to taxation on that individual’s tax return. This is known as “double taxation.”</p>
+                                                                                                                        <h3 style="margin-bottom: 24px;">C-Corporation Tax Rates</h3>
+                                                                                                                        <p style="margin-bottom: 24px;">C-Corporation tax rates are as follows:</p>
+                                                                                                                        <table class="taxes-c-corp-table" style="width: 100%;" data-table="two-col">
+                                                                                                                            <tbody>
+                                                                                                                                <tr>
+                                                                                                                                    <td>
+                                                                                                                                        <p style="margin: 0;">Profit up to $50,000</p>
+                                                                                                                                    </td>
+                                                                                                                                    <td>
+                                                                                                                                        <p style="margin: 0;"><mark>15%</mark></p>
+                                                                                                                                    </td>
+                                                                                                                                </tr>
+                                                                                                                                <tr>
+                                                                                                                                    <td>
+                                                                                                                                        <p style="margin: 0;">$50,000 - $75,000</p>
+                                                                                                                                    </td>
+                                                                                                                                    <td>
+                                                                                                                                        <p style="margin: 0;"><mark>25%</mark></p>
+                                                                                                                                    </td>
+                                                                                                                                </tr>
+                                                                                                                                <tr>
+                                                                                                                                    <td>
+                                                                                                                                        <p style="margin: 0;">$75,000 - $100,000</p>
+                                                                                                                                    </td>
+                                                                                                                                    <td>
+                                                                                                                                        <p style="margin: 0;"><mark>34%</mark></p>
+                                                                                                                                    </td>
+                                                                                                                                </tr>
+                                                                                                                                <tr>
+                                                                                                                                    <td>
+                                                                                                                                        <p style="margin: 0;">$100,000 - $335,000</p>
+                                                                                                                                    </td>
+                                                                                                                                    <td>
+                                                                                                                                        <p style="margin: 0;"><mark>39%</mark></p>
+                                                                                                                                    </td>
+                                                                                                                                </tr>
+                                                                                                                                <tr>
+                                                                                                                                    <td>
+                                                                                                                                        <p style="margin: 0;">$335,000 - $10,000,000</p>
+                                                                                                                                    </td>
+                                                                                                                                    <td>
+                                                                                                                                        <p style="margin: 0;"><mark>34%</mark></p>
+                                                                                                                                    </td>
+                                                                                                                                </tr>
+                                                                                                                                <tr>
+                                                                                                                                    <td>
+                                                                                                                                        <p style="margin: 0;">$10,000,000 - $15,000,000</p>
+                                                                                                                                    </td>
+                                                                                                                                    <td>
+                                                                                                                                        <p style="margin: 0;"><mark>35%</mark></p>
+                                                                                                                                    </td>
+                                                                                                                                </tr>
+                                                                                                                                <tr>
+                                                                                                                                    <td>
+                                                                                                                                        <p style="margin: 0;">$15,000,000 - $18,333,333</p>
+                                                                                                                                    </td>
+                                                                                                                                    <td>
+                                                                                                                                        <p style="margin: 0;"><mark>38%</mark></p>
+                                                                                                                                    </td>
+                                                                                                                                </tr>
+                                                                                                                                <tr>
+                                                                                                                                    <td>
+                                                                                                                                        <p style="margin: 0;">More than $18,333,333 — 35%</p>
+                                                                                                                                    </td>
+                                                                                                                                    <td>
+                                                                                                                                        <p style="margin: 0;"><mark>35%</mark></p>
+                                                                                                                                    </td>
+                                                                                                                                </tr>
+                                                                                                                            </tbody>
+                                                                                                                        </table>
+                                                                                                                    </div>
+
+
+
+
+                                                                                                                </div>
                                                                                                             @endif
 
 
@@ -1397,6 +1798,78 @@
                                                                                                     </div> --}}
                                                                                                             @if (isset($data4))
                                                                                                                 {!! $data4->section1 !!}
+                                                                                                                @else
+                                                                                                                <div class="ad_tabber_contents_item widget_1613735646530_4_1 last-item" data-id="widget_1613735646530_4" data-scrollid="widget_1613735646530_4">
+
+
+
+
+
+                                                                                                                    <div class="ad_tabber_contents_item_rich_text" style="margin-top: 24px; margin-bottom: 0px;">
+                                                                                                                        <h3 style="margin-bottom: 24px;">The Nonprofit Corporation</h3>
+                                                                                                                        <p style="margin-bottom: 32px;">A <a href="what-is-non-profit-corporation/index.html">Nonprofit Corporation</a> is a type of corporation that donates any revenues generated to achieve a specific
+                                                                                                                            goal that is of public benefit. Nonprofit corporations are allowed to create profits, however those profits must be used to preserve the existence and expansion
+                                                                                                                            of the corporation.</p>
+                                                                                                                        <p style="margin-bottom: 48px;">In the United States, a nonprofit corporation is formed by filing articles of incorporation in the state in which it will operate. Incorporating the nonprofit creates
+                                                                                                                            a legal entity and enables the organization to be treated as a corporation by law, granting it the same rights and privileges afforded to for-profit corporations.</p>
+                                                                                                                        <h3 style="margin-bottom: 24px;">How Taxes Work In A Nonprofit</h3>
+                                                                                                                        <p style="margin-bottom: 24px;">Unlike the the Limited Liability Company and the S Corporation, a corporation is required to file a corporate tax return and pay corporation taxes on any profits.
+                                                                                                                            When those taxes are paid to shareholders as dividends, they will also be subjected to taxation on that individual’s tax return. This is known as “double taxation.”</p>
+                                                                                                                        <table class="taxes-nonprofit-table" style="width: 100%;" data-table="three-col">
+                                                                                                                            <tbody>
+                                                                                                                                <tr>
+                                                                                                                                    <td>
+                                                                                                                                        <p style="margin: 0;">Fedaral tax</p>
+                                                                                                                                    </td>
+                                                                                                                                    <td>
+                                                                                                                                        <hr>
+                                                                                                                                    </td>
+                                                                                                                                    <td><img alt="Cross Icon" src="hubfs/Incfile_February_2021/images/close_x.svg"></td>
+                                                                                                                                </tr>
+                                                                                                                                <tr>
+                                                                                                                                    <td>
+                                                                                                                                        <p style="margin: 0;">Sales tax</p>
+                                                                                                                                    </td>
+                                                                                                                                    <td>
+                                                                                                                                        <hr>
+                                                                                                                                    </td>
+                                                                                                                                    <td><img alt="Cross Icon" src="hubfs/Incfile_February_2021/images/close_x.svg"></td>
+                                                                                                                                </tr>
+                                                                                                                                <tr>
+                                                                                                                                    <td>
+                                                                                                                                        <p style="margin: 0;">Property tax</p>
+                                                                                                                                    </td>
+                                                                                                                                    <td>
+                                                                                                                                        <hr>
+                                                                                                                                    </td>
+                                                                                                                                    <td><img alt="Cross Icon" src="hubfs/Incfile_February_2021/images/close_x.svg"></td>
+                                                                                                                                </tr>
+                                                                                                                                <tr>
+                                                                                                                                    <td>
+                                                                                                                                        <p style="margin: 0;">Payroll tax</p>
+                                                                                                                                    </td>
+                                                                                                                                    <td><img alt="Check" src="hubfs/Incfile_February_2021/images/fill_checklist.svg"></td>
+                                                                                                                                    <td>
+                                                                                                                                        <hr>
+                                                                                                                                    </td>
+                                                                                                                                </tr>
+                                                                                                                                <tr>
+                                                                                                                                    <td>
+                                                                                                                                        <p style="margin: 0;">Taxes on income unrelated to the main purpose</p>
+                                                                                                                                    </td>
+                                                                                                                                    <td><img alt="Check" src="hubfs/Incfile_February_2021/images/fill_checklist.svg"></td>
+                                                                                                                                    <td>
+                                                                                                                                        <hr>
+                                                                                                                                    </td>
+                                                                                                                                </tr>
+                                                                                                                            </tbody>
+                                                                                                                        </table>
+                                                                                                                    </div>
+
+
+
+
+                                                                                                                </div>
                                                                                                             @endif
 
 
@@ -1416,6 +1889,27 @@
 
                                                                                                             @if (isset($data5))
                                                                                                                 {!! $data5->section1 !!}
+                                                                                                                @else
+                                                                                                                <div class="ad_tabber_contents_item widget_1613735646530_5_1 last-item" data-id="widget_1613735646530_5" data-scrollid="widget_1613735646530_5">
+
+
+
+
+
+                                                                                                                    <div class="ad_tabber_contents_item_rich_text" style="margin-top: 24px; margin-bottom: 0px;">
+                                                                                                                        <h3 style="margin-bottom: 24px;">A Note on Sole Proprietorships and Partnerships</h3>
+                                                                                                                        <p style="margin-bottom: 32px;">Before closing, a word on sole-proprietorships and partnerships: although these may not be “formal” business entities, some people may choose to complete work as a
+                                                                                                                            sole proprietor or partner. In these cases, there’s generally no separate business entity — the business and the proprietor (or partnership) are effectively one
+                                                                                                                            and the same. This means all income, expenses and other financial matters would be reported on an individual’s personal tax return, and they’d pay tax accordingly.
+                                                                                                                            It also means there’s no separation for areas like personal liability.</p>
+                                                                                                                        <p style="margin-bottom: 0;">We always recommend setting up a formal business entity — it keeps everything neater, removes personal liability for your business, and may have several tax advantages.
+                                                                                                                            Incorporate your business today using <a style="font-weight: 900;" href="https://orders.incfile.com/form-order-now.php" rel="noopener" target="_blank" targrt="_blank">Incfile's three easy steps to online business formation.</a></p>
+                                                                                                                    </div>
+
+
+
+
+                                                                                                                   </div>
                                                                                                             @endif
 
 
