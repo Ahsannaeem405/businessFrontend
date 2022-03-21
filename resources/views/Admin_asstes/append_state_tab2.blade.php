@@ -3,6 +3,7 @@
 @csrf
 <div class="form-group">
 	<input type="hidden" name="id" value="{{$id}}">
+    <input type="text" class="form-control mb-3" id="name" value="{{$data->name}}" name="name" placeholder="Tab Heading">
     <label for="inputAddress"><b><h1>Section1</b></h1></label>
 	<div class="text1" contenteditable="true">
 		@if($k==0)
@@ -135,7 +136,7 @@
 	        </div>
 	    @else
 	    {!! $data->section1 !!}
-	    @endif     
+	    @endif
 
 
 	</div>
@@ -148,14 +149,14 @@
 
 <script>
    $(document).ready(function(){
-        
+
 	    $(".btn").click(function(){
 	      var txt1=$(".text1").html();
 	      var txt2=$(".text2").html();
 	      $(".section2").val(txt2);
 	      $(".section1").val(txt1);
 	      $("#btn_sub").submit();
-	      
+
 
 	   });
 });

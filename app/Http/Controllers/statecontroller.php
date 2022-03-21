@@ -49,9 +49,12 @@ class statecontroller extends Controller
     }
     function state_tab1_save(Request $request)
     {
+
         $header =state1::firstOrNew(array('s_id' => $request->id));
 
         $header->s_id = $request->id;
+        $header->name = $request->name;
+
         $header->section1 = $request->section1;
         $header->section2 = $request->section2;
         $header->video = $request->video;
@@ -76,7 +79,7 @@ class statecontroller extends Controller
 
             $data=state2::where('s_id',$id)->first();
             $k=1;
-            return view('Admin_asstes.append_state_tab5',compact('id','data','k'));
+            return view('Admin_asstes.append_state_tab2',compact('id','data','k'));
 
         }
         else{
@@ -92,6 +95,8 @@ class statecontroller extends Controller
         $header =state2::firstOrNew(array('s_id' => $request->id));
 
         $header->s_id = $request->id;
+        $header->name = $request->name;
+
         $header->section1 = $request->section1;
         $header->save();
 
@@ -136,6 +141,8 @@ function state_tab3_save(Request $request)
     $header =State3::firstOrNew(array('s_id' => $request->id));
 
     $header->s_id = $request->id;
+    $header->name = $request->name;
+
     $header->section1 = $request->section1;
     $header->save();
 
@@ -182,6 +189,8 @@ function state_tab3_save(Request $request)
         $header =state4::firstOrNew(array('s_id' => $request->id));
 
         $header->s_id = $request->id;
+        $header->name = $request->name;
+
         $header->section1 = $request->section1;
         $header->save();
 
@@ -230,9 +239,12 @@ function state_tab3_save(Request $request)
     }
     function state_tab5_save(Request $request)
     {
+
         $header =state5::firstOrNew(array('s_id' => $request->id));
 
         $header->s_id = $request->id;
+        $header->name = $request->name;
+
         $header->section1 = $request->section1;
         $header->save();
 
@@ -329,6 +341,8 @@ function state_tab3_save(Request $request)
         $header =Llcstate1::firstOrNew(array('s_id' => $request->id));
 
         $header->s_id = $request->id;
+$header->name=$request->name;
+
         $header->section1 = $request->section1;
         $header->section2 = $request->section2;
         $header->video = $request->video;

@@ -1,10 +1,12 @@
 <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.2.1/jquery.min.js"></script>
-<form id="btn_sub" action="{{url('admin/llc_tab1_save')}}" method="POST" enctype="multipart/form-data">
+<form id="btn_sub" action="{{url('admin/state_tab1_save')}}" method="POST" enctype="multipart/form-data">
 @csrf
 <div class="form-group">
 	<input type="hidden" name="id" value="{{$id}}">
+    <input type="text" class="form-control mb-3" id="name" value="{{$data->name}}" name="name" placeholder="Tab Heading">
     <label for="inputAddress"><b><h1>Section1</b></h1></label>
 	<div class="text1" contenteditable="true">
+
 		@if($k==0)
 	        <div class="ad_tabber_contents_item widget_1613735646530_1_1 active" data-id="widget_1613735646530_1" data-scrollid="widget_1613735646530_1">
 

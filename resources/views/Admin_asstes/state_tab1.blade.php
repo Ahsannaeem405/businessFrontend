@@ -11,7 +11,7 @@
         <option value="{{$row_data->id}}">{{$row_data->name}}</option>
         @endforeach
 
-      
+
       </select>
     </div>
     <div class="data"></div>
@@ -37,12 +37,12 @@
                 	$(".data").empty();
 
                 	$(".data").append(data);
-                    
+
 
                 },
             })
         });
-	   
+
 	    $(".btn").click(function(){
 	       alert($(".text1").html());
            alert($(".text2").html());
