@@ -231,7 +231,7 @@
 
                 </ul>
         </li>
-         <li class="nav-item has-sub"><a href="#"><i class="feather icon-airplay"></i><span class="menu-title" data-i18n="Ecommerce">States</span></a>
+         <li class="nav-item has-sub"><a href="#"><i class="feather icon-airplay"></i><span class="menu-title" data-i18n="Ecommerce">State Information</span></a>
                     <ul class="menu-content">
 
                         <li><a href="{{url('admin/state_tab1')}}"><i class="feather icon-circle"></i><span class="menu-item" data-i18n="Details">Tab 1 </span></a>
