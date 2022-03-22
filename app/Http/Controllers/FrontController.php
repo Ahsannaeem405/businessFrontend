@@ -37,6 +37,11 @@ use App\Models\Formation;
 use App\Models\Good;
 use App\Models\Helpfile_dissolution;
 use App\Models\Helpline_certificate;
+use App\Models\Hometab1;
+use App\Models\Hometab2;
+use App\Models\Hometab3;
+use App\Models\Hometab4;
+use App\Models\Hometab5;
 use App\Models\Launch;
 use App\Models\Obtain;
 use App\Models\Reason;
@@ -78,12 +83,21 @@ class FrontController extends Controller
         $row2=S_row::first();
         $row3=Trow::first();
         $row4=Four_row::first();
+        $data=Hometab1::first();
+        $data2=Hometab2::first();
+        $data3=Hometab3::first();
+        $data4=Hometab4::first();
+        $data5=Hometab5::first();
 
 
 
 
 
-        return view('business-entity-comparison',compact('banners','cards','launch','corp','logo','table','row1','row2','row3','row4'));
+
+
+
+
+        return view('business-entity-comparison',compact('banners','cards','launch','corp','logo','table','row1','row2','row3','row4','data','data2','data3','data4','data5'));
 
     }
     function state(){
