@@ -55,15 +55,15 @@ Route::get('dyn_llc_info/',[statecontroller::class,'dyn_llc_info']);
 
 
 
-Route::get('/login_page', function () {
-    return view('login');
+// Route::get('/login_page', function () {
+//     return view('login');
 
-});
-Route::get('/register_page', function () {
-    return view('register');
-});
-
-Route::prefix('admin')->group(function () {
+// });
+// Route::get('/register_page', function () {
+//     return view('register');
+// });
+Route::get('/logout',[App\Http\Controllers\HomeController::class, 'logout']);
+Route::prefix('admin')->middleware(['SessionCheck','auth'])->group(function () {
     Route::get('/index', function () {
         return view('Admin_asstes.index');
     });
@@ -372,7 +372,6 @@ Route::prefix('admin')->group(function () {
 
 
 
-
     Route::get('/navtab', function () {
         return view('Admin_asstes.navtabs');
     });
@@ -424,6 +423,8 @@ Route::prefix('admin')->group(function () {
 
 
 });
+
+
 
 
 

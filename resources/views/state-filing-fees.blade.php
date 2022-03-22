@@ -257,7 +257,7 @@
                     <!--end row-wrapper -->
 
                     @if (isset($section2))
-                        {{!!$section2->section2 !!}}
+                        {!!$section2->section2 !!}
                         @else
                         <div class="row-fluid-wrapper row-depth-1 row-number-6 dnd-section">
                             <div class="row-fluid ">

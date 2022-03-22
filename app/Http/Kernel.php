@@ -38,6 +38,10 @@ class Kernel extends HttpKernel
             \App\Http\Middleware\VerifyCsrfToken::class,
             \Illuminate\Routing\Middleware\SubstituteBindings::class,
         ],
+        'SessionCheck'=>[
+            \App\Http\Middleware\checkMiddleware::class,
+        ],
+
 
         'api' => [
             // \Laravel\Sanctum\Http\Middleware\EnsureFrontendRequestsAreStateful::class,
