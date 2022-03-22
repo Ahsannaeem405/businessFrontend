@@ -1390,6 +1390,44 @@ function filling_section3(){
 
     return view('Admin_asstes.filling_section3',compact('data'));
 }
+function update_filling_sec3(Request $request){
+    if (isset($request->id)) {
+        $data=Filling_section3::find($request->id);
+        if ($request->hasFile('image')) {
+            $file = $request->file('image');
+            $extension = $request->image->extension();
+            $fileName = rand(11111, 99999) . "_." . $extension;
+            $request->image->move('Upload/filling/', $fileName);
+            $data->image = $fileName;
+        }
+        $data->heading=$request->heading;
+        $data->detail=$request->detail;
+        $data->button_name=$request->button_name;
+        $data->button_link=$request->button_link;
+        $data->save();
+
+
+
+
+    }
+    else{
+        $data=new Filling_section3();
+        if ($request->hasFile('image')) {
+            $file = $request->file('image');
+            $extension = $request->image->extension();
+            $fileName = rand(11111, 99999) . "_." . $extension;
+            $request->image->move('Upload/filling/', $fileName);
+            $data->image = $fileName;
+        }
+        $data->heading=$request->heading;
+        $data->detail=$request->detail;
+        $data->button_name=$request->button_name;
+        $data->button_link=$request->button_link;
+        $data->save();
+    }
+    return back()->with('success', 'Successfully Updated');
+
+}
 
 
 }

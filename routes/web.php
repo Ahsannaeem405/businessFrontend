@@ -302,6 +302,7 @@ Route::prefix('admin')->group(function () {
     Route::post('filling_section2_save',[AdminController::class,'filling_section2_save']);
 
     Route::get('filling_section3',[AdminController::class,'filling_section3']);
+    Route::post('update_filling_sec3',[AdminController::class,'update_filling_sec3']);
 
 
 

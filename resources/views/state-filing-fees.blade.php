@@ -1274,15 +1274,29 @@
 
                                                         <div class="rocket__RocketWrapper">
                                                             <div class=" gatsby-image-wrapper">
+                                                                @if (isset($section3->image))
+                                                                <div class="get-image-bg" data-background="{{asset('Upload/filling/'.$section3->image)}}"></div>
+                                                                @else
                                                                 <div class="get-image-bg" data-background="{{asset('image/whychooseus.png')}}"></div>
+
+                                                                @endif
                                                             </div>
                                                         </div>
 
                                                         <div class="rocket__Content">
                                                             <div>
+                                                                @if (isset($section3->heading))
+                                                                <h2>{{$section3->heading}}</h2>
+                                                                @else
                                                                 <h2>Launch <br>Your Business with Incfile</h2>
+
+                                                                @endif
+                                                                @if (isset($section3->detail))
+                                                                <p style="margin-bottom: 32px;">{{$section3->detail}}</p>
+                                                                @else
                                                                 <p style="margin-bottom: 0;">Launch Your Business Only $0 + State Fee.</p>
                                                                 <p style="margin-bottom: 32px;">Clear Pricing. No Contracts. No Surprises.</p>
+                                                                @endif
 
 
 
@@ -1290,15 +1304,27 @@
 
 
 
+                                                                @if (isset($section3->button_name))
+                                                                <a href="{{$section3->button_link}}" target="_blank" rel="noopener" class="hs-button btn-with-icon">
+                                                                    {{$section3->button_name}}
+                                                                    <div class="external-link__Arrow">
+                                                                      <svg width="12" height="11" xmlns="http://www.w3.org/2000/svg">
+                                                                        <path d="M5.805.703L5.8.707a1 1 0 00-.003 1.416l2.379 2.379H.998a.998.998 0 000 1.996h7.179L5.798 8.877a1 1 0 00.003 1.416l.004.004a1 1 0 001.412-.003l4.078-4.088a1 1 0 000-1.412L7.217.706A1 1 0 005.805.703z" fill="#1D1D1D" fill-rule="nonzero"></path>
+                                                                      </svg>
+                                                                    </div>
+                                                                  </a>
+                                                                  @else
+                                                                  <a href="#" target="_blank" rel="noopener" class="hs-button btn-with-icon">
+                                                                    See Detailed Pricing
+                                                                    <div class="external-link__Arrow">
+                                                                      <svg width="12" height="11" xmlns="http://www.w3.org/2000/svg">
+                                                                        <path d="M5.805.703L5.8.707a1 1 0 00-.003 1.416l2.379 2.379H.998a.998.998 0 000 1.996h7.179L5.798 8.877a1 1 0 00.003 1.416l.004.004a1 1 0 001.412-.003l4.078-4.088a1 1 0 000-1.412L7.217.706A1 1 0 005.805.703z" fill="#1D1D1D" fill-rule="nonzero"></path>
+                                                                      </svg>
+                                                                    </div>
+                                                                  </a>
+                                                                @endif
 
-                                                                <a href="https://orders.incfile.com/form-order-now.php" target="_blank" rel="noopener" class="hs-button btn-with-icon">
-    See Detailed Pricing
-    <div class="external-link__Arrow">
-      <svg width="12" height="11" xmlns="http://www.w3.org/2000/svg">
-        <path d="M5.805.703L5.8.707a1 1 0 00-.003 1.416l2.379 2.379H.998a.998.998 0 000 1.996h7.179L5.798 8.877a1 1 0 00.003 1.416l.004.004a1 1 0 001.412-.003l4.078-4.088a1 1 0 000-1.412L7.217.706A1 1 0 005.805.703z" fill="#1D1D1D" fill-rule="nonzero"></path>
-      </svg>
-    </div>
-  </a>
+
 
                                                             </div>
                                                         </div>
