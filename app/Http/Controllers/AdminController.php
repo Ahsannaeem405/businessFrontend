@@ -44,6 +44,7 @@ use App\Models\Reason;
 use App\Models\Helpline_certificate;
 use App\Models\Hometab1;
 use App\Models\Hometab2;
+use App\Models\Hometab3;
 use App\Models\Launch;
 
 class AdminController extends Controller
@@ -1257,6 +1258,30 @@ function home_tab2_save(Request $request){
     }
     else {
         $header=new Hometab2();
+        $header->name=$request->name;
+
+    $header->section1 = $request->section1;
+
+    $header->save();
+    }
+    return back()->with('success', 'Successfully Updated');
+}
+function home_tab3(){
+    $data=Hometab3::first();
+    return view('Admin_asstes.home_tab3',compact('data'));
+}
+function home_tab3_save(Request $request){
+    if (isset($request->id)) {
+        $header=Hometab3::find($request->id);
+        $header->name=$request->name;
+
+    $header->section1 = $request->section1;
+    $header->section2 = $request->section2;
+    $header->video = $request->video;
+    $header->save();
+    }
+    else {
+        $header=new Hometab3();
         $header->name=$request->name;
 
     $header->section1 = $request->section1;
