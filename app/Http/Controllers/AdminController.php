@@ -46,6 +46,7 @@ use App\Models\Hometab1;
 use App\Models\Hometab2;
 use App\Models\Hometab3;
 use App\Models\Hometab4;
+use App\Models\Hometab5;
 use App\Models\Launch;
 
 class AdminController extends Controller
@@ -1253,8 +1254,7 @@ function home_tab2_save(Request $request){
         $header->name=$request->name;
 
     $header->section1 = $request->section1;
-    $header->section2 = $request->section2;
-    $header->video = $request->video;
+
     $header->save();
     }
     else {
@@ -1277,8 +1277,7 @@ function home_tab3_save(Request $request){
         $header->name=$request->name;
 
     $header->section1 = $request->section1;
-    $header->section2 = $request->section2;
-    $header->video = $request->video;
+
     $header->save();
     }
     else {
@@ -1302,8 +1301,8 @@ function home_tab4_save(Request $request){
         $header->name=$request->name;
 
     $header->section1 = $request->section1;
-    $header->section2 = $request->section2;
-    $header->video = $request->video;
+
+
     $header->save();
     }
     else {
@@ -1316,4 +1315,30 @@ function home_tab4_save(Request $request){
     }
     return back()->with('success', 'Successfully Updated');
 }
+function home_tab5(){
+    $data=Hometab5::first();
+    return view('Admin_asstes.home_tab5',compact('data'));
+}
+
+function home_tab5_save(Request $request){
+    if (isset($request->id)) {
+        $header=Hometab5::find($request->id);
+        $header->name=$request->name;
+
+    $header->section1 = $request->section1;
+
+    $header->save();
+    }
+    else {
+        $header=new Hometab5();
+        $header->name=$request->name;
+
+    $header->section1 = $request->section1;
+
+    $header->save();
+    }
+    return back()->with('success', 'Successfully Updated');
+}
+
+
 }

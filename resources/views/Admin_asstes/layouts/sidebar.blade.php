@@ -44,6 +44,8 @@
                     </li>
                     <li><a href="{{url('admin/home_tab4')}}"><i class="feather icon-circle"></i><span class="menu-item" data-i18n="Shop">Tab4</span></a>
                     </li>
+                    <li><a href="{{url('admin/home_tab5')}}"><i class="feather icon-circle"></i><span class="menu-item" data-i18n="Shop">Tab5</span></a>
+                    </li>
                         </ul>
                     </li>
 

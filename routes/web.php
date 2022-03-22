@@ -293,6 +293,12 @@ Route::prefix('admin')->group(function () {
     Route::get('home_tab4',[AdminController::class,'home_tab4']);
     Route::post('home_tab4_save',[AdminController::class,'home_tab4_save']);
 
+    Route::get('home_tab5',[AdminController::class,'home_tab5']);
+    Route::post('home_tab5_save',[AdminController::class,'home_tab5_save']);
+
+
+
+
 
 
 
