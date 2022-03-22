@@ -249,6 +249,8 @@
 
                 <li><a href="{{url('admin/filling_section1')}}"><i class="feather icon-circle"></i><span class="menu-item" data-i18n="Details">Section 1</span></a>
                 </li>
+                <li><a href="{{url('admin/filling_section2')}}"><i class="feather icon-circle"></i><span class="menu-item" data-i18n="Details">Section 2</span></a>
+                </li>
 
 
 

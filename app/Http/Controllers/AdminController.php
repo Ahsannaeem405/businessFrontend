@@ -34,6 +34,7 @@ use App\Models\Faq_tax;
 use App\Models\Faq_whychoose;
 use App\Models\Federal;
 use App\Models\Filling_section1;
+use App\Models\Filling_section2;
 use App\Models\Formation;
 use App\Models\Helpfile_dissolution;
 use App\Models\Obtain;
@@ -1360,6 +1361,25 @@ function update_filling_sec1(Request $request){
  $data->video=$request->video;
  $data->text=$request->text;
  $data->save();
+    }
+    return back()->with('success', 'Successfully Updated');
+
+}
+function filling_section2(){
+    $data=Filling_section2::first();
+
+    return view('Admin_asstes.filling_section2',compact('data'));
+}
+function filling_section2_save(Request $request){
+    if (isset($request->id)) {
+        $data=Filling_section2::find($request->id);
+        $data->section2=$request->section2;
+        $data->save();
+    }
+    else {
+        $data=new Filling_section2();
+        $data->section2=$request->section2;
+        $data->save();
     }
     return back()->with('success', 'Successfully Updated');
 
