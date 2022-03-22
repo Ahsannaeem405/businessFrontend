@@ -898,7 +898,7 @@
                                                                                                                     </div>
                                                                                                                     <div
                                                                                                                         class="left-tab-pages__Content-">
-                                                                                                                      @if (isset($data2))
+                                                                                                                      @if (isset($data2->name))
                                                                                                                       <span>{{$data2->name}}</span>
                                                                                                                         @else
                                                                                                                         <span>S
@@ -966,7 +966,7 @@
                                                                                                                     </div>
                                                                                                                     <div
                                                                                                                         class="left-tab-pages__Content-">
-                                                                                                                        @if (isset($data3))
+                                                                                                                        @if (isset($data3->name))
                                                                                                                         <span>{{$data3->name}}</span>
                                                                                                                             @else
                                                                                                                             <span>The
@@ -1046,7 +1046,7 @@
                                                                                                                     </div>
                                                                                                                     <div
                                                                                                                         class="left-tab-pages__Content-">
-                                                                                                                        @if (isset($data4))
+                                                                                                                        @if (isset($data4->name))
                                                                                                                         <span>{{$data4->name}}</span>
                                                                                                                             @else
                                                                                                                             <span>The
@@ -1113,7 +1113,7 @@
                                                                                                                     </div>
                                                                                                                     <div
                                                                                                                         class="left-tab-pages__Content-">
-                                                                                                                        @if ($data5->name!=null)
+                                                                                                                        @if (isset($data5->name))
                                                                                                                         <span>{{$data5->name}}</span>
                                                                                                                         @else
                                                                                                                         <span>Sole
