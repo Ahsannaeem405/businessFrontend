@@ -3,7 +3,13 @@
 @csrf
 <div class="form-group">
 	<input type="hidden" name="id" value="{{$id}}">
-        <input type="text" class="form-control mb-3" id="name" value="{{$data->name}}" name="name" placeholder="Tab Heading">
+    @if ($data!=null)
+    <input type="text" class="form-control mb-3" id="name" value="{{$data->name}}" name="name" placeholder="Tab Heading">
+    @else
+    <input type="text" class="form-control mb-3" id="name" value="" name="name" placeholder="Tab Heading">
+
+    @endif
+
 
     <label for="inputAddress"><b><h1>Section1</b></h1></label>
 	<div class="text1" contenteditable="true">

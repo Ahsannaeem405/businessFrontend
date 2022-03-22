@@ -43,7 +43,9 @@ class statecontroller extends Controller
         }
         else{
             $k=0;
-            return view('Admin_asstes.append_state_tab1',compact('id','k'));
+            $data='';
+
+            return view('Admin_asstes.append_state_tab1',compact('id','k','data'));
         }
 
     }
@@ -86,7 +88,9 @@ class statecontroller extends Controller
 
 
             $k=0;
-            return view('Admin_asstes.append_state_tab2',compact('id','k'));
+            $data='';
+
+            return view('Admin_asstes.append_state_tab2',compact('id','k','data'));
         }
 
     }
@@ -131,7 +135,9 @@ function get_step_3(Request $request)
 
 
         $k=0;
-        return view('Admin_asstes.append_state_tab3',compact('id','k'));
+        $data='';
+
+        return view('Admin_asstes.append_state_tab3',compact('id','k','data'));
     }
 
 }
@@ -180,7 +186,9 @@ function state_tab3_save(Request $request)
 
 
             $k=0;
-            return view('Admin_asstes.append_state_tab4',compact('id','k'));
+            $data='';
+
+            return view('Admin_asstes.append_state_tab4',compact('id','k','data'));
         }
 
     }
@@ -233,7 +241,9 @@ function state_tab3_save(Request $request)
 
 
             $k=0;
-            return view('Admin_asstes.append_state_tab5',compact('id','k'));
+            $data='';
+
+            return view('Admin_asstes.append_state_tab5',compact('id','k','data'));
         }
 
     }
@@ -331,7 +341,8 @@ function state_tab3_save(Request $request)
         }
         else{
             $k=0;
-            return view('Admin_asstes.append_llc_tab1',compact('id','k'));
+            $data='';
+            return view('Admin_asstes.append_llc_tab1',compact('id','data','k'));
         }
 
     }
@@ -376,7 +387,9 @@ $header->name=$request->name;
 
 
             $k=0;
-            return view('Admin_asstes.append_llcstate_tab2',compact('id','k'));
+            $data='';
+
+            return view('Admin_asstes.append_llcstate_tab2',compact('id','k','data'));
         }
 
     }
@@ -419,7 +432,9 @@ $header->name=$request->name;
 
 
             $k=0;
-            return view('Admin_asstes.append_llcstate_tab3',compact('id','k'));
+            $data='';
+
+            return view('Admin_asstes.append_llcstate_tab3',compact('id','k','data'));
         }
 
     }
@@ -455,7 +470,9 @@ $header->name=$request->name;
 
 
             $k=0;
-            return view('Admin_asstes.append_llcstate_tab4',compact('id','k'));
+            $data='';
+
+            return view('Admin_asstes.append_llcstate_tab4',compact('id','k','data'));
         }
 
     }
@@ -489,7 +506,9 @@ $header->name=$request->name;
 
 
             $k=0;
-            return view('Admin_asstes.append_llcstate_tab5',compact('id','k'));
+            $data='';
+
+            return view('Admin_asstes.append_llcstate_tab5',compact('id','k','data'));
         }
 
     }
