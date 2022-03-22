@@ -33,6 +33,7 @@ use App\Models\Faq_dissolution;
 use App\Models\Faq_tax;
 use App\Models\Faq_whychoose;
 use App\Models\Federal;
+use App\Models\Filling_section1;
 use App\Models\Formation;
 use App\Models\Good;
 use App\Models\Helpfile_dissolution;
@@ -103,7 +104,8 @@ class FrontController extends Controller
     function state(){
         $banners=Banner::all();
         $logo=Logo::first();
-        return view('state-filing-fees',compact('banners','logo'));
+        $section1=Filling_section1::first();
+        return view('state-filing-fees',compact('banners','logo','section1'));
     }
     function annual(){
         $banners=Banner::all();

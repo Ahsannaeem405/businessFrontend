@@ -33,6 +33,7 @@ use App\Models\Faq_dissolution;
 use App\Models\Faq_tax;
 use App\Models\Faq_whychoose;
 use App\Models\Federal;
+use App\Models\Filling_section1;
 use App\Models\Formation;
 use App\Models\Helpfile_dissolution;
 use App\Models\Obtain;
@@ -1338,6 +1339,30 @@ function home_tab5_save(Request $request){
     $header->save();
     }
     return back()->with('success', 'Successfully Updated');
+}
+
+function filling_section1(){
+ $data=Filling_section1::first();
+
+ return view('Admin_asstes.filling_section1',compact('data'));
+}
+function update_filling_sec1(Request $request){
+    if (isset($request->id)) {
+ $data=Filling_section1::find($request->id);
+ $data->video=$request->video;
+ $data->text=$request->text;
+ $data->save();
+
+
+    }
+    else {
+        $data=new Filling_section1();
+ $data->video=$request->video;
+ $data->text=$request->text;
+ $data->save();
+    }
+    return back()->with('success', 'Successfully Updated');
+
 }
 
 

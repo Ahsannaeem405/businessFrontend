@@ -296,6 +296,9 @@ Route::prefix('admin')->group(function () {
     Route::get('home_tab5',[AdminController::class,'home_tab5']);
     Route::post('home_tab5_save',[AdminController::class,'home_tab5_save']);
 
+    Route::get('filling_section1',[AdminController::class,'filling_section1']);
+    Route::post('update_filling_sec1',[AdminController::class,'update_filling_sec1']);
+
 
 
 
@@ -420,3 +423,7 @@ Route::prefix('admin')->group(function () {
 
 
 
+
+Auth::routes();
+
+Route::get('/home', [App\Http\Controllers\HomeController::class, 'index'])->name('home');

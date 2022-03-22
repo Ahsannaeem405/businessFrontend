@@ -224,7 +224,7 @@
 
 
 
-            <li class="nav-item has-sub"><a href="#"><i class="feather icon-airplay"></i><span class="menu-title" data-i18n="Ecommerce">Why Choose Us</span></a>
+            <li class="nav-item has-sub"><a href="#"><i class="feather icon-airplay"></i><span class="menu-title" data-i18n="Ecommerce">About Us</span></a>
                 <ul class="menu-content">
 
                     <li><a href="{{url('admin/formation')}}"><i class="feather icon-circle"></i><span class="menu-item" data-i18n="Details">Company Formation</span></a>
@@ -244,6 +244,23 @@
 
                 </ul>
         </li>
+        <li class="nav-item has-sub"><a href="#"><i class="feather icon-airplay"></i><span class="menu-title" data-i18n="Ecommerce">State Filling</span></a>
+            <ul class="menu-content">
+
+                <li><a href="{{url('admin/filling_section1')}}"><i class="feather icon-circle"></i><span class="menu-item" data-i18n="Details">Section 1</span></a>
+                </li>
+
+
+
+
+
+
+
+
+
+
+            </ul>
+    </li>
          <li class="nav-item has-sub"><a href="#"><i class="feather icon-airplay"></i><span class="menu-title" data-i18n="Ecommerce">State Information</span></a>
                     <ul class="menu-content">
 

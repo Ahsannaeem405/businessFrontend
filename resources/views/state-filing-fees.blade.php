@@ -194,7 +194,12 @@
                                                     </div>
                                                     <div class="video-pop-container popup_video_container_widget_1617182639324">
                                                         <div class="video-pop-container-inner">
-                                                            <iframe class="video-frame" title="Incfile Video" src="#" width="500" height="349" frameborder="0" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+                                                            @if (isset($section1))
+                                                                {{$section1->video}}
+                                                                @else
+                                                                <iframe class="video-frame" title="Incfile Video" src="#" width="500" height="349" frameborder="0" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+                                                            @endif
+
                                                             <!--     <div class="LightBox__Control">
 <button>
   <svg
@@ -224,10 +229,15 @@
                                             <div id="hs_cos_wrapper_widget_1617182775311" class="hs_cos_wrapper hs_cos_wrapper_widget hs_cos_wrapper_type_module" style="" data-hs-cos-general-type="widget" data-hs-cos-type="module">
                                                 <div class="fw-content-module" style="max-width: 770px; text-align: center; padding: 16px 0px 0px 0px;">
                                                     <div class="fw-content-inner">
+                                                        @if (isset($section1))
+                                                        <p style="text-align: left; margin-bottom: 32px;">{{$section1->text}}</p>
+                                                        @else
                                                         <p style="text-align: left; margin-bottom: 32px;">Lorem Ipsum is simply dummy text of the printing and
                                                             typesetting industry. Lorem Ipsum has been the industry's
                                                             standard dummy text ever since the 1500s, when an unknown
                                                             printer took a galley of type and scrambled it</p>
+                                                        @endif
+
                                                     </div>
                                                 </div>
                                             </div>
