@@ -290,6 +290,12 @@ Route::prefix('admin')->group(function () {
     Route::get('home_tab3',[AdminController::class,'home_tab3']);
     Route::post('home_tab3_save',[AdminController::class,'home_tab3_save']);
 
+    Route::get('home_tab4',[AdminController::class,'home_tab4']);
+    Route::post('home_tab4_save',[AdminController::class,'home_tab4_save']);
+
+
+
+
 
 
 
