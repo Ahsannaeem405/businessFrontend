@@ -53,6 +53,8 @@ Route::get('dyn_llc_info/',[statecontroller::class,'dyn_llc_info']);
 
 
 
+
+
 Route::get('/login_page', function () {
     return view('login');
 
@@ -278,6 +280,13 @@ Route::prefix('admin')->group(function () {
     Route::get('llc_info',[statecontroller::class,'llc_info']);
     Route::get('get_llcstateinfo',[statecontroller::class,'llcstate_info']);
     Route::post('llcstate_information_save',[statecontroller::class,'llcstate_information_save']);
+    Route::get('home_tab1',[AdminController::class,'home_tab1']);
+
+    Route::post('home_tab1_save',[AdminController::class,'home_tab1_save']);
+
+    Route::get('home_tab2',[AdminController::class,'home_tab2']);
+    Route::post('home_tab2_save',[AdminController::class,'home_tab2_save']);
+
 
 
 

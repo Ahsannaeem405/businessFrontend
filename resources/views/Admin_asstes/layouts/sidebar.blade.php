@@ -34,8 +34,15 @@
                 <ul class="menu-content">
                     <li><a href="{{url('admin/slider')}}"><i class="feather icon-circle"></i><span class="menu-item" data-i18n="Details">Banner</span></a>
                     </li>
-                    <li><a href="{{url('admin/navtab')}}"><i class="feather icon-circle"></i><span class="menu-item" data-i18n="Shop">Corporate Structures</span></a>
+                    <li class="nav-item has-sub"><a href="#"><i class="feather icon-airplay"></i><span class="menu-title" data-i18n="Ecommerce">Corporate Structures</span></a>
+                        <ul class="menu-content">
+                    <li><a href="{{url('admin/home_tab1')}}"><i class="feather icon-circle"></i><span class="menu-item" data-i18n="Shop">Tab1</span></a>
                     </li>
+                    <li><a href="{{url('admin/home_tab2')}}"><i class="feather icon-circle"></i><span class="menu-item" data-i18n="Shop">Tab2</span></a>
+                    </li>
+                        </ul>
+                    </li>
+
                     <li class="nav-item has-sub"><a href="#"><i class="feather icon-airplay"></i><span class="menu-title" data-i18n="Ecommerce">Comparison Chart</span></a>
                         <ul class="menu-content">
                             <li><a href="{{url('admin/chart_heading')}}"><i class="feather icon-circle"></i><span class="menu-item" data-i18n="Details">Chart Main Heading</span></a>
