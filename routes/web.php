@@ -301,6 +301,8 @@ Route::prefix('admin')->group(function () {
     Route::get('filling_section2',[AdminController::class,'filling_section2']);
     Route::post('filling_section2_save',[AdminController::class,'filling_section2_save']);
 
+    Route::get('filling_section3',[AdminController::class,'filling_section3']);
+
 
 
 
