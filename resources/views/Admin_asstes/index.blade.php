@@ -3,7 +3,7 @@
 
 @section('content')
 <section id="dashboard-ecommerce">
-    <div class="row">
+    {{-- <div class="row">
         <div class="col-lg-4 col-sm-4 col-12">
             <div class="card">
                 <div class="card-header  align-items-start p-2">
@@ -34,7 +34,7 @@
 
             </div>
         </div>
-    </div>
+    </div> --}}
 
     {{-- <div class="row">
         <div class="col-lg-12 col-12">
