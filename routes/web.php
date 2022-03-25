@@ -17,7 +17,7 @@ use App\Http\Controllers\statecontroller;
 |
 */
 
-Route::get('/',[FrontController::class,'home']);
+Route::get('/bussiness_entity',[FrontController::class,'home']);
 Route::get('/state',[FrontController::class,'state']);
 Route::get('/annual',[FrontController::class,'annual']);
 Route::get('/tax',[FrontController::class,'tax']);
@@ -25,7 +25,7 @@ Route::get('/why_chose',[FrontController::class,'why_chose']);
 Route::get('/amendment',[FrontController::class,'amendment']);
 Route::get('/dissolution',[FrontController::class,'dissolution']);
 Route::get('/certificate',[FrontController::class,'certificate']);
-Route::get('/corporation',[FrontController::class,'corporation']);
+Route::get('/',[FrontController::class,'corporation']);
 Route::get('/llc-state-information',[FrontController::class,'llc_state_information']);
 Route::get('/coperate',[FrontController::class,'coperate']);
 Route::get('/llc',[FrontController::class,'llc']);

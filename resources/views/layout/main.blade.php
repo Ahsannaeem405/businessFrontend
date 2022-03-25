@@ -910,8 +910,8 @@
                                                     </ul>
                                                 </li>
                                                 <li class="hs-menu-item hs-menu-depth-1 active-branch"
-                                                role="none"><a href="{{url('/corporation')}}" aria-haspopup="true"
-                                                    aria-expanded="false" role="menuitem">Corporation-State Information</a>
+                                                role="none"><a href="{{url('/bussiness_entity')}}" aria-haspopup="true"
+                                                    aria-expanded="false" role="menuitem">Bussiness Entity</a>
 
                                             </li>
                                                 <li class="hs-menu-item hs-menu-depth-1"
