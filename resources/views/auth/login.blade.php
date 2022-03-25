@@ -30,14 +30,14 @@
             <strong>{{ $message }}</strong>
         </span>
     @enderror
-        <div class="options-01">
+        {{-- <div class="options-01">
           <label class="remember-me"><input type="checkbox" name="remember" id="remember" {{ old('remember') ? 'checked' : '' }}>Remember me</label>
           <a href="{{ route('password.request') }}">Forgot your password?</a>
-        </div>
+        </div> --}}
         <input class="btn" type="submit" name="" value="LOGIN">
-        <div class="options-02">
+        {{-- <div class="options-02">
           <p>Not Registered? <a href="{{url('/register')}}">Create an Account</a></p>
-        </div>
+        </div> --}}
       </form>
       <!--login form end-->
       <!--signup form start-->
