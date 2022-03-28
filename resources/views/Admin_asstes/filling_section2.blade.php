@@ -981,7 +981,7 @@
                     <div class="row-fluid-wrapper row-depth-1 row-number-8 dnd-row">
                         <div class="row-fluid ">
                             <div class="span12 widget-span widget-type-custom_widget dnd-module" style="" data-widget-type="custom_widget" data-x="0" data-w="12">
-                                <div id="hs_cos_wrapper_widget_1617182943470" class="hs_cos_wrapper hs_cos_wrapper_widget hs_cos_wrapper_type_module widget-type-rich_text" style="" data-hs-cos-general-type="widget" data-hs-cos-type="module"><span id="hs_cos_wrapper_widget_1617182943470_" class="hs_cos_wrapper hs_cos_wrapper_widget hs_cos_wrapper_type_rich_text" style="" data-hs-cos-general-type="widget" data-hs-cos-type="rich_text"><p style="margin-bottom: 0px;">Compare state filing times side by side using our <a href="compare-state-filing-times.html" style="font-weight: 900;">comparison tool</a>.</p></span></div>
+                                <div id="hs_cos_wrapper_widget_1617182943470" class="hs_cos_wrapper hs_cos_wrapper_widget hs_cos_wrapper_type_module widget-type-rich_text" style="" data-hs-cos-general-type="widget" data-hs-cos-type="module"><span id="hs_cos_wrapper_widget_1617182943470_" class="hs_cos_wrapper hs_cos_wrapper_widget hs_cos_wrapper_type_rich_text" style="" data-hs-cos-general-type="widget" data-hs-cos-type="rich_text"><p style="margin-bottom: 0px;">Compare state filing times side by side using our <span style="font-weight: 900;">comparison tool</span>.</p></span></div>
 
                             </div>
                             <!--end widget-span -->
