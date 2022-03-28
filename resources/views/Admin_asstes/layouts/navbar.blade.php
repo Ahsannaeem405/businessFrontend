@@ -25,7 +25,7 @@
                         <span><img class="round" src="{{asset('image/avatar.png')}}" alt="avatar" height="40" width="40"></span>
 
                     </a>
-                    <div class="dropdown-menu dropdown-menu-right"><a class="dropdown-item" href="{{url('/admin/profile')}}"><i class="feather icon-user"></i> Edit Profile</a>
+                    <div class="dropdown-menu dropdown-menu-right">
                         <div class="dropdown-divider"></div><a class="dropdown-item" href="{{url('/logout')}}"><i class="feather icon-power"></i> Logout</a>
                     </div>
                 </li>
