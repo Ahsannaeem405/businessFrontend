@@ -1102,6 +1102,21 @@ class DatabaseSeeder extends Seeder
                     ]);
 
 
+                    DB::table('copies')->insert([
+
+                        'heading' =>'© 2022. Browntech.com All Rights Reserved.',
+
+
+
+
+
+
+
+
+
+                    ]);
+
+
 
     }
 }

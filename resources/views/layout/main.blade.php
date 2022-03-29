@@ -1018,10 +1018,10 @@
         </div>
         @yield('content')
 
-        <div data-global-resource-path="Incfile_February_2021/templates/partials/footer.html">
+        <div>
             <footer class="footer">
                 <div class="page-center">
-                    <div class="footer-top-container">
+                    {{-- <div class="footer-top-container">
                         <div class="footer-logo">
                             <div id="hs_cos_wrapper_footer_logo"
                                 class="hs_cos_wrapper hs_cos_wrapper_widget hs_cos_wrapper_type_module widget-type-rich_text"
@@ -1059,7 +1059,7 @@
                             </div>
                         </div>
                     </div>
-                    <!--     <div class="footyer-nav-container"> -->
+
                     <div>
 
                         <div class="footer-menu-outer">
@@ -1158,18 +1158,10 @@
                                 </nav>
                             </div>
                         </div>
-                    </div>
+                    </div> --}}
                     <div class=" text-center">
-                        {{-- <div id="hs_cos_wrapper_copyright"
-                            class="hs_cos_wrapper hs_cos_wrapper_widget hs_cos_wrapper_type_module widget-type-rich_text"
-                            style="" data-hs-cos-general-type="widget" data-hs-cos-type="module"><span
-                                id="hs_cos_wrapper_copyright_"
-                                class="hs_cos_wrapper hs_cos_wrapper_widget hs_cos_wrapper_type_rich_text" style=""
-                                data-hs-cos-general-type="widget" data-hs-cos-type="rich_text">
-                                <p>© 2022. Browntech.com All Rights Reserved.</p>
-                            </span></div> --}}
 
-                                <p class="text-normal">© 2022. Browntech.com All Rights Reserved.</p>
+                                <p class="text-normal">{{$copy->heading}}</p>
 
 
                     </div>

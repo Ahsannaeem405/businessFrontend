@@ -311,6 +311,12 @@ Route::prefix('admin')->middleware(['SessionCheck','auth'])->group(function () {
     Route::get('edit_legal/{id}',[AdminController::class,'edit_legal']);
     Route::post('update_legal',[AdminController::class,'update_legal']);
 
+    Route::get('copy',[AdminController::class,'copy']);
+
+    route::get('edit_copy/{id}',[AdminController::class,'edit_copy']);
+    Route::post('update_copy',[AdminController::class,'update_copy']);
+
+
 
 
 

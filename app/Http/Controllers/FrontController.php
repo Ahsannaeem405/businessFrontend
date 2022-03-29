@@ -10,6 +10,7 @@ use App\Models\Banner;
 use App\Models\Bussiness;
 use App\Models\Changellc;
 use App\Models\Closellc;
+use App\Models\Copy;
 use App\Models\Home_card;
 use App\Models\Launch_bussiness;
 use App\Models\Corporation;
@@ -64,14 +65,16 @@ class FrontController extends Controller
     function llc(){
         $logo=Logo::first();
         $banners=Banner::all();
-    return view('llc2',compact('logo','banners'));
+        $copy=Copy::first();
+    return view('llc2',compact('logo','banners','copy'));
 
     }
     function coperate(){
         $logo=Logo::first();
 
         $banners=Banner::all();
-        return view('coperate2',compact('logo','banners'));
+        $copy=Copy::first();
+        return view('coperate2',compact('logo','banners','copy'));
 
     }
 
@@ -93,6 +96,7 @@ class FrontController extends Controller
         $data3=Hometab3::first();
         $data4=Hometab4::first();
         $data5=Hometab5::first();
+        $copy=Copy::first();
 
 
 
@@ -102,7 +106,7 @@ class FrontController extends Controller
 
 
 
-        return view('business-entity-comparison',compact('banners','cards','launch','corp','logo','table','row1','row2','row3','row4','data','data2','data3','data4','data5'));
+        return view('business-entity-comparison',compact('banners','cards','launch','corp','logo','table','row1','row2','row3','row4','data','data2','data3','data4','data5','copy'));
 
     }
     function state(){
@@ -111,9 +115,10 @@ class FrontController extends Controller
         $section1=Filling_section1::first();
         $section2=Filling_section2::first();
         $section3=Filling_section3::first();
+        $copy=Copy::first();
 
 
-        return view('state-filing-fees',compact('banners','logo','section1','section2','section3'));
+        return view('state-filing-fees',compact('banners','logo','section1','section2','section3','copy'));
     }
     function annual(){
         $banners=Banner::all();
@@ -125,13 +130,14 @@ class FrontController extends Controller
         $bussiness=Bussiness::first();
         $help_line=Help_line::first();
         $slider=Annual_slider::first();
+        $copy=Copy::first();
 
 
 
 
 
         $logo=Logo::first();
-        return view('annual-report',compact('banners','logo','annual','formal','llc','file','duedate','bussiness','help_line','slider'));
+        return view('annual-report',compact('banners','logo','annual','formal','llc','file','duedate','bussiness','help_line','slider','copy'));
     }
     function tax(){
         $banners=Banner::all();
@@ -143,11 +149,12 @@ class FrontController extends Controller
         $obtain=Obtain::first();
         $faq=Faq_tax::first();
         $card=Entity::first();
+        $copy=Copy::first();
 
 
 
 
-    return view('tax-id-ein',compact('banners','logo','tax_desc','employee','federal','usage','obtain','faq','card'));
+    return view('tax-id-ein',compact('banners','logo','tax_desc','employee','federal','usage','obtain','faq','card','copy'));
 
     }
     function why_chose(){
@@ -158,13 +165,14 @@ class FrontController extends Controller
         $bussiness=Launch::first();
         $privacy=Privacy::first();
         $legal=Legal::first();
+        $copy=Copy::first();
 
 
 
 
 
 
-        return view('why-choose',compact('banners','logo','formation','faq','bussiness','privacy','legal'));
+        return view('why-choose',compact('banners','logo','formation','faq','bussiness','privacy','legal','copy'));
     }
     function amendment(){
         $banners=Banner::all();
@@ -172,8 +180,9 @@ class FrontController extends Controller
         $changellc=Changellc::first();
         $helpfile=Helpfile_amendment::first();
         $faq=Faq_amendment::first();
+        $copy=Copy::first();
 
-        return view('amendment',compact('banners','logo','changellc','helpfile','faq'));
+        return view('amendment',compact('banners','logo','changellc','helpfile','faq','copy'));
 
     }
     function dissolution(){
@@ -184,10 +193,11 @@ class FrontController extends Controller
         $Step_dissolution=Step_dissolution::first();
         $helpfile=Helpfile_dissolution::first();
         $faq=Faq_dissolution::first();
+        $copy=Copy::first();
 
 
 
-        return view('dissolution',compact('banners','logo','desc','close','Step_dissolution','helpfile','faq'));
+        return view('dissolution',compact('banners','logo','desc','close','Step_dissolution','helpfile','faq','copy'));
     }
     function certificate(){
         $banners=Banner::all();
@@ -196,26 +206,29 @@ class FrontController extends Controller
         $reason=Reason::first();
         $help=Helpline_certificate::first();
         $faq=Faq_certificate::first();
+        $copy=Copy::first();
 
 
 
 
-        return view('certificate-of-good-standing',compact('banners','logo','goods','reason','help','faq'));
+        return view('certificate-of-good-standing',compact('banners','logo','goods','reason','help','faq','copy'));
 
     }
     function corporation(){
         $banners=Banner::all();
         $logo=Logo::first();
         $state=state::all();
+        $copy=Copy::first();
 
-        return view('corporation-state-information',compact('banners','logo','state'));
+        return view('corporation-state-information',compact('banners','logo','state','copy'));
 
     }
     function llc_state_information(){
         $banners=Banner::all();
         $logo=Logo::first();
         $state=state::all();
-        return view('llc-state-information',compact('banners','logo','state'));
+        $copy=Copy::first();
+        return view('llc-state-information',compact('banners','logo','state','copy'));
 
     }
 

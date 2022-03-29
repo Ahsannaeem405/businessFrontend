@@ -10,6 +10,7 @@ use App\Models\Banner;
 use App\Models\Bussiness;
 use App\Models\Changellc;
 use App\Models\Closellc;
+use App\Models\Copy;
 use App\Models\Home_card;
 use App\Models\Launch_bussiness;
 use App\Models\Corporation;
@@ -1463,6 +1464,21 @@ function update_legal(Request $request){
 $header->save();
 return back()->with('success', 'Successfully Updated');
 
+}
+function copy(){
+    $headers=Copy::all();
+    return view('Admin_asstes.copy',compact('headers'));
+}
+function edit_copy($id){
+    $header=Copy::find($id);
+    return view('Admin_asstes.edit_copy',compact('header'));
+}
+function update_copy(Request $request){
+    $header=Copy::find($request->id);
+    $header->heading=$request->heading;
+
+$header->save();
+return back()->with('success', 'Successfully Updated');
 }
 
 }

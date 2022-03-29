@@ -315,6 +315,17 @@
                 </ul>
         </li>
 
+        <li class="nav-item has-sub"><a href="#"><i class="feather icon-airplay"></i><span class="menu-title" data-i18n="Ecommerce">Footer</span></a>
+            <ul class="menu-content">
+
+                <li><a href="{{url('admin/copy')}}"><i class="feather icon-circle"></i><span class="menu-item" data-i18n="Details">Footer Copyrights</span></a>
+                </li>
+
+
+
+            </ul>
+    </li>
+
 
 
 
