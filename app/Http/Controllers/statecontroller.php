@@ -13,6 +13,7 @@ use App\Models\state4;
 
 use App\Models\Logo;
 use App\Models\Banner;
+use App\Models\Copy;
 use App\Models\Llc_state2;
 use App\Models\llcinfo;
 use App\Models\Llcstate1;
@@ -322,7 +323,8 @@ function state_tab3_save(Request $request)
         $logo=Logo::first();
 
         $banners=Banner::all();
-        return view('dyncoperate2',compact('data','data5','data3','data2','data4','logo','banners','state_info'));
+        $copy=Copy::first();
+        return view('dyncoperate2',compact('data','data5','data3','data2','data4','logo','banners','state_info','copy'));
     }
     function llc_tab1()
     {
@@ -569,6 +571,8 @@ $header->name=$request->name;
         $data3=Llcstate3::where('s_id',$id)->first();
         $data5=Llcstate5::where('s_id',$id)->first();
         $state_info=llcinfo::where('s_id',$id)->first();
+        $copy=Copy::first();
+
 
 
 
@@ -579,7 +583,7 @@ $header->name=$request->name;
 
         // dd($data);
 
-        return view('llc2',compact('banners','logo','data','data2','data3','data5','state_info'));
+        return view('llc2',compact('banners','logo','data','data2','data3','data5','state_info','copy'));
 
     }
 
