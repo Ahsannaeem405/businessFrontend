@@ -46,7 +46,9 @@ use App\Models\Hometab3;
 use App\Models\Hometab4;
 use App\Models\Hometab5;
 use App\Models\Launch;
+use App\Models\Legal;
 use App\Models\Obtain;
+use App\Models\Privacy;
 use App\Models\Reason;
 use App\Models\Step_dissolution;
 use App\Models\Tax_description;
@@ -154,11 +156,15 @@ class FrontController extends Controller
         $formation=Formation::first();
         $faq=Faq_whychoose::first();
         $bussiness=Launch::first();
+        $privacy=Privacy::first();
+        $legal=Legal::first();
 
 
 
 
-        return view('why-choose',compact('banners','logo','formation','faq','bussiness'));
+
+
+        return view('why-choose',compact('banners','logo','formation','faq','bussiness','privacy','legal'));
     }
     function amendment(){
         $banners=Banner::all();

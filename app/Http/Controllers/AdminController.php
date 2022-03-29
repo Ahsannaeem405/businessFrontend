@@ -51,6 +51,8 @@ use App\Models\Hometab3;
 use App\Models\Hometab4;
 use App\Models\Hometab5;
 use App\Models\Launch;
+use App\Models\Legal;
+use App\Models\Privacy;
 
 class AdminController extends Controller
 {
@@ -1428,6 +1430,39 @@ function update_filling_sec3(Request $request){
     return back()->with('success', 'Successfully Updated');
 
 }
+function privacy(){
+    $headers=Privacy::all();
+    return view('Admin_asstes.privacy',compact('headers'));
+}
+function edit_privacy($id){
+    $header=Privacy::find($id);
+    return view('Admin_asstes.edit_privacy',compact('header'));
+}
+function update_privacy(Request $request){
+    $header=Privacy::find($request->id);
+    $header->heading=$request->heading;
+    $header->detail=$request->detail;
+$header->save();
+return back()->with('success', 'Successfully Updated');
 
+}
+function legal(){
+    $headers=Legal::all();
+    return view('Admin_asstes.legal',compact('headers'));
+}
+function edit_legal($id){
+    $header=Legal::find($id);
+    return view('Admin_asstes.edit_legal',compact('header'));
+}
+
+
+function update_legal(Request $request){
+    $header=Legal::find($request->id);
+    $header->heading=$request->heading;
+    $header->detail=$request->detail;
+$header->save();
+return back()->with('success', 'Successfully Updated');
+
+}
 
 }

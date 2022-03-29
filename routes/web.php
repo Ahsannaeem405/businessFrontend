@@ -303,6 +303,18 @@ Route::prefix('admin')->middleware(['SessionCheck','auth'])->group(function () {
 
     Route::get('filling_section3',[AdminController::class,'filling_section3']);
     Route::post('update_filling_sec3',[AdminController::class,'update_filling_sec3']);
+    Route::get('privacy',[AdminController::class,'privacy']);
+    Route::get('edit_privacy/{id}',[AdminController::class,'edit_privacy']);
+    Route::post('update_privacy',[AdminController::class,'update_privacy']);
+
+    Route::get('legal',[AdminController::class,'legal']);
+    Route::get('edit_legal/{id}',[AdminController::class,'edit_legal']);
+    Route::post('update_legal',[AdminController::class,'update_legal']);
+
+
+
+
+
 
 
 

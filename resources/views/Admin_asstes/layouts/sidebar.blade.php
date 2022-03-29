@@ -233,6 +233,10 @@
                     </li>
                     <li><a href="{{url('admin/business_whychoose')}}"><i class="feather icon-circle"></i><span class="menu-item" data-i18n="Details">Launch Business</span></a>
                     </li>
+                    <li><a href="{{url('admin/privacy')}}"><i class="feather icon-circle"></i><span class="menu-item" data-i18n="Details">Privacy Policy</span></a>
+                    </li>
+                    <li><a href="{{url('admin/legal')}}"><i class="feather icon-circle"></i><span class="menu-item" data-i18n="Details">Legal Disclaimer</span></a>
+                    </li>
 
 
 

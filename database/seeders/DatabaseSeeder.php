@@ -1030,6 +1030,24 @@ class DatabaseSeeder extends Seeder
 
 
 
+                   DB::table('privacies')->insert([
+
+                    'heading' =>'Privacy Policy',
+                    'detail' =>"We're Making Video Collaboration Seamless, Simultaneous, Simple & Secure. Upload & Share! At Alteon, We Are A Hub For Creators, Editors, Influencers & Producers! Try For Free Today. Create An account. Affordable Cloud Network. Store Files Indefinitely. Try It Out Today. Limited Free Trial.",
+
+
+
+
+
+
+
+
+
+
+
+                ]);
+
+
 
                     DB::table('faq_whychooses')->insert([
 
@@ -1053,6 +1071,23 @@ class DatabaseSeeder extends Seeder
 
 
 
+
+
+
+
+
+
+
+
+
+
+
+                    ]);
+
+                    DB::table('legals')->insert([
+
+                        'heading' =>'Legal Disclaimer',
+                        'detail' =>"A legal disclaimer is a statement intended to protect the services, information, and property (both physical and intellectual) of your business or organization. It limits the legal liability of the entity presenting the disclaimer and also protects the entity's legal rights in its work.",
 
 
 
