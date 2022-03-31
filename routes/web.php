@@ -31,6 +31,9 @@ Route::get('/coperate',[FrontController::class,'coperate']);
 Route::get('/llc',[FrontController::class,'llc']);
 Route::get('dyn_coperate/',[statecontroller::class,'dyn_coperate']);
 Route::get('dyn_llc_info/',[statecontroller::class,'dyn_llc_info']);
+Route::get('privacy_policy',[FrontController::class,'privacy_policy']);
+Route::get('legal_disclaimer',[FrontController::class,'legal_disclaimer']);
+
 
 
 
@@ -315,6 +318,16 @@ Route::prefix('admin')->middleware(['SessionCheck','auth'])->group(function () {
 
     route::get('edit_copy/{id}',[AdminController::class,'edit_copy']);
     Route::post('update_copy',[AdminController::class,'update_copy']);
+
+
+    Route::get('privacy_policy',[AdminController::class,'privacy_policy']);
+
+    Route::post('Privacy_policy_save',[AdminController::class,'Privacy_policy_save']);
+
+
+    Route::get('Legal_disclaimer',[AdminController::class,'Legal_disclaimer']);
+    Route::post('Legal_Disclaimer_save',[AdminController::class,'Legal_Disclaimer_save']);
+
 
 
 

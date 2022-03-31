@@ -53,7 +53,9 @@ use App\Models\Hometab4;
 use App\Models\Hometab5;
 use App\Models\Launch;
 use App\Models\Legal;
+use App\Models\Legal_disclaimer;
 use App\Models\Privacy;
+use App\Models\Privacy_policy;
 
 class AdminController extends Controller
 {
@@ -1480,5 +1482,45 @@ function update_copy(Request $request){
 $header->save();
 return back()->with('success', 'Successfully Updated');
 }
+function privacy_policy(){
+    $data=Privacy_policy::first();
 
+    return view('Admin_asstes.privacy_policy',compact('data'));
+}
+function Privacy_policy_save(Request $request){
+    if (isset($request->id)) {
+        $data=Privacy_policy::find($request->id);
+        $data->section1=$request->section1;
+        $data->save();
+    }
+    else {
+        $data=new Privacy_policy();
+        $data->section1=$request->section1;
+        $data->save();
+    }
+return back()->with('success', 'Successfully Updated');
+
+}
+function Legal_disclaimer(){
+    $data=Legal_disclaimer::first();
+
+    return view('Admin_asstes.Legal_disclaimer',compact('data'));
+}
+
+
+
+function Legal_Disclaimer_save(Request $request){
+    if (isset($request->id)) {
+        $data=Legal_disclaimer::find($request->id);
+        $data->section1=$request->section1;
+        $data->save();
+    }
+    else {
+        $data=new Legal_disclaimer();
+        $data->section1=$request->section1;
+        $data->save();
+    }
+return back()->with('success', 'Successfully Updated');
+
+}
 }

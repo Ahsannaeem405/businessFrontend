@@ -48,8 +48,10 @@ use App\Models\Hometab4;
 use App\Models\Hometab5;
 use App\Models\Launch;
 use App\Models\Legal;
+use App\Models\Legal_disclaimer;
 use App\Models\Obtain;
 use App\Models\Privacy;
+use App\Models\Privacy_policy;
 use App\Models\Reason;
 use App\Models\Step_dissolution;
 use App\Models\Tax_description;
@@ -62,6 +64,23 @@ use App\Models\state1;
 
 class FrontController extends Controller
 {
+    function legal_disclaimer(){
+        $logo=Logo::first();
+        $banners=Banner::all();
+        $copy=Copy::first();
+        $privacy=Legal_disclaimer::first();
+
+    return view('legal_disclaimer',compact('logo','banners','copy','privacy'));
+    }
+    function privacy_policy(){
+        $logo=Logo::first();
+        $banners=Banner::all();
+        $copy=Copy::first();
+        $privacy=Privacy_policy::first();
+
+    return view('privacy_policy',compact('logo','banners','copy','privacy'));
+
+    }
     function llc(){
         $logo=Logo::first();
         $banners=Banner::all();

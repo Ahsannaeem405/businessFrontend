@@ -1030,22 +1030,6 @@ class DatabaseSeeder extends Seeder
 
 
 
-                   DB::table('privacies')->insert([
-
-                    'heading' =>'Privacy Policy',
-                    'detail' =>"We're Making Video Collaboration Seamless, Simultaneous, Simple & Secure. Upload & Share! At Alteon, We Are A Hub For Creators, Editors, Influencers & Producers! Try For Free Today. Create An account. Affordable Cloud Network. Store Files Indefinitely. Try It Out Today. Limited Free Trial.",
-
-
-
-
-
-
-
-
-
-
-
-                ]);
 
 
 

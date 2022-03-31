@@ -233,10 +233,10 @@
                     </li>
                     <li><a href="{{url('admin/business_whychoose')}}"><i class="feather icon-circle"></i><span class="menu-item" data-i18n="Details">Launch Business</span></a>
                     </li>
-                    <li><a href="{{url('admin/privacy')}}"><i class="feather icon-circle"></i><span class="menu-item" data-i18n="Details">Privacy Policy</span></a>
+                    {{-- <li><a href="{{url('admin/privacy')}}"><i class="feather icon-circle"></i><span class="menu-item" data-i18n="Details">Privacy Policy</span></a>
                     </li>
                     <li><a href="{{url('admin/legal')}}"><i class="feather icon-circle"></i><span class="menu-item" data-i18n="Details">Legal Disclaimer</span></a>
-                    </li>
+                    </li> --}}
 
 
 
@@ -248,6 +248,43 @@
 
                 </ul>
         </li>
+
+        <li class="nav-item has-sub"><a href="#"><i class="feather icon-airplay"></i><span class="menu-title" data-i18n="Ecommerce">Privacy Policy</span></a>
+            <ul class="menu-content">
+
+                <li><a href="{{url('admin/privacy_policy')}}"><i class="feather icon-circle"></i><span class="menu-item" data-i18n="Details">Privacy Policy</span></a>
+                </li>
+
+
+
+
+
+
+
+
+
+            </ul>
+    </li>
+
+
+    <li class="nav-item has-sub"><a href="#"><i class="feather icon-airplay"></i><span class="menu-title" data-i18n="Ecommerce">Legal Disclaimer</span></a>
+        <ul class="menu-content">
+
+            <li><a href="{{url('admin/Legal_disclaimer')}}"><i class="feather icon-circle"></i><span class="menu-item" data-i18n="Details">Legal Disclaimer</span></a>
+            </li>
+
+
+
+
+
+
+
+
+
+        </ul>
+</li>
+
+
         <li class="nav-item has-sub"><a href="#"><i class="feather icon-airplay"></i><span class="menu-title" data-i18n="Ecommerce">State Filling</span></a>
             <ul class="menu-content">
 

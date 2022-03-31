@@ -1103,7 +1103,7 @@
                                 <!--end row-->
                             </div>
                             <!--end row-wrapper -->
-                            <div class="container mt-3 mb-3 text-center">
+                            {{-- <div class="container mt-3 mb-3 text-center">
                                 <h3>{{$privacy->heading}}</h3>
                                 <p>{{$privacy->detail}}</p>
 
@@ -1113,7 +1113,7 @@
                                 <h3>{{$legal->heading}}</h3>
                                 <p>{{$legal->detail}}</p>
 
-                            </div>
+                            </div> --}}
 
                             <div
                                 class="row-fluid-wrapper row-depth-1 row-number-10 dnd-section dnd_area-row-4-force-full-width-section dnd_area-row-4-padding">

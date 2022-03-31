@@ -984,11 +984,29 @@
                                                         </li>
                                                     </ul> --}}
                                                 </li>
-                                                <li class="hs-menu-item hs-menu-depth-1"
-                                                    role="none"><a href="{{url('/why_chose')}}" aria-haspopup="true"
-                                                        aria-expanded="false" role="menuitem">About Us</a>
+                                                <li class="hs-menu-item hs-menu-depth-1 hs-item-has-children"
+                                                role="none"><a href="javascript:;" aria-haspopup="true"
+                                                    aria-expanded="false" role="menuitem">About Us </a>
+                                                <ul role="menu" class="hs-menu-children-wrapper">
+                                                    <li class="hs-menu-item hs-menu-depth-2 hs-item-has-children"
+                                                        role="none"><a href="javascript:;" role="menuitem"></a>
+                                                        <ul role="menu" class="hs-menu-children-wrapper">
+                                                            <li class="hs-menu-item hs-menu-depth-3" role="none"><a
+                                                                    href="{{url('/privacy_policy')}}"
+                                                                    role="menuitem">Privacy Policy</a></li>
+                                                                    <li class="hs-menu-item hs-menu-depth-3" role="none"><a
+                                                                        href="{{url('/why_chose')}}"
+                                                                        role="menuitem">Why Choose Us</a></li>
+                                                            <li class="hs-menu-item hs-menu-depth-3" role="none"><a
+                                                                    href="{{url('/legal_disclaimer')}}"
+                                                                    role="menuitem">Legal Disclaimer</a></li>
 
-                                                </li>
+
+
+                                                        </ul>
+                                                    </li>
+                                                </ul>
+                                            </li>
                                             </ul>
                                         </div>
                                     </span>
